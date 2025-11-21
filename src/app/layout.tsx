@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
+import AuthWrapper from "@/components/AuthWrapper";
+import ForgotPassword from "@/components/Dialogs/ForgotPassword";
+import LoginInDialog from "@/components/Dialogs/LoginDialog";
+import RegisterDialog from "@/components/Dialogs/RegisterDialog";
+import LogoutDialog from "@/components/Dialogs/LogOutDialog";
+import VerifyDialog from "@/components/Dialogs/VerifyDialog";
 
 
 
@@ -49,8 +55,16 @@ export default function RootLayout({
       <body
         className={`${sfProDisplay.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
-        {children}
+        <AuthWrapper type="public">
+
+          <ForgotPassword />
+          <RegisterDialog />
+          <LoginInDialog />
+          <LogoutDialog />
+          <VerifyDialog />
+          <Header />
+          {children}
+        </AuthWrapper>
       </body>
     </html>
   );

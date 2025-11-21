@@ -1,9 +1,24 @@
+"use client";
+
 import Link from 'next/link'
 import { LogoIcon } from '../Icons'
 import { Button } from '../ui/button'
 import { ArrowDownIcon, ArrowRightIcon, MenuIcon } from 'lucide-react'
+import { useAtom } from 'jotai'
+import { userAuthAtom } from '@/atoms/userAuthAtom'
+import UserAccount from '../UserAccount'
+import { useHandleDialogType } from '@/hooks/useHandleDialogType'
 
 export default function Header() {
+    // Check authentication state to conditionally render UserAccount or Get Started button
+    const [user] = useAtom(userAuthAtom)
+    const { handleDialogType } = useHandleDialogType()
+
+    // Handle Get Started button click - opens login dialog
+    const handleGetStarted = () => {
+        handleDialogType("login", "add")
+    }
+
     return (
         <header className="w-full ">
             <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -28,7 +43,20 @@ export default function Header() {
                     </Link>
                 </div>
 
-                <Button variant='dark' className='hidden md:flex py-4 h-12 group has-[>svg]:!px-6'>Get Started <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-2 transition-all duration-300" /> </Button>
+                {/* Conditionally render UserAccount (when logged in) or Get Started button (when not logged in) */}
+                <div className="hidden md:flex">
+                    {user && user !== "loading" ? (
+                        <UserAccount />
+                    ) : (
+                        <Button
+                            variant='dark'
+                            className='py-4 h-12 group has-[>svg]:px-6!'
+                            onClick={handleGetStarted}
+                        >
+                            Get Started <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-2 transition-all duration-300" />
+                        </Button>
+                    )}
+                </div>
                 <button className='md:hidden'>
                     <MenuIcon className="w-4 h-4" />
                 </button>

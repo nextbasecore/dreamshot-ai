@@ -1,0 +1,129 @@
+{
+  "id": "labubu-ai-video-generator",
+  "title": "Labubu AI Video",
+  "playgroundTitle": "Labubu AI Video Generator Online",
+  "playgroundDescription": "Turn yourself into a Labubu-style character with our free Labubu AI Video Generator. Upload your photo and let the AI craft a vibrant, animated Labubu video ready to share.",
+  "highlightWords": [
+    "Labubu"
+  ],
+  "metadata": {
+    "title": "Free Labubu AI Video Generator: Create Labubu Doll Video",
+    "description": "Transform your photo into a lively Labubu doll video with the free Labubu AI Video Generator! Experience a fun, animated Labubu transformation.",
+    "alternates": {
+      "canonical": "https://www.remixai.io/video-effects/labubu-ai-video-generator"
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Apply Video Effect",
+  "inputType": "single",
+  "effectId": "ladudu_me",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Labubu-featured.webp",
+  "cardVideo": "",
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Labubu.webp"
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Labubu-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Labubu-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Labubu-2.webp",
+      "original": "https://assets.remixai.io/Public/samples/Labubu-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Labubu-3.webp",
+      "original": "https://assets.remixai.io/Public/samples/Labubu-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Labubu-4.webp",
+      "original": "https://assets.remixai.io/Public/samples/Labubu-4.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Labubu-5.webp",
+      "original": "https://assets.remixai.io/Public/samples/Labubu-5.webp"
+    }
+  ],
+  "howItWorks": {
+    "heading": "How to Create Labubu Video With AI?",
+    "description": "Follow these simple steps to turn your photo into a fun Labubu transformation video using AI.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Drag and Drop or Upload Photo",
+        "bulletPoints": [
+          "Upload a clear photo of yourself showing your upper or full body to get the best transformation results."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Generate Labubu Video",
+        "bulletPoints": [
+          "Click the “Apply Video Effect” button and let the AI work its magic to create your Labubu-style video."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Preview and Download the Video",
+        "bulletPoints": [
+          "Preview your Labubu doll video before downloading, then share and show off your trendy Labubu creation on social media."
+        ]
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Before & After Result Of Labubu AI Video",
+    "title": "Before & After Result Of Labubu AI Video",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Labubu-1.webm",
+        "alt": "Labubu AI Video"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Labubu-2.webm",
+        "alt": "Free Labubu AI Video"
+      }
+    ]
+  },
+  "faqs": {
+    "heading": "FAQs About AI Labubu Video Generator",
+    "title": "FAQs About AI Labubu Video Generator",
+    "description": "",
+    "questions": [
+      {
+        "question": "What is the Labubu Video Generator?",
+        "answer": "The Labubu Video Generator transforms a clear photo of one person (upper or full body) into a lively, animated “Labubu doll” style video, perfect for personal branding or sharing fun content on social media."
+      },
+      {
+        "question": "How long does it take from upload to download?",
+        "answer": "It usually takes just a few minutes, depending on your photo quality, chosen resolution, and the complexity of the effect. Most users experience a fast, near-instant turnaround."
+      },
+      {
+        "question": "Can I turn group photos into a Labubu video?",
+        "answer": "The AI Labubu Generator is optimized for single-person photos. Group or busy images can confuse the AI and may lead to distorted results, so we recommend uploading a solo photo for the best outcome."
+      },
+      {
+        "question": "Is the Labubu AI Video Generator safe to use?",
+        "answer": "Yes. Your uploaded images are processed securely and used only to generate your video. RemixAI never shares or stores personal data, ensuring full user privacy and protection."
+      },
+      {
+        "question": "Does the AI modify my facial expression or pose?",
+        "answer": "Yes, the AI makes subtle adjustments to facial expressions and body movement to align with the Labubu animation style while keeping your appearance true to the original photo."
+      }
+    ]
+  },
+  "recommendedEffects": {
+    "id": [
+      "ai-doll-transformation",
+      "ai-simpsons-video-effect",
+      "ai-studio-ghibli-effect"
+    ],
+    "heading": "See Other Cool Video Effects"
+  },
+  "dualUploadLabels": {}
+}

@@ -1,3 +1,5 @@
+import { Timestamp } from "firebase/firestore";
+import { DialogType } from "@/atoms/dialogAtom";
 
 
 export interface DashboardPopularTool {
@@ -34,8 +36,100 @@ export type Plan = {
     credits: number;
     features: string[];
 
-    //   priceId?: string;
-    //   discountPrice?: number;
+    //   price: number;
+    //   duration: PlanDuration;
+    //   credits: number;
+    //   priceId: string;
+    //   name: PlanNameT;
+    //   discountPrice: number;
     //   id: string;
     //   maxDurationSeconds: number;
+    //   priceIds: string[];
+    //   isFeatured: boolean;
+    //   priceSuffix: string;
 };
+
+
+
+export interface DialogProps {
+    children: React.ReactNode;
+    name: DialogType;
+    title?: string;
+    trigger?: React.ReactNode;
+    headingClassName?: string;
+    description?: string;
+    disableClose?: boolean;
+    className?: string;
+    descriptionClassName?: string;
+    hideHeader?: boolean;
+    titleClassName?: string;
+    fullScreen?: boolean;
+    isPaddingAroundRemoved?: boolean;
+    isCloseWhite?: boolean;
+    closeClassName?: string;
+    disableOutsideClick?: boolean;
+    onDialogClose?: () => void;
+    headerClassName?: string;
+    removeScrollbar?: boolean;
+    pClass?: string;
+    removeCloseButton?: boolean;
+    outsideCloseButton?: boolean;
+    outsideCloseButtonClassName?: string;
+    // Toggle related props
+    showToggle?: boolean;
+    toggleOptions?: Array<{ label: string; value: string }>;
+    selectedToggleValue?: string;
+    onToggleChange?: (value: string) => void;
+    toggleClassName?: string;
+    myCreationButton?: boolean;
+    onMyCreationClick?: () => void;
+    hideModelChanger?: boolean;
+    recentAndPresetPop?: boolean;
+    recentAndPresetValue?: string;
+    onRecentAndPresetChange?: (value: string) => void;
+    onBackButtonClick?: () => void;
+    showHistory?: boolean;
+    showBackForSelectedImage?: boolean;
+    isModelGenerator?: boolean;
+}
+
+
+export type SecureUser = {
+    created_at?: Date;
+    updated_at?: Date;
+    credits?: number;
+    subscription?: Subscription;
+    addon?: {
+        credits: number;
+    };
+};
+
+export type Subscription = {
+    createdAt: Date;
+    creditsGranted: number;
+    id: string;
+    isCancelled: boolean;
+    planId: string;
+    expiredAt?: Timestamp;
+    subscriptionId: string;
+    name: string;
+    renewsAt: string;
+    transactionId: string;
+    isExpired?: boolean;
+    priceId: string;
+};
+
+
+export type LinkActionT = {
+    onClick: () => void | Promise<unknown>;
+    label: string;
+    preFix?: string;
+};
+
+export interface AvailableCreditsProps {
+    credits: number;
+    compact?: boolean;
+    className?: string;
+    isHeader?: boolean;
+    removeBG?: boolean;
+}

@@ -22,7 +22,7 @@ export default function FAQs() {
                 <SingleFaq answer="Est Vitae FAo congue ullam elit no cum?" question="Est Vitae FAo congue ullam elit no cum?" />
                 <SingleFaq answer="Est Vitae FAo congue ullam elit no cum?" question="Est Vitae FAo congue ullam elit no cum?" />
             </div>
-        </div>  
+        </div>
 
     )
 }
