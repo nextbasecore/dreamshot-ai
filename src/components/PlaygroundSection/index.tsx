@@ -9,11 +9,14 @@ import { useAtomValue } from "jotai";
 import { userAuthAtom } from "@/atoms/userAuthAtom";
 import { useHandleDialogType } from "@/hooks/useHandleDialogType";
 import { customToast } from "@/common";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { Button } from "../ui/button";
+import { Download } from "lucide-react";
 import { UploadContainer } from "./UploadContainer";
 import { DualUploadContainer } from "./DualUploadContainer";
 import { GenerateButton } from "./GenerateButton";
 import { SampleImages } from "./SampleImages";
+import { urlToFile } from "@/utils/urlToFile";
 
 /**
  * PlaygroundSection component for tool pages
@@ -27,10 +30,12 @@ export default function PlaygroundSection() {
     const user = useAtomValue(userAuthAtom);
     const { downloadResult } = useDownload();
 
-    // Check if dual upload is required
+    // State for tracking sample image URLs (only converted to File when generating)
+    const [sampleImageUrl, setSampleImageUrl] = useState<string | null>(null);
+    const [sampleImageUrl2, setSampleImageUrl2] = useState<string | null>(null);
+
     const isDualUpload = toolConfig?.inputType === "dual" && toolConfig?.dualUploadLabels;
 
-    // File upload hooks - use appropriate hook based on upload mode
     const singleUpload = useFileUpload();
     const dualUpload = useDualFileUpload();
 
@@ -39,6 +44,10 @@ export default function PlaygroundSection() {
     const uploadedImage = isDualUpload ? dualUpload.uploadedImage1 : singleUpload.uploadedImage;
     const uploadedFile2 = isDualUpload ? dualUpload.uploadedFile2 : null;
     const uploadedImage2 = isDualUpload ? dualUpload.uploadedImage2 : null;
+
+    // Display sample image URL if no uploaded file (for preview purposes only)
+    const displayImage = uploadedImage || sampleImageUrl;
+    const displayImage2 = uploadedImage2 || sampleImageUrl2;
 
     // Generation hooks
     const {
@@ -56,18 +65,15 @@ export default function PlaygroundSection() {
     );
 
     // Use tool config data if available, otherwise use defaults
-    const title = toolConfig?.playgroundTitle || "Ghibli Filter";
-    const description = toolConfig?.playgroundDescription || "Transform your photos into enchanting Ghibli-style artwork with AI. Relive your memories in a magical, hand-painted world.";
-    const buttonText = toolConfig?.buttonText || "Apply Ghibli Filter";
+    const title = toolConfig?.playgroundTitle || "Something Awesome Filter";
+    const description = toolConfig?.playgroundDescription || "Transform your photos into something awesome with AI. Relive your memories in a magical, hand-painted world.";
+    const buttonText = toolConfig?.buttonText || "Apply Something Awesome Filter";
     const creditCost = toolConfig?.credit || 1;
     const sampleImages = toolConfig?.sampleImages || [];
 
-    // Dynamic transformation images - check if transformationResult exists
-    // Trim whitespace from URLs to prevent Next.js Image errors
     const transformationPreview = (toolConfig?.transformationImages?.transformationPreview || "/assets/Playground/2.png").trim();
     const transformationResult = toolConfig?.transformationImages?.transformationResult?.trim();
 
-    // Handle file upload - delegate to appropriate hook
     const handleFileUpload = async (file: File, isSecond: boolean = false) => {
         console.log(`[PLAYGROUND] 📤 Image upload started:`, {
             isSecond,
@@ -76,6 +82,13 @@ export default function PlaygroundSection() {
             fileType: file.type,
         });
 
+        // Clear sample image URLs when uploading actual files
+        if (isSecond) {
+            setSampleImageUrl2(null);
+        } else {
+            setSampleImageUrl(null);
+        }
+
         if (isDualUpload) {
             await dualUpload.handleFileUpload(file, isSecond);
         } else {
@@ -83,12 +96,11 @@ export default function PlaygroundSection() {
         }
     };
 
-    // Handle process button click
     const handleProcess = async () => {
         console.log(`[PLAYGROUND] 🚀 Generate button clicked`, {
             isDualUpload,
-            hasFirstImage: !!uploadedFile,
-            hasSecondImage: !!uploadedFile2,
+            hasFirstImage: !!(uploadedFile || sampleImageUrl),
+            hasSecondImage: !!(uploadedFile2 || sampleImageUrl2),
             userId: user && user !== 'loading' ? user.uid : 'not logged in',
             toolConfig: toolConfig?.id,
         });
@@ -101,14 +113,17 @@ export default function PlaygroundSection() {
             return;
         }
 
-        // Validate uploads
-        if (!uploadedFile) {
+        // Validate uploads - check for either uploaded file or sample URL
+        const hasFirstImage = uploadedFile || sampleImageUrl;
+        const hasSecondImage = uploadedFile2 || sampleImageUrl2;
+
+        if (!hasFirstImage) {
             console.log(`[PLAYGROUND] ❌ First image not uploaded`);
             customToast.error("Please upload an image");
             return;
         }
 
-        if (isDualUpload && !uploadedFile2) {
+        if (isDualUpload && !hasSecondImage) {
             console.log(`[PLAYGROUND] ❌ Second image not uploaded (dual upload required)`);
             customToast.error("Please upload both images");
             return;
@@ -116,20 +131,59 @@ export default function PlaygroundSection() {
 
         console.log(`[PLAYGROUND] ✅ Validation passed, starting generation process...`);
 
-        // Start generation
-        const response = await startGeneration(uploadedFile, uploadedFile2 || undefined);
+        try {
+            // Convert sample URLs to Files if needed (only at generation time)
+            let file1 = uploadedFile;
+            let file2 = uploadedFile2;
 
-        if (!response) {
-            console.error(`[PLAYGROUND] ❌ Generation failed to start:`, generationError);
-            customToast.error(generationError?.message || "Failed to start generation");
-            return;
+            if (!file1 && sampleImageUrl) {
+                console.log(`[PLAYGROUND] 📥 Converting sample image URL to File...`, { url: sampleImageUrl });
+                const loadingToast = customToast.loading("Preparing sample image...");
+                try {
+                    file1 = await urlToFile(sampleImageUrl);
+                    customToast.dismiss(loadingToast);
+                    console.log(`[PLAYGROUND] ✅ Sample image converted`, { name: file1.name });
+                } catch (error) {
+                    customToast.dismiss(loadingToast);
+                    throw error;
+                }
+            }
+
+            if (isDualUpload && !file2 && sampleImageUrl2) {
+                console.log(`[PLAYGROUND] 📥 Converting second sample image URL to File...`, { url: sampleImageUrl2 });
+                const loadingToast = customToast.loading("Preparing second sample image...");
+                try {
+                    file2 = await urlToFile(sampleImageUrl2);
+                    customToast.dismiss(loadingToast);
+                    console.log(`[PLAYGROUND] ✅ Second sample image converted`, { name: file2.name });
+                } catch (error) {
+                    customToast.dismiss(loadingToast);
+                    throw error;
+                }
+            }
+
+            // Start generation with files
+            const response = await startGeneration(file1!, file2 || undefined);
+
+            if (!response) {
+                console.error(`[PLAYGROUND] ❌ Generation failed to start:`, generationError);
+                customToast.error(generationError?.message || "Failed to start generation");
+                return;
+            }
+
+            console.log(`[PLAYGROUND] ✅ Generation started successfully:`, {
+                jobId: response.jobId,
+                status: response.status,
+            });
+            customToast.success("Generation started! Processing...");
+        } catch (error) {
+            console.error(`[PLAYGROUND] ❌ Error during generation:`, error);
+            const errorMessage =
+                error instanceof Error
+                    ? error.message
+                    : "Failed to prepare image. Please try again.";
+            customToast.error(errorMessage);
         }
-
-        console.log(`[PLAYGROUND] ✅ Generation started successfully:`, {
-            jobId: response.jobId,
-            status: response.status,
-        });
-        customToast.success("Generation started! Processing...");
     };
 
     // Show result when generation completes
@@ -165,15 +219,16 @@ export default function PlaygroundSection() {
     }, [watcherError]);
 
     // Check if processing (uploading or generating)
-    const isProcessing = isUploading || isGenerating || status === "pending";
+    // Show loading if: we're uploading/generating OR we have a jobId but no completed result yet
+    const isProcessing = isUploading || isGenerating || (jobId !== null && !(status === "completed" && result && result.length > 0));
 
     // Check if generation is completed
     const isCompleted = status === "completed" && result && result.length > 0;
 
-    // Check if ready to process
+    // Check if ready to process - allow sample URLs as well as uploaded files
     const canProcess = isDualUpload
-        ? (uploadedFile && uploadedFile2)
-        : uploadedFile;
+        ? ((uploadedFile || sampleImageUrl) && (uploadedFile2 || sampleImageUrl2))
+        : (uploadedFile || sampleImageUrl);
 
     // Handle try another image - reset everything
     const handleTryAnother = () => {
@@ -184,6 +239,9 @@ export default function PlaygroundSection() {
         } else {
             singleUpload.clearUpload();
         }
+        // Clear sample image URLs
+        setSampleImageUrl(null);
+        setSampleImageUrl2(null);
         // Reset generation state
         resetGeneration();
     };
@@ -191,6 +249,31 @@ export default function PlaygroundSection() {
     // Handle download - use hook
     const handleDownload = (item: { video?: string; image?: string; thumbnail?: string; type: "video" | "image" }) => {
         downloadResult(item);
+    };
+
+    // Handle sample image click - display sample image URL (convert to File only on generation)
+    const handleSampleClick = (originalUrl: string) => {
+        // Don't load sample if already processing a generation
+        if (isProcessing) {
+            console.log(`[PLAYGROUND] ⏳ Generation in progress, ignoring sample click`);
+            return;
+        }
+
+        console.log(`[PLAYGROUND] 🖼️ Sample image clicked:`, { originalUrl });
+
+        // Clear any uploaded files and set the sample URL for display
+        // The URL will be converted to File only when user clicks generate button
+        if (isDualUpload) {
+            dualUpload.clearFirst();
+        } else {
+            singleUpload.clearUpload();
+        }
+
+        // Store sample image URL for display and later conversion
+        setSampleImageUrl(originalUrl);
+
+        console.log(`[PLAYGROUND] ✅ Sample image loaded for preview:`, { originalUrl });
+        customToast.success("Sample image loaded!");
     };
 
     return (
@@ -209,8 +292,8 @@ export default function PlaygroundSection() {
                     <DualUploadContainer
                         inputId1="file-upload-1"
                         inputId2="file-upload-2"
-                        uploadedImage1={uploadedImage}
-                        uploadedImage2={uploadedImage2}
+                        uploadedImage1={displayImage}
+                        uploadedImage2={displayImage2}
                         previewUrl1={transformationPreview}
                         previewUrl2={transformationResult || transformationPreview}
                         label1={toolConfig?.dualUploadLabels?.firstImageLabel || "Upload your image"}
@@ -218,11 +301,12 @@ export default function PlaygroundSection() {
                         helperText="or drag and drop PNG, JPG or WEBP"
                         onFileSelect1={(file) => handleFileUpload(file, false)}
                         onFileSelect2={(file) => handleFileUpload(file, true)}
+                        isProcessing={isProcessing}
                     />
                 ) : (
                     <UploadContainer
                         inputId="file-upload"
-                        uploadedImage={uploadedImage}
+                        uploadedImage={displayImage}
                         previewUrl={transformationPreview}
                         resultUrl={transformationResult}
                         isCompleted={!!isCompleted}
@@ -230,34 +314,51 @@ export default function PlaygroundSection() {
                         uploadLabel="Upload Your Original Image"
                         helperText="or drag and drop PNG, JPG or WEBP"
                         onFileSelect={(file) => handleFileUpload(file, false)}
-                        onTryAnother={handleTryAnother}
-                        onDownload={handleDownload}
+                        isProcessing={isProcessing}
                     />
                 )}
             </div>
 
-            {/* Generate Button - Only show when not completed */}
-            {!isCompleted && (
-                <GenerateButton
-                    buttonText={buttonText}
-                    creditCost={creditCost}
-                    isUploading={isUploading}
-                    isGenerating={isGenerating}
-                    isPending={status === "pending"}
-                    disabled={!canProcess || isProcessing}
-                    onClick={handleProcess}
-                />
-            )}
+            {/* Action Buttons */}
+            <div className=" justify-between">
+                {/* Generate Button or Action Buttons - Show GenerateButton when not completed, show Try Another/Download when completed */}
+                {isCompleted ? (
+                    <div className="flex flex-col gap-4max-w-3xl items-center">
+                        <div className="flex justify-between items-center gap-4 w-full">
+                            <Button
+                                variant="outline"
+                                className=" flex flex-1  h-12"
+                                onClick={handleTryAnother}
+                            >
+                                Try Another Image
+                            </Button>
+                            <Button
+                                variant="dark"
+                                className="flex flex-1 h-12"
+                                onClick={() => handleDownload(result && result.length > 0 ? result[0] : { type: "image" })}
+                            >
+                                <Download className="w-4 h-4" />
+                                Download
+                            </Button>
+                        </div>
+                    </div>
+                ) : (
+                    <GenerateButton
+                        buttonText={buttonText}
+                        creditCost={creditCost}
+                        isUploading={isUploading}
+                        isGenerating={isGenerating}
+                        isPending={status === "pending"}
+                        disabled={!canProcess || isProcessing}
+                        onClick={handleProcess}
+                    />
+                )}
+            </div>
 
             {/* Sample Images */}
             <SampleImages
                 samples={sampleImages}
-                onSampleClick={() => {
-                    // Sample image click handler
-                    // Note: Sample images are URLs, not Files, so we can't directly use them
-                    // This would require fetching the image and converting to File/Blob
-                    // For now, this is a placeholder for future implementation
-                }}
+                onSampleClick={handleSampleClick}
             />
 
         </div>

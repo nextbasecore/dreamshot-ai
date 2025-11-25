@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { CURVED_CAROUSEL_IMAGES } from "@/constants/dashboard.constants";
 import { Button } from "../ui/button";
+import { useRouter } from "next/navigation";
 
 const MIN_CARD_WIDTH = 90;
 const MAX_CARD_WIDTH = 180;
@@ -11,6 +12,7 @@ const ARC_RADIUS_MULTIPLIER = 10; // scale radius relative to card width
 const EXTRA_HEIGHT_OFFSET = 70; // ensures wrapper has room for arc
 
 export default function CurvedCarousel() {
+    const router = useRouter();
     // Track which image is currently being hovered for individual hover effects
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     // Responsive settings: image width, overlap, arc radius, wrapper height
@@ -158,12 +160,12 @@ export default function CurvedCarousel() {
             </h1>
 
             <p className="text-center text-gray-500 max-w-2xl">
-                Enhance creativity, boost productivity, and simplify your workflow with 
-                powerful AI tools. Transform ideas into reality—effortlessly and 
+                Enhance creativity, boost productivity, and simplify your workflow with
+                powerful AI tools. Transform ideas into reality—effortlessly and
                 efficiently.
             </p>
 
-            <Button variant='dark' className='py-4 h-12'>Explore Tools</Button>
+            <Button variant='dark' className='py-4 h-12' onClick={() => router.push('/all-tools')}>Explore Tools</Button>
         </div>
     );
 }

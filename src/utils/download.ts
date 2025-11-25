@@ -1,12 +1,5 @@
 import { customToast } from "@/common";
 
-/**
- * Downloads a file from a URL
- * Creates a temporary anchor element to trigger the download
- * @param url - The URL of the file to download
- * @param filename - Optional custom filename (defaults to generated name)
- * @param fileType - Type of file ("video" or "image") for extension
- */
 export function downloadFile(
     url: string,
     filename?: string,
@@ -42,10 +35,6 @@ export function downloadFile(
     }
 }
 
-/**
- * Downloads a generation result (video or image)
- * @param item - Generation result object with video/image/thumbnail and type
- */
 export function downloadGenerationResult(item: {
     video?: string;
     image?: string;

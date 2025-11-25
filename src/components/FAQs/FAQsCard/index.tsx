@@ -1,14 +1,11 @@
 'use client'
-import { useState } from "react";
-import { twMerge } from "tailwind-merge";
-import * as Collapsible from "@radix-ui/react-collapsible";
 
 import {
     Accordion,
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
-  } from "@/components/ui/accordion"
+} from "@/components/ui/accordion"
 
 
 interface SingleFaqProps {
@@ -16,13 +13,16 @@ interface SingleFaqProps {
     question: string;
 }
 
+/**
+ * Single FAQ component that displays a question and answer in an accordion format
+ * Maintains consistent width whether open or closed to prevent layout shifts
+ */
 export const SingleFaq = ({ answer, question }: SingleFaqProps) => {
-    const [isOpen, setIsOpen] = useState(false);
     return (
-        <Accordion type="single" collapsible>
-            <AccordionItem value="item-1">
-                <AccordionTrigger className="text-base hover:cursor-pointer font-medium text-headerBG tracking-tight">{question}</AccordionTrigger>
-                <AccordionContent className="text-sm text-gray-500 tracking-tight">{answer}</AccordionContent>
+        <Accordion type="single" collapsible className="w-full max-w-4xl min-w-0 box-border mx-auto">
+            <AccordionItem value="item-1" className="w-full max-w-full min-w-0 box-border">
+                <AccordionTrigger className="text-base hover:cursor-pointer font-medium text-headerBG tracking-tight w-full max-w-full min-w-0 box-border">{question}</AccordionTrigger>
+                <AccordionContent className="text-sm text-gray-500 tracking-tight w-full max-w-full min-w-0 wrap-break-word overflow-wrap-anywhere box-border">{answer}</AccordionContent>
             </AccordionItem>
         </Accordion>
     );

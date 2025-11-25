@@ -1,19 +1,8 @@
-/**
- * Validates file type
- * @param file - File to validate
- * @param allowedTypes - Array of allowed MIME types (e.g., ["image/jpeg", "image/png"])
- * @returns True if file type is allowed
- */
+
 export function validateFileType(file: File, allowedTypes: string[]): boolean {
     return allowedTypes.includes(file.type);
 }
 
-/**
- * Validates file size
- * @param file - File to validate
- * @param maxSizeBytes - Maximum file size in bytes
- * @returns Object with isValid boolean and error message if invalid
- */
 export function validateFileSize(
     file: File,
     maxSizeBytes: number
@@ -28,12 +17,6 @@ export function validateFileSize(
     return { isValid: true };
 }
 
-/**
- * Validates image file (type and size)
- * @param file - File to validate
- * @param maxSizeBytes - Maximum file size in bytes (default: 10MB)
- * @returns Object with isValid boolean and error message if invalid
- */
 export function validateImageFile(
     file: File,
     maxSizeBytes: number = 10 * 1024 * 1024 // 10MB default

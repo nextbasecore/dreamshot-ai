@@ -102,8 +102,8 @@ export default async function ToolPage({ params }: Props) {
                 {/* How It Works Section - Only render if howItWorks data exists */}
                 {toolConfig?.howItWorks && <HowItWork />}
 
-                {/* Examples Section - Component already handles null check internally */}
-                <ExamplesSection />
+                {/* Examples Section - Only render if examples data exists */}
+                {toolConfig?.examples && <ExamplesSection />}
 
                 {/* Similar/Recommended Tools Section - Only render if recommendedEffects exists */}
                 {toolConfig?.recommendedEffects && (

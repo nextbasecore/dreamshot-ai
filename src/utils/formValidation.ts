@@ -3,11 +3,6 @@
  * Provides reusable validation functions for forms
  */
 
-/**
- * Validates email format
- * @param email - Email string to validate
- * @returns Object with isValid boolean and error message if invalid
- */
 export function validateEmail(email: string): { isValid: boolean; error?: string } {
     if (!email || email.trim() === "") {
         return {
@@ -27,12 +22,6 @@ export function validateEmail(email: string): { isValid: boolean; error?: string
     return { isValid: true };
 }
 
-/**
- * Validates password
- * @param password - Password string to validate
- * @param minLength - Minimum password length (default: 8)
- * @returns Object with isValid boolean and error message if invalid
- */
 export function validatePassword(
     password: string,
     minLength: number = 8
@@ -54,12 +43,6 @@ export function validatePassword(
     return { isValid: true };
 }
 
-/**
- * Validates that two passwords match
- * @param password - First password
- * @param confirmPassword - Second password to compare
- * @returns Object with isValid boolean and error message if invalid
- */
 export function validatePasswordMatch(
     password: string,
     confirmPassword: string
@@ -74,12 +57,6 @@ export function validatePasswordMatch(
     return { isValid: true };
 }
 
-/**
- * Validates required field
- * @param value - Value to validate
- * @param fieldName - Name of the field (for error message)
- * @returns Object with isValid boolean and error message if invalid
- */
 export function validateRequired(
     value: string | number | null | undefined,
     fieldName: string = "Field"
@@ -94,13 +71,6 @@ export function validateRequired(
     return { isValid: true };
 }
 
-/**
- * Validates a form field based on type
- * @param type - Type of validation to perform
- * @param value - Value to validate
- * @param options - Additional options (minLength for password, fieldName for required, etc.)
- * @returns Object with isValid boolean and error message if invalid
- */
 export function validateField(
     type: "email" | "password" | "required",
     value: string,
@@ -122,11 +92,6 @@ export function validateField(
     }
 }
 
-/**
- * Validates multiple fields at once
- * @param validations - Array of validation results
- * @returns Object with isValid boolean and errors array
- */
 export function validateMultiple(
     validations: Array<{ isValid: boolean; error?: string }>
 ): { isValid: boolean; errors: string[] } {

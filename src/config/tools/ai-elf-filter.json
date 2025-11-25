@@ -1,117 +1,117 @@
 {
-  "id": "ai-elf-filter",
-  "title": "The Ultimate AI Elf Filter",
-  "playgroundTitle": "The Ultimate AI Elf Filter tesyt",
-  "playgroundDescription": "Unleash your inner elf with our powerful AI elf filter. Create stunning, high-quality elf portraits from your photos in just a few clicks.",
-  "highlightWords": [],
-  "metadata": {
-    "title": "The Ultimate AI Elf Filter: Transform Photos Instantly",
-    "description": "Unleash your inner elf with our powerful AI elf filter. Create stunning, high-quality elf portraits from your photos in just a few clicks.",
-    "alternates": {
-      "canonical": ""
-    }
-  },
-  "toolType": "image-effects",
-  "toolCategory": "image-effects",
-  "postPrefix": "image-effects",
-  "credit": 40,
-  "buttonText": "Generate Elf Magic",
-  "inputType": "single",
-  "effectId": "elfGenerator",
-  "model": "image-effects",
-  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
-  "cardVideo": null,
-  "transformationImages": {
-    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
-  },
-  "dualUploadLabels": {},
-  "recommendedEffects": {
-    "id": [
-      "add-clouds-to-photo",
-      "add-crown-to-photo",
-      "add-flower-crown-to-photo"
+    "id": "ai-elf-filter",
+    "title": "The Ultimate AI Elf Filter",
+    "playgroundTitle": "The Ultimate AI Elf Filter tesyt",
+    "playgroundDescription": "Unleash your inner elf with our powerful AI elf filter. Create stunning, high-quality elf portraits from your photos in just a few clicks.",
+    "highlightWords": [],
+    "metadata": {
+        "title": "The Ultimate AI Elf Filter: Transform Photos Instantly",
+        "description": "Unleash your inner elf with our powerful AI elf filter. Create stunning, high-quality elf portraits from your photos in just a few clicks.",
+        "alternates": {
+            "canonical": ""
+        }
+    },
+    "toolType": "image-effects",
+    "toolCategory": "image-effects",
+    "postPrefix": "image-effects",
+    "credit": 40,
+    "buttonText": "Generate Elf Magic",
+    "inputType": "single",
+    "effectId": "elfGenerator",
+    "model": "image-effects",
+    "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+    "cardVideo": null,
+    "transformationImages": {
+        "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+    },
+    "dualUploadLabels": {},
+    "recommendedEffects": {
+        "id": [
+            "add-clouds-to-photo",
+            "add-crown-to-photo",
+            "add-flower-crown-to-photo"
+        ],
+        "heading": "Check Out Other Trending Image Effects"
+    },
+    "examples": {
+        "heading": "See the Stunning Results",
+        "title": "See the Stunning Results",
+        "description": "",
+        "images": [
+            {
+                "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+                "alt": "AI Red Hulk Transformation"
+            },
+            {
+                "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+                "alt": "AI Red Hulk Transformation"
+            }
+        ]
+    },
+    "sampleImages": [
+        {
+            "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+            "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+        }
     ],
-    "heading": "Check Out Other Trending Image Effects"
-  },
-  "examples": {
-    "heading": "See the Stunning Results",
-    "title": "See the Stunning Results",
-    "description": "",
-    "images": [
-      {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
-        "alt": "AI Red Hulk Transformation"
-      },
-      {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
-        "alt": "AI Red Hulk Transformation"
-      }
-    ]
-  },
-  "sampleImages": [
-    {
-      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
-      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    "howItWorks": {
+        "heading": "How to Use ai elf Filter?",
+        "description": "Follow these simple steps to transform your photos with the AI elf filter.",
+        "steps": [
+            {
+                "step": 1,
+                "title": "Upload Image",
+                "bulletPoints": [
+                    "Upload a high-quality image that you want to convert using the ai elf filter style."
+                ]
+            },
+            {
+                "step": 2,
+                "title": "Apply Image Effect",
+                "bulletPoints": [
+                    "After uploading, click the generate button and AI will turn your image into an elf style."
+                ]
+            },
+            {
+                "step": 3,
+                "title": "Download & Share",
+                "bulletPoints": [
+                    "Once the image is generated, download it and share it with your friends and family."
+                ]
+            }
+        ]
+    },
+    "faqs": {
+        "heading": "Frequently Asked Questions about AI Elf Filter",
+        "questions": [
+            {
+                "question": "What is the AI Elf Filter?",
+                "answer": "The AI Elf Filter is a sophisticated image effect that uses artificial intelligence to transform your photos. It artistically alters your portrait to give you enchanting elven features, such as pointed ears, a mystical glow, and a fantasy-inspired aesthetic."
+            },
+            {
+                "question": "How long does the transformation take?",
+                "answer": "The processing time can vary based on the complexity and resolution of the uploaded image. However, our platform is optimized for speed, ensuring you receive your AI-generated elf image faster than most competing services."
+            },
+            {
+                "question": "Is the AI Elf Filter free to use?",
+                "answer": "Yes, it is! All you need to do is sign up for a free account on our website. Upon registration, we will provide you with free credits that you can use to experience the magic of our AI Elf Filter and other tools."
+            },
+            {
+                "question": "Are my uploaded photos and data kept private?",
+                "answer": "Absolutely. We take your privacy very seriously. Your photos are uploaded via a secure connection, processed on our private servers, and are never shared with third parties. You have full control over your data."
+            },
+            {
+                "question": "What kind of photos produce the best results?",
+                "answer": "For the most stunning transformations, we recommend using clear, well-lit portrait photos where the face is clearly visible. High-resolution images tend to yield more detailed and impressive elven features."
+            },
+            {
+                "question": "What file formats can I upload?",
+                "answer": "Our tool supports all major image formats, including JPG, PNG, and WEBP. Simply select your desired photo from your device, and our tool will handle the rest."
+            },
+            {
+                "question": "Can I use the generated images for any purpose?",
+                "answer": "Yes, once the image is generated and downloaded, you own the rights to your creation. Feel free to use it for personal profile pictures, share it on social media, or include it in your creative projects."
+            }
+        ]
     }
-  ],
-  "howItWorks": {
-    "heading": "How to Use ai elf Filter?",
-    "description": "Follow these simple steps to transform your photos with the AI elf filter.",
-    "steps": [
-      {
-        "step": 1,
-        "title": "Upload Image",
-        "bulletPoints": [
-          "Upload a high-quality image that you want to convert using the ai elf filter style."
-        ]
-      },
-      {
-        "step": 2,
-        "title": "Apply Image Effect",
-        "bulletPoints": [
-          "After uploading, click the generate button and AI will turn your image into an elf style."
-        ]
-      },
-      {
-        "step": 3,
-        "title": "Download & Share",
-        "bulletPoints": [
-          "Once the image is generated, download it and share it with your friends and family."
-        ]
-      }
-    ]
-  },
-  "faqs": {
-    "heading": "Frequently Asked Questions about AI Elf Filter",
-    "questions": [
-      {
-        "question": "What is the AI Elf Filter?",
-        "answer": "The AI Elf Filter is a sophisticated image effect that uses artificial intelligence to transform your photos. It artistically alters your portrait to give you enchanting elven features, such as pointed ears, a mystical glow, and a fantasy-inspired aesthetic."
-      },
-      {
-        "question": "How long does the transformation take?",
-        "answer": "The processing time can vary based on the complexity and resolution of the uploaded image. However, our platform is optimized for speed, ensuring you receive your AI-generated elf image faster than most competing services."
-      },
-      {
-        "question": "Is the AI Elf Filter free to use?",
-        "answer": "Yes, it is! All you need to do is sign up for a free account on our website. Upon registration, we will provide you with free credits that you can use to experience the magic of our AI Elf Filter and other tools."
-      },
-      {
-        "question": "Are my uploaded photos and data kept private?",
-        "answer": "Absolutely. We take your privacy very seriously. Your photos are uploaded via a secure connection, processed on our private servers, and are never shared with third parties. You have full control over your data."
-      },
-      {
-        "question": "What kind of photos produce the best results?",
-        "answer": "For the most stunning transformations, we recommend using clear, well-lit portrait photos where the face is clearly visible. High-resolution images tend to yield more detailed and impressive elven features."
-      },
-      {
-        "question": "What file formats can I upload?",
-        "answer": "Our tool supports all major image formats, including JPG, PNG, and WEBP. Simply select your desired photo from your device, and our tool will handle the rest."
-      },
-      {
-        "question": "Can I use the generated images for any purpose?",
-        "answer": "Yes, once the image is generated and downloaded, you own the rights to your creation. Feel free to use it for personal profile pictures, share it on social media, or include it in your creative projects."
-      }
-    ]
-  }
 }

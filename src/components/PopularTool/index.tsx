@@ -1,10 +1,19 @@
+'use client'
+
 import TextSeparator from "../TextSeparator";
 import ToolCard from "./ToolCard";
 import { DASHBOARD_POPULAR_TOOLS } from "@/constants/dashboard.constants";
 import { Button } from "../ui/button";
 import { ArrowRightIcon } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export default function PopularTool() {
+    const router = useRouter();
+
+    const handleNavigateToAllTools = () => {
+        router.push('/all-tools');
+    };
+
     return (
         <div className="flex flex-col items-center gap-10 justify-center mt-15">
 
@@ -23,8 +32,8 @@ export default function PopularTool() {
             </div>
 
             <div className="flex items-center justify-center">
-                <Button variant='dark' className='py-4 h-12 group has-[>svg]:px-6!'>Explore more Tools <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-2 transition-all duration-300" /></Button>
-            </div>      
-    </div>
-  );
+                <Button variant='dark' className='py-4 h-12 group has-[>svg]:px-6!' onClick={handleNavigateToAllTools}>Explore more Tools <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-2 transition-all duration-300" /></Button>
+            </div>
+        </div>
+    );
 }

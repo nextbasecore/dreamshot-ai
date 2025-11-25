@@ -12,12 +12,6 @@ export function useFileUpload() {
     const [uploadedImage, setUploadedImage] = useState<string | null>(null);
     const [isUploading, setIsUploading] = useState(false);
 
-    /**
-     * Handles file upload with validation and preview generation
-     * @param file - The file to upload
-     * @param maxSizeBytes - Maximum file size in bytes (default: 10MB)
-     * @returns Promise resolving to true if upload successful, false otherwise
-     */
     const handleFileUpload = useCallback(
         async (file: File, maxSizeBytes: number = 10 * 1024 * 1024): Promise<boolean> => {
             // Validate file
@@ -46,17 +40,11 @@ export function useFileUpload() {
         []
     );
 
-    /**
-     * Clears uploaded file and preview
-     */
     const clearUpload = useCallback(() => {
         setUploadedFile(null);
         setUploadedImage(null);
     }, []);
 
-    /**
-     * Resets upload state (same as clearUpload, but more explicit naming)
-     */
     const reset = useCallback(() => {
         clearUpload();
     }, [clearUpload]);
@@ -71,10 +59,6 @@ export function useFileUpload() {
     };
 }
 
-/**
- * Hook for handling dual file upload (two files)
- * Useful for tools that require two images
- */
 export function useDualFileUpload() {
     const [uploadedFile1, setUploadedFile1] = useState<File | null>(null);
     const [uploadedImage1, setUploadedImage1] = useState<string | null>(null);
@@ -82,13 +66,6 @@ export function useDualFileUpload() {
     const [uploadedImage2, setUploadedImage2] = useState<string | null>(null);
     const [isUploading, setIsUploading] = useState(false);
 
-    /**
-     * Handles file upload for first or second file
-     * @param file - The file to upload
-     * @param isSecond - Whether this is the second file (default: false)
-     * @param maxSizeBytes - Maximum file size in bytes (default: 10MB)
-     * @returns Promise resolving to true if upload successful, false otherwise
-     */
     const handleFileUpload = useCallback(
         async (
             file: File,
@@ -128,9 +105,6 @@ export function useDualFileUpload() {
         []
     );
 
-    /**
-     * Clears all uploaded files and previews
-     */
     const clearAll = useCallback(() => {
         setUploadedFile1(null);
         setUploadedImage1(null);
@@ -138,17 +112,11 @@ export function useDualFileUpload() {
         setUploadedImage2(null);
     }, []);
 
-    /**
-     * Clears only the first file
-     */
     const clearFirst = useCallback(() => {
         setUploadedFile1(null);
         setUploadedImage1(null);
     }, []);
 
-    /**
-     * Clears only the second file
-     */
     const clearSecond = useCallback(() => {
         setUploadedFile2(null);
         setUploadedImage2(null);
