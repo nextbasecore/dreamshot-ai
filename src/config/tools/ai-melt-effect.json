@@ -1,0 +1,69 @@
+{
+  "id": "ai-test-effect-1",
+  "title": "Create AI Melting Animations Online | Fast & Easy Melt FX",
+  "playgroundTitle": "Create AI Melting Animations Online | Fast & Easy Melt FX",
+  "playgroundDescription": "Bring your images to life with a stunning melting effect. Our AI tool makes it simple to create smooth, liquid-like animations for any project in seconds.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Online AI Melt Video Generator | Create Stunning Effects",
+    "description": "Bring your images to life with a stunning melting effect. Our AI tool makes it simple to create smooth, liquid-like animations for any project in seconds.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Elf Magic",
+  "inputType": "single",
+  "effectId": "testGenerator",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-elf-filter",
+      "add-flower-crown-to-photo",
+      "add-clouds-to-photo"
+    ],
+    "heading": "Try More Popular Image Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About AI Melt Effect",
+    "questions": [
+      {
+        "question": "What is the AI melt effect?",
+        "answer": "The AI melt effect is a unique digital image effect that uses artificial intelligence to artistically transform your photos. It creates a stunning visual where parts of the image appear to be dripping or melting, giving it a surreal, liquid-like quality."
+      },
+      {
+        "question": "How long does it take to apply the AI melt effect?",
+        "answer": "The processing time depends on the complexity and resolution of your uploaded image. However, our advanced algorithms are highly optimized for speed, ensuring you receive your transformed image faster than most other online tools."
+      },
+      {
+        "question": "Is this AI melt effect tool free to use?",
+        "answer": "Yes, our tool is free to try! Simply sign up for a free account on our website, and you will receive complimentary credits that you can use to start creating your amazing melted images right away."
+      },
+      {
+        "question": "Are my uploaded photos safe and private?",
+        "answer": "Absolutely. We prioritize your privacy and security. All uploaded images are processed securely and are automatically deleted from our servers after a short period. We do not use your photos for any purpose other than applying the requested effect."
+      },
+      {
+        "question": "What kind of images work best with the melt effect?",
+        "answer": "The AI melt effect works great on a wide variety of images, but it's particularly stunning on portraits, vibrant landscapes, and abstract art. Images with distinct colors and clear subjects often produce the most dramatic and visually appealing results."
+      },
+      {
+        "question": "Can I customize the intensity of the melt effect?",
+        "answer": "Yes, our tool offers customization options. You can adjust parameters like the intensity, direction, and randomness of the melt, giving you full creative control to achieve the exact look you envision for your image."
+      },
+      {
+        "question": "What format can I download my final image in?",
+        "answer": "Once the AI melt effect is applied, you can download your transformed image in high-quality formats such as JPEG or PNG, making it perfect for sharing on social media, using in digital projects, or even printing."
+      }
+    ]
+  }
+}
