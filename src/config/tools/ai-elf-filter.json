@@ -81,27 +81,37 @@
       }
     ]
   },
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
-    {
-      "question": "What is the AI Elf Filter?",
-      "answer": "The AI Elf Filter is an advanced image effect that uses artificial intelligence to magically transform your photos. It applies fantasy-inspired elven characteristics, such as pointed ears and ethereal features, to the subjects in your images."
-    },
-    {
-      "question": "How long does it take to apply the AI Elf Filter?",
-      "answer": "The processing time can vary slightly depending on the complexity and resolution of your photo. However, our platform is optimized for speed, ensuring you receive your elf-transformed image much faster than with competing services."
-    },
-    {
-      "question": "Is the AI Elf Filter free to use?",
-      "answer": "Yes, it is free to get started! Simply sign up for a free account on our website, and we will provide you with complimentary credits that you can use to try out the AI Elf Filter and other tools."
-    },
-    {
-      "question": "Are my uploaded photos safe and private?",
-      "answer": "Absolutely. We take your privacy very seriously. Your images are uploaded over a secure connection, are used only to generate the filter effect, and are automatically deleted from our servers after processing. We never share your data with third parties."
-    },
-    {
-      "question": "What kind of photos work best with this filter?",
-      "answer": "For the best results, we recommend using clear, high-quality portrait photos where the face is well-lit and facing forward. This allows the AI to accurately detect facial features and apply the elven details seamlessly."
-    }
-  ]
+  "faqs": {
+    "heading": "Frequently Asked Questions about AI Elf Filter",
+    "questions": [
+      {
+        "question": "What is the AI Elf Filter?",
+        "answer": "The AI Elf Filter is a sophisticated image effect that uses artificial intelligence to transform your photos. It artistically alters your portrait to give you enchanting elven features, such as pointed ears, a mystical glow, and a fantasy-inspired aesthetic."
+      },
+      {
+        "question": "How long does the transformation take?",
+        "answer": "The processing time can vary based on the complexity and resolution of the uploaded image. However, our platform is optimized for speed, ensuring you receive your AI-generated elf image faster than most competing services."
+      },
+      {
+        "question": "Is the AI Elf Filter free to use?",
+        "answer": "Yes, it is! All you need to do is sign up for a free account on our website. Upon registration, we will provide you with free credits that you can use to experience the magic of our AI Elf Filter and other tools."
+      },
+      {
+        "question": "Are my uploaded photos and data kept private?",
+        "answer": "Absolutely. We take your privacy very seriously. Your photos are uploaded via a secure connection, processed on our private servers, and are never shared with third parties. You have full control over your data."
+      },
+      {
+        "question": "What kind of photos produce the best results?",
+        "answer": "For the most stunning transformations, we recommend using clear, well-lit portrait photos where the face is clearly visible. High-resolution images tend to yield more detailed and impressive elven features."
+      },
+      {
+        "question": "What file formats can I upload?",
+        "answer": "Our tool supports all major image formats, including JPG, PNG, and WEBP. Simply select your desired photo from your device, and our tool will handle the rest."
+      },
+      {
+        "question": "Can I use the generated images for any purpose?",
+        "answer": "Yes, once the image is generated and downloaded, you own the rights to your creation. Feel free to use it for personal profile pictures, share it on social media, or include it in your creative projects."
+      }
+    ]
+  }
 }
