@@ -1,0 +1,172 @@
+{
+  "id": "ai-fisheye-filter",
+  "title": "AI Fisheye Filter",
+  "playgroundTitle": "AI Fisheye Filter",
+  "playgroundDescription": "Generate a stunning fisheye effect without any complex software. Just upload your photo and let our AI create a unique, wide-angle image instantly.",
+  "highlightWords": [
+    "Fisheye"
+  ],
+  "metadata": {
+    "title": "AI Fisheye Filter Effect: Instantly Warp Your Photos",
+    "description": "Instantly apply a fun, distorted fisheye filter to any image. Our free AI tool gives your photos a unique, spherical wide-angle look in seconds.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 8,
+  "buttonText": "Generate Fisheye View",
+  "inputType": "single",
+  "effectId": "fisheyeFilter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "add-clouds-to-photo",
+      "elevator-photo-generator",
+      "ai-gta-filter",
+      "ai-lookism-filter"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About AI Fisheye Filter",
+    "questions": [
+      {
+        "question": "What is an AI Fisheye Filter?",
+        "answer": "The AI Fisheye Filter is a sophisticated image effect that uses artificial intelligence to replicate the look of a photo taken with an ultra-wide-angle, or 'fisheye', lens. It digitally distorts your image to create a unique, spherical, and panoramic perspective."
+      },
+      {
+        "question": "Do I need to install any software to use this tool?",
+        "answer": "No installation is required. Our AI Fisheye Filter is a fully web-based tool. You can access it from any modern web browser on your desktop or mobile device with an internet connection."
+      },
+      {
+        "question": "What image file formats can I upload?",
+        "answer": "Our tool supports the most popular image formats, including JPEG, PNG, and WEBP. For best results, we recommend uploading a high-quality image to start with."
+      },
+      {
+        "question": "How long does it take to apply the Fisheye Filter?",
+        "answer": "Our AI-powered tool is optimized for speed. While processing time can vary slightly depending on image complexity and server load, most transformations are completed in just a few seconds, significantly faster than many competing services."
+      },
+      {
+        "question": "What types of photos work best with the Fisheye Filter?",
+        "answer": "The fisheye effect works great on a variety of subjects! It's particularly effective for landscapes, cityscapes, architectural shots, and creative group portraits. Experiment with different photos to see the unique results."
+      },
+      {
+        "question": "Is my data and are my uploaded photos safe?",
+        "answer": "Absolutely. We prioritize your privacy and security. Uploaded images are processed on secure servers and are automatically deleted after a short period. We never share your photos or personal data with third parties."
+      },
+      {
+        "question": "Can I adjust the intensity of the fisheye effect?",
+        "answer": "Yes! Our advanced tool provides an adjustment slider that allows you to control the level of distortion. You can choose a subtle curvature or a dramatic, full-sphere effect to perfectly match your creative vision."
+      },
+      {
+        "question": "Is this AI Fisheye Filter tool free to use?",
+        "answer": "Yes, it is! When you sign up for a free account, you receive complimentary credits to try out the AI Fisheye Filter and other effects. If you need more, we offer various credit packs for purchase."
+      },
+      {
+        "question": "What happens to the quality of my image after applying the filter?",
+        "answer": "We strive to maintain the highest possible quality. Our AI processes the image and applies the effect without significant loss of resolution. You can download your transformed image in high definition."
+      },
+      {
+        "question": "Will the final image have a watermark?",
+        "answer": "Images generated using free credits may include a small, discreet watermark. Our premium plans and purchased credit packs allow for completely watermark-free downloads."
+      },
+      {
+        "question": "Can I use the generated fisheye images for commercial projects?",
+        "answer": "Yes, images created with our paid plans or credit packs come with a commercial license, allowing you to use them for your business, marketing, or client projects without any restrictions."
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Use AI Fisheye Filter?",
+    "description": "Follow these simple steps to apply the AI fisheye effect to your images.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Image",
+        "bulletPoints": [
+          "Select and upload the image you want to transform with the fisheye effect."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Image Effect",
+        "bulletPoints": [
+          "Our AI will automatically process your photo to create the distinctive spherical fisheye look."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Save the resulting fisheye image to your device or share it directly with others."
+        ]
+      }
+    ]
+  },
+  "examples": {
+    "heading": "See the Stunning Results",
+    "title": "See the Stunning Results",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Fisheye Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Fisheye Filter free"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This fisheye filter is exactly what I needed for my videos. It's so easy to use and adds a really cool, dynamic feel. Another great tool from Max Studio!",
+        "name": "Olivia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "I'm having a lot of fun with this. It makes my photos look super unique with just one click. Definitely recommend giving it a try.",
+        "name": "Ethan",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "The AI fisheye effect is incredibly realistic. It helps me create a unique perspective in my visual projects without needing special lenses.",
+        "name": "Maya",
+        "designation": "Visual Storyteller"
+      }
+    ]
+  }
+}

@@ -24,14 +24,14 @@ export default function FAQs() {
     };
 
     return (
-        <div className="flex flex-col items-center gap-10 justify-center mt-15 px-4">
+        <div className="flex flex-col items-center gap-10 justify-center mt-15 px-4 w-full">
             <TextSeparator textSeparatorText="FAQs" />
 
             <h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold px-4">
                 {faqs.heading}
             </h1>
 
-            <div className="w-full max-w-3xl px-4">
+            <div className="w-full max-w-3xl px-4 overflow-hidden">
                 {faqs.questions.map((faq, index) => (
                     <SingleFaq
                         key={index}

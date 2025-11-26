@@ -1,77 +1,72 @@
-import { DASHBOARD_INSPIRATION_LINE_1, DASHBOARD_INSPIRATION_LINE_2 } from "@/constants/dashboard.constants";
-import TextSeparator from "../TextSeparator";
+'use client';
 
+import { useState } from 'react';
+import { DASHBOARD_INSPIRATION_LINE_1, DASHBOARD_INSPIRATION_LINE_2 } from "@/constants/dashboard.constants";
+import { DashboardInspiration } from "@/types";
+import TextSeparator from "../TextSeparator";
+import { Marquee } from "@/components/ui/marquee";
+import InspirationDialog from "../Dialogs/InspirationDialog";
+import { useHandleDialogType } from "@/hooks/useHandleDialogType";
+import Image from "next/image";
+
+/**
+ * Inspiration component displaying two marquee carousels with inspiration images
+ * - First carousel: normal direction (left to right)
+ * - Second carousel: reverse direction (right to left)
+ * - Clicking an image opens a dialog with image details
+ */
 export default function Inspiration() {
-    // Duplicate arrays to create seamless infinite scroll effect
-    // Each carousel needs duplicate content to loop seamlessly - when animation completes 50%,
-    // it resets to 0% creating the illusion of infinite scrolling
-    const duplicatedLine1 = [...DASHBOARD_INSPIRATION_LINE_1, ...DASHBOARD_INSPIRATION_LINE_1, ...DASHBOARD_INSPIRATION_LINE_1, ...DASHBOARD_INSPIRATION_LINE_1];
-    const duplicatedLine2 = [...DASHBOARD_INSPIRATION_LINE_2, ...DASHBOARD_INSPIRATION_LINE_2];
+    const [selectedInspiration, setSelectedInspiration] = useState<DashboardInspiration | null>(null);
+    const { handleDialogType } = useHandleDialogType();
+
+    const handleImageClick = (inspiration: DashboardInspiration) => {
+        setSelectedInspiration(inspiration);
+        handleDialogType('inspirationDialog', 'add');
+    };
+
+    const renderInspirationCard = (inspiration: DashboardInspiration, index: number) => (
+        <div
+            key={`${inspiration.imageUrl}-${index}`}
+            className="relative w-[200px] h-[200px] shrink-0 rounded-lg overflow-hidden cursor-pointer group"
+            onClick={() => handleImageClick(inspiration)}
+        >
+            <Image
+                src={inspiration.imageUrl}
+                alt={inspiration.title}
+                width={200}
+                height={200}
+                className="w-full h-full object-cover transition-transform group-hover:scale-105"
+                loading="lazy"
+            />
+            <div className="absolute top-2 left-2 bg-black/60 text-white px-2 py-1 rounded text-sm font-medium backdrop-blur-sm">
+                {inspiration.title}
+            </div>
+        </div>
+    );
 
     return (
-        <div className="flex flex-col items-center gap-10 justify-center mt-15 px-4">
+        <div className="flex flex-col items-center gap-10 justify-center mt-15">
             <TextSeparator textSeparatorText="Inspiration" />
 
             <h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold px-4">
                 Created with DreamShot
             </h1>
 
-            {/* Line 1 - Linear Infinite Carousel (moves from right to left) */}
-            <div className="carousel-track animate gap-3 md:gap-6 select-none">
-                {duplicatedLine1.map((inspiration, idx) => (
-                    <div
-                        key={`line1-${idx}`}
-                        className="w-[200px] h-[200px] shrink-0 rounded-lg overflow-hidden"
-                        aria-hidden={idx >= (duplicatedLine1.length / 2) ? "true" : "false"}
-                    >
-                        <img
-                            src={inspiration.imageUrl}
-                            alt={`Inspiration ${idx + 1}`}
-                            className="w-full h-full object-cover"
-                            width={200}
-                            height={200}
-                            loading="lazy"
-                        />
-                    </div>
-                ))}
-                {duplicatedLine1.map((inspiration, idx) => (
-                    <div
-                        key={`line1-${idx}`}
-                        className="w-[200px] h-[200px] shrink-0 rounded-lg overflow-hidden"
-                        aria-hidden={idx >= (duplicatedLine1.length / 2) ? "true" : "false"}
-                    >
-                        <img
-                            src={inspiration.imageUrl}
-                            alt={`Inspiration ${idx + 1}`}
-                            className="w-full h-full object-cover"
-                            width={200}
-                            height={200}
-                            loading="lazy"
-                        />
-                    </div>
-                ))}
+            {/* Marquee carousel - left to right */}
+            <div className="w-full">
+                <Marquee reverse={true} repeat={4} className="w-full">
+                    {DASHBOARD_INSPIRATION_LINE_1.map(renderInspirationCard)}
+                </Marquee>
             </div>
-            {/* Line 2 - Reverse Linear Infinite Carousel (moves from left to right) */}
-            <div className="relative w-full overflow-hidden">
-                <div className="flex gap-4 animate-[slide-right_20s_linear_infinite]">
-                    {duplicatedLine2.map((inspiration, idx) => (
-                        <div
-                            key={`line2-${idx}`}
-                            className="w-[200px] h-[200px] shrink-0 rounded-lg overflow-hidden"
-                            aria-hidden={idx >= (duplicatedLine2.length / 2) ? "true" : "false"}
-                        >
-                            <img
-                                src={inspiration.imageUrl}
-                                alt={`Inspiration ${idx + 1}`}
-                                className="w-full h-full object-cover"
-                                width={200}
-                                height={200}
-                                loading="lazy"
-                            />
-                        </div>
-                    ))}
-                </div>
+
+            {/* Marquee carousel - right to left */}
+            <div className="w-full">
+                <Marquee reverse={false} repeat={4} className="w-full">
+                    {DASHBOARD_INSPIRATION_LINE_2.map(renderInspirationCard)}
+                </Marquee>
             </div>
+
+            <InspirationDialog inspiration={selectedInspiration} />
         </div>
-    )
+    );
 }

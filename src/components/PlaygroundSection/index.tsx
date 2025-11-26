@@ -185,7 +185,6 @@ export default function PlaygroundSection() {
             customToast.error(errorMessage);
         }
     };
-
     // Show result when generation completes
     useEffect(() => {
         if (status === "completed" && result && result.length > 0) {
@@ -276,6 +275,25 @@ export default function PlaygroundSection() {
         customToast.success("Sample image loaded!");
     };
 
+    const handleClearPrimaryImage = () => {
+        if (isDualUpload) {
+            dualUpload.clearFirst();
+        } else {
+            singleUpload.clearUpload();
+        }
+        setSampleImageUrl(null);
+        resetGeneration();
+    };
+
+    const handleClearSecondaryImage = () => {
+        if (!isDualUpload) {
+            return;
+        }
+        dualUpload.clearSecond();
+        setSampleImageUrl2(null);
+        resetGeneration();
+    };
+
     return (
         <div className="flex flex-col gap-5">
             {/* Title and Description */}
@@ -287,7 +305,7 @@ export default function PlaygroundSection() {
             </div>
 
             {/* Playground Card */}
-            <div className="w-full mt-5 max-w-lg lg:max-w-3xl mx-auto p-0.5 rounded-md m-10 bg-white flex flex-col gap-10">
+            <div className="w-full  max-w-lg lg:max-w-3xl mx-auto flex flex-col gap-10">
                 {isDualUpload ? (
                     <DualUploadContainer
                         inputId1="file-upload-1"
@@ -302,6 +320,8 @@ export default function PlaygroundSection() {
                         onFileSelect1={(file) => handleFileUpload(file, false)}
                         onFileSelect2={(file) => handleFileUpload(file, true)}
                         isProcessing={isProcessing}
+                        onClearImage1={handleClearPrimaryImage}
+                        onClearImage2={handleClearSecondaryImage}
                     />
                 ) : (
                     <UploadContainer
@@ -315,6 +335,7 @@ export default function PlaygroundSection() {
                         helperText="or drag and drop PNG, JPG or WEBP"
                         onFileSelect={(file) => handleFileUpload(file, false)}
                         isProcessing={isProcessing}
+                        onClearImage={handleClearPrimaryImage}
                     />
                 )}
             </div>

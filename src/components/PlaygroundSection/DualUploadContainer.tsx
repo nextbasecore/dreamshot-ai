@@ -6,37 +6,23 @@ import Loader from "@/components/Loader";
 import { ImagePreview } from "./ImagePreview";
 
 interface DualUploadContainerProps {
-    /** First input element ID */
     inputId1: string;
-    /** Second input element ID */
     inputId2: string;
-    /** First uploaded image preview URL */
     uploadedImage1: string | null;
-    /** Second uploaded image preview URL */
     uploadedImage2: string | null;
-    /** Default preview image URL for first container */
     previewUrl1: string;
-    /** Default preview image URL for second container */
     previewUrl2: string;
-    /** First upload label */
     label1: string;
-    /** Second upload label */
     label2: string;
-    /** Helper text */
     helperText: string;
-    /** Whether generation is in progress */
     isProcessing: boolean;
-    /** Callback when first file is selected */
     onFileSelect1: (file: File) => void;
-    /** Callback when second file is selected */
     onFileSelect2: (file: File) => void;
+    onClearImage1: () => void;
+    onClearImage2: () => void;
 }
 
-/**
- * Dual upload container component
- * Handles two file uploads side by side
- * Entire containers are clickable for file upload
- */
+
 export function DualUploadContainer({
     inputId1,
     inputId2,
@@ -50,6 +36,8 @@ export function DualUploadContainer({
     isProcessing,
     onFileSelect1,
     onFileSelect2,
+    onClearImage1,
+    onClearImage2,
 }: DualUploadContainerProps) {
     const fileInputRef1 = useRef<HTMLInputElement>(null);
     const fileInputRef2 = useRef<HTMLInputElement>(null);
@@ -96,113 +84,124 @@ export function DualUploadContainer({
         }
     };
 
+    const shouldShowBorder1 = !uploadedImage1;
+    const shouldShowBorder2 = !uploadedImage2;
+
     return (
-        <div className="w-full flex flex-col md:flex-row gap-6 relative">
-            {/* Loading Overlay - Shows when processing (covers entire dual container) */}
+        <div className="w-full flex flex-col lg:flex-row gap-4 items-stretch bg-transparent relative">
+            {/* Loading Overlay - Shows when processing (only covers containers) */}
             {isProcessing && (
-                <div className="absolute inset-0 bg-white/90 backdrop-blur-sm rounded-md flex flex-col items-center justify-center z-50">
+                <div className="absolute inset-0 bg-white/90 backdrop-blur-sm rounded-xl flex flex-col items-center justify-center z-50">
                     <Loader size="big" color="#6366f1" />
                     <p className="mt-4 text-lg font-semibold text-gray-700">Generating...</p>
                     <p className="mt-2 text-sm text-gray-500">Please wait while we process your images</p>
                 </div>
             )}
 
-            {/* First Container */}
-            <div 
-                className={`flex-1 border-3 m-2 border-dashed border-gray-300 rounded-md p-10 flex flex-col items-center justify-center bg-gray-50/50 min-h-[400px] relative ${!isProcessing ? 'cursor-pointer hover:bg-gray-50 transition-colors' : ''}`}
-                onClick={handleContainer1Click}
-            >
-                <input
-                    ref={fileInputRef1}
-                    type="file"
-                    accept="image/*"
-                    onChange={handleFileChange1}
-                    className="hidden"
-                    id={inputId1}
-                />
+            {/* First Container - Completely separate */}
+            <div className="flex-1 flex flex-col">
+                <div
+                    className={`relative rounded-xl p-6 flex flex-col items-center justify-center h-[400px] md:h-[460px] lg:h-[500px] ${shouldShowBorder1 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
+                        } ${!isProcessing ? 'cursor-pointer hover:shadow-xl transition-all duration-300' : ''}`}
+                    onClick={handleContainer1Click}
+                >
+                    <input
+                        ref={fileInputRef1}
+                        type="file"
+                        accept="image/*"
+                        onChange={handleFileChange1}
+                        className="hidden"
+                        id={inputId1}
+                    />
 
-                {/* Images Container */}
-                {uploadedImage1 ? (
-                    <div className="flex items-center justify-center w-full">
-                        <div className="relative flex items-center justify-center w-full max-w-lg">
-                            <div className="shadow-2xl rounded-xl overflow-hidden transition-transform hover:scale-105 duration-300 w-full">
-                                <Image
-                                    src={uploadedImage1}
-                                    alt="Uploaded"
-                                    width={600}
-                                    height={600}
-                                    className="w-full h-auto object-contain rounded-xl"
-                                    unoptimized
-                                />
+                    {/* Image Display */}
+                    {uploadedImage1 ? (
+                        <div className="relative w-full h-[320px] md:h-[380px] lg:h-[420px] rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
+                            <button
+                                type="button"
+                                aria-label="Remove image"
+                                className="absolute right-2 top-2 z-20 rounded-full bg-white/90 text-gray-800 hover:bg-white hover:text-red-500 px-3 py-1 text-lg font-bold shadow-md transition-colors"
+                                onClick={(event) => {
+                                    event.stopPropagation();
+                                    onClearImage1();
+                                }}
+                            >
+                                ×
+                            </button>
+                            <Image
+                                src={uploadedImage1}
+                                alt="Your Image"
+                                fill
+                                className="object-contain"
+                                sizes="(max-width: 1024px) 50vw, 33vw"
+                                unoptimized
+                            />
+                        </div>
+                    ) : (
+                        <>
+                            <div className="w-full mb-4">
+                                <ImagePreview previewUrl={previewUrl1} />
                             </div>
-                        </div>
-                    </div>
-                ) : (
-                    <ImagePreview previewUrl={previewUrl1} />
-                )}
-
-                {/* Upload Text */}
-                {!isProcessing && (
-                    <div className="text-center space-y-3">
-                        <div>
-                            <p className="text-xl md:text-2xl text-gray-900">
-                                {uploadedImage1 ? "Image Uploaded" : label1}
-                            </p>
-                            <p className="text-sm md:text-base text-gray-400">
-                                {uploadedImage1 ? "Click anywhere to change" : helperText}
-                            </p>
-                        </div>
-                    </div>
-                )}
+                            <div className="text-center space-y-2">
+                                <p className="text-xl font-semibold text-gray-900">{label1}</p>
+                                <p className="text-sm text-gray-500">{helperText}</p>
+                            </div>
+                        </>
+                    )}
+                </div>
             </div>
 
-            {/* Second Container */}
-            <div 
-                className={`flex-1 border-3 m-2 border-dashed border-gray-300 rounded-md p-10 flex flex-col items-center justify-center bg-gray-50/50 min-h-[400px] relative ${!isProcessing ? 'cursor-pointer hover:bg-gray-50 transition-colors' : ''}`}
-                onClick={handleContainer2Click}
-            >
-                <input
-                    ref={fileInputRef2}
-                    type="file"
-                    accept="image/*"
-                    onChange={handleFileChange2}
-                    className="hidden"
-                    id={inputId2}
-                />
+            {/* Second Container - Completely separate */}
+            <div className="flex-1 flex flex-col">
+                <div
+                    className={`relative rounded-xl p-6 flex flex-col items-center justify-center h-[400px] md:h-[460px] lg:h-[500px] ${shouldShowBorder2 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
+                        } ${!isProcessing ? 'cursor-pointer hover:shadow-xl transition-all duration-300' : ''}`}
+                    onClick={handleContainer2Click}
+                >
+                    <input
+                        ref={fileInputRef2}
+                        type="file"
+                        accept="image/*"
+                        onChange={handleFileChange2}
+                        className="hidden"
+                        id={inputId2}
+                    />
 
-                {/* Images Container */}
-                {uploadedImage2 ? (
-                    <div className="flex items-center justify-center w-full">
-                        <div className="relative flex items-center justify-center w-full max-w-lg">
-                            <div className="shadow-2xl rounded-xl overflow-hidden transition-transform hover:scale-105 duration-300 w-full">
-                                <Image
-                                    src={uploadedImage2}
-                                    alt="Uploaded 2"
-                                    width={600}
-                                    height={600}
-                                    className="w-full h-auto object-contain rounded-xl"
-                                    unoptimized
-                                />
+                    {/* Image Display */}
+                    {uploadedImage2 ? (
+                        <div className="relative w-full h-[320px] md:h-[380px] lg:h-[420px] rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
+                            <button
+                                type="button"
+                                aria-label="Remove image"
+                                className="absolute right-2 top-2 z-20 rounded-full bg-white/90 text-gray-800 hover:bg-white hover:text-red-500 px-3 py-1 text-lg font-bold shadow-md transition-colors"
+                                onClick={(event) => {
+                                    event.stopPropagation();
+                                    onClearImage2();
+                                }}
+                            >
+                                ×
+                            </button>
+                            <Image
+                                src={uploadedImage2}
+                                alt="Celebrity Image"
+                                fill
+                                className="object-contain"
+                                sizes="(max-width: 1024px) 50vw, 33vw"
+                                unoptimized
+                            />
+                        </div>
+                    ) : (
+                        <>
+                            <div className="w-full mb-4">
+                                <ImagePreview previewUrl={previewUrl2 || previewUrl1} />
                             </div>
-                        </div>
-                    </div>
-                ) : (
-                    <ImagePreview previewUrl={previewUrl2 || previewUrl1} />
-                )}
-
-                {/* Upload Text */}
-                {!isProcessing && (
-                    <div className="text-center space-y-3">
-                        <div>
-                            <p className="text-xl md:text-2xl text-gray-900">
-                                {uploadedImage2 ? "Image Uploaded" : label2}
-                            </p>
-                            <p className="text-sm md:text-base text-gray-400">
-                                {uploadedImage2 ? "Click anywhere to change" : helperText}
-                            </p>
-                        </div>
-                    </div>
-                )}
+                            <div className="text-center space-y-2">
+                                <p className="text-xl font-semibold text-gray-900">{label2}</p>
+                                <p className="text-sm text-gray-500">{helperText}</p>
+                            </div>
+                        </>
+                    )}
+                </div>
             </div>
         </div>
     );

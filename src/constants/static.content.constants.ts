@@ -14,7 +14,7 @@ export const STATIC_FAQS = {
     questions: [
         {
             question: "Est Vitae FAo congue ullam elit no cum?",
-            answer: "Est Vitae FAo congue ullam elit no cum?"
+            answer: "Est Vitae FAo congue ullam elit fmnadsl fndasjfndljskafnljkad afdslfkdasnfijndskfn dasfdas fda sfdsaf ds fasf dasf asd fd dsnf pdasn fjnd sapfuand das fndsn fpasdnfpodasn  nfijdsknfijds fdsf dsafdsaf dsno cum?"
         },
         {
             question: "Est Vitae FAo congue ullam elit no cum?",

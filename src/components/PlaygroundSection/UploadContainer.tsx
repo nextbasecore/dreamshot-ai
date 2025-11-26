@@ -34,6 +34,8 @@ interface UploadContainerProps {
     helperText: string;
     /** Callback when file is selected */
     onFileSelect: (file: File) => void;
+    /** Callback to clear the current image */
+    onClearImage: () => void;
 }
 
 /**
@@ -52,6 +54,7 @@ export function UploadContainer({
     uploadLabel,
     helperText,
     onFileSelect,
+    onClearImage,
 }: UploadContainerProps) {
     const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -84,9 +87,12 @@ export function UploadContainer({
     // Determine if container should be clickable
     const isClickable = !isCompleted && !isProcessing;
 
+    const shouldShowBorder = !(isCompleted && result) && !uploadedImage;
+
     return (
         <div
-            className={`border-3 m-2 border-dashed border-gray-300 rounded-md p-10 flex flex-col items-center justify-center bg-gray-50/50 min-h-[400px] relative ${isClickable ? 'cursor-pointer hover:bg-gray-50 transition-colors' : ''}`}
+            className={`m-2 rounded-md flex flex-col items-center justify-center bg-gray-50/50 h-[400px] md:h-[460px] lg:h-[500px] relative ${shouldShowBorder ? 'border-3 border-dashed border-gray-300' : ''
+                } ${isClickable ? 'cursor-pointer transition-colors' : ''}`}
             onClick={handleContainerClick}
         >
             <input
@@ -114,19 +120,29 @@ export function UploadContainer({
                     result={result}
                 />
             ) : uploadedImage ? (
-                // Show uploaded image - fill available space
+                // Show uploaded image - fixed height for consistency
                 <div className="flex items-center justify-center w-full">
-                    <div className="relative flex items-center justify-center w-full max-w-2xl">
-                        <div className="shadow-2xl rounded-xl overflow-hidden transition-transform hover:scale-105 duration-300 w-full">
-                            <Image
-                                src={uploadedImage}
-                                alt="Uploaded"
-                                width={800}
-                                height={800}
-                                className="w-full h-auto object-contain rounded-xl"
-                                unoptimized
-                            />
-                        </div>
+                    <div className="relative w-full h-[320px] md:h-[380px] lg:h-[420px] rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
+                        {/* Clear image button */}
+                        <button
+                            type="button"
+                            aria-label="Remove image"
+                            className="absolute right-3 top-3 z-20 rounded-full bg-white/80 text-gray-800 hover:bg-white px-2 py-1 text-xs font-semibold shadow"
+                            onClick={(event) => {
+                                event.stopPropagation();
+                                onClearImage();
+                            }}
+                        >
+                            ×
+                        </button>
+                        <Image
+                            src={uploadedImage}
+                            alt="Uploaded"
+                            fill
+                            className="object-contain"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 1200px"
+                            unoptimized
+                        />
                     </div>
                 </div>
             ) : (
@@ -139,14 +155,14 @@ export function UploadContainer({
             )}
 
             {/* Upload Text or Action Buttons */}
-            {!isCompleted && !isProcessing && (
-                <div className="text-center space-y-3">
+            {!isCompleted && !isProcessing && !uploadedImage && (
+                <div className="text-center -mt-10 pb-10">
                     <div>
                         <p className="text-xl md:text-2xl text-gray-900">
-                            {uploadedImage ? "Image Uploaded" : uploadLabel}
+                            {uploadLabel}
                         </p>
                         <p className="text-sm md:text-base text-gray-400">
-                            {uploadedImage ? "Click anywhere to change" : helperText}
+                            {helperText}
                         </p>
                     </div>
                 </div>

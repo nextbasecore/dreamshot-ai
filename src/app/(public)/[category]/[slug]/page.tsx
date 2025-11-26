@@ -8,6 +8,9 @@ import SimilarTools from "@/components/SimilarTools";
 import FAQs from "@/components/FAQs";
 import Footer from "@/components/Footer";
 import { Metadata } from "next";
+import Testimonials from "@/components/Testimonials";
+import CurvedCarousel from "@/components/CurvedCarousel";
+import Inspiration from "@/components/Inspiration";
 
 interface Props {
     params: Promise<{ category: string; slug: string }>;
@@ -95,7 +98,7 @@ export default async function ToolPage({ params }: Props) {
 
     return (
         <ToolProvider toolConfig={toolConfig}>
-            <div className="flex flex-col items-center justify-center gap-20 pt-20 min-h-screen">
+            <div className="flex flex-col items-center justify-center gap-5 pt-20 min-h-screen">
                 {/* Hero/Playground Section - Always render (main section) */}
                 <PlaygroundSection />
 
@@ -104,6 +107,9 @@ export default async function ToolPage({ params }: Props) {
 
                 {/* Examples Section - Only render if examples data exists */}
                 {toolConfig?.examples && <ExamplesSection />}
+
+                {/* Testimonials Section - Only render if testimonials data exists */}
+                {toolConfig?.testimonials && <Testimonials />}
 
                 {/* Similar/Recommended Tools Section - Only render if recommendedEffects exists */}
                 {toolConfig?.recommendedEffects && (
@@ -115,6 +121,10 @@ export default async function ToolPage({ params }: Props) {
 
                 {/* FAQs Section - Only render if faqs data exists */}
                 {toolConfig?.faqs && <FAQs />}
+
+                {/* Inspiration Section - Only render if inspiration data exists */}
+                 <Inspiration />
+                
 
                 {/* Footer */}
                 <Footer />

@@ -1,4 +1,4 @@
-import { useState, useEffect, startTransition } from "react";
+import { useState, useEffect, startTransition, useRef } from "react";
 import { db } from "@/firebase";
 import { doc, onSnapshot, Timestamp } from "firebase/firestore";
 
@@ -15,6 +15,7 @@ interface GenerationData {
     status: GenerationStatus;
     result?: GenerationResult[];
     hasErrorShown?: boolean;
+    error?: string;
     createdAt?: Timestamp;
     updatedAt?: Timestamp;
 }
@@ -33,6 +34,7 @@ export function useFirebaseGenerationWatcher(
     const [status, setStatus] = useState<GenerationStatus | null>(null);
     const [result, setResult] = useState<GenerationResult[] | null>(null);
     const [error, setError] = useState<Error | null>(null);
+    const failedTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
     useEffect(() => {
         // Don't set up listener if jobId or userId is missing
@@ -69,10 +71,17 @@ export function useFirebaseGenerationWatcher(
                     status: currentStatus,
                     hasResult: !!data.result,
                     resultCount: data.result?.length || 0,
+                    hasError: !!data.error,
                     updatedAt: data.updatedAt?.toDate?.() || data.updatedAt,
                 });
 
                 setStatus(currentStatus);
+
+                // Clear any pending failed timeout if status changes
+                if (failedTimeoutRef.current) {
+                    clearTimeout(failedTimeoutRef.current);
+                    failedTimeoutRef.current = null;
+                }
 
                 // Update result when completed
                 if (currentStatus === "completed" && data.result) {
@@ -89,8 +98,21 @@ export function useFirebaseGenerationWatcher(
                     setResult(data.result);
                     setError(null);
                 } else if (currentStatus === "failed") {
-                    console.error(`[FIREBASE_WATCHER] ❌ Generation failed:`, { jobId });
-                    setError(new Error("Generation failed"));
+                    // Add a grace period before showing error (3 seconds)
+                    // This prevents showing error for transient failures that recover
+                    console.warn(`[FIREBASE_WATCHER] ⚠️ Generation marked as failed, waiting 3s before showing error...`, {
+                        jobId,
+                        hasErrorMessage: !!data.error
+                    });
+
+                    failedTimeoutRef.current = setTimeout(() => {
+                        // Double-check the status is still failed after grace period
+                        console.error(`[FIREBASE_WATCHER] ❌ Generation failed after grace period:`, {
+                            jobId,
+                            errorMessage: data.error
+                        });
+                        setError(new Error(data.error || "Generation failed"));
+                    }, 3000); // 3 second grace period
                 } else {
                     // Still pending
                     console.log(`[FIREBASE_WATCHER] ⏳ Generation still pending:`, { jobId });
@@ -116,6 +138,9 @@ export function useFirebaseGenerationWatcher(
         // Cleanup listener on unmount or when jobId/userId changes
         return () => {
             console.log(`[FIREBASE_WATCHER] 🧹 Cleaning up Firebase listener:`, { jobId });
+            if (failedTimeoutRef.current) {
+                clearTimeout(failedTimeoutRef.current);
+            }
             unsubscribe();
         };
     }, [jobId, userId]);

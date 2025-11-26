@@ -227,3 +227,39 @@
     transform: translateX(0);
   }
 }
+
+/* Marquee animation keyframes - override tw-animate-css if needed */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+/* Marquee animation classes - ensure animation is applied */
+.animate-marquee {
+  animation-name: marquee !important;
+  animation-duration: var(--duration, 40s) !important;
+  animation-timing-function: linear !important;
+  animation-iteration-count: infinite !important;
+  will-change: transform;
+}
+
+.animate-marquee-vertical {
+  animation-name: marquee-vertical !important;
+  animation-duration: var(--duration, 40s) !important;
+  animation-timing-function: linear !important;
+  animation-iteration-count: infinite !important;
+  will-change: transform;
+}

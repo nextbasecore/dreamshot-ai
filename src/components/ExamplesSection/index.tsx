@@ -25,6 +25,13 @@ export default function ExamplesSection() {
         return videoExtensions.some(ext => url.toLowerCase().endsWith(ext));
     };
 
+    const columnClasses =
+        images.length === 1
+            ? "grid-cols-1"
+            : images.length === 2
+                ? "grid-cols-1 md:grid-cols-2"
+                : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
+
     return (
         <div className="flex flex-col items-center gap-10 justify-center mt-15 px-4">
             <TextSeparator textSeparatorText="Examples" />
@@ -39,16 +46,19 @@ export default function ExamplesSection() {
                 </p>
             )}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full max-w-5xl">
+            <div className={`grid gap-6 w-full max-w-6xl justify-center ${columnClasses}`}>
                 {images.map((item, index) => (
-                    <div key={index} className="relative w-full aspect-square rounded-lg overflow-hidden shadow-lg">
+                    <div
+                        key={index}
+                        className="relative w-full bg-amber-400 max-w-[430px] rounded-xl overflow-hidden shadow-lg h-[220px] sm:h-60 lg:h-[260px]"
+                    >
                         {isVideo(item.image) ? (
                             <video
                                 src={item.image}
                                 className="w-full h-full object-cover"
-                                controls
                                 loop
                                 muted
+                                autoPlay
                                 playsInline
                                 title={item.alt || `Example ${index + 1}`}
                             />

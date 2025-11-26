@@ -22,7 +22,7 @@ export function SampleImages({ samples, onSampleClick }: SampleImagesProps) {
     }
 
     return (
-        <div className="w-full flex flex-col gap-5 items-center justify-center mx-10">
+        <div className="w-full flex flex-col mt-2 gap-5 items-center justify-center">
             <p className="text-center text-gray-500">Sample Images</p>
             <div className="flex items-center justify-center space-x-3 flex-wrap gap-3">
                 {samples.map((sample, index) => (
@@ -30,7 +30,7 @@ export function SampleImages({ samples, onSampleClick }: SampleImagesProps) {
                         key={index}
                         src={sample.mini || sample.original}
                         alt={`Sample ${index + 1}`}
-                        width={80}
+                        width={100}
                         height={100}
                         className="rounded shadow cursor-pointer hover:scale-105 transition-transform"
                         onClick={() => onSampleClick?.(sample.original)}

@@ -25,7 +25,7 @@ const PromptInput = ({ label, action, rightIcon, ModelGeneratorMode, isOptional,
       <div className={cn("flex-1 md:h-full h-40", ModelGeneratorMode === "advance" ? "md:h-full h-60" : "")}>
         <textarea
           {...props}
-          className={cn("w-full outline-none bg-black/5 rounded-3xl px-4 hide-scrollbar select-none py-4 pr-12 text-black placeholder-black/40 text-sm resize-none", ModelGeneratorMode === "advance" ? "md:h-full h-40" : "h-full")}
+          className={cn("w-full outline-none bg-black/5 rounded-md px-4 hide-scrollbar select-none py-4 pr-12 text-black placeholder-black/40 text-sm resize-none", ModelGeneratorMode === "advance" ? "md:h-full h-40" : "h-full")}
         />
       </div>
     </div>

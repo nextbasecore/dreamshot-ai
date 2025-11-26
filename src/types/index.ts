@@ -23,6 +23,10 @@ export interface DashboardTestimonial {
 
 export interface DashboardInspiration {
     imageUrl: string;
+    title: string;
+    prompt?: string;
+    photoPack?: string;
+    Model?: string;
 }
 
 export type PlanDuration = "monthly" | "annually";

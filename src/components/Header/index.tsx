@@ -33,7 +33,7 @@ export default function Header() {
                         Home
                     </Link>
                     <Link href="/all-tools" className="hover:text-gray-600 flex items-center gap-1">
-                        Tools <ArrowDownIcon className="w-4 h-4" />
+                        Tools 
                     </Link>
                     <Link href="/pricing" className="hover:text-gray-600">
                         Pricing

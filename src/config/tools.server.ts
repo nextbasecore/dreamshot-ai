@@ -25,6 +25,14 @@ export interface ToolConfigJson {
     cardImage?: string;
     cardVideo?: string;
     recommendedImage?: string;
+    testimonials?: {
+        heading: string;
+        reviews: Array<{
+            review: string;
+            name: string;
+            designation: string;
+        }>;
+    };
     dualUploadLabels?: {
         firstImageLabel: string;
         secondImageLabel: string;
