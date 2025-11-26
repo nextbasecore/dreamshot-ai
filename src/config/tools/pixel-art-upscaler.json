@@ -1,0 +1,156 @@
+{
+  "id": "pixel-art-upscaler",
+  "title": "Pixel Art Upscaler",
+  "playgroundTitle": "Pixel Art Upscaler – Preserve Charm & Boost Resolution",
+  "playgroundDescription": "The definitive pixel art upscaler for creators. Whether you're a hobbyist or a professional, get clean, scalable results for your projects every single time.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Pixel Art Upscaler: Enhance & Scale Retro Art Online",
+    "description": "Effortlessly upscale your pixel art online. Our tool intelligently enlarges your creations, ensuring every single pixel is perfectly crisp, clear, and sharp.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate High-Res",
+  "inputType": "single",
+  "effectId": "red_hulk",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-elf-filter",
+      "ai-emoji-generator",
+      "ai-full-body-generator",
+      "ai-gta-filter"
+    ],
+    "heading": "Related Popular Image Effects"
+  },
+  "examples": {
+    "heading": "See the Stunning Results",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Red Hulk Transformation"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Red Hulk Transformation"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Red Hulk Transformation"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Red Hulk Transformation"
+      }
+    ]
+  },
+  "faqs": {
+    "heading": "Frequently Asked Questions about Pixel Art Upscaler",
+    "questions": [
+      {
+        "question": "What is a Pixel Art Upscaler?",
+        "answer": "A Pixel Art Upscaler is an advanced image effect that uses AI to increase the resolution of pixel art images. It intelligently scales up your low-resolution artwork, making it larger and clearer while preserving its unique, blocky aesthetic, making it suitable for high-definition displays."
+      },
+      {
+        "question": "How much time does it take to process an image?",
+        "answer": "The processing time typically takes only a few seconds. While it can vary slightly based on the size and complexity of the uploaded image, our AI is highly optimized to deliver high-quality upscaled art significantly faster than most competing tools."
+      },
+      {
+        "question": "Is this tool free to use?",
+        "answer": "Yes, our Pixel Art Upscaler is free to try. All you need to do is sign up for a free account on our website. Once registered, you will receive complimentary credits that you can use to transform your images with this and other tools on our platform."
+      },
+      {
+        "question": "Are my uploaded images kept private and secure?",
+        "answer": "Absolutely. Your privacy is a top priority for us. Images are uploaded via a secure, encrypted connection, used solely for the upscaling process, and are automatically deleted from our servers after a short period. We do not share or use your images for any other purpose."
+      },
+      {
+        "question": "What kind of images work best with this tool?",
+        "answer": "This tool is specifically trained and optimized for pixel art. You will get the best results with images like video game sprites, 8-bit and 16-bit style creations, and other forms of low-resolution digital art. While it can process other photos, it is designed to enhance the distinct style of pixel art."
+      },
+      {
+        "question": "What file formats can I use for uploading and downloading?",
+        "answer": "You can upload common image formats like PNG, JPG, and BMP. For downloads, we recommend using the PNG format to ensure your upscaled art retains its sharpness and supports transparency, which is often crucial for pixel art sprites and assets."
+      },
+      {
+        "question": "Can I choose how much my image is upscaled?",
+        "answer": "Yes, our tool provides you with control over the final output. You can typically select from various scaling factors, such as 2x, 4x, or 8x, allowing you to get the perfect resolution for your specific needs, whether for web use, game development, or printing."
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Pixel Art Upscaler Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select & upload photos from your device to apply the Pixel Art Upscaler, ensuring they are high quality with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Pixel Art Upscaler",
+        "bulletPoints": [
+          "After the photo is uploaded, click on the “Apply Image Effect” button to apply the Pixel Art Upscaler to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated Pixel Art Upscaler to your device and share it on your favorite social media platform with friends and family."
+        ]
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This tool is a lifesaver for my retro game assets. The upscaling is clean and incredibly fast.",
+        "name": "Ethan",
+        "designation": "Digital Artist"
+      },
+      {
+        "review": "I was looking to enlarge some old pixel icons without making them blurry, and this worked perfectly. So easy to use!",
+        "name": "Olivia",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "Upscaling sprite sheets used to be a huge pain. This app from Max Studio handles them beautifully and saves me a ton of time.",
+        "name": "Lucas",
+        "designation": "Animator"
+      }
+    ]
+  }
+}
