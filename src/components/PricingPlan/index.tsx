@@ -6,21 +6,29 @@ import PricingCard from "./PricingCard";
 import { plansAtom } from "@/atoms/planAtom";
 import { useAtom } from "jotai";
 import { getPlans } from "@/utils/getPlans";
+import { Plan } from "@/types";
+
+interface PricingPlanProps {
+    initialPlans?: Plan[];
+}
 
 /**
  * PricingPlan Component
  * Main pricing section that displays plans from Firestore
- * Fetches plans client-side and filters by billing period
+ * 
+ * Supports both server-side and client-side data fetching:
+ * - If initialPlans provided: uses server-fetched data (faster, SEO-friendly)
+ * - If no initialPlans: falls back to client-side fetch (backward compatible)
  * 
  * Fetches plans on mount and stores them in atom for global access
  */
-export default function PricingPlan() {
+export default function PricingPlan({ initialPlans }: PricingPlanProps = {}) {
     const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'annually'>('annually');
     const [plansData, setPlansData] = useAtom(plansAtom);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    // Fetch plans from Firestore on component mount
+    // Use initial plans from server if available, otherwise fetch client-side
     useEffect(() => {
         const fetchPlans = async () => {
             // If plans are already loaded, skip fetching
@@ -28,6 +36,13 @@ export default function PricingPlan() {
                 return;
             }
 
+            // If server provided initial plans, use them immediately
+            if (initialPlans && initialPlans.length > 0) {
+                setPlansData(initialPlans);
+                return;
+            }
+
+            // Fallback: Fetch client-side (for backward compatibility)
             setIsLoading(true);
             setError(null);
             try {
@@ -48,7 +63,7 @@ export default function PricingPlan() {
         };
 
         fetchPlans();
-    }, [plansData, setPlansData]);
+    }, [plansData, setPlansData, initialPlans]);
 
     // Filter plans from Firestore based on selected billing period
     // This ensures we use the actual plan data with priceId and planId

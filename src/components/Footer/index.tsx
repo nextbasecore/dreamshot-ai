@@ -14,7 +14,7 @@ export default function Footer() {
                 <div className="flex flex-col w-full flex-1 min-h-0 max-h-full justify-between pt-4 pr-4 pl-4">
                     {/* Top Center: Logo */}
                     <div className="flex flex-col">
-                        <Link href="/dashboard" className="text-xl font-bold">
+                        <Link href="/" className="text-xl font-bold">
                             <LogoIconWhite className="w-36 md:w-40 h-fit" />
                         </Link>
                     </div>
@@ -36,7 +36,7 @@ export default function Footer() {
 
                 {/* Right Section */}
                 <div className="flex flex-col w-full sm:flex-row flex-2  justify-between min-h-0 max-h-full">
-                    
+
                     <div className="flex flex-col mb-10 sm:mb-0 min-w-[160px] text-center sm:text-left">
                         <h1 className="text-white text-lg md:text-xl mb-4 font-bold">AI Tools</h1>
                         <h3 className="text-gray-400 text-sm md:text-base">Image to Video</h3>

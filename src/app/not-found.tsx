@@ -20,7 +20,7 @@ export default function NotFound() {
                         Page Not Found
                     </h2>
                     <p className="text-md max-w-md text-muted-foreground">
-                    You seem to have reached a page that doesn&apos;t exist or may never exist. Turn back now, traveler.
+                        You seem to have reached a page that doesn&apos;t exist or may never exist. Turn back now, traveler.
                     </p>
                 </div>
 
@@ -32,9 +32,9 @@ export default function NotFound() {
                         asChild
                         className="w-full sm:w-auto"
                     >
-                        <Link href="/dashboard" className="flex items-center gap-2">
+                        <Link href="/" className="flex items-center gap-2">
                             <HomeIcon className="w-5 h-5" />
-                            Go to Dashboard
+                            Go to Home
                         </Link>
                     </Button>
 

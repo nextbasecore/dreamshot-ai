@@ -125,7 +125,7 @@ const UserAccount = () => {
                                             variant="dark"
                                             className="w-full outline-none focus-visible:outline-none border-none py-2.5 cursor-pointer"
                                             onClick={() => {
-                                                router.push("/price");
+                                                router.push("/pricing");
                                                 setOpenPopover(false);
                                             }}
                                         >

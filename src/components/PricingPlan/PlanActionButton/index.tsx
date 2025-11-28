@@ -7,6 +7,7 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import { useAtomValue } from "jotai";
 import { userAuthAtom } from "@/atoms/userAuthAtom";
+import { useHandleDialogType } from "@/hooks/useHandleDialogType";
 
 interface PlanActionButtonProps {
     priceId: string;
@@ -35,12 +36,14 @@ export function PlanActionButton({
 }: PlanActionButtonProps) {
     const [isLoading, setIsLoading] = useState(false);
     const user = useAtomValue(userAuthAtom);
+    const { handleDialogType } = useHandleDialogType();
+
 
     const handleCheckout = async () => {
         // Check if user is authenticated
         if (!user || user === "loading") {
             toast.error("Please login to purchase a plan");
-            window.location.href = "/dashboard";
+            handleDialogType("login", "add");
             return;
         }
 
@@ -61,7 +64,7 @@ export function PlanActionButton({
             const { data } = await createCheckoutLink({
                 productId: priceId,
                 mode: "subscription",
-                success_url: `${window.location.origin}/dashboard?checkout=success&planId=${planId}`,
+                success_url: `${window.location.origin}/?checkout=success&planId=${planId}`,
                 cancel_url: `${window.location.origin}/pricing?checkout=cancelled`,
             });
 

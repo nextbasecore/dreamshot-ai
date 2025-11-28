@@ -24,12 +24,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 1.0,
         },
         {
-            url: `${BASE_URL}/dashboard`,
-            lastModified: currentDate,
-            changeFrequency: "daily",
-            priority: 1.0,
-        },
-        {
             url: `${BASE_URL}/all-tools`,
             lastModified: currentDate,
             changeFrequency: "daily",

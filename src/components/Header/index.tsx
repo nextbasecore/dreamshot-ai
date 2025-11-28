@@ -38,8 +38,8 @@ export default function Header() {
 
     // Check if a route is active
     const isActive = (path: string) => {
-        if (path === '/dashboard') {
-            return pathname === '/dashboard' || pathname === '/'
+        if (path === '/') {
+            return pathname === '/'
         }
         return pathname?.startsWith(path)
     }
@@ -48,13 +48,13 @@ export default function Header() {
         <header className="w-full z-50 fixed backdrop-blur-xl top-0 left-0 right-0 mb-10">
             <nav className="container mx-auto px-4 py-4 flex items-center justify-between bg-transparent" style={{ backgroundColor: 'transparent' }}>
                 {/* Logo/Brand */}
-                <Link href="/dashboard" className="text-xl font-bold">
+                <Link href="/" className="text-xl font-bold">
                     <LogoIcon className="w-40 h-fit" />
                 </Link>
 
                 {/* Desktop Navigation Links - hidden on mobile, visible on md+ */}
                 <div className="hidden md:flex items-center gap-15">
-                    <Link href="/dashboard" className="hover:text-gray-600">
+                    <Link href="/" className="hover:text-gray-600">
                         Home
                     </Link>
                     <Link href="/all-tools" className="hover:text-gray-600 flex items-center gap-1">
@@ -105,14 +105,14 @@ export default function Header() {
                             {/* Mobile Navigation Links - vertically stacked with icons */}
                             <nav className="flex flex-col gap-1">
                                 <Link
-                                    href="/dashboard"
+                                    href="/"
                                     onClick={() => setIsMobileMenuOpen(false)}
-                                    className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 ${isActive('/dashboard')
-                                            ? 'bg-blue-500/30 text-blue-700 font-semibold'
-                                            : 'text-gray-700 hover:bg-white/10'
+                                    className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 ${isActive('/')
+                                        ? 'bg-blue-500/30 text-blue-700 font-semibold'
+                                        : 'text-gray-700 hover:bg-white/10'
                                         }`}
                                 >
-                                    <Home className={`w-4 h-4 ${isActive('/dashboard') ? 'text-blue-600' : 'text-gray-600'}`} />
+                                    <Home className={`w-4 h-4 ${isActive('/') ? 'text-blue-600' : 'text-gray-600'}`} />
                                     <span>Home</span>
                                 </Link>
 
@@ -120,8 +120,8 @@ export default function Header() {
                                     href="/all-tools"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                     className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 ${isActive('/all-tools')
-                                            ? 'bg-blue-500/30 text-blue-700 font-semibold'
-                                            : 'text-gray-700 hover:bg-white/10'
+                                        ? 'bg-blue-500/30 text-blue-700 font-semibold'
+                                        : 'text-gray-700 hover:bg-white/10'
                                         }`}
                                 >
                                     <Wrench className={`w-4 h-4 ${isActive('/all-tools') ? 'text-blue-600' : 'text-gray-600'}`} />
@@ -132,8 +132,8 @@ export default function Header() {
                                     href="/pricing"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                     className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 ${isActive('/pricing')
-                                            ? 'bg-blue-500/30 text-blue-700 font-semibold'
-                                            : 'text-gray-700 hover:bg-white/10'
+                                        ? 'bg-blue-500/30 text-blue-700 font-semibold'
+                                        : 'text-gray-700 hover:bg-white/10'
                                         }`}
                                 >
                                     <DollarSign className={`w-4 h-4 ${isActive('/pricing') ? 'text-blue-600' : 'text-gray-600'}`} />
@@ -144,8 +144,8 @@ export default function Header() {
                                     href="/contact-us"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                     className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 ${isActive('/contact-us')
-                                            ? 'bg-blue-500/30 text-blue-700 font-semibold'
-                                            : 'text-gray-700 hover:bg-white/10'
+                                        ? 'bg-blue-500/30 text-blue-700 font-semibold'
+                                        : 'text-gray-700 hover:bg-white/10'
                                         }`}
                                 >
                                     <Mail className={`w-4 h-4 ${isActive('/contact-us') ? 'text-blue-600' : 'text-gray-600'}`} />
