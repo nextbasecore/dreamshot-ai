@@ -1,30 +1,28 @@
 "use client";
 
-import { Button } from "@/components/Button";
-import HeadingComponent from "@/components/Heading";
+import { Button } from "@/components/ui/button";
 import { db, functions } from "@/firebase";
-import { useDialogStore } from "@/stores/dialogStore";
-import { useUserStore } from "@/stores/userStore";
-import { AddOnCreditsT } from "@/types";
-import { Coins02Icon, CreditCardIcon } from "@hugeicons/react";
+import { useHandleDialogType } from "@/hooks/useHandleDialogType";
+import { userAuthAtom } from "@/atoms/userAuthAtom";
+import { AddOnCredit } from "@/types";
+import { CreditCard, Coins } from "lucide-react";
 import { doc, getDoc } from "firebase/firestore";
 import { httpsCallable } from "firebase/functions";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { toast } from "react-hot-toast";
+import { useAtomValue } from "jotai";
+import toast from "react-hot-toast";
 import { twMerge } from "tailwind-merge";
-import { DialogBase } from "..";
-import { Credits } from "@/assets/icons";
-import { StripeIcon } from "../../../assets/icons";
+import { DialogBase } from "@/components/DialogBase";
+import { CoinIcon } from "@/components/Icons";
 
 export function AddCreditDialog() {
-  const { setDialogType } = useDialogStore();
+  const { handleDialogType } = useHandleDialogType();
+  const user = useAtomValue(userAuthAtom);
 
-  const [addOnCredits, setAddOnCredits] = useState<AddOnCreditsT[]>([]);
+  const [addOnCredits, setAddOnCredits] = useState<AddOnCredit[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
-  const { getUser } = useUserStore();
-  const user = getUser();
   // * Effects
   useEffect(() => {
     if (addOnCredits.length > 0) return;
@@ -42,7 +40,7 @@ export function AddCreditDialog() {
         return;
       }
 
-      const plans = addOnCredits.plans as AddOnCreditsT[];
+      const plans = addOnCredits.plans as AddOnCredit[];
       const sortedPlans = [...plans].sort((a, b) => a.credits - b.credits);
       const filteredPlans = sortedPlans.slice(
         0,
@@ -56,13 +54,13 @@ export function AddCreditDialog() {
   };
 
   const handlePurchase = async (priceId: string) => {
-    if (!user) {
+    if (!user || user === "loading") {
       toast.error("Please login to purchase credits");
       return;
     }
     if (!user.subscription) {
       router.push("/pricing");
-      setDialogType(undefined);
+      handleDialogType("addCredit", "remove");
       return;
     }
     const res = httpsCallable(functions, "createCheckoutLink");
@@ -99,13 +97,11 @@ export function AddCreditDialog() {
   return (
     <DialogBase
       name="addCredit"
-      titleAlignment="center"
-      headingClassName="mb-6 sm:mb-10"
+      headingClassName="mb-6 sm:mb-10 text-center"
       className="sm:max-w-5xl w-full px-4 bg-transparent "
       title="Add Credits"
       description="Need More Credits? Purchase More Credits To Continue Swapping."
       fullScreen={false}
-      isColor={true}
     >
       <div className="space-y-4 sm:space-y-6 overflow-y-auto -mt-4 sm:-mt-6 px-3 sm:px-4 md:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 lg:gap-6 mt-4 sm:mt-6">
@@ -151,7 +147,7 @@ export function AddCreditDialog() {
                           </span>
                         </div>
                         <div className={`flex bg-black px-2 sm:px-3 text-sm sm:text-md rounded-full py-1 sm:py-1.5 items-center gap-1`}>
-                          <Credits className="w-4 sm:w-4.5 h-4 sm:h-4.5 text-white" fill={"#fff"} />
+                          <CoinIcon />
                           <span className="opacity-80 text-xs sm:text-sm">
                             <b>{option.credits}</b>
                           </span>
@@ -167,39 +163,43 @@ export function AddCreditDialog() {
                     <div className="flex flex-col gap-2">
                       <Button
                         onClick={async () => await handlePurchase(option.priceId)}
-                        variant={option.isFeatured ? "gradient" : "outline"}
+                        variant={option.isFeatured ? "dark" : "outline"}
                         className={twMerge(
                           "w-full text-sm py-2 sm:py-2.5",
                           option.isFeatured
-                            ? "text-white"
+                            ? "text-white bg-gradient-to-r from-buttonColor to-primary/10"
                             : index % 2 === 0
                             ? "bg-white hover:bg-white/90 text-black"
                             : ""
                         )}
                       >
                         <span className="flex items-center justify-center gap-1.5 sm:gap-2">
-                          <StripeIcon className={twMerge("w-4 h-4 sm:w-5 sm:h-5", !option.isFeatured && index % 2 === 0 ? "text-black" : "")} />
+                          <Coins className={twMerge("w-4 h-4 sm:w-5 sm:h-5", !option.isFeatured && index % 2 === 0 ? "text-black" : "")} />
                           <span>Purchase</span>
                         </span>
                       </Button>
                       <Button
                         onClick={async () => {
+                          if (!user || user === "loading") {
+                            toast.error("Please login to purchase credits");
+                            return;
+                          }
                           window.open(
                             `https://checkout.dodopayments.com/buy/${option.dodoPaymentId}?quantity=1&redirect_url=https://remixai.io&email=${user?.email}&disableEmail=true`
                           );
                         }}
-                        variant={option.isFeatured ? "gradient" : "outline"}
+                        variant={option.isFeatured ? "dark" : "outline"}
                         className={twMerge(
                           "w-full text-sm  py-2 sm:py-2.5",
                           option.isFeatured
-                            ? "text-white"
+                            ? "text-white bg-gradient-to-r from-buttonColor to-primary/10"
                             : index % 2 === 0
                             ? "bg-white hover:bg-white/90 text-black"
                             : ""
                         )}
                       >
                         <span className="flex items-center justify-center gap-1.5 sm:gap-2">
-                          <CreditCardIcon variant="bulk" className="w-4 h-4 sm:w-5 sm:h-5" />
+                          <CreditCard className="w-4 h-4 sm:w-5 sm:h-5" />
                           <span>Purchase</span>
                         </span>
                       </Button>

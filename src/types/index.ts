@@ -156,3 +156,16 @@ export interface StaticExample {
     beforeImageUrl: string;
     afterImageUrl: string;
 }
+
+/**
+ * Add-on credit plan structure from Firestore
+ * Used for purchasing additional credits beyond subscription
+ */
+export interface AddOnCredit {
+    credits: number;
+    price: number;
+    priceId: string;
+    priceSuffix?: string;
+    dodoPaymentId: string;
+    isFeatured?: boolean;
+}
