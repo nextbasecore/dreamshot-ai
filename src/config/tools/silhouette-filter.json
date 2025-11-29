@@ -1,0 +1,142 @@
+{
+  "id": "silhouette-filter",
+  "title": "AI Silhouette Filter",
+  "playgroundTitle": "AI Silhouette Filter",
+  "playgroundDescription": "Use the AI Silhouette Maker to turn photos into silhouettes online for free. Create bold, artistic silhouette images from any picture easily.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Silhouette Maker – Turn Photos into Silhouettes Online",
+    "description": "Create striking silhouettes from your photos online with the AI Silhouette Maker. Turn any image into a clean, artistic silhouette for free.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "silhouette",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-gta-filter",
+      "ai-sad-filter",
+      "ai-skinny-filter",
+      "ai-smile-filter",
+      "mugshot"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "examples": {
+    "heading": "Watch Your Photos Become Stunning Silhouette Art",
+    "title": "Watch Your Photos Become Stunning Silhouette Art",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Silhouette Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Silhouette Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What is the Silhouette Filter?",
+        "answer": "The Silhouette Filter is an AI effect that turns your photo into a cool silhouette. It makes the main subject dark against a bright background for a dramatic look."
+      },
+      {
+        "question": "How long does it take to process an image?",
+        "answer": "It’s really fast! Most images are processed in just a few seconds, depending on the size and complexity."
+      },
+      {
+        "question": "Is the Silhouette Filter free to use?",
+        "answer": "Yes! Sign up for a free account and get free credits to try the Silhouette Filter and other AI tools."
+      },
+      {
+        "question": "Are my uploaded photos safe?",
+        "answer": "Yes, your photos are secure. They are processed safely and deleted automatically after a short time. We never share your images."
+      },
+      {
+        "question": "What kind of photos work best?",
+        "answer": "Photos with a clear subject and a contrasting background work best. People, pets, or objects against a bright sky, sunset, or simple background give great results."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This filter is a game-changer for my social media posts. The silhouette effect is stunning and so easy to use with Max Studio.",
+        "name": "Charlotte",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Honestly, I'm impressed. It gave my photos a really cool, artistic vibe in seconds.",
+        "name": "Ethan",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "I love how clean the outlines are. It's perfect for creating quick stencils and reference images for my projects.",
+        "name": "Layla",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Silhouette Filter Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select & Upload photos from your device to apply Silhouette Filter, and make sure uploaded photos must be in high quality with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Silhouette Filter",
+        "bulletPoints": [
+          "After the photo is uploaded click on the “Apply Image Effect” button to apply Silhouette Filter to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated Silhouette Filter to your device and share it on your favorite social media platform, and with your friends and family."
+        ]
+      }
+    ]
+  }
+}
