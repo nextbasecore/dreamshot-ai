@@ -341,21 +341,21 @@ export default function PlaygroundSection() {
             </div>
 
             {/* Action Buttons */}
-            <div className=" justify-between">
+            <div className="w-full max-w-lg lg:max-w-3xl mx-auto px-4">
                 {/* Generate Button or Action Buttons - Show GenerateButton when not completed, show Try Another/Download when completed */}
                 {isCompleted ? (
-                    <div className="flex flex-col gap-4max-w-3xl items-center">
-                        <div className="flex justify-between items-center gap-4 w-full">
+                    <div className="flex flex-col gap-4 w-full items-center">
+                        <div className="flex flex-col sm:flex-row justify-between items-stretch sm:items-center gap-3 sm:gap-4 w-full">
                             <Button
                                 variant="outline"
-                                className=" flex flex-1  h-12"
+                                className="flex flex-1 h-11 sm:h-12 text-sm sm:text-base"
                                 onClick={handleTryAnother}
                             >
                                 Try Another Image
                             </Button>
                             <Button
                                 variant="dark"
-                                className="flex flex-1 h-12"
+                                className="flex flex-1 h-11 sm:h-12 text-sm sm:text-base"
                                 onClick={() => handleDownload(result && result.length > 0 ? result[0] : { type: "image" })}
                             >
                                 <Download className="w-4 h-4" />

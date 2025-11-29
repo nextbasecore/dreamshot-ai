@@ -22,25 +22,25 @@ export function ImagePreview({ previewUrl, resultUrl, showArrow = false }: Image
             <div className="flex items-center justify-center w-full">
                 <div className="relative flex items-center justify-center w-full h-[320px] md:h-[380px] lg:h-[420px]">
                     <div className="flex items-center justify-center gap-0 relative">
-                        <div className="z-10 rounded-xl overflow-hidden relative h-full w-[150px] md:w-[200px]">
+                        <div className="z-10 rounded-xl overflow-hidden relative h-full w-[120px] sm:w-[150px] md:w-[180px] lg:w-[200px]">
                             <Image
                                 src={previewUrl}
                                 alt="Original Preview"
                                 fill
                                 className="object-contain"
-                                sizes="(max-width: 768px) 150px, 200px"
+                                sizes="(max-width: 640px) 120px, (max-width: 768px) 150px, (max-width: 1024px) 180px, 200px"
                             />
                         </div>
-                        <div className="z-20 rounded-xl overflow-hidden relative h-full w-[150px] md:w-[200px]" style={{ marginLeft: -28 }}>
+                        <div className="z-20 rounded-xl overflow-hidden relative h-full w-[120px] sm:w-[150px] md:w-[180px] lg:w-[200px] -ml-4 sm:-ml-6 md:-ml-7">
                             <Image
                                 src={resultUrl}
                                 alt="Transformed Preview"
                                 fill
                                 className="object-contain"
-                                sizes="(max-width: 768px) 150px, 200px"
+                                sizes="(max-width: 640px) 120px, (max-width: 768px) 150px, (max-width: 1024px) 180px, 200px"
                             />
                         </div>
-                        <div className="absolute z-30 left-[46%] -translate-x-1/2 top-[60%]">
+                        <div className="absolute z-30 left-[45%] sm:left-[46%] md:left-[47%] -translate-x-1/2 top-[55%] sm:top-[60%]">
                             <TransformationArrowIcon />
                         </div>
                     </div>

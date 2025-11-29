@@ -28,6 +28,9 @@ export default function SimilarTools({
         }));
     }
 
+    // Check if we have less than 4 tools to center them horizontally
+    const hasLessThanFourTools = toolsToDisplay.length < 4;
+
     return (
         <div className="flex flex-col items-center gap-10 justify-center mt-15 px-4">
             <TextSeparator textSeparatorText="Similar Tools" />
@@ -35,7 +38,9 @@ export default function SimilarTools({
                 {title}
             </h1>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 w-full max-w-7xl px-4">
+            <div className={`${hasLessThanFourTools
+                ? 'flex flex-wrap justify-center items-center'
+                : 'grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'} gap-4 sm:gap-6 w-full max-w-7xl px-4`}>
                 {toolsToDisplay.map((tool, index) => {
                     // If we have recommended tools with IDs, create links to their pages
                     const toolConfig = recommendedTools?.[index];

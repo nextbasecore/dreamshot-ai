@@ -38,14 +38,14 @@ export function GenerateButton({
     };
 
     return (
-        <div className="w-full flex items-center max-w-lg lg:max-w-3xl mx-auto justify-center">
+        <div className="w-full flex items-center max-w-lg lg:max-w-3xl mx-auto justify-center px-4">
             <Button
                 variant="dark"
-                className="w-full py-4 h-12 group has-[>svg]:px-6!"
+                className="w-full py-3 sm:py-4 h-11 sm:h-12 text-sm sm:text-base group has-[>svg]:px-6!"
                 onClick={onClick}
                 disabled={disabled}
             >
-                <span className="flex items-center bg-gray-600 text-white rounded-md px-2 py-1 mr-2">
+                <span className="flex items-center bg-gray-600 text-white rounded-md px-1.5 py-0.5 md:px-2 md:py-1 mr-1.5 md:mr-2 text-xs sm:text-sm">
                     <CreaditIcon />
                     <span className="ml-1">{creditCost}</span>
                 </span>

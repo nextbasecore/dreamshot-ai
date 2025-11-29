@@ -97,7 +97,7 @@ export default async function ToolPage({ params }: Props) {
 
     return (
         <ToolProvider toolConfig={toolConfig}>
-            <div className="flex flex-col items-center justify-center gap-5 pt-20 min-h-screen">
+            <div className="flex flex-col items-center justify-center gap-5 pt-15 min-h-screen">
                 {/* Hero/Playground Section - Always render (main section) */}
                 <PlaygroundSection />
 

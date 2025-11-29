@@ -21,46 +21,74 @@ export default function Inspiration() {
     const renderInspirationCard = (inspiration: DashboardInspiration, index: number) => (
         <div
             key={`${inspiration.imageUrl}-${index}`}
-            className="relative w-[200px] h-[200px] shrink-0 rounded-lg overflow-hidden cursor-pointer group"
+            className="relative w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] md:w-[200px] md:h-[200px] lg:w-[220px] lg:h-[220px] shrink-0 rounded-lg overflow-visible cursor-pointer group transition-all duration-500 ease-out hover:z-50 hover:scale-110"
             onClick={() => handleImageClick(inspiration)}
         >
-            <Image
-                src={inspiration.imageUrl}
-                alt={inspiration.title}
-                width={200}
-                height={200}
-                className="w-full h-full object-cover transition-transform group-hover:scale-105"
-                loading="lazy"
-            />
-            <div className="absolute top-2 left-2 bg-black/60 text-white px-2 py-1 rounded text-sm font-medium backdrop-blur-sm">
-                {inspiration.title}
+            {/* Card container with border and shadow on hover */}
+            <div className="relative w-full h-full rounded-lg border-2 border-transparent group-hover:border-white/90 group-hover:shadow-2xl transition-all duration-500 ease-out overflow-hidden">
+                <Image
+                    src={inspiration.imageUrl}
+                    alt={inspiration.title}
+                    width={220}
+                    height={220}
+                    className="w-full h-full object-cover transition-all duration-500 ease-out group-hover:brightness-110"
+                    loading="lazy"
+                    sizes="(max-width: 640px) 150px, (max-width: 768px) 180px, (max-width: 1024px) 200px, 220px"
+                />
+                {/* Gradient overlay on hover for better text visibility */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                {/* Enhanced title badge - responsive sizing */}
+                <div className="absolute top-1.5 left-1.5 sm:top-2 sm:left-2 bg-black/60 text-white px-1.5 py-0.5 sm:px-2 sm:py-1 rounded text-xs sm:text-sm font-medium backdrop-blur-sm transition-all duration-500 group-hover:bg-black/90 group-hover:scale-105 z-20">
+                    {inspiration.title}
+                </div>
             </div>
         </div>
     );
 
     return (
-        <div className="flex flex-col items-center gap-10 justify-center mt-15">
-            <TextSeparator textSeparatorText="Inspiration" />
+        <>
+            <style dangerouslySetInnerHTML={{
+                __html: `
+                .marquee-container:hover .marquee-item:not(:hover) {
+                    filter: blur(4px);
+                    opacity: 0.6;
+                    transition: filter 0.5s ease-out, opacity 0.5s ease-out;
+                }
+                .marquee-item {
+                    transition: filter 0.5s ease-out, opacity 0.5s ease-out;
+                }
+            `}} />
+            <div className="flex flex-col items-center gap-6 sm:gap-8 md:gap-10 justify-center mt-10 sm:mt-12 md:mt-15 px-4">
+                <TextSeparator textSeparatorText="Inspiration" />
 
-            <h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold px-4">
-                Created with DreamShot
-            </h1>
+                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center font-bold px-2 sm:px-4">
+                    Created with DreamShot
+                </h1>
 
-            {/* Marquee carousel - left to right */}
-            <div className="w-full marquee-container">
-                <Marquee reverse={true} repeat={4} className="w-full">
-                    {DASHBOARD_INSPIRATION_LINE_1.map(renderInspirationCard)}
-                </Marquee>
+                {/* Marquee carousel - left to right */}
+                <div className="w-full marquee-container">
+                    <Marquee reverse={true} repeat={4} className="w-full">
+                        {DASHBOARD_INSPIRATION_LINE_1.map((inspiration, index) => (
+                            <div key={`wrapper-${inspiration.imageUrl}-${index}`} className="marquee-item">
+                                {renderInspirationCard(inspiration, index)}
+                            </div>
+                        ))}
+                    </Marquee>
+                </div>
+
+                {/* Marquee carousel - right to left */}
+                <div className="w-full marquee-container">
+                    <Marquee reverse={false} repeat={4} className="w-full">
+                        {DASHBOARD_INSPIRATION_LINE_2.map((inspiration, index) => (
+                            <div key={`wrapper-${inspiration.imageUrl}-${index}`} className="marquee-item">
+                                {renderInspirationCard(inspiration, index)}
+                            </div>
+                        ))}
+                    </Marquee>
+                </div>
+
+                <InspirationDialog inspiration={selectedInspiration} />
             </div>
-
-            {/* Marquee carousel - right to left */}
-            <div className="w-full marquee-container">
-                <Marquee reverse={false} repeat={4} className="w-full">
-                    {DASHBOARD_INSPIRATION_LINE_2.map(renderInspirationCard)}
-                </Marquee>
-            </div>
-
-            <InspirationDialog inspiration={selectedInspiration} />
-        </div>
+        </>
     );
 }

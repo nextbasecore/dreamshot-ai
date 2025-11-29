@@ -91,7 +91,7 @@ export function UploadContainer({
 
     return (
         <div
-            className={`m-2 rounded-md flex flex-col items-center justify-center bg-gray-50/50 h-[400px] md:h-[460px] lg:h-[500px] relative ${shouldShowBorder ? 'border-3 border-dashed border-gray-300' : ''
+            className={`mx-2 my-2 md:mx-4 md:my-4 rounded-md flex flex-col bg-gray-50/50 h-[400px] md:h-[460px] lg:h-[500px] relative ${shouldShowBorder ? 'border-3 border-dashed border-gray-300' : ''
                 } ${isClickable ? 'cursor-pointer transition-colors' : ''}`}
             onClick={handleContainerClick}
         >
@@ -116,18 +116,20 @@ export function UploadContainer({
             {/* Images Container */}
             {isCompleted && result ? (
                 // Show result when generation is complete (image/video only, no buttons)
-                <ResultDisplay
-                    result={result}
-                />
+                <div className="flex-1 min-h-0 p-3 md:p-4">
+                    <ResultDisplay
+                        result={result}
+                    />
+                </div>
             ) : uploadedImage ? (
-                // Show uploaded image - fixed height for consistency
-                <div className="flex items-center justify-center w-full">
-                    <div className="relative w-full h-[320px] md:h-[380px] lg:h-[420px] rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
+                // Show uploaded image - flexible height
+                <div className="flex-1 min-h-0 p-3 md:p-4 flex items-center justify-center">
+                    <div className="relative w-full h-full rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
                         {/* Clear image button */}
                         <button
                             type="button"
                             aria-label="Remove image"
-                            className="absolute right-3 top-3 z-20 rounded-full bg-white/80 text-gray-800 hover:bg-white px-2 py-1 text-xs font-semibold shadow"
+                            className="absolute right-2 top-2 md:right-3 md:top-3 z-20 rounded-full bg-white/80 text-gray-800 hover:bg-white px-1.5 py-0.5 md:px-2 md:py-1 text-sm md:text-xs font-semibold shadow"
                             onClick={(event) => {
                                 event.stopPropagation();
                                 onClearImage();
@@ -139,29 +141,31 @@ export function UploadContainer({
                             src={uploadedImage}
                             alt="Uploaded"
                             fill
-                            className="object-contain"
+                            className="object-contain p-2 md:p-4"
                             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 1200px"
                             unoptimized
                         />
                     </div>
                 </div>
             ) : (
-                // Show default preview
-                <ImagePreview
-                    previewUrl={previewUrl}
-                    resultUrl={resultUrl}
-                    showArrow={!!resultUrl}
-                />
-            )}
-
-            {/* Upload Text or Action Buttons */}
-            {!isCompleted && !isProcessing && !uploadedImage && (
-                <div className="text-center -mt-10 pb-10">
-                    <div>
-                        <p className="text-xl md:text-2xl text-gray-900">
+                // Show default preview with text below
+                <div className="flex flex-col h-full p-3 md:p-4">
+                    {/* Image Preview Container - Takes available space but leaves room for text */}
+                    <div className="flex-shrink overflow-hidden" style={{ height: 'calc(100% - 100px)' }}>
+                        <div className="w-full h-full flex items-center justify-center">
+                            <ImagePreview
+                                previewUrl={previewUrl}
+                                resultUrl={resultUrl}
+                                showArrow={!!resultUrl}
+                            />
+                        </div>
+                    </div>
+                    {/* Upload Text - Fixed space at bottom */}
+                    <div className="text-center space-y-1.5 pt-3 pb-2 flex-shrink-0 h-[100px] flex flex-col justify-center">
+                        <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 px-2">
                             {uploadLabel}
                         </p>
-                        <p className="text-sm md:text-base text-gray-400">
+                        <p className="text-xs sm:text-sm md:text-base text-gray-500 px-2">
                             {helperText}
                         </p>
                     </div>

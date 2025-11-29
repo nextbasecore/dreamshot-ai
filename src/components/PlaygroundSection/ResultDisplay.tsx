@@ -19,12 +19,12 @@ interface ResultDisplayProps {
  */
 export function ResultDisplay({ result }: ResultDisplayProps) {
     return (
-        <div className="flex items-center justify-center w-full">
-            <div className="relative w-full h-[320px] md:h-[380px] lg:h-[420px] rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
+        <div className="flex items-center justify-center w-full h-full">
+            <div className="relative w-full h-full rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
                 {result.type === "video" ? (
                     <video
                         src={result.video}
-                        className="w-full h-full object-contain"
+                        className="w-full h-full object-contain p-2 md:p-4"
                         controls
                         loop
                         muted
@@ -35,7 +35,7 @@ export function ResultDisplay({ result }: ResultDisplayProps) {
                         src={result.image || result.thumbnail || ""}
                         alt="Generated result"
                         fill
-                        className="object-contain"
+                        className="object-contain p-2 md:p-4"
                         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 1200px"
                         unoptimized
                     />

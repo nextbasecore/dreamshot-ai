@@ -101,7 +101,7 @@ export function DualUploadContainer({
             {/* First Container - Completely separate */}
             <div className="flex-1 flex flex-col">
                 <div
-                    className={`relative rounded-xl p-6 flex flex-col items-center justify-center h-[400px] md:h-[460px] lg:h-[500px] ${shouldShowBorder1 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
+                    className={`relative rounded-xl p-3 md:p-4 lg:p-6 flex flex-col h-[400px] md:h-[460px] lg:h-[500px] ${shouldShowBorder1 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
                         } ${!isProcessing ? 'cursor-pointer hover:shadow-xl transition-all duration-300' : ''}`}
                     onClick={handleContainer1Click}
                 >
@@ -116,11 +116,11 @@ export function DualUploadContainer({
 
                     {/* Image Display */}
                     {uploadedImage1 ? (
-                        <div className="relative w-full h-[320px] md:h-[380px] lg:h-[420px] rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
+                        <div className="relative w-full flex-1 min-h-0 rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
                             <button
                                 type="button"
                                 aria-label="Remove image"
-                                className="absolute right-2 top-2 z-20 rounded-full bg-white/90 text-gray-800 hover:bg-white hover:text-red-500 px-3 py-1 text-lg font-bold shadow-md transition-colors"
+                                className="absolute right-2 top-2 z-20 rounded-full bg-white/90 text-gray-800 hover:bg-white hover:text-red-500 px-2 py-0.5 md:px-3 md:py-1 text-base md:text-lg font-bold shadow-md transition-colors"
                                 onClick={(event) => {
                                     event.stopPropagation();
                                     onClearImage1();
@@ -132,21 +132,25 @@ export function DualUploadContainer({
                                 src={uploadedImage1}
                                 alt="Your Image"
                                 fill
-                                className="object-contain"
+                                className="object-contain p-2 md:p-4"
                                 sizes="(max-width: 1024px) 50vw, 33vw"
                                 unoptimized
                             />
                         </div>
                     ) : (
-                        <>
-                            <div className="w-full mb-4">
-                                <ImagePreview previewUrl={previewUrl1} />
+                        <div className="flex flex-col h-full">
+                            {/* Image Preview Container - Takes available space but leaves room for text */}
+                            <div className="flex-shrink overflow-hidden" style={{ height: 'calc(100% - 100px)' }}>
+                                <div className="w-full h-full flex items-center justify-center">
+                                    <ImagePreview previewUrl={previewUrl1} />
+                                </div>
                             </div>
-                            <div className="text-center space-y-2">
-                                <p className="text-xl font-semibold text-gray-900">{label1}</p>
-                                <p className="text-sm text-gray-500">{helperText}</p>
+                            {/* Upload Text - Fixed space at bottom */}
+                            <div className="text-center space-y-1.5 pt-3 pb-2 shrink-0 h-[100px] flex flex-col justify-center">
+                                <p className="text-base sm:text-lg md:text-xl font-semibold text-gray-900 px-2">{label1}</p>
+                                <p className="text-xs sm:text-xs md:text-sm text-gray-500 px-2">{helperText}</p>
                             </div>
-                        </>
+                        </div>
                     )}
                 </div>
             </div>
@@ -154,7 +158,7 @@ export function DualUploadContainer({
             {/* Second Container - Completely separate */}
             <div className="flex-1 flex flex-col">
                 <div
-                    className={`relative rounded-xl p-6 flex flex-col items-center justify-center h-[400px] md:h-[460px] lg:h-[500px] ${shouldShowBorder2 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
+                    className={`relative rounded-xl p-3 md:p-4 lg:p-6 flex flex-col h-[400px] md:h-[460px] lg:h-[500px] ${shouldShowBorder2 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
                         } ${!isProcessing ? 'cursor-pointer hover:shadow-xl transition-all duration-300' : ''}`}
                     onClick={handleContainer2Click}
                 >
@@ -169,11 +173,11 @@ export function DualUploadContainer({
 
                     {/* Image Display */}
                     {uploadedImage2 ? (
-                        <div className="relative w-full h-[320px] md:h-[380px] lg:h-[420px] rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
+                        <div className="relative w-full flex-1 min-h-0 rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
                             <button
                                 type="button"
                                 aria-label="Remove image"
-                                className="absolute right-2 top-2 z-20 rounded-full bg-white/90 text-gray-800 hover:bg-white hover:text-red-500 px-3 py-1 text-lg font-bold shadow-md transition-colors"
+                                className="absolute right-2 top-2 z-20 rounded-full bg-white/90 text-gray-800 hover:bg-white hover:text-red-500 px-2 py-0.5 md:px-3 md:py-1 text-base md:text-lg font-bold shadow-md transition-colors"
                                 onClick={(event) => {
                                     event.stopPropagation();
                                     onClearImage2();
@@ -185,21 +189,25 @@ export function DualUploadContainer({
                                 src={uploadedImage2}
                                 alt="Celebrity Image"
                                 fill
-                                className="object-contain"
+                                className="object-contain p-2 md:p-4"
                                 sizes="(max-width: 1024px) 50vw, 33vw"
                                 unoptimized
                             />
                         </div>
                     ) : (
-                        <>
-                            <div className="w-full mb-4">
-                                <ImagePreview previewUrl={previewUrl2 || previewUrl1} />
+                        <div className="flex flex-col h-full">
+                            {/* Image Preview Container - Takes available space but leaves room for text */}
+                            <div className="flex-shrink overflow-hidden" style={{ height: 'calc(100% - 100px)' }}>
+                                <div className="w-full h-full flex items-center justify-center">
+                                    <ImagePreview previewUrl={previewUrl2 || previewUrl1} />
+                                </div>
                             </div>
-                            <div className="text-center space-y-2">
-                                <p className="text-xl font-semibold text-gray-900">{label2}</p>
-                                <p className="text-sm text-gray-500">{helperText}</p>
+                            {/* Upload Text - Fixed space at bottom */}
+                            <div className="text-center space-y-1.5 pt-3 pb-2 shrink-0 h-[100px] flex flex-col justify-center">
+                                <p className="text-base sm:text-lg md:text-xl font-semibold text-gray-900 px-2">{label2}</p>
+                                <p className="text-xs sm:text-xs md:text-sm text-gray-500 px-2">{helperText}</p>
                             </div>
-                        </>
+                        </div>
                     )}
                 </div>
             </div>
