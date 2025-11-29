@@ -66,8 +66,9 @@
       "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
     }
   ],
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
+ "faqs": {
+    "heading": "FAQs About the AI Skinny Filter",
+    "questions": [
     {
       "question": "What is the AI Skinny Filter?",
       "answer": "The AI Skinny Filter is an image effect that makes a person look slimmer in a photo. Just upload your picture, and the AI adjusts it naturally."
@@ -87,8 +88,9 @@
     {
       "question": "Will the photo lose quality?",
       "answer": "No. The tool keeps the same resolution and quality as your original photo."
-    }
-  ],
+      }
+    ]
+  },
   "testimonials": {
     "heading": "What People Say about us",
     "reviews": [
@@ -137,3 +139,4 @@
     ]
   }
 }
+

@@ -66,8 +66,9 @@
       "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
     }
   ],
-  "faqHeading": "Frequently Asked Questions About AI Fat Filter",
-  "faqs": [
+    "faqs": {
+    "heading": "FAQs About the AI Fat Filter",
+    "questions": [
     {
       "question": "What is the AI Fat Filter?",
       "answer": "It’s an AI effect that makes a person look heavier in a photo. Upload your picture, and the AI creates a realistic and fun transformation."
@@ -87,8 +88,9 @@
     {
       "question": "Which photos work best?",
       "answer": "Clear, high-quality photos work best. Front-facing shots with good lighting and a simple background give the most natural results."
-    }
-  ],
+      }
+    ]
+  },
   "testimonials": {
     "heading": "What People Say about us",
     "reviews": [
@@ -137,3 +139,4 @@
     ]
   }
 }
+
