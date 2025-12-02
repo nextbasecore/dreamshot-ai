@@ -8,7 +8,7 @@ import { PlanDuration } from "@/types";
  * @returns Formatted suffix string
  */
 export const formatBillingPeriod = (duration: PlanDuration): string => {
-    return duration === "monthly" ? "/ month" : "/ year";
+    return duration === "monthly" ? "   " : "/ year";
 };
 
 /**

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Loader from "@/components/Loader";
 import { ImagePreview } from "./ImagePreview";
 import { ResultDisplay } from "./ResultDisplay";
@@ -36,11 +36,14 @@ interface UploadContainerProps {
     onFileSelect: (file: File) => void;
     /** Callback to clear the current image */
     onClearImage: () => void;
+    /** Callback when sample image is dropped */
+    onSampleDrop?: (imageUrl: string) => void;
 }
 
 /**
  * Single upload container component
  * Handles file upload UI and displays preview or result
+ * Supports both file upload and drag-and-drop from sample images or local files
  * Entire container is clickable for file upload (except when showing result with action buttons)
  */
 export function UploadContainer({
@@ -55,8 +58,10 @@ export function UploadContainer({
     helperText,
     onFileSelect,
     onClearImage,
+    onSampleDrop,
 }: UploadContainerProps) {
     const fileInputRef = useRef<HTMLInputElement>(null);
+    const [isDragging, setIsDragging] = useState(false);
 
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
@@ -84,6 +89,61 @@ export function UploadContainer({
         }
     };
 
+    // Drag and drop handlers for sample images and local files
+    const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
+        // Prevent default to allow drop
+        e.preventDefault();
+        e.stopPropagation();
+
+        // Only allow drop when not processing and not showing completed result
+        if (!isProcessing && !isCompleted) {
+            e.dataTransfer.dropEffect = 'copy';
+            setIsDragging(true);
+        } else {
+            e.dataTransfer.dropEffect = 'none';
+        }
+    };
+
+    const handleDragLeave = (e: React.DragEvent<HTMLDivElement>) => {
+        e.preventDefault();
+        e.stopPropagation();
+        // Only clear dragging state if we're actually leaving the container
+        const rect = e.currentTarget.getBoundingClientRect();
+        const x = e.clientX;
+        const y = e.clientY;
+
+        if (x < rect.left || x > rect.right || y < rect.top || y > rect.bottom) {
+            setIsDragging(false);
+        }
+    };
+
+    const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setIsDragging(false);
+
+        // Don't allow drop when processing or showing completed result
+        if (isProcessing || isCompleted) {
+            return;
+        }
+
+        // Check if dropped data is a sample image URL
+        const imageUrl = e.dataTransfer.getData('text/plain');
+        if (imageUrl && onSampleDrop) {
+            onSampleDrop(imageUrl);
+            return;
+        }
+
+        // Fallback: handle file drop from local file system
+        const files = e.dataTransfer.files;
+        if (files && files.length > 0) {
+            const file = files[0];
+            if (file.type.startsWith('image/')) {
+                onFileSelect(file);
+            }
+        }
+    };
+
     // Determine if container should be clickable
     const isClickable = !isCompleted && !isProcessing;
 
@@ -92,8 +152,11 @@ export function UploadContainer({
     return (
         <div
             className={`mx-2 my-2 md:mx-4 md:my-4 rounded-md flex flex-col  h-[400px] md:h-[460px] lg:h-[500px] relative ${shouldShowBorder ? 'border-2 border-dashed border-gray-300' : ''
-                } ${isClickable ? 'cursor-pointer transition-colors' : ''}`}
+                } ${isClickable ? 'cursor-pointer transition-colors' : ''} ${isDragging ? 'border-blue-500 bg-blue-50/50 border-solid' : ''}`}
             onClick={handleContainerClick}
+            onDragOver={handleDragOver}
+            onDragLeave={handleDragLeave}
+            onDrop={handleDrop}
         >
             <input
                 ref={fileInputRef}
@@ -110,6 +173,13 @@ export function UploadContainer({
                     <Loader size="big" color="#6366f1" />
                     <p className="mt-4 text-lg font-semibold text-gray-700">Generating...</p>
                     <p className="mt-2 text-sm text-gray-500">Please wait while we process your image</p>
+                </div>
+            )}
+
+            {/* Drag overlay - Shows when dragging sample image or file over container */}
+            {isDragging && !isProcessing && !isCompleted && (
+                <div className="absolute inset-0 bg-blue-100/30 border-2 border-dashed border-blue-500 rounded-md flex flex-col items-center justify-center z-40 pointer-events-none">
+                    <p className="text-lg font-semibold text-blue-700">Drop image here</p>
                 </div>
             )}
 
@@ -151,7 +221,7 @@ export function UploadContainer({
                 // Show default preview with text below
                 <div className="flex flex-col h-full p-3 md:p-4">
                     {/* Image Preview Container - Takes available space but leaves room for text */}
-                    <div className="flex-shrink overflow-hidden">
+                    <div className="shrink overflow-hidden">
                         <div className=" items-center justify-center">
                             <ImagePreview
                                 previewUrl={previewUrl}
@@ -161,7 +231,7 @@ export function UploadContainer({
                         </div>
                     </div>
                     {/* Upload Text - Fixed space at bottom */}
-                    <div className="text-center space-y-1.5 pt-3 pb-2 flex-shrink-0 h-[100px] flex flex-col justify-center">
+                    <div className="text-center space-y-1.5 pt-3 pb-2 shrink-0 h-[100px] flex flex-col justify-center">
                         <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 px-2">
                             {uploadLabel}
                         </p>

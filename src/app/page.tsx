@@ -11,7 +11,7 @@ import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
-    <div 
+    <div
       className="flex flex-col gap-10 pt-20 min-h-screen"
     >
       {/* Hero */}

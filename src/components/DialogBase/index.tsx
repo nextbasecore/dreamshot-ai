@@ -85,6 +85,7 @@ export const DialogBase = ({
         {/* Only show overlay for the first dialog in the stack to prevent multiple overlays */}
         <UIDialogOverlay className={twMerge("z-[99]", (type[0] !== name) ? "hidden pointer-events-none" : "")} />
         <UIDialogContent
+          showCloseButton={removeCloseButton ? false : true}
           className={twMerge(
             `fixed  left-[50%] top-[50%] z-[997] flex max-h-full  translate-x-[-50%] translate-y-[-50%]
             focus:outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 h-auto w-[90vw] sm:max-w-[420px] outline-none rounded-3xl `,
@@ -110,8 +111,8 @@ export const DialogBase = ({
                 " flex flex-1 flex-col min-h-0"
               )}
             >
-              {/* Add visually hidden DialogTitle for accessibility when header is hidden */}
-              {hideHeader && title && (
+              {/* Always render DialogTitle for accessibility - visually hidden when header is shown, visible when header is hidden */}
+              {title && (
                 <DialogTitle className="sr-only">
                   {title}
                 </DialogTitle>

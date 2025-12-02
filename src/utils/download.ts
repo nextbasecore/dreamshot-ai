@@ -23,12 +23,12 @@ export function downloadFile(
                 .then(response => response.blob())
                 .then(blob => {
                     const blobUrl = window.URL.createObjectURL(blob);
-                    const link = document.createElement("a");
+        const link = document.createElement("a");
                     link.href = blobUrl;
-                    link.download = defaultFilename;
+        link.download = defaultFilename;
                     link.rel = "noopener noreferrer";
-                    
-                    // Append to body, click, then remove
+        
+        // Append to body, click, then remove
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
@@ -57,11 +57,11 @@ export function downloadFile(
             link.download = defaultFilename;
             link.rel = "noopener noreferrer";
             
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            
-            customToast.success("Download started!");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        customToast.success("Download started!");
         }
     } catch (error) {
         console.error(`[DOWNLOAD] ❌ Download failed:`, error);

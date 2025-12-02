@@ -2,12 +2,14 @@
 
 import useAuth from "@/hooks/useAuth";
 import { useAtom } from "jotai";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { dialogAtom } from "@/atoms/dialogAtom";
 import { DialogBase } from "@/components/DialogBase";
 import ContinueWithGoogle from "@/components/DividerWithOr/ContinueWithGoogle";
 import { useHandleDialogType } from "@/hooks/useHandleDialogType";
 import Image from "next/image";
+import BeforeAfterImage from "@/components/BeforeAfterImage";
+import { SliderIcon } from "@/components/Icons";
 
 
 const RegisterDialog = () => {
@@ -27,6 +29,18 @@ const RegisterDialog = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showRePassword, setShowRePassword] = useState(false);
 
+  // Image pairs for carousel (same as LoginDialog)
+  const imagePairs = [
+    { blur: "/assets/AuthDialog/1-blur.png", clear: "/assets/AuthDialog/1-clear.png" },
+    { blur: "/assets/AuthDialog/2-blur.png", clear: "/assets/AuthDialog/2-clear.png" },
+    { blur: "/assets/AuthDialog/3-blur.png", clear: "/assets/AuthDialog/3-clear.png" },
+  ];
+
+  // Carousel state - initialize based on dialog state
+  const isRegisterOpen = dialog.includes("register");
+  const [currentPairIndex, setCurrentPairIndex] = useState(() => 0);
+  const prevDialogStateRef = useRef(isRegisterOpen);
+
   useEffect(() => {
     if (dialog.includes('register')) {
       setTimeout(() => {
@@ -39,6 +53,31 @@ const RegisterDialog = () => {
     }
   }, [dialog]);
 
+  // Carousel effect: cycle through image pairs every 5 seconds
+  useEffect(() => {
+    const wasRegisterOpen = prevDialogStateRef.current;
+
+    // Reset carousel to first pair when dialog opens (transition from closed to open)
+    if (isRegisterOpen && !wasRegisterOpen) {
+      setTimeout(() => setCurrentPairIndex(0), 0);
+    }
+
+    // Update ref for next render
+    prevDialogStateRef.current = isRegisterOpen;
+
+    if (isRegisterOpen) {
+      // Set up interval to cycle through pairs every 5 seconds
+      const interval = setInterval(() => {
+        setCurrentPairIndex((prevIndex) => (prevIndex + 1) % imagePairs.length);
+      }, 5000);
+
+      // Cleanup interval when dialog closes or component unmounts
+      return () => {
+        clearInterval(interval);
+      };
+    }
+  }, [isRegisterOpen, imagePairs.length]);
+
   return (
     <DialogBase
       name="register"
@@ -49,19 +88,53 @@ const RegisterDialog = () => {
       hideHeader
       removeCloseButton
     >
-      <div className="rounded-xl sm:rounded-3xl border w-full border-gray-200 h-full overflow-hidden">
+      <div className="rounded-xl sm:rounded-3xl border w-full h-full overflow-hidden">
         <div className="flex flex-col md:flex-row justify-center items-stretch w-full h-full min-h-0">
-          {/* Image Section - 50% width on desktop, hidden on mobile */}
-          <div className="hidden md:flex h-auto md:h-full w-full md:w-1/2 items-center justify-center shrink-0 relative">
-            <div className="relative w-full h-full p-4 md:p-6 lg:p-8 rounded-xl sm:rounded-3xl overflow-hidden">
-              <Image
-                src="/assets/dialog_photo.png"
-                alt="Register"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 0vw, 50vw"
-                priority
+          {/* Before/After Image Section - 50% width on desktop, hidden on mobile */}
+          <div className="hidden md:flex h-auto md:h-full w-full md:w-1/2 items-center justify-center shrink-0 relative p-4 md:p-6 lg:p-8">
+            <div className="relative w-full h-full rounded-xl sm:rounded-3xl overflow-hidden">
+              <BeforeAfterImage
+                key={currentPairIndex}
+                beforeImage={
+                  <Image
+                    src={imagePairs[currentPairIndex].blur}
+                    alt={`Before - Blurred ${currentPairIndex + 1}`}
+                    fill
+                    className="object-cover transition-opacity duration-500"
+                    sizes="(max-width: 768px) 0vw, 50vw"
+                    priority={currentPairIndex === 0}
+                  />
+                }
+                afterImage={
+                  <Image
+                    src={imagePairs[currentPairIndex].clear}
+                    alt={`After - Clear ${currentPairIndex + 1}`}
+                    fill
+                    className="object-cover transition-opacity duration-500"
+                    sizes="(max-width: 768px) 0vw, 50vw"
+                    priority={currentPairIndex === 0}
+                  />
+                }
+                SliderIcon={<SliderIcon className="w-10 h-10" />}
+                containerStyle="w-full h-full rounded-xl sm:rounded-3xl"
+                SliderWrapperStyle="w-10 h-10"
+                SliderLineStyle=""
               />
+              {/* Carousel Indicators */}
+              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 z-10">
+                {imagePairs.map((_, index) => (
+                  <button
+                    key={index}
+                    type="button"
+                    onClick={() => setCurrentPairIndex(index)}
+                    className={`transition-all duration-300 rounded-full ${currentPairIndex === index
+                      ? "w-2.5 h-2.5 bg-white shadow-lg"
+                      : "w-2 h-2 bg-white/60 hover:bg-white/80"
+                      }`}
+                    aria-label={`Go to image pair ${index + 1}`}
+                  />
+                ))}
+              </div>
             </div>
           </div>
           {/* Register Form Section - Full width on mobile, 50% on desktop */}

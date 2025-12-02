@@ -15,7 +15,7 @@ export default async function PricingPage() {
     }
 
     return (
-        <div className="pt-20 min-h-screen">
+        <div className="pt-20 min-h-screen overflow-hidden">
             <PricingPlan initialPlans={plans} />
             <FAQs />
             <CurvedCarousel />

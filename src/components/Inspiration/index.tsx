@@ -58,7 +58,7 @@ export default function Inspiration() {
                     transition: filter 0.5s ease-out, opacity 0.5s ease-out;
                 }
             `}} />
-            <div className="flex flex-col items-center gap-3 justify-center mt-4 sm:mt-6 md:mt-8 px-4">
+            <div className="flex flex-col items-center mt-4 md:mt-16 gap-3 justify-center px-4">
             <TextSeparator textSeparatorText="Inspiration" />
 
                 <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center font-bold px-2 sm:px-4">

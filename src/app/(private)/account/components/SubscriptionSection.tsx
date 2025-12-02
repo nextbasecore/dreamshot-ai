@@ -12,7 +12,7 @@ interface SubscriptionSectionProps {
 
 /**
  * Subscription section component
- * Displays subscription information, upgrade banner, and plan details
+ * Displays subscription information and plan details
  */
 export function SubscriptionSection({ onManageSubscription }: SubscriptionSectionProps) {
     const user = useAtomValue(userAuthAtom);
@@ -43,37 +43,6 @@ export function SubscriptionSection({ onManageSubscription }: SubscriptionSectio
 
     return (
         <>
-            {/* Upgrade Banner */}
-            {!user?.subscription || user?.subscription?.isCancelled ? (
-                <button
-                    onClick={() => router.push("/price")}
-                    className="relative w-full rounded-2xl overflow-hidden cursor-pointer group shadow-lg shadow-blue-100/50 hover:shadow-xl hover:shadow-blue-200/50 transition-all duration-300"
-                >
-                    <div className="aspect-video w-full rounded-2xl overflow-hidden">
-                        <img
-                            src="/assets/home/ourTools/1.png"
-                            alt="Upgrade Banner"
-                            className="w-full h-full rounded-2xl object-cover group-hover:scale-105 transition-transform duration-300"
-                        />
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent rounded-2xl" />
-                    <div className="absolute bottom-3 left-0 right-0 px-3">
-                        <div className="flex items-end justify-between">
-                            <h3 className="text-white md:block hidden font-semibold bg-white/20 backdrop-blur-2xl py-2 px-4 border border-white/30 rounded-xl shadow-md">
-                                {user?.subscription?.isCancelled
-                                    ? getIsCancelledAfterTag()
-                                    : getSubscriptionName()}
-                            </h3>
-                            <h3 className="text-white md:hidden block font-semibold bg-white/20 backdrop-blur-2xl py-2 px-4 border border-white/30 rounded-xl shadow-md">
-                                Upgrade
-                            </h3>
-                            <div className="text-white font-medium bg-white/20 backdrop-blur-2xl py-2 px-2 border border-white/30 rounded-xl hover:bg-white/30 transition-all duration-300 shadow-md">
-                                <CrossArrowIcon className="w-6 h-6 transition-transform duration-300 group-hover:rotate-45" />
-                            </div>
-                        </div>
-                    </div>
-                </button>
-            ) : null}
 
             {/* Plan Section */}
             <div className="bg-white/80 backdrop-blur-xl rounded-2xl py-5 px-5 border border-blue-200/50 shadow-lg shadow-blue-100/50 hover:shadow-xl hover:shadow-blue-200/50 transition-all duration-300">
@@ -112,6 +81,7 @@ export function SubscriptionSection({ onManageSubscription }: SubscriptionSectio
                         />
                     </div>
                 </div>
+                
                 {user?.subscription && !user?.subscription?.isCancelled && (
                     <div className="flex items-center justify-between pt-4">
                         <div className="flex-1">

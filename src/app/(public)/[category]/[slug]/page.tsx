@@ -124,7 +124,7 @@ export default async function ToolPage({ params }: Props) {
                 {/* Inspiration Section - Only render if inspiration data exists */}
                 <Inspiration />
 
-                {/* <div className="my-8" /> */}
+                <div className="my-8" />
 
 
                 {/* Footer */}

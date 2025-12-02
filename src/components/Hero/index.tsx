@@ -5,11 +5,11 @@ import DashboardHero from "./DashboardHero";
 export default function Hero() {
     return (
         <div className="flex flex-col gap-10" style={{
-                backgroundImage: 'url(/assets/main-background.png)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                backgroundAttachment: 'fixed'
+            backgroundImage: 'url(/assets/main-background.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            backgroundAttachment: 'fixed'
 
         }}>
             <TrustedByTile />

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Switch } from "@/components/ui/switch";
 import useAuth from "@/hooks/useAuth";
 import { auth } from "@/firebase";
-import toast from "react-hot-toast";
+import { customToast } from "@/common";
 
 interface SettingsSectionProps {
     /** Callback when clear data is clicked */
@@ -20,11 +20,20 @@ export function SettingsSection({ onClearData, onDeleteAccount }: SettingsSectio
     const { sendPasswordResetLink } = useAuth();
 
     const handleChangePassword = async () => {
-        toast.promise(sendPasswordResetLink(auth.currentUser?.email || ""), {
-            loading: "Sending reset link...",
-            success: "Reset link sent to your email",
-            error: "Failed to send reset link",
-        });
+        // Validate user is logged in and has an email
+        if (!auth.currentUser) {
+            customToast.error("You must be logged in to change your password");
+            return;
+        }
+
+        const userEmail = auth.currentUser.email;
+        if (!userEmail) {
+            customToast.error("No email address found for your account");
+            return;
+        }
+
+        // Send password reset link
+        await sendPasswordResetLink(userEmail);
     };
 
     return (

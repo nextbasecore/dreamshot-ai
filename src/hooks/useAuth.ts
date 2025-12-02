@@ -93,6 +93,7 @@ const useAuth = () => {
             await sendPasswordResetEmail(auth, email);
             customToast.success("Reset link sent to your email");
             handleDialogType("login", "remove");
+            handleDialogType("forgotPassword", "remove");
         } catch (error: unknown) {
             const errorMessage = handleAuthError(error);
             customToast.error(errorMessage);

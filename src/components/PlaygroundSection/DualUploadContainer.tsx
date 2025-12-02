@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Loader from "@/components/Loader";
 import { ImagePreview } from "./ImagePreview";
 
@@ -20,6 +20,10 @@ interface DualUploadContainerProps {
     onFileSelect2: (file: File) => void;
     onClearImage1: () => void;
     onClearImage2: () => void;
+    /** Callback when sample image is dropped on first container */
+    onSampleDrop1?: (imageUrl: string) => void;
+    /** Callback when sample image is dropped on second container */
+    onSampleDrop2?: (imageUrl: string) => void;
 }
 
 
@@ -38,9 +42,13 @@ export function DualUploadContainer({
     onFileSelect2,
     onClearImage1,
     onClearImage2,
+    onSampleDrop1,
+    onSampleDrop2,
 }: DualUploadContainerProps) {
     const fileInputRef1 = useRef<HTMLInputElement>(null);
     const fileInputRef2 = useRef<HTMLInputElement>(null);
+    const [isDragging1, setIsDragging1] = useState(false);
+    const [isDragging2, setIsDragging2] = useState(false);
 
     const handleFileChange1 = (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
@@ -84,6 +92,106 @@ export function DualUploadContainer({
         }
     };
 
+    // Drag and drop handlers for first container
+    const handleDragOver1 = (e: React.DragEvent<HTMLDivElement>) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (!isProcessing) {
+            e.dataTransfer.dropEffect = 'copy';
+            setIsDragging1(true);
+        } else {
+            e.dataTransfer.dropEffect = 'none';
+        }
+    };
+
+    const handleDragLeave1 = (e: React.DragEvent<HTMLDivElement>) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const rect = e.currentTarget.getBoundingClientRect();
+        const x = e.clientX;
+        const y = e.clientY;
+        
+        if (x < rect.left || x > rect.right || y < rect.top || y > rect.bottom) {
+            setIsDragging1(false);
+        }
+    };
+
+    const handleDrop1 = (e: React.DragEvent<HTMLDivElement>) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setIsDragging1(false);
+
+        if (isProcessing) {
+            return;
+        }
+
+        // Check if dropped data is a sample image URL
+        const imageUrl = e.dataTransfer.getData('text/plain');
+        if (imageUrl && onSampleDrop1) {
+            onSampleDrop1(imageUrl);
+            return;
+        }
+
+        // Fallback: handle file drop from local file system
+        const files = e.dataTransfer.files;
+        if (files && files.length > 0) {
+            const file = files[0];
+            if (file.type.startsWith('image/')) {
+                onFileSelect1(file);
+            }
+        }
+    };
+
+    // Drag and drop handlers for second container
+    const handleDragOver2 = (e: React.DragEvent<HTMLDivElement>) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (!isProcessing) {
+            e.dataTransfer.dropEffect = 'copy';
+            setIsDragging2(true);
+        } else {
+            e.dataTransfer.dropEffect = 'none';
+        }
+    };
+
+    const handleDragLeave2 = (e: React.DragEvent<HTMLDivElement>) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const rect = e.currentTarget.getBoundingClientRect();
+        const x = e.clientX;
+        const y = e.clientY;
+        
+        if (x < rect.left || x > rect.right || y < rect.top || y > rect.bottom) {
+            setIsDragging2(false);
+        }
+    };
+
+    const handleDrop2 = (e: React.DragEvent<HTMLDivElement>) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setIsDragging2(false);
+
+        if (isProcessing) {
+            return;
+        }
+
+        // Check if dropped data is a sample image URL
+        const imageUrl = e.dataTransfer.getData('text/plain');
+        if (imageUrl && onSampleDrop2) {
+            onSampleDrop2(imageUrl);
+            return;
+        }
+
+        // Fallback: handle file drop from local file system
+        const files = e.dataTransfer.files;
+        if (files && files.length > 0) {
+            const file = files[0];
+            if (file.type.startsWith('image/')) {
+                onFileSelect2(file);
+            }
+        }
+    };
+
     const shouldShowBorder1 = !uploadedImage1;
     const shouldShowBorder2 = !uploadedImage2;
 
@@ -101,9 +209,12 @@ export function DualUploadContainer({
             {/* First Container - Completely separate */}
             <div className="flex-1 flex flex-col">
                 <div
-                    className={`relative rounded-xl p-3 md:p-4 lg:p-6 flex flex-col h-[400px] md:h-[460px] lg:h-[500px] ${shouldShowBorder1 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
-                        } ${!isProcessing ? 'cursor-pointer hover:shadow-xl transition-all duration-300' : ''}`}
+                    className={`relative rounded-xl p-3 md:p-4 lg:p-6 flex flex-col h-[400px] md:h-[460px] lg:h-[500px] bg-white ${shouldShowBorder1 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
+                        } ${!isProcessing ? 'cursor-pointer hover:shadow-xl transition-all duration-300' : ''} ${isDragging1 ? 'border-blue-500 bg-blue-50/50 border-solid' : ''}`}
                     onClick={handleContainer1Click}
+                    onDragOver={handleDragOver1}
+                    onDragLeave={handleDragLeave1}
+                    onDrop={handleDrop1}
                 >
                     <input
                         ref={fileInputRef1}
@@ -113,6 +224,13 @@ export function DualUploadContainer({
                         className="hidden"
                         id={inputId1}
                     />
+
+                    {/* Drag overlay for first container */}
+                    {isDragging1 && !isProcessing && (
+                        <div className="absolute inset-0 bg-blue-100/30 border-2 border-dashed border-blue-500 rounded-xl flex flex-col items-center justify-center z-40 pointer-events-none">
+                            <p className="text-lg font-semibold text-blue-700">Drop image here</p>
+                        </div>
+                    )}
 
                     {/* Image Display */}
                     {uploadedImage1 ? (
@@ -140,7 +258,7 @@ export function DualUploadContainer({
                     ) : (
                         <div className="flex flex-col h-full">
                             {/* Image Preview Container - Takes available space but leaves room for text */}
-                            <div className="flex-shrink overflow-hidden" style={{ height: 'calc(100% - 100px)' }}>
+                            <div className="shrink overflow-hidden" style={{ height: 'calc(100% - 100px)' }}>
                                 <div className="w-full h-full flex items-center justify-center">
                                 <ImagePreview previewUrl={previewUrl1} />
                                 </div>
@@ -158,9 +276,12 @@ export function DualUploadContainer({
             {/* Second Container - Completely separate */}
             <div className="flex-1 flex flex-col">
                 <div
-                    className={`relative rounded-xl p-3 md:p-4 lg:p-6 flex flex-col h-[400px] md:h-[460px] lg:h-[500px] ${shouldShowBorder2 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
-                        } ${!isProcessing ? 'cursor-pointer hover:shadow-xl transition-all duration-300' : ''}`}
+                    className={`relative rounded-xl p-3 md:p-4 lg:p-6 flex flex-col h-[400px] md:h-[460px] lg:h-[500px] bg-white ${shouldShowBorder2 ? 'border-3 border-dashed border-gray-300' : 'border border-gray-200'
+                        } ${!isProcessing ? 'cursor-pointer hover:shadow-xl transition-all duration-300' : ''} ${isDragging2 ? 'border-blue-500 bg-blue-50/50 border-solid' : ''}`}
                     onClick={handleContainer2Click}
+                    onDragOver={handleDragOver2}
+                    onDragLeave={handleDragLeave2}
+                    onDrop={handleDrop2}
                 >
                     <input
                         ref={fileInputRef2}
@@ -170,6 +291,13 @@ export function DualUploadContainer({
                         className="hidden"
                         id={inputId2}
                     />
+
+                    {/* Drag overlay for second container */}
+                    {isDragging2 && !isProcessing && (
+                        <div className="absolute inset-0 bg-blue-100/30 border-2 border-dashed border-blue-500 rounded-xl flex flex-col items-center justify-center z-40 pointer-events-none">
+                            <p className="text-lg font-semibold text-blue-700">Drop image here</p>
+                        </div>
+                    )}
 
                     {/* Image Display */}
                     {uploadedImage2 ? (
@@ -197,7 +325,7 @@ export function DualUploadContainer({
                     ) : (
                         <div className="flex flex-col h-full">
                             {/* Image Preview Container - Takes available space but leaves room for text */}
-                            <div className="flex-shrink overflow-hidden" style={{ height: 'calc(100% - 100px)' }}>
+                            <div className="shrink overflow-hidden" style={{ height: 'calc(100% - 100px)' }}>
                                 <div className="w-full h-full flex items-center justify-center">
                                 <ImagePreview previewUrl={previewUrl2 || previewUrl1} />
                                 </div>

@@ -275,6 +275,52 @@ export default function PlaygroundSection() {
         customToast.success("Sample image loaded!");
     };
 
+    // Handle sample image drop on first container
+    const handleSampleDrop1 = (originalUrl: string) => {
+        if (isProcessing) {
+            console.log(`[PLAYGROUND] ⏳ Generation in progress, ignoring sample drop`);
+            return;
+        }
+
+        console.log(`[PLAYGROUND] 🖼️ Sample image dropped on first container:`, { originalUrl });
+
+        // Clear any uploaded files and set the sample URL for display
+        if (isDualUpload) {
+            dualUpload.clearFirst();
+        } else {
+            singleUpload.clearUpload();
+        }
+
+        // Store sample image URL for display and later conversion
+        setSampleImageUrl(originalUrl);
+
+        console.log(`[PLAYGROUND] ✅ Sample image loaded for preview:`, { originalUrl });
+        customToast.success("Sample image loaded!");
+    };
+
+    // Handle sample image drop on second container (dual upload only)
+    const handleSampleDrop2 = (originalUrl: string) => {
+        if (isProcessing) {
+            console.log(`[PLAYGROUND] ⏳ Generation in progress, ignoring sample drop`);
+            return;
+        }
+
+        if (!isDualUpload) {
+            return;
+        }
+
+        console.log(`[PLAYGROUND] 🖼️ Sample image dropped on second container:`, { originalUrl });
+
+        // Clear any uploaded files and set the sample URL for display
+        dualUpload.clearSecond();
+
+        // Store sample image URL for display and later conversion
+        setSampleImageUrl2(originalUrl);
+
+        console.log(`[PLAYGROUND] ✅ Second sample image loaded for preview:`, { originalUrl });
+        customToast.success("Second sample image loaded!");
+    };
+
     const handleClearPrimaryImage = () => {
         if (isDualUpload) {
             dualUpload.clearFirst();
@@ -310,7 +356,7 @@ export default function PlaygroundSection() {
             </div>
 
             {/* Playground Card */}
-            <div className="w-full max-w-lg rounded-xl bg-white lg:max-w-3xl mx-auto flex flex-col gap-10">
+            <div className={`w-full max-w-lg rounded-xl lg:max-w-3xl mx-auto flex flex-col gap-10 ${isDualUpload ? 'bg-transparent' : 'bg-white'}`}>
                 {isDualUpload ? (
                     <DualUploadContainer
                         inputId1="file-upload-1"
@@ -327,6 +373,8 @@ export default function PlaygroundSection() {
                         isProcessing={isProcessing}
                         onClearImage1={handleClearPrimaryImage}
                         onClearImage2={handleClearSecondaryImage}
+                        onSampleDrop1={handleSampleDrop1}
+                        onSampleDrop2={handleSampleDrop2}
                     />
                 ) : (
                     <UploadContainer
@@ -341,6 +389,7 @@ export default function PlaygroundSection() {
                         onFileSelect={(file) => handleFileUpload(file, false)}
                         isProcessing={isProcessing}
                         onClearImage={handleClearPrimaryImage}
+                        onSampleDrop={handleSampleDrop1}
                     />
                 )}
             </div>

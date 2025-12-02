@@ -1,11 +1,12 @@
 "use client";
 
 import AuthWrapper from "@/components/AuthWrapper";
-import ForgotPassword from "@/components/Dialogs/ForgotPassword";
+import ForgotPasswordDialog from "@/components/Dialogs/ForgotPasswordDialog";
 import LoginInDialog from "@/components/Dialogs/LoginDialog";
 import RegisterDialog from "@/components/Dialogs/RegisterDialog";
 import LogoutDialog from "@/components/Dialogs/LogOutDialog";
 import VerifyDialog from "@/components/Dialogs/VerifyDialog";
+import FeedbackDialog from "@/components/Dialogs/FeedbackDialog";
 
 /**
  * Private route layout - wraps all routes in the (private) folder
@@ -20,11 +21,12 @@ export default function PrivateLayout({
     return (
         <AuthWrapper type="private">
             {/* Include auth dialogs for private routes */}
-            <ForgotPassword />
+            <ForgotPasswordDialog />
             <RegisterDialog />
             <LoginInDialog />
             <LogoutDialog />
             <VerifyDialog />
+            <FeedbackDialog />
             {children}
         </AuthWrapper>
     );

@@ -73,7 +73,7 @@ export default function PricingPlan({ initialPlans }: PricingPlanProps = {}) {
     }, [billingPeriod, plansData]);
 
     return (
-        <div className="flex flex-col mb-15 items-center gap-10 justify-center" style={{
+        <div className="flex flex-col overflow-hidden mb-15 items-center gap-10 justify-center" style={{
             backgroundImage: 'url(/assets/cloud-background.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
@@ -109,7 +109,11 @@ export default function PricingPlan({ initialPlans }: PricingPlanProps = {}) {
             ) : filteredPlans.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl mx-auto px-4">
                     {filteredPlans.map((plan) => (
-                        <PricingCard key={`${plan.id}-${plan.duration}`} plan={plan} />
+                        <PricingCard
+                            key={`${plan.id}-${plan.duration}`}
+                            plan={plan}
+                            allPlans={plansData || []}
+                        />
                     ))}
                 </div>
             ) : plansData && plansData.length > 0 ? (

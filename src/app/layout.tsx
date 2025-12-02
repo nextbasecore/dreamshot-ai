@@ -4,11 +4,13 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import AuthWrapper from "@/components/AuthWrapper";
-import ForgotPassword from "@/components/Dialogs/ForgotPassword";
+import ForgotPasswordDialog from "@/components/Dialogs/ForgotPasswordDialog";
 import LoginInDialog from "@/components/Dialogs/LoginDialog";
 import RegisterDialog from "@/components/Dialogs/RegisterDialog";
 import LogoutDialog from "@/components/Dialogs/LogOutDialog";
 import VerifyDialog from "@/components/Dialogs/VerifyDialog";
+import FeedbackDialog from "@/components/Dialogs/FeedbackDialog";
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -60,12 +62,18 @@ export default function RootLayout({
         className={`${sfProDisplay.variable} ${geistMono.variable} antialiased`}
       >
         <AuthWrapper type="public">
-
-          <ForgotPassword />
+          <Toaster
+            position="top-center"
+            toastOptions={{
+              duration: 4000,
+            }}
+          />
+          <ForgotPasswordDialog />
           <RegisterDialog />
           <LoginInDialog />
           <LogoutDialog />
           <VerifyDialog />
+          <FeedbackDialog />
           <Header />
           {children}
         </AuthWrapper>

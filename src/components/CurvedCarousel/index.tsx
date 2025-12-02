@@ -25,7 +25,7 @@ export default function CurvedCarousel() {
     const router = useRouter();
 
     const handleNavigateToAllTools = () => {
-      router.push('/all-tools');
+        router.push('/all-tools');
     };
     const containerRef = useRef<HTMLDivElement>(null);
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -193,7 +193,7 @@ export default function CurvedCarousel() {
     return (
         <div
             ref={containerRef}
-            className="flex flex-col items-center gap-3 justify-center py-10 px-4 sm:px-6 md:px-8 w-full" 
+            className="flex flex-col items-center gap-3 justify-center py-10 px-4 sm:px-6 md:px-8 w-full"
             style={{
                 backgroundImage: 'url(/assets/cloud-bg-2.png)',
                 backgroundSize: 'cover',
