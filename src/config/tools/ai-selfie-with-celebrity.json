@@ -22,7 +22,7 @@
   "inputType": "dual",
   "effectId": "ai-selfie-with-celebrities",
   "model": "image-effects",
-  "cardImage": "https://assets.remixai.io/Public/featured-image/AI-selfie-with-celebrities-generator-featuredd.webp",
+  "cardImage": "https://assets.remixai.io/selfi-with-celebrity-cover-image.webp",
   "cardVideo": "",
   "transformationImages": {
     "transformationPreview": "https://assets.remixai.io/Public/featured-image/AI-selfie-with-celebrities-generator-1.webp",
