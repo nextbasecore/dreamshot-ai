@@ -1,0 +1,141 @@
+{
+  "id": "make-me-santa",
+  "title": "AI Santa Claus Generator",
+  "playgroundTitle": "AI Santa Claus Generator",
+  "playgroundDescription": "Turn yourself into Santa Claus this Christmas with Dreamshot. Use AI to create playful, holiday-ready photos from any image.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Convert Photo To Santa Claus With AI - Dreamshot",
+    "description": "See yourself as Santa Claus with Dreamshot AI. Turn any photo into a fun, festive Santa image online for free and share cheerful, holiday-ready pictures.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Santa Look",
+  "inputType": "single",
+  "effectId": "makeMeSanta",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-pregnant-filter",
+      "ai-sad-filter",
+      "ai-skinny-filter",
+      "ai-smile-filter"
+    ],
+    "heading": "Check Out Other Trending Image Effects"
+  },
+  "examples": {
+    "heading": "See Yourself as Santa – Sample Creations",
+    "title": "See Yourself as Santa – Sample Creations",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Make Me Santa"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Santa Claus Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions About Make Me Santa",
+    "questions": [
+      {
+        "question": "What is the 'Make Me Santa' effect?",
+        "answer": "'Make Me Santa' is a fun AI image effect that turns your photo into a Santa Claus picture. It adds a Santa hat, beard, and other festive features to your image."
+      },
+      {
+        "question": "Is 'Make Me Santa' free to use?",
+        "answer": "Yes! You just need to sign up for a free account, and you'll get credits to try the 'Make Me Santa' effect and other fun AI effects."
+      },
+      {
+        "question": "Are my photos private and safe?",
+        "answer": "Yes. Your photos are uploaded securely and used only for creating the effect. We never share your images with anyone, and your privacy is fully protected."
+      },
+      {
+        "question": "Do I need to install any software?",
+        "answer": "No. 'Make Me Santa' works entirely in your browser. You don’t need to download or install anything, and it works on computers, laptops, and mobile devices."
+      },
+      {
+        "question": "In what format can I download my final image?",
+        "answer": "You can download your Santa photo in high-quality JPG or PNG formats. It’s perfect for sharing on social media, messaging apps, or printing holiday cards."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I had so much fun turning my team into Santa's elves for our holiday post! It was super easy and the results were hilarious. Dreamshot really works like magic.",
+        "name": "Evelyn",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Honestly, the quality is surprisingly good. My Santa photo looked so realistic my friends actually thought it was a costume!",
+        "name": "Julian",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "This was the hit of our family's digital Christmas card this year. Everyone loved seeing their Santa-fied selves!",
+        "name": "Maya",
+        "designation": "Web user from USA"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Make Me Santa Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select & Upload photos from your device to apply Make Me Santa, and make sure uploaded photos must be in high quality with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Make Me Santa",
+        "bulletPoints": [
+          "After the photo is uploaded click on the “Apply Image Effect” button to apply Make Me Santa to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated Make Me Santa to your device and share it on your favorite social media platform, and with your friends and family."
+        ]
+      }
+    ]
+  }
+}
