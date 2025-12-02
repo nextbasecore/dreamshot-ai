@@ -1,0 +1,172 @@
+{
+  "id": "ai-fisheye-filter",
+  "title": "AI 鱼眼滤镜",
+  "playgroundTitle": "AI 鱼眼滤镜",
+  "playgroundDescription": "无需任何复杂软件即可生成令人惊艳的鱼眼效果。只需上传您的照片，我们的 AI 即可瞬间为您创建独特的广角图像。",
+  "highlightWords": [
+    "Fisheye"
+  ],
+  "metadata": {
+    "title": "AI 鱼眼滤镜效果：即时扭曲您的照片",
+    "description": "立即为任何图像应用有趣的失真鱼眼滤镜。我们的免费 AI 工具可在几秒钟内让您的照片呈现独特的球形广角效果。",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 8,
+  "buttonText": "生成鱼眼视图",
+  "inputType": "single",
+  "effectId": "fisheyeFilter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "add-clouds-to-photo",
+      "elevator-photo-generator",
+      "ai-gta-filter",
+      "ai-lookism-filter"
+    ],
+    "heading": "查看其他酷炫图像效果"
+  },
+  "faqs": {
+    "heading": "关于 AI 鱼眼滤镜的常见问题",
+    "questions": [
+      {
+        "question": "什么是 AI 鱼眼滤镜？",
+        "answer": "AI 鱼眼滤镜是一种先进的图像效果，利用人工智能模拟使用超广角或“鱼眼”镜头拍摄的照片外观。它会对您的图像进行数字化扭曲，创造独特的球形和全景视觉。"
+      },
+      {
+        "question": "我需要安装任何软件才能使用此工具吗？",
+        "answer": "不需要安装。我们的 AI 鱼眼滤镜是完全基于网页的工具，您可以通过任意现代浏览器在桌面或移动设备上使用它。"
+      },
+      {
+        "question": "我可以上传哪些图像格式？",
+        "answer": "我们的工具支持最常见的图像格式，包括 JPEG、PNG 和 WEBP。为获得最佳效果，我们建议上传高质量的图像。"
+      },
+      {
+        "question": "应用鱼眼滤镜需要多长时间？",
+        "answer": "我们的 AI 工具经过速度优化。处理时间可能因图像复杂度和服务器负载略有不同，但大多数转换只需几秒，比许多其他服务快得多。"
+      },
+      {
+        "question": "哪些类型的照片最适合鱼眼效果？",
+        "answer": "鱼眼效果适用于多种主题！它对风景、城市景观、建筑照片以及创意团体肖像尤其有效。尝试不同的照片，会收获独特的效果。"
+      },
+      {
+        "question": "我的数据和上传的照片安全吗？",
+        "answer": "当然安全。我们非常重视您的隐私和安全。上传的图像会在安全服务器上处理，并会在短时间后自动删除。我们绝不会与第三方分享您的照片或个人数据。"
+      },
+      {
+        "question": "我可以调整鱼眼效果的强度吗？",
+        "answer": "可以！我们提供高级调整滑块，可让您控制扭曲程度。您可以选择轻微弯曲或夸张的全球效果，以匹配您的创意需求。"
+      },
+      {
+        "question": "AI 鱼眼滤镜是免费使用的吗？",
+        "answer": "是的！注册免费账户后，您将获得免费的积分来体验鱼眼滤镜和其他效果。如需更多，我们也提供多种积分包供购买。"
+      },
+      {
+        "question": "应用滤镜后图像质量会下降吗？",
+        "answer": "我们尽可能保持最高质量。AI 会处理您的图像并应用效果，不会造成显著分辨率损失。您可以下载高清的最终效果图。"
+      },
+      {
+        "question": "生成的图像会有水印吗？",
+        "answer": "使用免费积分生成的图像可能包含一个小且不显眼的水印。高级计划和购买积分包可以导出完全无水印的图像。"
+      },
+      {
+        "question": "我可以将生成的鱼眼图像用于商业项目吗？",
+        "answer": "可以，使用付费计划或积分包生成的图像附带商业许可，可用于业务、营销或客户项目，没有任何限制。"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "如何使用 AI 鱼眼滤镜？",
+    "description": "按照以下简单步骤，为您的图像应用 AI 鱼眼效果。",
+    "steps": [
+      {
+        "step": 1,
+        "title": "上传图像",
+        "bulletPoints": [
+          "选择并上传您想应用鱼眼效果的图像。"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "应用图像效果",
+        "bulletPoints": [
+          "我们的 AI 会自动处理您的照片，生成独特的球形鱼眼外观。"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "下载与分享",
+        "bulletPoints": [
+          "将生成的鱼眼图像保存到设备或直接分享给他人。"
+        ]
+      }
+    ]
+  },
+  "examples": {
+    "heading": "查看惊艳效果",
+    "title": "查看惊艳效果",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI 鱼眼滤镜"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI 鱼眼滤镜 免费版"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "用户评价",
+    "reviews": [
+      {
+        "review": "这个鱼眼滤镜正是我制作视频所需要的。它非常易用，还能带来酷炫的动态效果。Max Studio 又一款出色的工具！",
+        "name": "Olivia",
+        "designation": "内容创作者"
+      },
+      {
+        "review": "我玩得非常开心！只需一键就能让我的照片变得超独特。非常推荐试试。",
+        "name": "Ethan",
+        "designation": "来自英国的 iOS 用户"
+      },
+      {
+        "review": "AI 鱼眼效果非常逼真，让我无需特殊镜头即可在视觉项目中打造独特视角。",
+        "name": "Maya",
+        "designation": "视觉故事创作者"
+      }
+    ]
+  }
+}
