@@ -1,0 +1,130 @@
+{
+  "id": "santa-giving-gift",
+  "title": "AI Santa Giving Gift Effect",
+  "playgroundTitle": "AI Santa Giving Gift Effect",
+  "playgroundDescription": "Use the AI Santa Giving Gift effect for free to turn your photos into festive holiday scenes. See Santa handing out gifts with cheerful decorations and warm Christmas vibes.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Santa Giving Gift effect For Free",
+    "description": "Give a magical holiday touch to your photos with the AI Santa Giving Gift effect. See Santa hand out gifts with festive cheer and warm Christmas spirit.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "santaGivingGift",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "add-christmas-tree-to-photo",
+      "add-santa-hat-to-photo",
+      "add-santa-to-photo",
+      "christmas-party-glam"
+    ],
+    "heading": "Related Popular Image Effects"
+  },
+  "examples": {
+    "heading": "See Sample Results of Santa Giving Gift",
+    "title": "See Sample Results of Santa Giving Gift",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Santa Giving Gift"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Santa Giving Gift"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "question": "What is the 'Santa Giving Gift' effect?",
+      "answer": "The 'Santa Giving Gift' effect is an AI effect that turns your photo into a festive scene where Santa Claus looks like he's giving a gift. It adds a fun, holiday touch to your picture."
+    },
+    {
+      "question": "Is it free to use the 'Santa Giving Gift' effect?",
+      "answer": "Yes! Just sign up for a free account, and you'll get free credits to try this effect and other AI effect on our website."
+    },
+    {
+      "question": "Are my uploaded photos safe and private?",
+      "answer": "Yes. Your photos are uploaded securely, used only to create the effect, and are never shared with anyone. They are deleted from our servers after a short time."
+    },
+    {
+      "question": "Can I customize Santa's gift or pose?",
+      "answer": "Currently, the AI automatically adds the gift and pose. This ensures the result looks natural and festive without needing any manual edits."
+    },
+    {
+      "question": "Can I use this tool on my mobile device?",
+      "answer": "Yes! The tool is fully web-based, so you can upload photos and create Santa images directly from your smartphone or tablet."
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "Absolutely magical! The Santa pictures turned out way better than I expected. My family loved them.",
+        "name": "Olivia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "This is so much fun to play with. I made a festive profile picture using Dreamshot in just a few clicks.",
+        "name": "Ethan",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "I'm genuinely impressed. It's incredibly easy to create such high-quality holiday images.",
+        "name": "Sophia",
+        "designation": "Visual Storyteller"
+      }
+    ]
+  },
+  "howItWorksHeading": "How Santa Giving Gift Works?",
+  "howItWorks": [
+    {
+      "step": 1,
+      "title": "Upload Photo",
+      "description": "Select & Upload photos from your device to apply Santa Giving Gift, and make sure uploaded photos must be in high quality with a well-lit background."
+    },
+    {
+      "step": 2,
+      "title": "Apply Santa Giving Gift",
+      "description": "After the photo is uploaded click on the “Generate Now” button to apply Santa Giving Gift to your photo."
+    },
+    {
+      "step": 3,
+      "title": "Download & Share",
+      "description": "Download your generated Santa Giving Gift to your device and share it on your favorite social media platform, and with your friends and family."
+    }
+  ]
+}
