@@ -1,0 +1,130 @@
+{
+  "id": "frosty-the-snowman",
+  "title": "AI Frosty Snowman Filter",
+  "playgroundTitle": "AI Frosty Snowman Filter",
+  "playgroundDescription": "Bring your photos to life with the AI Frosty the Snowman Generator. Watch your images become playful snowman characters with snowy accents and festive winter charm.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Frosty the Snowman Generator",
+    "description": "Generate fun Frosty the Snowman images with AI. Turn your photos into playful snowman characters with snowy details and festive winter vibes.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "frostyTheSnowman",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": "",
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "selfie-with-celebrities",
+      "change-image-to-fall-season",
+      "ai-winter-effect",
+      "christmas-party-glam"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "examples": {
+    "heading": "Watch Sample AI Frosty Snowman Transformations",
+    "title": "Watch Sample AI Frosty Snowman Transformations",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Frosty The Snowman"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Frosty Snowman Efffect"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "question": "What is the Frosty The Snowman effect?",
+      "answer": "The Frosty The Snowman effect is a fun AI image filter that turns your photos into a snowy, festive scene. It adds snow, frost, and a cheerful wintery look to your pictures."
+    },
+    {
+      "question": "How long does it take to apply the Frosty The Snowman effect?",
+      "answer": "It usually takes just a few seconds. The time can vary depending on your image size and details, but our AI works fast to give you your transformed photo quickly."
+    },
+    {
+      "question": "Is this Frosty The Snowman tool free?",
+      "answer": "Yes! Just sign up for a free account, and you'll get some free credits to try this effect and other AI tools on our site."
+    },
+    {
+      "question": "Is it safe to upload my photos? What about my privacy?",
+      "answer": "Yes, your privacy is important to us. All photos are processed securely and deleted from our servers after a short time. We never share your images with anyone."
+    },
+    {
+      "question": "What image file formats can I upload?",
+      "answer": "You can upload JPEG, PNG, or WEBP images. Make sure your file is under 10MB for the best results."
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "Absolutely magical! Creating this scene was incredibly fun and the result is just beautiful.",
+        "name": "Stella",
+        "designation": "Digital Artist"
+      },
+      {
+        "review": "I was impressed with the detail. The way the snow sparkles is just perfect. Dreamshot made it super easy to get the right look.",
+        "name": "Caleb",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "This brought Frosty to life just like I remembered from my childhood. The animation is so charming and smooth!",
+        "name": "Mia",
+        "designation": "Visual Creator"
+      }
+    ]
+  },
+  "howItWorksHeading": "How Does It Work?",
+  "howItWorks": [
+    {
+      "step": 1,
+      "title": "Upload Image",
+      "description": "Start by uploading a clear photo that you want to transform into Frosty The Snowman. For best results, use a high-quality image with a clear subject."
+    },
+    {
+      "step": 2,
+      "title": "Generate Image",
+      "description": "Choose the Frosty The Snowman style you want, then click the “Generate Now” button. The AI will instantly transform your photo, adding a top hat, carrot nose, and a cheerful snowy background."
+    },
+    {
+      "step": 3,
+      "title": "Download & Share",
+      "description": "Once your Frosty The Snowman is ready, you can download it to your device or share it with friends."
+    }
+  ]
+}
