@@ -1,0 +1,130 @@
+{
+  "id": "christmas-light-to-photo",
+  "title": "Add Christmas Light To Photo",
+  "playgroundTitle": "AI Christmas Light Filter",
+  "playgroundDescription": "AI Christmas Light Filter adds warm holiday lights, gentle glows, and colorful Christmas accents to your photo. It’s an easy way to give your picture a bright, festive look perfect for the holiday season.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Christmas Light Filter: Add Christmas Lights to Photos Online",
+    "description": "Bright your photos with the AI Christmas Light Filter. Add warm bulbs, soft glows, and festive lighting effects to give your picture a cheerful Christmas theme.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "christmasLightsGlow",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-winter-effect",
+      "add-santa-to-photo",
+      "add-santa-hat-to-photo",
+      "add-christmas-tree-to-photo"
+    ],
+    "heading": "Check Out Other Trending Image Effects"
+  },
+  "examples": {
+    "heading": "Add Christmas Light to Photo – Example",
+    "title": "Add Christmas Light to Photo – Example",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Add Christmas Light To Photo"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Add Christmas Light Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "question": "What is the 'Add Christmas Light To Photo' effect?",
+      "answer": "This is a fun AI effect that adds realistic Christmas lights to your photos, making them look festive and magical."
+    },
+    {
+      "question": "Is this Christmas light photo effect filter free to use?",
+      "answer": "Yes! When you sign up for a free account, you get free credits to try this effect and other AI filter."
+    },
+    {
+      "question": "Are my uploaded photos safe and private?",
+      "answer": "Yes, your photos are safe. They are uploaded securely, used only for this effect, and deleted from our servers after a short time. We never share them with anyone."
+    },
+    {
+      "question": "What image file formats are supported?",
+      "answer": "You can upload JPG, PNG, or WEBP files. Just choose your photo, and our AI will do the rest."
+    },
+    {
+      "question": "Can I customize the color or style of the Christmas lights?",
+      "answer": "The AI automatically chooses the best colors and style of lights to match your photo, so you don’t need to do anything. It always gives a natural, festive look."
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I was looking for a quick way to make my holiday posts pop, and this was perfect. The Christmas light effect is so easy to apply and looks amazing!",
+        "name": "Charlotte",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "The Dreamshot tool is brilliant. I added some festive lights to a family photo from last year, and it looks like it was taken professionally.",
+        "name": "Elijah",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "As a digital artist, I'm picky about effects. The lighting looks surprisingly realistic and blends seamlessly with my photos. A fantastic tool for adding that festive touch.",
+        "name": "Lucy",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorksHeading": "How Does It Work?",
+  "howItWorks": [
+    {
+      "step": 1,
+      "title": "Upload Image",
+      "description": "Start by uploading a clear photo that you want to add Christmas lights to. For best results, use a high-quality image with good lighting and a clear subject."
+    },
+    {
+      "step": 2,
+      "title": "Generate Image",
+      "description": "Choose the Christmas light style you want, then click the “Generate Now” button. The AI will instantly add festive, glowing lights to your photo."
+    },
+    {
+      "step": 3,
+      "title": "Download & Share",
+      "description": "Once your photo with Christmas lights is ready, you can download it to your device or share it with friends."
+    }
+  ]
+}
