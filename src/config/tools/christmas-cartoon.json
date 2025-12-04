@@ -66,8 +66,9 @@
       "original": "https://assets.remixai.io/sample-image-36.webp"
     }
   ],
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
+  "faqs": {
+    "heading": "Frequently Asked Questions about Christmas Cartoon Effect",
+    "questions": [
     {
       "question": "What is the Christmas Cartoon effect?",
       "answer": "The Christmas Cartoon effect is an AI tool that turns your normal photos into cute and festive cartoon images, perfect for the holidays."
@@ -88,7 +89,8 @@
       "question": "Can I use photos of pets or objects?",
       "answer": "Absolutely! Pets, toys, or holiday decorations work well and the AI will turn them into cute cartoon versions."
     }
-  ],
+  ]
+},
   "testimonials": {
     "heading": "What People Say about us",
     "reviews": [

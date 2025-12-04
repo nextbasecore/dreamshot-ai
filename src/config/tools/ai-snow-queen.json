@@ -66,8 +66,9 @@
       "original": "https://assets.remixai.io/sample-image-32.webp"
     }
   ],
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
+  "faqs": {
+    "heading": "Frequently Asked Questions about Snow Queen Effect",
+    "questions": [
     {
       "question": "What is the AI Snow Queen Transformation?",
       "answer": "The AI Snow Queen Transformation is a fun photo effect that turns your picture into a winter-style Snow Queen look. It adds icy colors, frosty details, and a soft magical glow to your photo."
@@ -88,7 +89,8 @@
       "question": "What file formats can I upload?",
       "answer": "You can upload photos in JPG, PNG, or WEBP formats. Just choose a photo from your device and upload it."
     }
-  ],
+  ]
+},
   "testimonials": {
     "heading": "What People Say about us",
     "reviews": [

@@ -66,8 +66,9 @@
       "original": "https://assets.remixai.io/sample-image-28.webp"
     }
   ],
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
+  "faqs": {
+    "heading": "Frequently Asked Questions about Gingerbread Filter",
+    "questions": [
     {
       "question": "What is the AI Gingerbread Filter?",
       "answer": "The AI Gingerbread Filter is a fun tool that uses AI to turn your photos into gingerbread-themed images. It makes your picture look like it’s made of gingerbread, icing, and candy decorations."
@@ -88,7 +89,8 @@
       "question": "Can I save my progress if I want to edit later?",
       "answer": "Currently, each transformation is processed instantly. If you want to keep an image, download it right away since the AI doesn’t save your photo on the platform."
     }
-  ],
+  ]
+},
   "testimonials": {
     "heading": "What People Say about us",
     "reviews": [

@@ -66,8 +66,9 @@
       "original": "https://assets.remixai.io/sample-image-48.webp"
     }
   ],
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
+  "faqs": {
+    "heading": "Frequently Asked Questions about Santa Giving Gift",
+    "questions": [
     {
       "question": "What is the 'Santa Giving Gift' effect?",
       "answer": "The 'Santa Giving Gift' effect is an AI effect that turns your photo into a festive scene where Santa Claus looks like he's giving a gift. It adds a fun, holiday touch to your picture."
@@ -88,7 +89,8 @@
       "question": "Can I use this tool on my mobile device?",
       "answer": "Yes! The tool is fully web-based, so you can upload photos and create Santa images directly from your smartphone or tablet."
     }
-  ],
+  ]
+},
   "testimonials": {
     "heading": "What People Say about us",
     "reviews": [

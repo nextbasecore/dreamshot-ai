@@ -66,8 +66,9 @@
       "original": "https://assets.remixai.io/sample-image-40.webp"
     }
   ],
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
+    "faqs": {
+    "heading": "Frequently Asked Questions about Christmas Light Effect",
+    "questions": [
     {
       "question": "What is the 'Add Christmas Light To Photo' effect?",
       "answer": "This is a fun AI effect that adds realistic Christmas lights to your photos, making them look festive and magical."
@@ -88,7 +89,8 @@
       "question": "Can I customize the color or style of the Christmas lights?",
       "answer": "The AI automatically chooses the best colors and style of lights to match your photo, so you don’t need to do anything. It always gives a natural, festive look."
     }
-  ],
+  ]
+},
   "testimonials": {
     "heading": "What People Say about us",
     "reviews": [

@@ -66,8 +66,9 @@
       "original": "https://assets.remixai.io/sample-image-44.webp"
     }
   ],
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
+  "faqs": {
+    "heading": "Frequently Asked Questions about Snowman Effect",
+    "questions": [
     {
       "question": "What is the Frosty The Snowman effect?",
       "answer": "The Frosty The Snowman effect is a fun AI image filter that turns your photos into a snowy, festive scene. It adds snow, frost, and a cheerful wintery look to your pictures."
@@ -88,7 +89,8 @@
       "question": "What image file formats can I upload?",
       "answer": "You can upload JPEG, PNG, or WEBP images. Make sure your file is under 10MB for the best results."
     }
-  ],
+  ]
+},
   "testimonials": {
     "heading": "What People Say about us",
     "reviews": [
