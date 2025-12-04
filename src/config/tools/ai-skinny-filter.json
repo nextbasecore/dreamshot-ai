@@ -1,0 +1,141 @@
+{
+  "id": "ai-skinny-filter",
+  "title": "AI Skinny Filter",
+  "playgroundTitle": "AI Skinny Filter",
+  "playgroundDescription": "See a slimmer version of your photos with the AI Skinny Filter. Simply upload an image, and it automatically adjusts the shape to create a natural, refined look.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Ai Skinny Filter To Photo Online For Free",
+    "description": "Apply a skinny filter to your photos online for free. The AI filter reshapes and adjusts your image automatically to give a slimmer look.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Slim Look",
+  "inputType": "single",
+  "effectId": "skinny",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/skinny-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "selfie-with-celebrities",
+      "add-christmas-tree-to-photo",
+      "plush-pillow-generator",
+      "make-me-santa"
+    ],
+    "heading": "Discover Other Popular Image Effects"
+  },
+  "examples": {
+    "heading": "See the Stunning Results",
+    "title": "Slim Look Sample Images",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Skinny Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Skinny Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+ "faqs": {
+    "heading": "FAQs About the AI Skinny Filter",
+    "questions": [
+    {
+      "question": "What is the AI Skinny Filter?",
+      "answer": "The AI Skinny Filter is an image effect that makes a person look slimmer in a photo. Just upload your picture, and the AI adjusts it naturally."
+    },
+    {
+      "question": "Is the AI Skinny Filter free?",
+      "answer": "Yes! You can try it for free after signing up. New users get free credits to use on this effect and other AI tools."
+    },
+    {
+      "question": "Do I need to install anything?",
+      "answer": "No. The AI Skinny Filter works right in your browser on any device—no downloads or software needed."
+    },
+    {
+      "question": "Do I need to download anything?",
+      "answer": "No downloads or apps are needed. You can use the AI Skinny Filter directly from your browser on any device."
+    },
+    {
+      "question": "Will the photo lose quality?",
+      "answer": "No. The tool keeps the same resolution and quality as your original photo."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This is a game-changer for my editing workflow. The Ai Skinny Filter from Max Studio gives my photos that perfect touch without looking fake.",
+        "name": "Olivia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Honestly, I was skeptical at first, but wow. It's so easy to use and the results look incredibly natural!",
+        "name": "Ethan",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "I love how subtle and realistic the effect is. It helps me achieve the specific aesthetic I'm going for in my visual projects.",
+        "name": "Chloe",
+        "designation": "Visual Storyteller"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Ai Skinny Filter Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select and upload high-quality photos from your device with a well-lit background to apply the Ai Skinny Filter."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Ai Skinny Filter",
+        "bulletPoints": [
+          "After the photo is uploaded, click on the “Apply Image Effect” button to apply the Ai Skinny Filter to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated photo to your device and share it on your favorite social media platform, and with your friends and family."
+        ]
+      }
+    ]
+  }
+}
