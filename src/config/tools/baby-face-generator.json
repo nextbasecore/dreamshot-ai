@@ -1,0 +1,142 @@
+{
+  "id": "baby-face-generator",
+  "title": "AI Baby Face Filter",
+  "playgroundTitle": "AI Baby Face Generator",
+  "playgroundDescription": "Use the free AI Baby Face Generator to imagine your baby’s look. It creates realistic baby faces from any photo for fun, curiosity, and playful surprises.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Free AI Baby Face Generator | See Your Baby Look",
+    "description": "Discover how your baby might look with the free AI Baby Face Generator. Create realistic baby faces from any photo for fun and curiosity online.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "baby",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/baby-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "make-me-santa",
+      "add-santa-to-photo",
+      "ai-pregnant-filter",
+      "ai-winter-effect"
+    ],
+    "heading": "Try More Popular Image Effects"
+  },
+  "examples": {
+    "heading": "Check Out Stunning AI Baby Face Generator Results",
+    "title": "Check Out Stunning AI Baby Face Generator Results",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Baby Face Generator"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Baby Face Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions About Baby Face Generator",
+    "questions": [
+      {
+        "question": "What is the Baby Face Generator?",
+        "answer": "The Baby Face Generator is an AI effect that turns your photo into a cute, baby-faced version of yourself or someone else."
+      },
+      {
+        "question": "Is the Baby Face Generator free to use?",
+        "answer": "Yes! You just need to sign up for a free account, and we give you free credits to create baby face images."
+      },
+      {
+        "question": "Can I use a group photo with the Baby Face Generator?",
+        "answer": "Yes, but the filter works best on one person at a time. For accurate results, upload a clear photo of a single face."
+      },
+      {
+        "question": "Can I use it on pet photos?",
+        "answer": "No, the Baby Face Generator is designed for human faces. It may not work properly on pets or animals."
+      },
+      {
+        "question": "Do I need any special software to use this tool?",
+        "answer": "No software is needed. You can use it directly from your web browser on any device."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "My partner and I had so much fun seeing what our future baby might look like. The results were adorable and surprisingly realistic!",
+        "name": "Amelia",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "I'm impressed by how quick and easy this is. The AI from Max Studio is top-notch, and the images it creates are just so heartwarming.",
+        "name": "Noah",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "A simple and delightful tool for anyone curious. We got a good laugh and some really cute pictures to share with our family.",
+        "name": "Chloe",
+        "designation": "iOS user from UK"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Use Baby Face Generator?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pick a Photo",
+        "bulletPoints": [
+          "Upload a high-quality photo from your device. Make sure it’s well-lit for the best baby face transformation."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Create Baby Face",
+        "bulletPoints": [
+          "Click the 'Apply Image Effect' button to turn your photo into a cute baby-faced version."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Save & Share",
+        "bulletPoints": [
+          "Download your transformed image and share it with friends, family, or social media."
+        ]
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,142 @@
+{
+  "id": "south-park-character",
+  "title": "South Park Character",
+  "playgroundTitle": "South Park Character Generator",
+  "playgroundDescription": "Transform your photo into a South Park–style avatar using the free AI Character Creator. Let the AI automatically generate a fun, personalized character in seconds.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "South Park Character Creator Online For Free",
+    "description": "Create your South Park character online for free. Upload a photo or start from scratch to generate a fun, cartoon-style South Park avatar in seconds.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Apply Image Effect",
+  "inputType": "single",
+  "effectId": "south-park-character",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/south-park-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-pregnant-filter",
+      "disney-pixar-filter",
+      "baby-face-generator",
+      "photo-to-sketch"
+    ],
+    "heading": "Check Out Other Trending Image Effects"
+  },
+  "examples": {
+    "heading": "See the Stunning Results",
+    "title": "See the Stunning Sample Results",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "south park character"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "south park character creator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "FAQs About the South Park Character Effect",
+    "questions": [
+      {
+        "question": "What is the South Park Character effect?",
+        "answer": "It’s an AI effect that turns your photo into a fun South Park-style character with the show’s signature paper-cutout look."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes! You just need to sign up for a free account, and you’ll get free credits to try it out."
+      },
+      {
+        "question": "Are my photos safe?",
+        "answer": "Yes, your photos are private and secure. They’re processed safely and deleted automatically after a short time."
+      },
+      {
+        "question": "Can I make a South Park character of more than one person?",
+        "answer": "Yes! You can upload a photo with multiple people, and the AI will try to turn each person into a South Park-style character."
+      },
+      {
+        "question": "Can I customize the character’s clothes or accessories?",
+        "answer": "Some basic customization options may be available depending on the tool. You can usually choose hairstyles, hats, or colors to make your character more unique."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm obsessed! This South Park character creator from Max Studio is a game-changer for my content. So easy to use and looks amazing.",
+        "name": "Olivia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Finally, a fun way to make my own South Park avatar. Works perfectly on my phone and the results are hilarious.",
+        "name": "Ethan",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "The level of detail you can get is fantastic. I had a blast creating characters for a personal project.",
+        "name": "Maya",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Use South Park Character?",
+    "description": "Follow these simple steps to transform your image into a South Park character.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Image",
+        "bulletPoints": [
+          "Upload a high-quality image to the generator to convert it into the South Park character style."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Image Effect",
+        "bulletPoints": [
+          "After uploading, click the button to let the AI apply the South Park character style to your image."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Once the image is generated, you can download and share it with friends, family, or on social media."
+        ]
+      }
+    ]
+  }
+}
+

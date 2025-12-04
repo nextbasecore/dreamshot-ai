@@ -1,0 +1,142 @@
+{
+  "id": "christmas-party-glam",
+  "title": "Christmas Party Glam Outfits",
+  "playgroundTitle": "AI Christmas Party Glam Outfits",
+  "playgroundDescription": "The AI Christmas Party Glam Filter adds rich holiday colors, sparkly highlights, makeup-style touches, and Christmas costume details to give your photo a lively, festive look.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Christmas Party Glam Filter: Make Christmas Party Costume",
+    "description": "Add a Christmas party glam look to your photos with festive colors, stylish holiday accents, and costume-ready details using this AI filter.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "christmasPartyGlam",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "disney-pixar-filter",
+      "add-santa-to-photo",
+      "ai-winter-effect",
+      "add-christmas-tree-to-photo"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "examples": {
+    "heading": "See Sample Results of Christmas Party Glam Outfits",
+    "title": "See Sample Results of Christmas Party Glam Outfits",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Christmas Party Glam"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Christmas Party Glam Outfits"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-21.webp",
+      "original": "https://assets.remixai.io/sample-image-21.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-22.webp",
+      "original": "https://assets.remixai.io/sample-image-22.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-23.webp",
+      "original": "https://assets.remixai.io/sample-image-23.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-24.webp",
+      "original": "https://assets.remixai.io/sample-image-24.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions About Christmas Party Glam",
+    "questions": [
+      {
+        "question": "What is the Christmas Party Glam effect?",
+        "answer": "Christmas Party Glam is an AI effect that gives your photo a festive and stylish look. It adds sparkles, soft lighting, and holiday-themed details to make your picture look party-ready."
+      },
+      {
+        "question": "Is the Christmas Party Glam tool free to use?",
+        "answer": "Yes! Just create a free account on our website, and you’ll get free credits to try the Christmas Party Glam effect and other features."
+      },
+      {
+        "question": "Are my uploaded photos safe and private?",
+        "answer": "Yes, your photos are safe. They are uploaded through a secure connection and are only used to create your effect. We never share your images with anyone."
+      },
+      {
+        "question": "What kind of photos work best with this effect?",
+        "answer": "Clear, well-lit photos work best, especially portraits where your face is easy to see. This helps the AI add the glam look more nicely."
+      },
+      {
+        "question": "Do I need to install any software?",
+        "answer": "No, you don't need to install anything. The Christmas Party Glam effect works directly in your browser on any device."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "Loved how easy it was to add a festive touch to our photos. Everyone looked amazing!",
+        "name": "Olivia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "This Christmas Party Glam pack is a game-changer. My friends were so impressed with the Dreamshot edits I made.",
+        "name": "Elijah",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "Perfect for getting that sparkly holiday vibe. It really made my Christmas pictures pop!",
+        "name": "Chloe",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Christmas Party Glam Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select & Upload photos from your device to apply Christmas Party Glam, and make sure uploaded photos must be in high quality with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Christmas Party Glam",
+        "bulletPoints": [
+          "After the photo is uploaded click on the “Generate Now” button to apply Christmas Party Glam to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated Christmas Party Glam to your device and share it on your favorite social media platform, and with your friends and family."
+        ]
+      }
+    ]
+  }
+}
+

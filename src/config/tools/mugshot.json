@@ -1,0 +1,142 @@
+{
+  "id": "mugshot",
+  "title": "AI Mugshot Generator",
+  "playgroundTitle": "AI Mugshot Generator",
+  "playgroundDescription": "Curious how you’d look in a mugshot? Upload a photo, and the Mugshot Generator will produce a detailed, police-style portrait automatically, with no manual work needed.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Free AI Mugshot Generator Online",
+    "description": "Generate realistic AI mugshots online for free. Upload a photo and let the AI create a detailed, law-enforcement-style portrait instantly.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Create Your Mugshot",
+  "inputType": "single",
+  "effectId": "mugshot",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/mugshot-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-winter-effect",
+      "change-image-to-fall-season",
+      "silhouette-filter",
+      "add-santa-to-photo"
+    ],
+    "heading": "Try More Popular Image Effects"
+  },
+  "examples": {
+    "heading": "See the Mugshot Results",
+    "title": "See the Mugshot Results",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Mugshot Generator"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Mugshot Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-9.webp",
+      "original": "https://assets.remixai.io/sample-image-9.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-10.webp",
+      "original": "https://assets.remixai.io/sample-image-10.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-11.webp",
+      "original": "https://assets.remixai.io/sample-image-11.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-12.webp",
+      "original": "https://assets.remixai.io/sample-image-12.webp"
+    }
+  ],
+   "faqs": {
+    "heading": "FAQs About Mugshot Effect",
+    "questions": [
+    {
+      "question": "What is the Mugshot effect?",
+      "answer": "The Mugshot effect is an AI image effect that turns your photo into a classic police mugshot with the right background, lighting, and style."
+    },
+    {
+      "question": "How long does it take to apply the Mugshot effect?",
+      "answer": "It’s very fast! Most photos are transformed in just a few seconds, depending on the size and detail of the image."
+    },
+    {
+      "question": "Is the Mugshot effect free?",
+      "answer": "Yes! You can try it for free after signing up. New users get free credits to use on this effect and other AI tools."
+    },
+    {
+      "question": "Are my photos safe?",
+      "answer": "Absolutely. Your photos are uploaded securely and deleted from our servers after a short time. We never share your images."
+    },
+    {
+      "question": "What kind of photos work best?",
+      "answer": "Clear, front-facing photos with good lighting work best—like passport-style pictures."
+     }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm genuinely impressed with the quality. The integration with Max Studio is just the cherry on top for my projects.",
+        "name": "Oliver",
+        "designation": "Visual Content Creator"
+      },
+      {
+        "review": "This is so simple and effective. I finally get the results I want without spending hours editing.",
+        "name": "Chloe",
+        "designation": "Android user from USA"
+      },
+      {
+        "review": "Absolutely brilliant tool for any creative. It has saved me so much time and effort.",
+        "name": "Samuel",
+        "designation": "Motion Designer"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Mugshot Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Photo",
+        "bulletPoints": [
+          "Choose and upload a photo from your device to use with Mugshot. Ensure the image is high-quality and well-lit for the best results."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply the Mugshot Effect",
+        "bulletPoints": [
+          "Once your photo is uploaded, click the “Apply Image Effect” button to transform it with the Mugshot effect."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Save & Share",
+        "bulletPoints": [
+          "Download your Mugshot creation to your device and share it with friends, family, or on your favorite social media platforms."
+        ]
+      }
+    ]
+  }
+}
+

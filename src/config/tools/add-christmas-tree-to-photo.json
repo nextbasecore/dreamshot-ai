@@ -1,0 +1,142 @@
+{
+  "id": "add-christmas-tree-to-photo",
+  "title": "Add Christmas Tree To Photo",
+  "playgroundTitle": "Add Christmas Tree to Your Photos",
+  "playgroundDescription": "The Christmas Tree Filter adds a Christmas tree to your photos for free. Create bright, simple holiday images and give your pictures a cheerful Christmas look.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Christmas Tree Filter: Add Christmas Tree To Your Photos For Free",
+    "description": "Use the Christmas Tree Filter to add a festive tree to your photos for free. Create bright, cheerful holiday images with simple Christmas-themed effects.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Add a Tree Now",
+  "inputType": "single",
+  "effectId": "addChristmasTreeToPhoto",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/add-christmas-tree-to-phoo-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-winter-effect",
+      "mugshot",
+      "add-santa-to-photo",
+      "selfie-with-celebrities"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "examples": {
+    "heading": "Watch Your Photos Transform with a Christmas Tree Effect",
+    "title": "Watch Your Photos Transform with a Christmas Tree Effect",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Red Hulk Transformation"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Red Hulk Transformation"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-5.webp",
+      "original": "https://assets.remixai.io/sample-image-5.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-6.webp",
+      "original": "https://assets.remixai.io/sample-image-6.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-7.webp",
+      "original": "https://assets.remixai.io/sample-image-7.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-8.webp",
+      "original": "https://assets.remixai.io/sample-image-8.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "FAQs About Add Christmas Tree to Photo",
+    "questions": [
+      {
+        "question": "What is the 'Add Christmas Tree to Photo' effect?",
+        "answer": "It’s an AI feature that lets you place a Christmas tree into any photo. Just upload your picture, and the tool will automatically add a realistic tree to make it look festive."
+      },
+      {
+        "question": "Is this tool free to use?",
+        "answer": "Yes! Just create a free account and you’ll get free credits to try the 'Add Christmas Tree to Photo' effect along with other AI tools."
+      },
+      {
+        "question": "Are my uploaded photos kept private and secure?",
+        "answer": "Yes, your photos are safe. They are processed securely and deleted from our servers after a short time. We never use or share your images."
+      },
+      {
+        "question": "What kind of photos work best with this effect?",
+        "answer": "Photos with some open space—like a corner of a room or an outdoor spot—work best. Clear, high-quality images give more natural results."
+      },
+      {
+        "question": "What image file formats can I upload?",
+        "answer": "You can upload JPG, PNG, or WebP files. Just pick your photo and upload it directly from your device."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This was so easy to use! I added a beautiful Christmas tree to our family photo in seconds. Looks amazing.",
+        "name": "Olivia",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "I needed a quick way to add a festive touch for social media posts, and this was perfect. Great job, Max Studio!",
+        "name": "Ethan",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "We didn't get a tree this year, but this tool let me create a lovely holiday card photo anyway. Super fun and simple.",
+        "name": "Sophia",
+        "designation": "Web user from UK"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Add Christmas Tree to Photo Works",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select and upload a high-quality photo with a well-lit background from your device."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Add Christmas Tree to Photo",
+        "bulletPoints": [
+          "After the photo is uploaded, click the 'Apply Image Effect' button to add a Christmas tree to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated photo and share it with friends and family on your favorite social media platform."
+        ]
+      }
+    ]
+  }
+}
+

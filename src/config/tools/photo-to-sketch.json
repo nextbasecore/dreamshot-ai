@@ -1,0 +1,142 @@
+{
+  "id": "photo-to-sketch",
+  "title": "Convert Photo to Sketch",
+  "playgroundTitle": "AI Photo to Sketch Converter",
+  "playgroundDescription": "Transform your photo into a sketch for free online. Get a realistic, artistic hand-drawn look from any image in minutes.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Convert Your Photo to Sketch For Free Online",
+    "description": "Turn your photo into a sketch online for free. Create realistic, hand-drawn style sketches from any image with just a few clicks.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Sketch Now",
+  "inputType": "single",
+  "effectId": "sketch",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/photo-to-sketch-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "action-figure-generator",
+      "baby-face-generator",
+      "add-christmas-tree-to-photo",
+      "plush-pillow-generator"
+    ],
+    "heading": "Related Popular Image Effects"
+  },
+  "examples": {
+    "heading": "Stunning Results From Photo to Sketch Generator",
+    "title": "Stunning Results From Photo to Sketch Generator",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Photo To Sketch"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Photo To Sketch Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions About Photo to Sketch",
+    "questions": [
+      {
+        "question": "What is the Photo to Sketch effect?",
+        "answer": "Photo to Sketch is an AI effect that turns your photo into a hand-drawn sketch. It looks at the lines, shadows, and details in your image to create a realistic sketch."
+      },
+      {
+        "question": "Is this Photo to Sketch tool free to use?",
+        "answer": "Yes! Just sign up for a free account on our website. You’ll get free credits to try out the Photo to Sketch effect right away."
+      },
+      {
+        "question": "Can I turn group photos into sketches?",
+        "answer": "Absolutely! Group photos work too, but make sure all faces or subjects are clear for the best results."
+      },
+      {
+        "question": "Does the tool work on low-quality images?",
+        "answer": "It works on most images, but high-quality, clear photos give the best sketches. Blurry or dark photos may not look as sharp."
+      },
+      {
+        "question": "Can I choose the sketch style?",
+        "answer": "Currently, the tool automatically applies a realistic hand-drawn style, but it works well on portraits, objects, and landscapes."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This tool is a game-changer for my projects. I can quickly turn photos into sketches, and the quality is just amazing.",
+        "name": "Sophia",
+        "designation": "Digital Artist"
+      },
+      {
+        "review": "Super easy to use and the results are surprisingly good. I love playing around with my photos on this.",
+        "name": "Liam",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "I've tried a few apps, but the sketch effects from Max Studio are my favorite. They add such a cool, artistic vibe to my posts.",
+        "name": "Chloe",
+        "designation": "Content Creator"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Photo to Sketch Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Choose and upload a photo from your device to use the Photo to Sketch effect, ensuring the photo is high-quality and well-lit."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Photo to Sketch",
+        "bulletPoints": [
+          "Once your photo is uploaded, click the “Apply Image Effect” button to convert it into a sketch."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Save your newly generated Photo to Sketch to your device and share it on social media or with friends and family."
+        ]
+      }
+    ]
+  }
+}
+

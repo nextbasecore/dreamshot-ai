@@ -1,0 +1,142 @@
+ {
+  "id": "ai-winter-effect",
+  "title": "AI Winter Effect",
+  "playgroundTitle": "AI Winter Effect",
+  "playgroundDescription": "Transform your pictures into winter wonderlands with the AI Winter Effect. Add snow and frosty touches to give your photos a natural, cozy winter look.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Winter Effect: Add Realistic Snow to Your Photos",
+    "description": "Add realistic snow to your photos with the AI Winter Effect. Create beautiful winter scenes with frosty details and a cozy seasonal feel for free online.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "aiWinterEffect",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/winter-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "change-image-to-fall-season",
+      "ai-skinny-filter",
+      "selfie-with-celebrities",
+      "ai-pregnant-filter"
+    ],
+    "heading": "Related Popular Image Effects"
+  },
+  "examples": {
+    "heading": "Sample Results of AI Winter Effect",
+    "title": "Sample Results of AI Winter Effect",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Winter Effect"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Winter Effect"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-9.webp",
+      "original": "https://assets.remixai.io/sample-image-9.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-10.webp",
+      "original": "https://assets.remixai.io/sample-image-10.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-11.webp",
+      "original": "https://assets.remixai.io/sample-image-11.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-12.webp",
+      "original": "https://assets.remixai.io/sample-image-12.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions about AI Winter Effect",
+    "questions": [
+      {
+        "question": "What is the AI Winter Effect?",
+        "answer": "The AI Winter Effect is a filter that changes your photo to give it a winter look. It adds cool, frosty tones and a wintery style to make your image feel like it's in a snowy season."
+      },
+      {
+        "question": "Is this effect free to use?",
+        "answer": "Yes! You can start for free. Just sign up for an account, and you’ll get free credits to try the AI Winter Effect on your photos."
+      },
+      {
+        "question": "Is it safe to upload my photos? What about privacy?",
+        "answer": "Yes, your photos are safe. They are uploaded securely and automatically deleted from our servers after 24 hours. We don’t use your photos for anything else."
+      },
+      {
+        "question": "What file formats can I upload?",
+        "answer": "You can upload JPG, PNG, or WebP images. Just pick your photo, and our AI will do the rest."
+      },
+      {
+        "question": "Do I need to install any software?",
+        "answer": "No. The AI Winter Effect works in your web browser on any device. No downloads or installations are needed."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This is a total game-changer for my creative workflow. The results are consistently stunning and save me so much time.",
+        "name": "Olivia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "I was skeptical at first, but the AI Winter Effect is incredibly easy to use. The Dreamshot team did a fantastic job with this.",
+        "name": "Liam",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "Finally, a tool that understands what I need without complicated settings. It’s now essential for my projects.",
+        "name": "Sophia",
+        "designation": "Multimedia Designer"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How AI Winter Effect Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Choose a photo from your device to give it a magical winter look. Make sure the photo is clear and well-lit for the best effect."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply AI Winter Effect",
+        "bulletPoints": [
+          "After uploading, click the “Apply Image Effect” button to transform your photo with a beautiful winter theme."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Save your winter-themed photo to your device and share it with friends, family, or on social media."
+        ]
+      }
+    ]
+  }
+}
+

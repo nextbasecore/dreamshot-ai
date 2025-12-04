@@ -1,0 +1,142 @@
+{
+  "id": "add-santa-hat-to-photo",
+  "title": "Add Santa Hat To Photos",
+  "playgroundTitle": "Add Santa Hat to Photos",
+  "playgroundDescription": "Give your photos a festive twist with the Santa Hat Filter. It puts a fun Santa hat on your picture, making it perfect for holiday posts and Christmas-themed edits.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Add Santa Hat to Your Photos For Free",
+    "description": "Use the free Santa Hat filter to decorate your photos for Christmas. Upload your photo and add a cute Santa hat in seconds.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Add Santa Hat Now",
+  "inputType": "single",
+  "effectId": "addSantaHat",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/santa-hat-to-image-cover.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-fat-filter",
+      "ai-winter-effect",
+      "make-me-santa",
+      "add-christmas-tree-to-photo"
+    ],
+    "heading": "Check Out Other Trending Image Effects"
+  },
+  "examples": {
+    "heading": "Before & After: Add Santa Hat to Photos",
+    "title": "Before & After: Add Santa Hat to Photos",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Add Santa Hat To Photo"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Ai Santa Hat Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-9.webp",
+      "original": "https://assets.remixai.io/sample-image-9.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-10.webp",
+      "original": "https://assets.remixai.io/sample-image-10.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-11.webp",
+      "original": "https://assets.remixai.io/sample-image-11.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-12.webp",
+      "original": "https://assets.remixai.io/sample-image-12.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions About Add Santa Hat To Photo",
+    "questions": [
+      {
+        "question": "What is the 'Add Santa Hat To Photo' Filter?",
+        "answer": "It's a simple AI filter that puts a Santa hat on the person or pet in your photo. Just upload your picture, and the filter adds the hat automatically for a fun holiday look."
+      },
+      {
+        "question": "Is this filter free to use?",
+        "answer": "Yes! You just need to sign up for a free account. After that, you get free credits to try the Santa hat effect and other filters."
+      },
+      {
+        "question": "Are my photos safe and private?",
+        "answer": "Yes, they are. Your photos are uploaded through a secure connection and processed automatically. We don’t share your images, and they are deleted shortly after use."
+      },
+      {
+        "question": "What kind of photos work best?",
+        "answer": "Clear photos where the head is easy to see work best. It works well on portraits, group photos, and even pet pictures."
+      },
+      {
+        "question": "Can I add Santa hats to a group photo?",
+        "answer": "Yes! The AI can detect multiple faces and will place a Santa hat on each person it finds in the picture."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This was so much fun for our family photos! The hats looked surprisingly realistic. I'll definitely be using this again next Christmas.",
+        "name": "Sophia",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "As a content creator, I need things fast. This tool from Max Studio is a lifesaver for making quick, festive posts. So simple and effective!",
+        "name": "Lucas",
+        "designation": "Visual Content Creator"
+      },
+      {
+        "review": "I just wanted to add a silly hat to my dog's picture, and it worked perfectly. It took me less than a minute. Great little tool!",
+        "name": "Mia",
+        "designation": "Android user from UK"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Add Santa Hat To Photo Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select & Upload photos from your device to apply Add Santa Hat To Photo, and make sure uploaded photos must be in high quality with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Add Santa Hat To Photo",
+        "bulletPoints": [
+          "After the photo is uploaded click on the “Apply Image Effect” button to apply Add Santa Hat To Photo to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated Add Santa Hat To Photo to your device and share it on your favorite social media platform, and with your friends and family."
+        ]
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,142 @@
+{
+  "id": "disney-pixar-filter",
+  "title": "AI Disney Pixar Filter",
+  "playgroundTitle": "AI Disney Pixar Filter",
+  "playgroundDescription": "The Disney Pixar Filter gives your photos a cute, cartoon-style look. This free filter adds soft, animated details that turn any picture into a fun Pixar-inspired portrait.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Add Disney Pixar Filter To Your Photo For Free",
+    "description": "Add a free Disney Pixar style filter to your photo. This AI effect creates a soft, animated look that turns your picture into a charming cartoon version.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Apply Image Effect",
+  "inputType": "single",
+  "effectId": "disney-pixar",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/disney-pixar-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "mugshot",
+      "ai-skinny-filter",
+      "south-park-character",
+      "action-figure-generator"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "examples": {
+    "heading": "Stunning Results from Our AI Disney Pixar Filter",
+    "title": "Stunning Results from Our AI Disney Pixar Filter",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Disney Pixar Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Disney Pixar"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "FAQs About AI Disney Pixar Filter",
+    "questions": [
+      {
+        "question": "What is the AI Disney Pixar Filter?",
+        "answer": "The AI Disney Pixar Filter is an effect that turns your photo into a cute, Pixar-style cartoon. It uses AI to recreate your face in a soft, colorful, 3D animation look."
+      },
+      {
+        "question": "How much time does it take to apply the filter?",
+        "answer": "It usually takes only a short time. The tool processes your photo quickly, but the exact time may depend on the image you upload."
+      },
+      {
+        "question": "Is this tool free to use?",
+        "answer": "Yes, you can start for free. Just create an account, and you'll get free credits to try the AI Disney Pixar Filter along with other tools."
+      },
+      {
+        "question": "Are my uploaded photos safe and private?",
+        "answer": "Yes, your photos are safe. They are uploaded securely, used only to create your Pixar-style image, and then removed from our servers after a short time."
+      },
+      {
+        "question": "What kind of photos work best with the filter?",
+        "answer": "Clear, well-lit portrait photos work best. Make sure your face is easy to see. High-quality images give the best cartoon results, and it also works for both single and group photos."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm obsessed with this filter! It's so much fun turning my photos into cartoon characters. My friends love the results too.",
+        "name": "Olivia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Honestly, the quality is amazing. Max Studio's AI really captures the Pixar vibe perfectly. Highly recommend giving it a try!",
+        "name": "Lucas",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "Super easy to use and the results are instant. I've tried other apps, but this one is by far the best for that classic Disney look.",
+        "name": "Elijah",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How AI Disney Pixar Filter Works",
+    "description": "Follow these three simple steps to transform your photo into a Disney Pixar style character.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select & Upload photos from your device to apply AI Disney Pixar Filter, and make sure uploaded photos must be in high quality with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply AI Disney Pixar Filter",
+        "bulletPoints": [
+          "After the photo is uploaded click on the “Apply Image Effect” button to apply the AI Disney Pixar Filter to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated AI Disney Pixar Filter to your device and share it on your favorite social media platform, and with your friends and family."
+        ]
+      }
+    ]
+  }
+}
+

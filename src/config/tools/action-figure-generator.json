@@ -1,0 +1,142 @@
+{
+  "id": "action-figure-generator",
+  "title": "Action Figure Generator",
+  "playgroundTitle": "AI Action Figure Generator",
+  "playgroundDescription": "Imagine your photo as a 3D action figure! The AI Action Figure Generator transforms any image into a detailed, lifelike figure, giving your picture a playful and creative look.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Action Figure Generator: Turn Your Photo to 3D Figure",
+    "description": "Transform your photo into a 3D action figure with the AI Action Figure Generator. Create realistic, detailed figures from any photo for fun and creativity.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Figure",
+  "inputType": "single",
+  "effectId": "action-figure",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/action-figure-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "mugshot",
+      "selfie-with-celebrities",
+      "change-image-to-fall-season",
+      "ai-skinny-filter"
+    ],
+    "heading": "Discover Other Popular Image Effects"
+  },
+  "examples": {
+    "heading": "Transform Photos Into Action Figures – See Results",
+    "title": "Transform Photos Into Action Figures – See Results",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Action Figure Generator"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Action Figure Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What is the Action Figure Generator?",
+        "answer": "The Action Figure Generator is an AI effect that turns your photo into a fun action figure. It adds a plastic-like look and detailed styling to make your image look like a collectible toy."
+      },
+      {
+        "question": "How long does it take to create an action figure?",
+        "answer": "It usually only takes a few seconds. The exact time depends on your photo, but our AI is fast and optimized for quick results."
+      },
+      {
+        "question": "Is the Action Figure Generator free?",
+        "answer": "Yes! You can use it for free after signing up. We give you free credits to try creating your own action figure images."
+      },
+      {
+        "question": "Are my photos safe and private?",
+        "answer": "Yes, your privacy is important to us. Photos are processed securely and deleted automatically after a short time. We never use them for anything else."
+      },
+      {
+        "question": "What kind of photos work best?",
+        "answer": "Clear, well-lit photos of one person work best. Portraits or full-body shots with simple backgrounds give the best results."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm genuinely impressed with the quality and speed. It's become my go-to tool for quick character concepts.",
+        "name": "Liam",
+        "designation": "Digital Artist"
+      },
+      {
+        "review": "So much fun to use! The Max Studio team really nailed the simplicity without sacrificing creativity.",
+        "name": "Sophia",
+        "designation": "Web user from UK"
+      },
+      {
+        "review": "This tool is a lifesaver. I can generate a wide range of action figures for my content in just a few clicks.",
+        "name": "Ethan",
+        "designation": "Content Creator"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Action Figure Generator Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Start by uploading a clear photo that you want to turn into an action figure. For best results, use a high-quality image with good lighting and a clear view of the subject."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Action Figure Generator",
+        "bulletPoints": [
+          "Choose the action figure style you want, then click the “Generate Action Figure” button. The AI will instantly transform your photo into a realistic-looking action figure."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Once your action figure is ready, you can download it to your device or share it with friends."
+        ]
+      }
+    ]
+  }
+}
+

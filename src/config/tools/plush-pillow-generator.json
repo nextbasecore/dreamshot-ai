@@ -1,0 +1,142 @@
+{
+  "id": "plush-pillow-generator",
+  "title": "AI Plush Pillow Generator",
+  "playgroundTitle": "AI Plush Pillow Generator",
+  "playgroundDescription": "Create a soft, 3D plush pillow version of your photo with realistic textures using the AI Plush Pillow Generator. Preview and download your personalized pillow easily.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Plush Pillow Generator | Turn Your Photos Into Soft Pillows",
+    "description": "Turn your photos into soft, cute plush pillows with the free AI Plush Pillow Generator. Create personalized, fun pillow designs from any image online.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Create Your Pillow",
+  "inputType": "single",
+  "effectId": "plushPillowGenerator",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/plush-pillow-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-pregnant-filter",
+      "south-park-character",
+      "ai-fat-filter",
+      "photo-to-sketch"
+    ],
+    "heading": "Discover Other Popular Image Effects"
+  },
+  "examples": {
+    "heading": "See the Adorable Results of Plush Pillow Generator",
+    "title": "See the Adorable Results of Plush Pillow Generator",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Plush Pillow Generator"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Plush Pillow Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-17.webp",
+      "original": "https://assets.remixai.io/sample-image-17.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-18.webp",
+      "original": "https://assets.remixai.io/sample-image-18.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-19.webp",
+      "original": "https://assets.remixai.io/sample-image-19.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-20.webp",
+      "original": "https://assets.remixai.io/sample-image-20.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions about the Plush Pillow Filter",
+    "questions": [
+      {
+        "question": "What is the Plush Pillow Filter?",
+        "answer": "The Plush Pillow Filter is an AI-powered filter that transforms any photo you upload into a soft, 3D-looking plush pillow version."
+      },
+      {
+        "question": "How long does it take to apply the filter?",
+        "answer": "It’s very quick! Most photos are transformed in just a few seconds, depending on the size and details of the image."
+      },
+      {
+        "question": "Is the Plush Pillow Filter free to use?",
+        "answer": "Yes! You just need to sign up for a free account, and you’ll get free credits to try the Plush Pillow Filter and other filters."
+      },
+      {
+        "question": "Can I adjust how the plush effect looks?",
+        "answer": "Currently, the filter automatically applies the plush look. You don’t need to adjust anything, and it’s designed to look soft and 3D for every photo."
+      },
+      {
+        "question": "Can I use it on pets or objects?",
+        "answer": "Yes! The Plush Pillow Filter works on pets, logos, toys, and even cartoon characters to give them a fun, pillow-like appearance."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This generator is a game-changer for my mockups. It's so fast and the results look incredibly realistic.",
+        "name": "Evelyn",
+        "designation": "Digital Artist"
+      },
+      {
+        "review": "Honestly, I was just playing around but ended up with some amazing designs. The whole Dreamshot suite is pretty neat.",
+        "name": "Liam",
+        "designation": "Web user from UK"
+      },
+      {
+        "review": "I'm not a pro designer, but this tool makes me look like one. The quality is amazing and it's super easy to use!",
+        "name": "Stella",
+        "designation": "Content Creator"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Plush Pillow Generator Works",
+    "description": "Turn your favorite photos into adorable plush pillow-style images in just a few simple steps. Follow the guide below to create your soft, cozy, and fun plush creations.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Photo",
+        "bulletPoints": [
+          "Start by selecting a photo from your device that you want to turn into a plush pillow."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply the Plush Pillow Effect",
+        "bulletPoints": [
+          "Once your photo is uploaded, click the “Apply Image Effect” button to start the transformation."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download and Share Your Creation",
+        "bulletPoints": [
+          "After the effect is applied, download your new plush pillow image to your device."
+        ]
+      }
+    ]
+  }
+}
+
