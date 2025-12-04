@@ -1,0 +1,130 @@
+{
+  "id": "ai-snow-queen",
+  "title": "AI Snow Queen Transformation",
+  "playgroundTitle": "AI Snow Queen Transformation",
+  "playgroundDescription": "AI Snow Queen Transformation gives your photo a frosty royal style with icy shades, sparkling snow accents, and a calm, magical Snow Queen appearance.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Free AI Snow Queen Transformation Photo",
+    "description": "Create your own Snow Queen look with this free AI effect. Add icy colors, frosty makeup details, and a royal winter style to your photo in just a moment.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Snow Queen",
+  "inputType": "single",
+  "effectId": "snowKingOrQueen",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": "",
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "action-figure-generator",
+      "mugshot",
+      "south-park-character",
+      "ai-pregnant-filter"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "examples": {
+    "heading": "See Sample Results of AI Snow Queen Transformation",
+    "title": "See Sample Results of AI Snow Queen Transformation",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Snow Queen Transformation"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Snow Queen Transformation"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "question": "What is the AI Snow Queen Transformation?",
+      "answer": "The AI Snow Queen Transformation is a fun photo effect that turns your picture into a winter-style Snow Queen look. It adds icy colors, frosty details, and a soft magical glow to your photo."
+    },
+    {
+      "question": "Is it free to use the AI Snow Queen Transformation effect?",
+      "answer": "Yes! When you sign up for a free account, we give you free credits that you can use to try the Snow Queen effect and other effects."
+    },
+    {
+      "question": "Are my uploaded photos safe and private?",
+      "answer": "Yes, your photos are safe. They are uploaded securely, used only to create your Snow Queen image, and never shared with anyone."
+    },
+    {
+      "question": "What kind of photos work best for this effect?",
+      "answer": "Clear, well-lit portraits or selfies work best. Photos where your face is easy to see usually give the nicest results."
+    },
+    {
+      "question": "What file formats can I upload?",
+      "answer": "You can upload photos in JPG, PNG, or WEBP formats. Just choose a photo from your device and upload it."
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm obsessed with this! The icy details are so beautiful and magical. It's my new favorite effect.",
+        "name": "Sophia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "My friends and I had so much fun with this. The transformations on Dreamshot are always so cool and high-quality!",
+        "name": "Liam",
+        "designation": "Web user from UK"
+      },
+      {
+        "review": "This was surprisingly fast and the result looked stunning. A perfect winter-themed profile picture in seconds.",
+        "name": "Henry",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorksHeading": "How AI Snow Queen Transformation Works?",
+  "howItWorks": [
+    {
+      "step": 1,
+      "title": "Upload Photo",
+      "description": "Select & Upload photos from your device to apply AI Snow Queen Transformation, and make sure uploaded photos must be in high quality with a well-lit background."
+    },
+    {
+      "step": 2,
+      "title": "Apply AI Snow Queen Transformation",
+      "description": "After the photo is uploaded click on the “Generate Queen Look” button to apply AI Snow Queen Transformation to your photo."
+    },
+    {
+      "step": 3,
+      "title": "Download & Share",
+      "description": "Download your generated AI Snow Queen Transformation to your device and share it on your favorite social media platform, and with your friends and family."
+    }
+  ]
+}
