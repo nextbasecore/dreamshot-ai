@@ -1,0 +1,141 @@
+{
+  "id": "ai-fat-filter",
+  "title": "AI Fat Filter",
+  "playgroundTitle": "AI Fat Filter",
+  "playgroundDescription": "Try the AI Fat Filter for free and see a fuller body effect. The filter reshapes your appearance automatically for a realistic look.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Fat Filter : Create Fat Body Look For Free",
+    "description": "See a new version of yourself with the free AI Fat Filter. This filter automatically creates a fuller, realistic body effect in seconds.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Apply Image Effect",
+  "inputType": "single",
+  "effectId": "fat-filter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/fat-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-pregnant-filter",
+      "baby-face-generator",
+      "change-image-to-fall-season",
+      "ai-winter-effect"
+    ],
+    "heading": "Related Popular Image Effects"
+  },
+  "examples": {
+    "heading": "Examples Of AI Fat Filter",
+    "title": "Examples Of AI Fat Filter",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Fat Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Fat Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-5.webp",
+      "original": "https://assets.remixai.io/sample-image-5.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-6.webp",
+      "original": "https://assets.remixai.io/sample-image-6.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-7.webp",
+      "original": "https://assets.remixai.io/sample-image-7.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-8.webp",
+      "original": "https://assets.remixai.io/sample-image-8.webp"
+    }
+  ],
+    "faqs": {
+    "heading": "FAQs About the AI Fat Filter",
+    "questions": [
+    {
+      "question": "What is the AI Fat Filter?",
+      "answer": "It’s an AI effect that makes a person look heavier in a photo. Upload your picture, and the AI creates a realistic and fun transformation."
+    },
+    {
+      "question": "How fast does it work?",
+      "answer": "It’s very fast! Most photos are transformed in just a few seconds, depending on the image size and details."
+    },
+    {
+      "question": "Do I need to pay to use it?",
+      "answer": "No, it’s free! Sign up on our website and get free credits to try the AI Fat Filter and other effects."
+    },
+    {
+      "question": "Are my photos safe?",
+      "answer": "Yes. Your photos are uploaded securely and automatically deleted after a short time. We never share them with anyone."
+    },
+    {
+      "question": "Which photos work best?",
+      "answer": "Clear, high-quality photos work best. Front-facing shots with good lighting and a simple background give the most natural results."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm genuinely impressed with how realistic the results are. It's a game-changer for my creative projects.",
+        "name": "Mia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "This is surprisingly fun to use! The Max Studio team did a great job making it so simple and intuitive.",
+        "name": "Lucas",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "Honestly, I was skeptical at first, but the Ai Fat Filter works incredibly well. Saves me so much time.",
+        "name": "Chloe",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Ai Fat Filter Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select & Upload photos from your device to apply Ai Fat Filter, and make sure uploaded photos must be in high quality with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Ai Fat Filter",
+        "bulletPoints": [
+          "After the photo is uploaded click on the “Apply Image Effect” button to apply Ai Fat Filter to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated Ai Fat Filter to your device and share it on your favorite social media platform, and with your friends and family."
+        ]
+      }
+    ]
+  }
+}
