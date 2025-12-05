@@ -19,7 +19,7 @@
   "inputType": "single",
   "effectId": "frostyTheSnowman",
   "model": "image-effects",
-  "cardImage": "https://assets.remixai.io/disney-pixar-cover-image.webp",
+  "cardImage": "https://assets.remixai.io/snowman-cover-image.webp",
   "cardVideo": "",
   "transformationImages": {
     "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
