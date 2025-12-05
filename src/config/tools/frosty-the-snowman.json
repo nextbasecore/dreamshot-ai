@@ -11,113 +11,79 @@
       "canonical": ""
     }
   },
-  "toolType": "image-effects",
-  "toolCategory": "image-effects",
-  "postPrefix": "image-effects",
-  "credit": 40,
+  "toolType": "",
+  "toolCategory": "",
+  "postPrefix": "",
+  "credit": "",
   "buttonText": "Generate Now",
-  "inputType": "single",
-  "effectId": "frostyTheSnowman",
-  "model": "image-effects",
-  "cardImage": "https://assets.remixai.io/snowman-cover-image.webp",
-  "cardVideo": null,
-  "transformationImages": {
-    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
-  },
+  "inputType": "",
+  "effectId": "",
+  "model": "",
+  "cardImage": "",
+  "cardVideo": "",
+  "transformationImages": {},
   "dualUploadLabels": {},
   "recommendedEffects": {
     "id": [
       "selfie-with-celebrities",
-      "change-image-to-fall-season",
+      "plush-pillow-generator",
       "ai-winter-effect",
-      "christmas-party-glam"
+      "change-image-to-fall-season"
     ],
     "heading": "See Other Cool Image Effects"
   },
-  "examples": {
-    "heading": "Watch Sample AI Frosty Snowman Transformations",
-    "title": "Watch Sample AI Frosty Snowman Transformations",
-    "images": [
+  "faqs": {
+    "heading": "Frequently Asked Questions About The Frosty The Snowman Effect",
+    "questions": [
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
-        "alt": "Frosty The Snowman"
+        "question": "What is the Frosty The Snowman effect?",
+        "answer": "The Frosty The Snowman effect is a fun AI image filter that turns your photos into a snowy, festive scene. It adds snow, frost, and a cheerful wintery look to your pictures."
       },
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
-        "alt": "AI Frosty Snowman Efffect"
+        "question": "How long does it take to apply the Frosty The Snowman effect?",
+        "answer": "It usually takes just a few seconds. The time can vary depending on your image size and details, but our AI works fast to give you your transformed photo quickly."
+      },
+      {
+        "question": "Is this Frosty The Snowman tool free?",
+        "answer": "Yes! Just sign up for a free account, and you'll get some free credits to try this effect and other AI tools on our site."
+      },
+      {
+        "question": "Is it safe to upload my photos? What about my privacy?",
+        "answer": "Yes, your privacy is important to us. All photos are processed securely and deleted from our servers after a short time. We never share your images with anyone."
+      },
+      {
+        "question": "What image file formats can I upload?",
+        "answer": "You can upload JPEG, PNG, or WEBP images. Make sure your file is under 10MB for the best results."
       }
     ]
   },
-  "sampleImages": [
-    {
-      "mini": "https://assets.remixai.io/sample-image-41.webp",
-      "original": "https://assets.remixai.io/sample-image-41.webp"
-    },
-    {
-      "mini": "https://assets.remixai.io/sample-image-42.webp",
-      "original": "https://assets.remixai.io/sample-image-42.webp"
-    },
-    {
-      "mini": "https://assets.remixai.io/sample-image-43.webp",
-      "original": "https://assets.remixai.io/sample-image-43.webp"
-    },
-    {
-      "mini": "https://assets.remixai.io/sample-image-44.webp",
-      "original": "https://assets.remixai.io/sample-image-44.webp"
-    }
-  ],
-  "faqs": {
-    "heading": "Frequently Asked Questions about Snowman Effect",
-    "questions": [
-    {
-      "question": "What is the Frosty The Snowman effect?",
-      "answer": "The Frosty The Snowman effect is a fun AI image filter that turns your photos into a snowy, festive scene. It adds snow, frost, and a cheerful wintery look to your pictures."
-    },
-    {
-      "question": "How long does it take to apply the Frosty The Snowman effect?",
-      "answer": "It usually takes just a few seconds. The time can vary depending on your image size and details, but our AI works fast to give you your transformed photo quickly."
-    },
-    {
-      "question": "Is this Frosty The Snowman tool free?",
-      "answer": "Yes! Just sign up for a free account, and you'll get some free credits to try this effect and other AI tools on our site."
-    },
-    {
-      "question": "Is it safe to upload my photos? What about my privacy?",
-      "answer": "Yes, your privacy is important to us. All photos are processed securely and deleted from our servers after a short time. We never share your images with anyone."
-    },
-    {
-      "question": "What image file formats can I upload?",
-      "answer": "You can upload JPEG, PNG, or WEBP images. Make sure your file is under 10MB for the best results."
-    }
-  ]
-},
   "testimonials": {
     "heading": "What People Say about us",
     "reviews": [
       {
-        "review": "Absolutely magical! Creating this scene was incredibly fun and the result is just beautiful.",
-        "name": "Stella",
-        "designation": "Digital Artist"
-      },
-      {
-        "review": "I was impressed with the detail. The way the snow sparkles is just perfect. Dreamshot made it super easy to get the right look.",
-        "name": "Caleb",
-        "designation": "iOS user from USA"
-      },
-      {
-        "review": "This brought Frosty to life just like I remembered from my childhood. The animation is so charming and smooth!",
-        "name": "Mia",
+        "review": "Frosty The Snowman is just pure magic. The animation is timeless, and it brings back so many childhood memories.",
+        "name": "Jacob",
         "designation": "Visual Creator"
+      },
+      {
+        "review": "I watch this every year with my kids. We found it on Dreamshot and it's become our little tradition!",
+        "name": "Isaac",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "Such a heartwarming story that never gets old. The characters are so charming and lovable.",
+        "name": "Luca",
+        "designation": "Motion Designer"
       }
     ]
   },
   "howItWorks": {
-    "heading": "How Does It Work?",
-    "description": "Follow these simple steps to transform your image into a Forsty Snowman.",
+    "heading": "How Frosty The Snowman Works",
+    "description": "",
     "steps": [
       {
         "step": 1,
-        "title": "Upload Image",
+        "title": "Upload Photo",
         "bulletPoints": [
           "Start by uploading a clear photo that you want to transform into Frosty The Snowman. For best results, use a high-quality image with a clear subject."
         ]
