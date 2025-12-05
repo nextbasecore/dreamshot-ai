@@ -11,17 +11,19 @@
       "canonical": ""
     }
   },
-  "toolType": "",
-  "toolCategory": "",
-  "postPrefix": "",
-  "credit": "",
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": "40",
   "buttonText": "Generate Now",
-  "inputType": "",
-  "effectId": "",
-  "model": "",
-  "cardImage": "",
+  "inputType": "single",
+  "effectId": "frostyTheSnowman",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/disney-pixar-cover-image.webp",
   "cardVideo": "",
-  "transformationImages": {},
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
   "dualUploadLabels": {},
   "recommendedEffects": {
     "id": [
@@ -32,6 +34,38 @@
     ],
     "heading": "See Other Cool Image Effects"
   },
+  "examples": {
+    "heading": "Stunning Results from Our AI Snowman Filter",
+    "title": "Stunning Results from Our AI Snowman Filter",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Snowman Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Frosty Snowman Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
   "faqs": {
     "heading": "Frequently Asked Questions About The Frosty The Snowman Effect",
     "questions": [
