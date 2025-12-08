@@ -1,0 +1,137 @@
+{
+  "id": "fighting-with-santa",
+  "title": "AI Santa Fighting Video Generator",
+  "playgroundTitle": "AI Santa Fighting Video Generator",
+  "playgroundDescription": "AI Santa Fighting Video Generator brings action into your clip by placing Santa in dynamic battle scenes. Your video gains punchy movements, bold poses, and fun holiday combat moments, giving it a lively Christmas showdown style.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Santa Fighting Video Generator",
+    "description": "Create action-packed Santa fighting videos with AI. Add battle poses, dynamic movement, and fun holiday combat scenes for an energetic Christmas video.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "fightWithSanta",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [],
+    "heading": "See Other Cool Video Effects"
+  },
+  "examples": {
+    "heading": "See Sample Results of Fight With Santa Video",
+    "title": "See Sample Results of Fight With Santa Video",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Christmas Party Glam"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Christmas Party Glam Outfits"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
+      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions About Christmas Party Glam",
+    "questions": [
+      {
+        "question": "What is the 'Fighting With Santa' effect?",
+        "answer": "The 'Fighting With Santa' effect is an AI effect that turns your photo into a short, fun video. After you upload an image, the AI creates an action-style animation where it looks like you’re playfully fighting with Santa."
+      },
+      {
+        "question": "Is the 'Fighting With Santa' effect free to try?",
+        "answer": "Yes, you can try the effect for free. When you sign up for an account, you get free credits that you can use to create this effect and explore other AI video effects."
+      },
+      {
+        "question": "Is my photo safe when I upload it?",
+        "answer": "Yes, your photo is completely safe. It is uploaded securely, used only to create the video effect, and then removed from our servers after a short time. Nothing is shared with anyone."
+      },
+      {
+        "question": "What image formats can I upload?",
+        "answer": "You can upload common formats like JPEG, PNG, or WEBP. Just make sure the file size fits within the upload limit shown on the page."
+      },
+      {
+        "question": "Do I need to install anything to use this effect?",
+        "answer": "No, you don’t need to install anything. This effect works completely online, and you can use it from any device with a web browser."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say About Us",
+    "reviews": [
+      {
+        "review": "I had an absolute blast making my video! The AI feature stitched everything so smoothly and turned my idea into a lively Santa action clip.",
+        "name": "Charlotte",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Never imagined I’d end up in a snowball fight video with Santa. It’s hilarious, dynamic, and the final video looks surprisingly realistic.",
+        "name": "Elias",
+        "designation": "Web User from USA"
+      },
+      {
+        "review": "The video quality truly exceeded my expectations. It’s a fun and creative tool for producing unique holiday-themed clips.",
+        "name": "Mia",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+    "howItWorks": {
+    "heading": "How Does it Work?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload an Image",
+        "bulletPoints": [
+          "Upload a photo of yourself or anyone else. Make sure the image is clear and high-quality to get the best Fighting With Santa result."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Fighting With Santa Effect and Generate",
+        "bulletPoints": [
+          "Once your image is uploaded, click the “Apply Fighting With Santa” button. The AI will smoothly apply the Fighting With Santa transformation to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Preview and Download It",
+        "bulletPoints": [
+          "After the process is complete, you can preview the Fighting With Santa transformation and download it to your device or share it."
+        ]
+      }
+    ]
+  }
+}
+
