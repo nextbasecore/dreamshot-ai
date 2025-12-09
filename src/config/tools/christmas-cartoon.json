@@ -1,0 +1,141 @@
+{
+  "id": "christmas-cartoon",
+  "title": "Christmas Cartoon Generator",
+  "playgroundTitle": "Christmas Cartoon Generator",
+  "playgroundDescription": "Christmas Cartoon Image Generator changes your photo into a fun holiday cartoon with bright Christmas colors, charming characters, and festive seasonal details.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Christmas Cartoon Image Generator",
+    "description": "Make your photo look like a Christmas-themed cartoon with festive colors, holiday props, and a cute cartoon style using the Christmas Cartoon Image Generator.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "christmasCartoon",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/christmas-cartoon-cover.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "add-christmas-tree-to-photo",
+      "add-santa-hat-to-photo",
+      "add-santa-to-photo",
+      "christmas-party-glam"
+    ],
+    "heading": "Try More Popular Image Effects"
+  },
+  "examples": {
+    "heading": "See Sample Results of Christmas Cartoon Effect",
+    "title": "See Sample Results of Christmas Cartoon Effect",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Christmas Cartoon"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Christmas Cartoon Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-33.webp",
+      "original": "https://assets.remixai.io/sample-image-33.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-34.webp",
+      "original": "https://assets.remixai.io/sample-image-34.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-35.webp",
+      "original": "https://assets.remixai.io/sample-image-35.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-36.webp",
+      "original": "https://assets.remixai.io/sample-image-36.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions About Christmas Cartoon",
+    "questions": [
+      {
+        "question": "What is the Christmas Cartoon effect?",
+        "answer": "The Christmas Cartoon effect is an AI filter that turns your normal photos into cute and festive cartoon images, perfect for the holidays."
+      },
+      {
+        "question": "Is the Christmas Cartoon filter free to use?",
+        "answer": "Yes! Just sign up for a free account and you’ll get credits to try this filter and other effects on our website."
+      },
+      {
+        "question": "Can I use the Christmas Cartoon effect on group photos?",
+        "answer": "Yes! The AI can transform multiple people in one photo. Make sure everyone’s faces are clear for the best results."
+      },
+      {
+        "question": "Can I adjust the cartoon style or colors?",
+        "answer": "Currently, the AI automatically applies the most fun and festive cartoon style. You don’t need to adjust anything."
+      },
+      {
+        "question": "Can I use photos of pets or objects?",
+        "answer": "Absolutely! Pets, toys, or holiday decorations work well and the AI will turn them into cute cartoon versions."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "The results are just brilliant. I turned a family photo into a Christmas cartoon and everyone was amazed.",
+        "name": "Elijah",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "Absolutely love this! The Christmas cartoons are perfect for my holiday content. Dreamshot makes it so easy to get a festive vibe.",
+        "name": "Sophia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Super fun to play with. The cartoon styles are surprisingly high-quality and save me a ton of time.",
+        "name": "Leo",
+        "designation": "Animator"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Christmas Cartoon Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Pick a clear, high-quality photo from your device to start turning it into a festive Christmas cartoon."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Transform Your Photo",
+        "bulletPoints": [
+          "Click the “Generate Now” button and watch as your photo is magically transformed into a fun, holiday-themed cartoon."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Save your Christmas cartoon to your device and share the holiday cheer with friends and family on social media."
+        ]
+      }
+    ]
+  }
+}

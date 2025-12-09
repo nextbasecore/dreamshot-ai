@@ -1,0 +1,141 @@
+{
+  "id": "ai-pregnant-filter",
+  "title": "AI Pregnant Filter",
+  "playgroundTitle": "AI Pregnant Filter",
+  "playgroundDescription": "Create a playful pregnancy-style edit with the AI Pregnant Filter. Add a baby-bump effect to any photo and generate a fun, customized look in seconds.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Pregnant Filter: Add Baby Bump to your Photo",
+    "description": "Use the AI Pregnant Filter to add a fun baby-bump effect to your photo. Upload an image and create a playful, edited pregnancy-style look in seconds.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Apply Image Effect",
+  "inputType": "single",
+  "effectId": "pregnant",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Pregenant-Cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "south-park-character",
+      "mugshot",
+      "ai-skinny-filter",
+      "ai-fat-filter"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "examples": {
+    "heading": "See the Stunning Results",
+    "title": "See the Stunning Results",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Crying-Ex1.webp",
+        "alt": "AI Pregnant Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Crying-Ex2.webp",
+        "alt": "Pregnant Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/pregenent-sample-1.webp",
+      "original": "https://assets.remixai.io/pregenent-sample-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/pregenent-sample-2.webp",
+      "original": "https://assets.remixai.io/pregenent-sample-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/pregenent-sample-3.webp",
+      "original": "https://assets.remixai.io/pregenent-sample-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/pregenent-sample-4.webp",
+      "original": "https://assets.remixai.io/pregenent-sample-4.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions About AI Pregnant Filter",
+    "questions": [
+      {
+        "question": "What is the AI Pregnant Filter?",
+        "answer": "The AI Pregnant Filter is an advanced image effect that uses artificial intelligence to realistically simulate a pregnancy belly on a photo you upload. It's a fun way to visualize what you might look like when pregnant."
+      },
+      {
+        "question": "Is it free to use the AI Pregnant Filter?",
+        "answer": "Yes, it is! When you sign up for a free account on our website, we provide you with complimentary credits. You can use these credits to try the AI Pregnant Filter and other tools on our platform."
+      },
+      {
+        "question": "Are my uploaded photos kept private and secure?",
+        "answer": "Absolutely. Your privacy is our top priority. We use secure protocols for all uploads, and your images are processed privately. We do not share your photos with third parties, and they are automatically deleted from our servers after a short period."
+      },
+      {
+        "question": "What kind of photo works best for the filter?",
+        "answer": "For the best results, use a clear, high-quality, front-facing photo where your full torso is visible. Good lighting and a relatively simple background also help our AI to produce a more realistic effect."
+      },
+      {
+        "question": "Do I need to install any software to use this tool?",
+        "answer": "No, not at all. Our AI Pregnant Filter is a fully web-based tool. You don't need to download or install anything on your device. Just open our website in your browser, upload your photo, and let the AI do its magic."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This was so much fun to try with my partner! The results looked surprisingly real and gave us a good laugh.",
+        "name": "Olivia",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "I used this for a social media post and my followers loved it. The quality from Max Studio's filters is always top-notch.",
+        "name": "Ethan",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Tried it out of curiosity and was genuinely impressed. It's a cool and entertaining little tool.",
+        "name": "Sophia",
+        "designation": "Web user from UK"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How AI Pregnant Filter Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select & Upload photos from your device to apply AI Pregnant Filter, and make sure uploaded photos must be in high quality with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply AI Pregnant Filter",
+        "bulletPoints": [
+          "After the photo is uploaded click on the “Apply Image Effect” button to apply the AI Pregnant Filter to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated AI Pregnant Filter to your device and share it on your favorite social media platform, and with your friends and family."
+        ]
+      }
+    ]
+  }
+}

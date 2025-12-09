@@ -1,0 +1,141 @@
+{
+  "id": "ai-gingerbread-filter",
+  "title": "AI Gingerbread Filter",
+  "playgroundTitle": "AI Gingerbread Filter",
+  "playgroundDescription": "AI Gingerbread Filter changes your photos into playful gingerbread characters with sweet cookie textures, warm tones, and festive holiday details.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Gingerbread Filter For Free",
+    "description": "Add a fun gingerbread effect to your photos with the free AI Gingerbread Filter. Turn yourself or friends into cute cookie-style character with festive details.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "gingerbreadManCharacter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/ginger-bread-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "action-figure-generator",
+      "add-christmas-tree-to-photo",
+      "add-santa-to-photo",
+      "plush-pillow-generator"
+    ],
+    "heading": "Discover Other Popular Image Effects"
+  },
+  "examples": {
+    "heading": "Before & After: AI Gingerbread Filter Example Photos",
+    "title": "Before & After: AI Gingerbread Filter Example Photos",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Gingerbread Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Gingerbread Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-255.webp",
+      "original": "https://assets.remixai.io/sample-image-255.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-26.webp",
+      "original": "https://assets.remixai.io/sample-image-26.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-27.webp",
+      "original": "https://assets.remixai.io/sample-image-27.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-28.webp",
+      "original": "https://assets.remixai.io/sample-image-28.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Frequently Asked Questions About AI Gingerbread Filter",
+    "questions": [
+      {
+        "question": "What is the AI Gingerbread Filter?",
+        "answer": "The AI Gingerbread Filter is a fun tool that uses AI to turn your photos into gingerbread-themed images. It makes your picture look like it’s made of gingerbread, icing, and candy decorations."
+      },
+      {
+        "question": "Is the AI Gingerbread Filter free to use?",
+        "answer": "Yes! Sign up for a free account, and we give you free credits to try the Gingerbread Filter and other AI tools."
+      },
+      {
+        "question": "Can I use this filter on my phone?",
+        "answer": "Yes! The Gingerbread Filter works in any modern web browser, so you can use it on your smartphone, tablet, or computer."
+      },
+      {
+        "question": "Is there a limit to how many photos I can transform?",
+        "answer": "With free credits, there’s a limit, but you can always get more by signing up for additional credits or upgrading to a premium plan."
+      },
+      {
+        "question": "Can I save my progress if I want to edit later?",
+        "answer": "Currently, each transformation is processed instantly. If you want to keep an image, download it right away since the AI doesn’t save your photo on the platform."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm obsessed! The gingerbread filter turned my holiday photos into something straight out of a storybook. Dreamshot's AI is just magical.",
+        "name": "Sophia",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "This is so much fun for the holidays. Super easy to use and the results are hilarious!",
+        "name": "Lucas",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "I was genuinely impressed with the level of detail. It’s not just a simple overlay; it really transforms the image into a gingerbread creation.",
+        "name": "Chloe",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How AI Gingerbread Filter Works",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pick Your Favorite Photo",
+        "bulletPoints": [
+          "Choose a clear, high-quality photo from your device—the one you want to see transformed into a festive gingerbread creation."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply AI Gingerbread Filter",
+        "bulletPoints": [
+          "Click “Generate Now” and let the filter sprinkle its holiday magic, turning your photo into a sweet gingerbread masterpiece complete with candy details."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Save & Share",
+        "bulletPoints": [
+          "Download your gingerbread creation and share the festive fun with friends, family, or anyone who loves a bit of holiday cheer."
+        ]
+      }
+    ]
+  }
+}

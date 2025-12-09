@@ -9,6 +9,7 @@ on:
       - kinjal-test
       - master
       - seo
+      - seo-test
 
 jobs:
   empty-commit:
