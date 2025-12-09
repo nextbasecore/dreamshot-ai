@@ -1,0 +1,139 @@
+{
+  "id": "santa-kidnapping",
+  "title": "AI Santa Kidnapping Video",
+  "playgroundTitle": "AI Santa Kidnapping Video Generator",
+  "playgroundDescription": "Want a unique holiday laugh? Instantly generate a funny, custom AI Santa Kidnapping video! It's free to create your prank message.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Santa Kidnapping Video Generator For Free",
+    "description": "Make a funny, custom AI Santa Kidnapping video instantly. Use our free generator to create your unique holiday prank message now!",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "santaKidnapping",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": "",
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa"
+    ],
+    "heading": "Check Out Other Trending Video Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About Santa Kidnapping",
+    "questions": [
+      {
+        "question": "What is the Santa Kidnapping video effect?",
+        "answer": "The Santa Kidnapping effect is an AI effect that turns your photo into a short, funny video where it looks like Santa is playfully kidnapping you. It adds a fun holiday twist to any picture."
+      },
+      {
+        "question": "Is the Santa Kidnapping effect free to use?",
+        "answer": "Yes, you can try it for free. When you sign up, you get free credits that you can use to create this effect and explore other AI effects."
+      },
+      {
+        "question": "Are my uploaded photos safe and private?",
+        "answer": "Yes, your photos are secure. They are used only to create your video and are deleted automatically after a short time. We never share your images."
+      },
+      {
+        "question": "What image file formats do you support?",
+        "answer": "You can upload common image formats like JPG, PNG, and WEBP. Just pick a photo and the system will do the rest."
+      },
+      {
+        "question": "How can I download or share my Santa Kidnapping video?",
+        "answer": "After the video is ready, you can download it as an MP4 file or share it on social media like Instagram, TikTok, or Facebook with one click."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "See Sample Results of AI Santa Kidnapping Video",
+    "title": "See Sample Results of AI Santa Kidnapping Video",
+    "description": null,
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Kidnapping-1.webm",
+        "alt": "AI Santa Kidnapping Video"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Kidnapping-2.webm",
+        "alt": "Santa Kidnapping Video"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This was hilarious! The quality from Dreamshot was surprisingly good, and the whole concept is just brilliant. My friends couldn't stop laughing.",
+        "name": "Noah",
+        "designation": "Visual Creator"
+      },
+      {
+        "review": "Absolutely loved it. Such a funny and unique idea for a Christmas card!",
+        "name": "Olivia",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "I'm impressed with how easy this was to create. The final image turned out perfectly and was a huge hit at our family gathering.",
+        "name": "Ethan",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Use Santa Kidnapping",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Photo",
+        "bulletPoints": [
+          "Choose a clear, well-lit image and upload it to our Santa Kidnapping tool."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Video Effect",
+        "bulletPoints": [
+          "Click on the “Generate Now” button to apply the Santa Kidnapping effect and turn your photo into a unique video."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Once your video is generated, download your Santa Kidnapping video and share it with your friends, family, and on your favorite social media platform."
+        ]
+      }
+    ]
+  }
+}
