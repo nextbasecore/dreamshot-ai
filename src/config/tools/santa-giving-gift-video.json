@@ -1,0 +1,139 @@
+{
+  "id": "santa-giving-gift-video",
+  "title": "Santa Giving Gift Video",
+  "playgroundTitle": "AI Santa Giving Gift Video Generator",
+  "playgroundDescription": "Add holiday fun to your photos with the AI Santa Giving Gift Video Generator. See Santa hand out presents with gifts, festive lights, decorations, and Christmas cheer.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Santa Giving Gift Video Generator For Free",
+    "description": "Enjoy the AI Santa Giving Gift Video Generator for free. Add Santa delivering presents, festive decorations, and cheerful holiday spirit to your photos.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "santaGivingGiftFromWindow",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa"
+    ],
+    "heading": "Check Out Other Trending Video Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About Santa Giving Gift Video",
+    "questions": [
+      {
+        "question": "What is the Santa Giving Gift Video effect?",
+        "answer": "The Santa Giving Gift Video is a fun AI effect that turns your photo into a heartwarming video. Upload a picture, and Santa appears giving a gift to the person in your photo."
+      },
+      {
+        "question": "Can I use a photo with multiple people?",
+        "answer": "The effect works best with one person or pet in the photo. Using a group photo may not give the best results, as the AI focuses on one main subject."
+      },
+      {
+        "question": "Can I add text or stickers to my video?",
+        "answer": "Currently, the video effect doesn’t include text or stickers. You can add them later using video editing apps after downloading your video."
+      },
+      {
+        "question": "Will the video work on all devices?",
+        "answer": "Yes! The final MP4 video can be played on any device, including Windows, Mac, iPhone, Android, and tablets."
+      },
+      {
+        "question": "Can I re-edit a video after it’s generated?",
+        "answer": "No, once the video is generated, it can’t be re-edited in the tool. You can generate a new video if you want changes."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Watch Sample Santa Giving Gift Video",
+    "title": "Watch Sample Santa Giving Gift Video",
+    "description": null,
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Giving-Gift-1.webm",
+        "alt": "Santa Giving Gift Video"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Giving-Gift-2.webm",
+        "alt": "AI Santa Giving Gift Video"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-21.webp",
+      "original": "https://assets.remixai.io/sample-image-21.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-22.webp",
+      "original": "https://assets.remixai.io/sample-image-22.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-23.webp",
+      "original": "https://assets.remixai.io/sample-image-23.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-24.webp",
+      "original": "https://assets.remixai.io/sample-image-24.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "My kids were absolutely speechless! The Santa video from Dreamshot looked incredibly real. We'll be doing this every year.",
+        "name": "Evelyn",
+        "designation": "Web user from UK"
+      },
+      {
+        "review": "I was surprised by how fast and easy it was to create. The final video quality was fantastic.",
+        "name": "Harper",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Seeing the look of pure joy on my daughter's face was priceless. It truly brought the magic of Christmas to life for her.",
+        "name": "Gianna",
+        "designation": "iOS user from USA"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Does it Work?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload an Image",
+        "bulletPoints": [
+          "Upload a photo of yourself or anyone else. Make sure the image is clear and high-quality to get the best Santa Giving Gift Video result."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Generate Video",
+        "bulletPoints": [
+          "Once your image is uploaded, click the “Generate Now” button. The AI will smoothly apply the Santa Giving Gift Video transformation to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Preview and Download It",
+        "bulletPoints": [
+          "After the process is complete, you can preview the Santa Giving Gift Video transformation and download it to your device or share it."
+        ]
+      }
+    ]
+  }
+}
