@@ -19,7 +19,7 @@
   "inputType": "single",
   "effectId": "santaHug",
   "model": "video-effects",
-  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
   "cardVideo": null,
   "transformationImages": {
     "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
