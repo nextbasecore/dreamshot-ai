@@ -1,0 +1,139 @@
+{
+  "id": "selfie-with-santa",
+  "title": "AI Selfie With Santa Video",
+  "playgroundTitle": "AI Selfie With Santa Video Generator",
+  "playgroundDescription": "AI Selfie With Santa Video Generator creates playful holiday videos with you and Santa together. Add festive lights, decorations, and joyful Christmas moments for a fun seasonal clip.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Selfie With Santa Video Generator",
+    "description": "Bring the magic of Christmas to life with a realistic Santa selfie. Our effect seamlessly blends Santa into your photos for a truly believable image.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "selfiewithSanta",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa"
+    ],
+    "heading": "See Other Cool Video Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About Selfie With Santa",
+    "questions": [
+      {
+        "question": "What is the Selfie With Santa effect?",
+        "answer": "The Selfie With Santa effect is an AI-powered tool that transforms your uploaded photo into a fun video, making it look like you're taking a selfie with Santa Claus. It's a magical way to create festive content for the holidays."
+      },
+      {
+        "question": "Can I use this tool on my mobile phone?",
+        "answer": "Absolutely! Our tool is fully web-based and responsive, meaning you can easily upload a photo and create your Selfie With Santa video directly from your mobile browser, as well as on a desktop or tablet."
+      },
+      {
+        "question": "Are my uploaded photos safe and private?",
+        "answer": "Yes, your privacy is our top priority. Your photos are processed securely on our servers and are not shared with any third parties. They are automatically deleted after a short period to ensure your data is safe."
+      },
+      {
+        "question": "What if the effect doesn't look right on my photo?",
+        "answer": "AI results can vary. If you're not satisfied, try using a different photo that follows our guidelines: a clear, forward-facing, and well-lit shot. This usually resolves most issues and produces a much better result."
+      },
+      {
+        "question": "What can I do with my Selfie With Santa video?",
+        "answer": "The possibilities are endless! Share it as a festive social media post, use it in a digital Christmas card, send it to family to spread holiday cheer, or simply save it as a fun holiday memento."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Selfie With Santa – Example Photo Transformations",
+    "title": "Selfie With Santa – Example Photo Transformations",
+    "description": null,
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Selfie-with-Santa-1.webm",
+        "alt": "Selfie With Santa"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Selfie-with-Santa-2.webm",
+        "alt": "AI Selfie With Santa"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-17.webp",
+      "original": "https://assets.remixai.io/sample-image-17.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-18.webp",
+      "original": "https://assets.remixai.io/sample-image-18.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-19.webp",
+      "original": "https://assets.remixai.io/sample-image-19.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-20.webp",
+      "original": "https://assets.remixai.io/sample-image-20.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This was so much fun for the kids! The Santa selfies turned out surprisingly realistic and made for a great holiday card.",
+        "name": "Logan",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "I was looking for a quick way to create some fun holiday content, and this was perfect. The integration with Dreamshot is a nice touch for getting different styles.",
+        "name": "Elias",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Absolutely magical! My daughter was convinced she'd actually met Santa Claus.",
+        "name": "Stella",
+        "designation": "iOS user from UK"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Create Your Selfie With Santa",
+    "description": "Bring the magic of the holidays to life in just three simple steps.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Photo",
+        "bulletPoints": [
+          "Choose a clear, well-lit photo from your device to start your festive selfie."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Add Santa to Your Photo",
+        "bulletPoints": [
+          "Click to add Santa into your picture and position him perfectly for a realistic holiday selfie."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Save & Share",
+        "bulletPoints": [
+          "Download your Selfie With Santa and spread the holiday cheer with friends and family!"
+        ]
+      }
+    ]
+  }
+}
