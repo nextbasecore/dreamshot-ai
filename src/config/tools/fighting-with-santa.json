@@ -26,7 +26,12 @@
   },
   "dualUploadLabels": {},
   "recommendedEffects": {
-    "id": [],
+    "id": [
+      "santa-kidnapping",
+      "reindeer-ride-with-santa",
+      "santa-transformation",
+      "santa-hug-video-generator"
+    ],
     "heading": "See Other Cool Video Effects"
   },
   "examples": {
