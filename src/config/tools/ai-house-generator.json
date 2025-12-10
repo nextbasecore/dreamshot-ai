@@ -1,0 +1,126 @@
+{
+  "id": "ai-house-generator",
+  "title": " AI House Generator",
+  "playgroundTitle": "Free AI House Generator for Stunning Architectural Designs",
+  "playgroundDescription": "Redesign your home or build from scratch. Describe your ideal home to our AI generator and receive stunning, realistic design concepts and layouts instantly.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI House Generator: Design Your Dream Home in Minutes",
+    "description": "Instantly visualize your ideal living space. Our AI House Generator creates detailed floor plans and stunning 3D exterior designs from simple text prompts.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Your House",
+  "inputType": "single",
+  "effectId": "red_hulk",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": "",
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/featured-image/AI-selfie-with-celebrities-generator-1.webp",
+    "transformationResult": " https://assets.remixai.io/Public/featured-image/AI-selfie-with-celebrities-generator-21.webp"
+  },
+  "dualUploadLabels": {
+    "firstImageLabel": "Upload your image",
+    "secondImageLabel": "Upload celebrity image"
+  },
+  "recommendedEffects": {
+    "id": [
+      "add-christmas-tree-to-photo",
+      "add-santa-hat-to-photo",
+      "add-santa-to-photo",
+      "ai-fat-filter"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "question": "What is the AI House Generator?",
+      "answer": "The AI House Generator is an advanced image effect that uses artificial intelligence to transform your uploaded house photos. It applies a unique generative effect, reimagining your home's exterior in various creative styles."
+    },
+    {
+      "question": "How much time does the AI House Generator take to process an image?",
+      "answer": "The processing time can vary depending on the complexity and resolution of the uploaded photo. However, our platform is optimized for speed, delivering your transformed image faster than most competitors."
+    },
+    {
+      "question": "Is the AI House Generator free to use?",
+      "answer": "Yes, it is! Simply sign up for a free account on our website, and you will receive complimentary credits. You can use these credits to experience the AI House Generator and other tools on our platform."
+    },
+    {
+      "question": "Are my uploaded photos kept private and secure?",
+      "answer": "Absolutely. We prioritize your privacy. Your uploaded images are processed securely and are automatically deleted from our servers after a short period. We do not use your photos for any other purpose without your explicit consent."
+    },
+    {
+      "question": "What kind of photos work best with the AI House Generator?",
+      "answer": "For the best results, we recommend using clear, well-lit photos of a house's exterior. Front-facing shots with minimal obstructions like cars or dense foliage tend to produce the most stunning transformations."
+    },
+    {
+      "question": "What image file formats can I upload?",
+      "answer": "Our tool supports the most common image formats, including JPEG, PNG, and WEBP. Please ensure your file size is within the upload limit specified on the tool page for optimal performance."
+    },
+    {
+      "question": "Do I need to install any software to use this tool?",
+      "answer": "No software installation is required. The AI House Generator is a fully web-based tool, accessible directly from your browser on any computer or mobile device. Just upload your photo and let our AI do the rest."
+    }
+  ],
+  "examples": {
+    "heading": "See the Stunning Results",
+    "title": "See the Stunning Results",
+    "description": "",
+    "images": []
+  },
+  "sampleImages": [],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm blown away by how realistic the designs are. This tool helped me visualize my future home in a way I never thought possible.",
+        "name": "Sophia",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "As a digital artist, this is a goldmine for inspiration. I love generating unique architectural concepts and then tweaking them with Dreamshot.",
+        "name": "Ethan",
+        "designation": "Digital Artist"
+      },
+      {
+        "review": "So easy to use! I just typed in a few words and got a stunning house design in seconds. Highly recommend for a bit of creative fun.",
+        "name": "Lucas",
+        "designation": "Web user from UK"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How AI House Generator Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select and upload high-quality photos from your device with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply AI House Generator",
+        "bulletPoints": [
+          "After the photo is uploaded, click the 'Apply Image Effect' button to apply the AI House Generator to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated house design to your device and share it on social media with your friends and family."
+        ]
+      }
+    ]
+  }
+}
