@@ -2,11 +2,11 @@
   "id": "ai-fat-filter",
   "title": "AI Fat Filter",
   "playgroundTitle": "AI Fat Filter",
-  "playgroundDescription": "Try the AI Fat Filter for free and see a fuller body effect. The filter reshapes your appearance automatically for a realistic look.",
+  "playgroundDescription": "Try the AI Fat Filter for free and see a fat body effect. The filter reshapes your appearance automatically for a realistic look.",
   "highlightWords": [],
   "metadata": {
     "title": "AI Fat Filter : Create Fat Body Look For Free",
-    "description": "See a new version of yourself with the free AI Fat Filter. This filter automatically creates a fuller, realistic body effect in seconds.",
+    "description": "See a new version of yourself with the free AI Fat Filter. This filter automatically creates a fatty, realistic body effect in seconds.",
     "alternates": {
       "canonical": ""
     }
@@ -15,7 +15,7 @@
   "toolCategory": "image-effects",
   "postPrefix": "image-effects",
   "credit": 40,
-  "buttonText": "Apply Image Effect",
+  "buttonText": "Generate Now",
   "inputType": "single",
   "effectId": "fat-filter",
   "model": "image-effects",
