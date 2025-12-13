@@ -5,7 +5,7 @@ import DoubleColumnPopover, {
 } from "@/components/Popovers/DoubleColumnPopover";
 import { ImageStarIcon, VideoStarIcon } from "@/components/Icons/EffectsIcons";
 import { ToolConfigJson } from "@/config/tools.server";
-import { getEffectsList } from "./EffectsPopover/EffectsList";
+import { getEffectsList } from "./EffectsList";
 
 interface EffectsPopoverProps {
   tools: ToolConfigJson[];
