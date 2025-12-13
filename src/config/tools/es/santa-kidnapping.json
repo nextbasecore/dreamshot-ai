@@ -1,12 +1,12 @@
 {
   "id": "santa-kidnapping",
-  "title": "AI Santa Kidnapping Video",
-  "playgroundTitle": "AI Santa Kidnapping Video Generator",
-  "playgroundDescription": "Want a unique holiday laugh? Instantly generate a funny, custom AI Santa Kidnapping video! It's free to create your prank message.",
+  "title": "Video del Secuestro de Papá Noel con IA",
+  "playgroundTitle": "Generador de Videos del Secuestro de Papá Noel con IA",
+  "playgroundDescription": "¿Quieres una risa navideña única? ¡Genera instantáneamente un divertido y personalizado video del Secuestro de Papá Noel con IA! Es gratis crear tu mensaje de broma.",
   "highlightWords": [],
   "metadata": {
-    "title": "AI Santa Kidnapping Video Generator For Free",
-    "description": "Make a funny, custom AI Santa Kidnapping video instantly. Use our free generator to create your unique holiday prank message now!",
+    "title": "Generador Gratuito de Videos del Secuestro de Papá Noel con IA",
+    "description": "Crea un divertido y personalizado video del Secuestro de Papá Noel con IA al instante. ¡Usa nuestro generador gratuito para crear tu mensaje de broma navideña único ahora!",
     "alternates": {
       "canonical": ""
     }
@@ -15,7 +15,7 @@
   "toolCategory": "video-effects",
   "postPrefix": "video-effects",
   "credit": 40,
-  "buttonText": "Generate Now",
+  "buttonText": "Generar Ahora",
   "inputType": "single",
   "effectId": "santaKidnapping",
   "model": "video-effects",
@@ -32,45 +32,45 @@
       "selfie-with-santa",
       "santa-hug-video-generator"
     ],
-    "heading": "Check Out Other Trending Video Effects"
+    "heading": "Echa un vistazo a otros efectos de video populares"
   },
   "faqs": {
-    "heading": "FAQs About Santa Kidnapping",
+    "heading": "Preguntas Frecuentes sobre el Secuestro de Papá Noel",
     "questions": [
       {
-        "question": "What is the Santa Kidnapping video effect?",
-        "answer": "The Santa Kidnapping effect is an AI effect that turns your photo into a short, funny video where it looks like Santa is playfully kidnapping you. It adds a fun holiday twist to any picture."
+        "question": "¿Qué es el efecto de video del Secuestro de Papá Noel?",
+        "answer": "El efecto del Secuestro de Papá Noel es un efecto de IA que convierte tu foto en un video corto y divertido donde parece que Papá Noel te está secuestrando de forma juguetona. Añade un divertido toque navideño a cualquier imagen."
       },
       {
-        "question": "Is the Santa Kidnapping effect free to use?",
-        "answer": "Yes, you can try it for free. When you sign up, you get free credits that you can use to create this effect and explore other AI effects."
+        "question": "¿Es gratuito el uso del efecto Secuestro de Papá Noel?",
+        "answer": "Sí, puedes probarlo gratis. Al registrarte, obtienes créditos gratuitos que puedes usar para crear este efecto y explorar otros efectos de IA."
       },
       {
-        "question": "Are my uploaded photos safe and private?",
-        "answer": "Yes, your photos are secure. They are used only to create your video and are deleted automatically after a short time. We never share your images."
+        "question": "¿Están mis fotos subidas seguras y son privadas?",
+        "answer": "Sí, tus fotos están seguras. Se utilizan solo para crear tu video y se eliminan automáticamente después de un corto período. Nunca compartimos tus imágenes."
       },
       {
-        "question": "What image file formats do you support?",
-        "answer": "You can upload common image formats like JPG, PNG, and WEBP. Just pick a photo and the system will do the rest."
+        "question": "¿Qué formatos de archivo de imagen admiten?",
+        "answer": "Puedes subir formatos de imagen comunes como JPG, PNG y WEBP. Simplemente elige una foto y el sistema hará el resto."
       },
       {
-        "question": "How can I download or share my Santa Kidnapping video?",
-        "answer": "After the video is ready, you can download it as an MP4 file or share it on social media like Instagram, TikTok, or Facebook with one click."
+        "question": "¿Cómo puedo descargar o compartir mi video del Secuestro de Papá Noel?",
+        "answer": "Una vez que el video esté listo, puedes descargarlo como un archivo MP4 o compartirlo en redes sociales como Instagram, TikTok o Facebook con un solo clic."
       }
     ]
   },
   "examples": {
-    "heading": "See Sample Results of AI Santa Kidnapping Video",
-    "title": "See Sample Results of AI Santa Kidnapping Video",
+    "heading": "Ver Resultados de Muestra del Video del Secuestro de Papá Noel con IA",
+    "title": "Ver Resultados de Muestra del Video del Secuestro de Papá Noel con IA",
     "description": null,
     "images": [
       {
         "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Kidnapping-1.webm",
-        "alt": "AI Santa Kidnapping Video"
+        "alt": "Video del Secuestro de Papá Noel con IA"
       },
       {
         "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Kidnapping-2.webm",
-        "alt": "Santa Kidnapping Video"
+        "alt": "Video del Secuestro de Papá Noel"
       }
     ]
   },
@@ -93,48 +93,48 @@
     }
   ],
   "testimonials": {
-    "heading": "What People Say about us",
+    "heading": "Lo que la gente dice de nosotros",
     "reviews": [
       {
-        "review": "This was hilarious! The quality from Dreamshot was surprisingly good, and the whole concept is just brilliant. My friends couldn't stop laughing.",
-        "name": "Noah",
-        "designation": "Visual Creator"
+        "review": "¡Esto fue divertidísimo! La calidad de Dreamshot fue sorprendentemente buena, y todo el concepto es simplemente brillante. Mis amigos no podían parar de reír.",
+        "name": "Noé",
+        "designation": "Creador Visual"
       },
       {
-        "review": "Absolutely loved it. Such a funny and unique idea for a Christmas card!",
+        "review": "Absolutamente encantada. ¡Una idea tan divertida y única para una tarjeta de Navidad!",
         "name": "Olivia",
-        "designation": "Web user from USA"
+        "designation": "Usuaria web de EE. UU."
       },
       {
-        "review": "I'm impressed with how easy this was to create. The final image turned out perfectly and was a huge hit at our family gathering.",
-        "name": "Ethan",
-        "designation": "Digital Artist"
+        "review": "Estoy impresionado con lo fácil que fue crearlo. La imagen final quedó perfecta y fue un gran éxito en nuestra reunión familiar.",
+        "name": "Etán",
+        "designation": "Artista Digital"
       }
     ]
   },
   "howItWorks": {
-    "heading": "How to Use Santa Kidnapping",
+    "heading": "Cómo Usar el Secuestro de Papá Noel",
     "description": "",
     "steps": [
       {
         "step": 1,
-        "title": "Upload Your Photo",
+        "title": "Sube tu Foto",
         "bulletPoints": [
-          "Choose a clear, well-lit image and upload it to our Santa Kidnapping tool."
+          "Elige una imagen clara y bien iluminada y súbela a nuestra herramienta de Secuestro de Papá Noel."
         ]
       },
       {
         "step": 2,
-        "title": "Apply Video Effect",
+        "title": "Aplica el Efecto de Video",
         "bulletPoints": [
-          "Click on the “Generate Now” button to apply the Santa Kidnapping effect and turn your photo into a unique video."
+          "Haz clic en el botón “Generar Ahora” para aplicar el efecto de Secuestro de Papá Noel y convertir tu foto en un video único."
         ]
       },
       {
         "step": 3,
-        "title": "Download & Share",
+        "title": "Descarga y Comparte",
         "bulletPoints": [
-          "Once your video is generated, download your Santa Kidnapping video and share it with your friends, family, and on your favorite social media platform."
+          "Una vez que tu video se haya generado, descarga tu video del Secuestro de Papá Noel y compártelo con tus amigos, familiares y en tu plataforma de redes sociales favorita."
         ]
       }
     ]
