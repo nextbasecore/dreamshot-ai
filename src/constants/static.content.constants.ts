@@ -370,49 +370,68 @@ export const CURVED_CAROUSEL_IMAGES: DashboardInspiration[] = [
     },
 ];
 
+// Common link styling used across all footer links
+export const FOOTER_LINK_STYLES = "text-gray-400 text-sm md:text-base hover:text-gray-300 transition-colors block";
+
+// Footer section data - Image Effects links
+export const FOOTER_IMAGE_EFFECTS_LINKS: FooterLink[] = [
+    { text: "Ai Pregnant Filter", url: "/image-effects/ai-pregnant-filter" },
+    { text: "South Park Character", url: "/image-effects/south-park-character" },
+    { text: "Ai Mugshot Filter", url: "/image-effects/mugshot" },
+    { text: "Ai Skinny Filter", url: "/image-effects/ai-skinny-filter" },
+    { text: "Ai Fat Filter", url: "/image-effects/ai-fat-filter" },
+    { text: "AI Disney Pixar Effect", url: "/image-effects/disney-pixar-filter" },
+    { text: "AI Selfie with Celebrity", url: "/image-effects/selfie-with-celebrities" },
+    { text: "Baby Face Generator", url: "/image-effects/baby-face-generator" },
+    { text: "Action Figure Generator", url: "/image-effects/action-figure-generator" },
+    { text: "Photo to Sketch Generator", url: "/image-effects/photo-to-sketch" },
+    { text: "AI Silhouette Effect", url: "/image-effects/silhouette-filter" },
+];
+
+// Footer section data - Video Effects links
+export const FOOTER_VIDEO_EFFECTS_LINKS: FooterLink[] = [
+    { text: "Fight With Santa Video Generator", url: "/video-effects/fighting-with-santa" },
+    { text: "Santa Kidnapping", url: "/video-effects/santa-kidnapping" },
+    { text: "Reindeer Ride With Santa", url: "/video-effects/reindeer-ride-with-santa" },
+    { text: "Santa Transformation", url: "/video-effects/santa-transformation" },
+    { text: "Santa Hug", url: "/video-effects/santa-hug" },
+    { text: "Selfie With Santa", url: "/video-effects/selfie-with-santa" },
+    { text: "Santa Giving Gift Video Generator", url: "/video-effects/santa-giving-gift" },
+];
+
+// Footer section data - Business links (null url means no link, just text)
+export const FOOTER_BUSINESS_LINKS: FooterLink[] = [
+    { text: "About Us", url: "" },
+    { text: "Pricing", url: "/pricing" },
+    { text: "Affiliate", url: "" },
+    { text: "Contact Us", url: "/contact-us" },
+];
+
+// Footer section data - Legal links
+export const FOOTER_LEGAL_LINKS: FooterLink[] = [
+    { text: "Privacy Policy", url: "/privacy.html" },
+    { text: "Terms & Conditions", url: "/terms.html" },
+    { text: "Cancellation & Refund", url: "/cancellation-and-refund.html" },
+];
+
+// Legacy FOOTER_DATA structure (kept for backward compatibility)
 export const FOOTER_DATA = {
     columns: [
         {
-            heading: "Tools",
-            links: [
-                { text: "Pro Clothes Swap", url: "/advance-clothes-swap" },
-                { text: "Quick Clothes Swap", url: "/clothes-swap" },
-                { text: "Face Swap", url: "/face-swapper" },
-            ]
+            heading: "Image Effects",
+            links: FOOTER_IMAGE_EFFECTS_LINKS
         },
         {
-            heading: "Workflows",
-            links: [
-                { text: "Video Generator", url: "/?type=video-generator" },
-                { text: "Model Gen", url: "/?type=model-generator" },
-                { text: "Clothes Gen", url: "/?type=cloth-generator" },
-                { text: "Fashion Modeling", url: "/?type=fashion-modeling" },
-                { text: "Product Modeling", url: "/?type=product-modeling" },
-                { text: "Transformer Studio", url: "/?type=edit-image" },
-                { text: "Camera Angle Change", url: "/?type=camera-angle-changer" },
-                { text: "Background Replacer", url: "/?type=background-replacer" },
-                { text: "Image Upscaler", url: "/?type=image-upscaler-v2" },
-                { text: "Model Swap", url: "/?type=model-swap" },
-                { text: "Sketch to Image", url: "/?type=sketch-generator" },
-                { text: "Clothes Color Change", url: "/?type=cloth-color-change" },
-                { text: "Clothes Extractor", url: "/?type=cloth-extractor" },
-                { text: "Pose Generator", url: "/?type=pose-generator" },
-            ]
+            heading: "Video Effects",
+            links: FOOTER_VIDEO_EFFECTS_LINKS
         },
         {
-            heading: "Company",
-            links: [
-                { text: "Contact", url: "mailto:contact@dressr.ai" },
-                { text: "Pricing", url: "/price" }
-            ]
+            heading: "Business",
+            links: FOOTER_BUSINESS_LINKS
         },
         {
             heading: "Legal",
-            links: [
-                { text: "Terms", url: "/terms-of-service.html", external: true },
-                { text: "Privacy", url: "/privacy-policy.html", external: true },
-                { text: "Cancellation", url: "/cancellation-policy.html", external: true },
-            ]
+            links: FOOTER_LEGAL_LINKS
         }
     ] as FooterColumn[]
 };

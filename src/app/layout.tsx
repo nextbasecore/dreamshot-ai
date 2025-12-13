@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import AuthWrapper from "@/components/AuthWrapper";
+import { getAllToolConfigs } from "@/config/tools.server";
 import ForgotPasswordDialog from "@/components/Dialogs/ForgotPasswordDialog";
 import LoginInDialog from "@/components/Dialogs/LoginDialog";
 import RegisterDialog from "@/components/Dialogs/RegisterDialog";
@@ -51,11 +52,14 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Load tools for the header effects popover
+  const tools = await getAllToolConfigs();
+
   return (
     <html lang="en">
       <body
@@ -74,7 +78,7 @@ export default function RootLayout({
           <LogoutDialog />
           <VerifyDialog />
           <FeedbackDialog />
-          <Header />
+          <Header tools={tools} />
           {children}
         </AuthWrapper>
       </body>
