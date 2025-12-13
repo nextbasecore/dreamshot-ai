@@ -132,7 +132,7 @@ export const STATIC_FEATURES: string[] = [
 // Home/Dashboard page constants
 export const DASHBOARD_POPULAR_TOOLS: DashboardPopularTool[] = [
     {
-        title: "Image Upscale",
+        title: "AI Pregnant Filter",
         imageUrl: "/assets/PopularTools/ImageUpscale.png",
     },
     {
@@ -176,37 +176,31 @@ export const DASHBOARD_OUR_FEATURES: DashboardOurFeature[] = [
         title: "Text to Video AI",
         description:
             "Dreamshot AI lets you turn your written ideas into engaging videos. Just type your prompts, and the AI generates visuals that bring your concepts to life with smooth motion and clear storytelling.",
-        imageUrl: "/assets/OurFeatures/OurFeatures.png",
+        imageUrl: "https://assets.chromastudio.ai/Public/Dreamshot/features/Video-to-Video-AI.webp",
     },
     {
         title: "Image to Video AI",
         description:
             "Easily transform any image into a video. Dreamshot AI maintains visual style and consistency while creating dynamic scenes that make your photos feel alive.",
-        imageUrl: "/assets/OurFeatures/OurFeatures.png",
+        imageUrl: "https://assets.chromastudio.ai/Public/Dreamshot/features/Image-to-Video.webp",
     },
     {
         title: "AI Avatar Generator",
         description:
             "Turn a single photo into a fully animated AI avatar. The avatar moves naturally, shows expressive emotions, and can be used in videos or creative projects.",
-        imageUrl: "/assets/OurFeatures/OurFeatures.png",
-    },
-    {
-        title: "AI Video Editor",
-        description:
-            "Edit your videos quickly and easily using text prompts. You can change scenes, add effects, swap backgrounds, or adjust lighting, all without additional software.",
-        imageUrl: "/assets/OurFeatures/OurFeatures.png",
+        imageUrl: "https://assets.chromastudio.ai/Public/Dreamshot/features/AI-Avatar-Generator.webp",
     },
     {
         title: "Video to Video AI",
         description:
             "Convert your existing videos into different animation styles, from anime and cartoons to artistic painting styles, giving your content a fresh and unique look.",
-        imageUrl: "/assets/OurFeatures/OurFeatures.png",
+        imageUrl: "https://assets.chromastudio.ai/Public/Dreamshot/features/Video-to-Video-AI.webp",
     },
     {
         title: "Text & Image AI Generators",
         description:
             "Create high-quality images from text descriptions or transform existing images into new styles. Dreamshot AI makes it simple to produce visuals for social media, creative projects, or professional use.",
-        imageUrl: "/assets/OurFeatures/OurFeatures.png",
+        imageUrl: "https://assets.chromastudio.ai/Public/Dreamshot/features/Text-&-Image-AI-Generators.webp",
     },
 ];
 
