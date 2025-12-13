@@ -1,0 +1,142 @@
+{
+  "id": "ai-heart-filter",
+  "title": "AI Heart Filter",
+  "playgroundTitle": "AI Heart Filter",
+  "playgroundDescription": "AI Heart Filter lets you add hearts and charming effects to your photos. Decorate your pictures with playful, romantic, or cute heart designs for a fun and shareable look.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Heart Filter : Add Heart To Your Photos For Free",
+    "description": "Add cute heart effects to your photos with the AI Heart Filter for free. Make your images playful, romantic, or fun with easy heart decorations.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "heartFilter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/public/heart-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "action-figure-generator",
+      "ai-pregnant-filter",
+      "ai-snow-queen",
+      "plush-pillow-generator"
+    ],
+    "heading": "Related Popular Image Effects"
+  },
+  "faqs": {
+    "heading": "Frequently Asked Questions About AI Heart Filter",
+    "questions": [
+      {
+        "question": "What is the AI Heart Filter?",
+        "answer": "The AI Heart Filter is a fun image effect that adds heart-themed decorations and styles to your photo. Just upload your picture, and our AI will create a heart-filled version in seconds."
+      },
+      {
+        "question": "Is the AI Heart Filter free to use?",
+        "answer": "Yes! You can try it for free. Just sign up for an account, and you'll get free credits to use the AI Heart Filter and other effects."
+      },
+      {
+        "question": "Can I apply the filter multiple times to the same photo?",
+        "answer": "Yes, you can re-upload the same photo and apply the filter again. Each time, the AI will create a new version with heart effects."
+      },
+      {
+        "question": "Can I change the style or color of the hearts?",
+        "answer": "Currently, the AI automatically adds the heart style and colors for the best look. Custom options may be added in future updates."
+      },
+      {
+        "question": "What if my photo is low quality or blurry?",
+        "answer": "The AI will still try to apply the heart effects, but clearer and higher-resolution photos produce better results."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Example Photos With AI Heart Filter",
+    "title": "Example Photos With AI Heart Filter",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Heart Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Heart Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-17.webp",
+      "original": "https://assets.remixai.io/sample-image-17.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-18.webp",
+      "original": "https://assets.remixai.io/sample-image-18.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-19.webp",
+      "original": "https://assets.remixai.io/sample-image-19.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-20.webp",
+      "original": "https://assets.remixai.io/sample-image-20.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "Absolutely love this heart filter! It's so easy to use and makes my photos look super cute and professional. My followers are asking how I did it!",
+        "name": "Evelyn",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "I was looking for something creative for a photo, and the AI Heart Filter was perfect. The Dreamshot feature is a really nice touch, too.",
+        "name": "Liam",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "The quality is surprisingly good. It blends seamlessly and gives a really artistic feel to my images without much effort.",
+        "name": "Maya",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Using the AI Heart Filter Made Easy",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Favorite Photo",
+        "bulletPoints": [
+          "Choose a sharp, well-lit photo from your device to start creating your heart-themed image."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Transform with AI Heart Filter",
+        "bulletPoints": [
+          "Click the “Generate Now” button and watch your photo turn into a cute AI heart-filtered version."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share Your Creation",
+        "bulletPoints": [
+          "Save your heart-filtered photo and share the love with friends, family, or on social media."
+        ]
+      }
+    ]
+  }
+}

@@ -39,11 +39,11 @@
     "title": "See the Mugshot Results",
     "images": [
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.remixai.io/mugshot-1.webp",
         "alt": "AI Mugshot Generator"
       },
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.remixai.io/mugshot-2.webp",
         "alt": "Mugshot Generator"
       }
     ]

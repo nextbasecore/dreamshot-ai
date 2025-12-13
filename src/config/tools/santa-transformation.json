@@ -1,0 +1,142 @@
+{
+  "id": "santa-transformation",
+  "title": "AI Santa Transformation",
+  "playgroundTitle": "AI Santa Transformation Video Generator",
+  "playgroundDescription": "With the AI Santa Transformation Video Generator, your face becomes a cheerful Santa in a festive video. Add the classic red suit, fluffy beard, and holiday charm for a fun Christmas clip.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Santa Transformation Video Generator For Free",
+    "description": "Turn yourself into Santa with the free AI Santa Transformation Video Generator. Create a fun, festive video featuring a complete Santa makeover in seconds.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "santaTransformationVideo",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20transformation%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-giving-gift-video",
+      "selfie-with-santa",
+      "reindeer-ride-with-santa"
+    ],
+    "heading": "Discover Other Popular Video Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About Santa Transformation",
+    "questions": [
+      {
+        "question": "What is the Santa Transformation effect?",
+        "answer": "The Santa Transformation is a fun AI video effect. Upload a photo, and it turns the face into Santa Claus with a jolly beard, hat, and cheerful animations."
+      },
+      {
+        "question": "What kind of photos work best for the transformation?",
+        "answer": "Use a clear, front-facing photo with good lighting. Avoid shadows, hands on the face, or sunglasses. High-resolution portraits work best."
+      },
+      {
+        "question": "Is the Santa Transformation video effect free to use?",
+        "answer": "Yes! Sign up for a free account, and you'll get free credits to try the Santa Transformation and other AI video effects."
+      },
+      {
+        "question": "Can I use photos from my phone or tablet?",
+        "answer": "Absolutely! The tool works on all devices. Just upload the photo directly from your phone, tablet, or computer."
+      },
+      {
+        "question": "What if my photo is low resolution?",
+        "answer": "Low-resolution photos may produce less detailed results. For the best effect, use high-quality, clear images."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "See Sample Magic of Santa Transformation Effect",
+    "title": "See Sample Magic of Santa Transformation Effect",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Transformation-1.webm",
+        "alt": "AI Santa Transformation"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Transformation-2.webm",
+        "alt": "AI Santa Transformation"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-9.webp",
+      "original": "https://assets.remixai.io/sample-image-9.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-10.webp",
+      "original": "https://assets.remixai.io/sample-image-10.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-11.webp",
+      "original": "https://assets.remixai.io/sample-image-11.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-12.webp",
+      "original": "https://assets.remixai.io/sample-image-12.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "Turning myself into Santa was surprisingly easy and the results were hilarious. My family loved the Christmas card this year!",
+        "name": "Liam",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "I used Dreamshot to create a festive profile picture, and the Santa filter is just perfect. So much fun to play with!",
+        "name": "Sophia",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "The quality is amazing! I didn't expect the Santa transformation to look so realistic. It was super quick, too.",
+        "name": "Ethan",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Use Santa Transformation?",
+    "description": "Follow these simple steps to magically transform any photo into Santa Claus.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Image",
+        "bulletPoints": [
+          "Select a clear, front-facing photo from your gallery to begin the transformation."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Santa Effect",
+        "bulletPoints": [
+          "Our system will automatically add a festive Santa hat and a classic white beard to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download and Share",
+        "bulletPoints": [
+          "Save your new Santa portrait and share the holiday cheer with friends and family."
+        ]
+      }
+    ]
+  }
+}

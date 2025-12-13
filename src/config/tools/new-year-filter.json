@@ -1,0 +1,142 @@
+{
+  "id": "new-year-filter",
+  "title": "New Year Filter",
+  "playgroundTitle": "AI New Year Filter",
+  "playgroundDescription": "Give your photos a fresh New Year feel with festive effects, bright lights, and celebratory details that match the excitement of the occasion.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Add New Year Filter To Your Photos Online For Free",
+    "description": "Add a New Year filter to your photos online for free. Apply festive lights, celebration effects, and party-themed details for a fresh New Year look.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "newYears",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/public/new-year-sample-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "add-christmas-tree-to-photo",
+      "add-santa-to-photo",
+      "ai-snow-queen",
+      "ai-winter-effect"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "faqs": {
+    "heading": "Frequently Asked Questions About New Year Filter",
+    "questions": [
+      {
+        "question": "What is the New Year Filter?",
+        "answer": "The New Year Filter is a fun AI image effect that adds a New Year celebration look to your photos. Just upload a picture, and the filter adds festive styles and effects to give it a party feel."
+      },
+      {
+        "question": "Is this New Year Filter free to use?",
+        "answer": "Yes! You can try it for free by signing up on our website. You’ll get free credits to use the New Year Filter and other effects."
+      },
+      {
+        "question": "Are my uploaded photos safe and private?",
+        "answer": "Yes, your photos are safe. They are used only to apply the filter and are deleted automatically after processing. We do not share your images with anyone."
+      },
+      {
+        "question": "Do I need to install any software to use this tool?",
+        "answer": "No, nothing to install. The New Year Filter works directly in your web browser on any device."
+      },
+      {
+        "question": "Can I download and share the final image?",
+        "answer": "Yes! After the filter is applied, you can download the image and share it easily on social media or with friends and family."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "See Sample Results of New Year Filter",
+    "title": "See Sample Results of New Year Filter",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "New Year Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI New Year Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "Absolutely loved the New Year filters! They were a hit with my friends and family.",
+        "name": "Mia",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "The New Year collection on Dreamshot was amazing. The filters are super high quality and easy to use.",
+        "name": "Ethan",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Perfect way to celebrate the new year. So fun!",
+        "name": "Sophia",
+        "designation": "Web user from UK"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How New Year Filter Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select & Upload photos from your device to apply New Year Filter, and make sure uploaded photos must be in high quality with a well-lit background."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply New Year Filter",
+        "bulletPoints": [
+          "After the photo is uploaded click on the “Generate Now” button to apply the New Year Filter to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your generated New Year Filter to your device and share it on your favorite social media platform, and with your friends and family."
+        ]
+      }
+    ]
+  }
+}

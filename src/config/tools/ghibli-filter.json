@@ -1,0 +1,142 @@
+{
+  "id": "ghibli-filter",
+  "title": "AI Ghibli Filter",
+  "playgroundTitle": "AI Ghibli Filter",
+  "playgroundDescription": "This Ghibli filter helps you turn any photo into a Ghibli-style anime image. Just upload your picture, and it creates a soft, animated look that you can share online.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Ghibli Filter: Create Your Ghibli-Style Portrait Now",
+    "description": "Apply our free Ghibli filter to any photo online. Turn your images into beautiful anime-inspired artwork in seconds and share Ghibli-style creations easily across platforms.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "ghibli",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/public/ghibli-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "frosty-the-snowman",
+      "disney-pixar-filter",
+      "christmas-cartoon",
+      "ai-snow-queen"
+    ],
+    "heading": "Check Out Other Trending Image Effects"
+  },
+  "faqs": {
+    "heading": "Frequently Asked Questions About Ghibli Filter",
+    "questions": [
+      {
+        "question": "What is the Ghibli Filter?",
+        "answer": "The Ghibli Filter is an AI image effect that changes your photo into a soft, dreamy style inspired by Ghibli-style animation. It gives your picture gentle colors, a hand-drawn look, and a magical feel."
+      },
+      {
+        "question": "Is the Ghibli Filter free to use?",
+        "answer": "Yes! You can try it for free by signing up on our website. New users get free credits to use the Ghibli Filter and other effects."
+      },
+      {
+        "question": "Can I use the Ghibli Filter on selfies?",
+        "answer": "Yes! The Ghibli Filter works well on selfies and portraits. For the best result, use a clear, well-lit photo with the face visible."
+      },
+      {
+        "question": "What image formats are supported?",
+        "answer": "You can upload most common image formats, including JPG, PNG, and WEBP. Make sure your file is high-quality for the best results."
+      },
+      {
+        "question": "Can I customize the style of the Ghibli Filter?",
+        "answer": "Currently, the filter applies a standard Ghibli-style effect automatically. We may add more customization options in the future."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "See How Your Photo Looks With Ghibli Filter",
+    "title": "See How Your Photo Looks With Ghibli Filter",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Ghibli Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Ghibli Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-5.webp",
+      "original": "https://assets.remixai.io/sample-image-5.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-6.webp",
+      "original": "https://assets.remixai.io/sample-image-6.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-7.webp",
+      "original": "https://assets.remixai.io/sample-image-7.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-8.webp",
+      "original": "https://assets.remixai.io/sample-image-8.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This is hands-down the best Ghibli filter I've ever used. The style is so authentic, it adds a magical touch to my illustrations.",
+        "name": "Jackson",
+        "designation": "Digital Artist"
+      },
+      {
+        "review": "Found this through Dreamshot and I'm obsessed! It makes my photos look like they're straight out of a movie.",
+        "name": "Mateo",
+        "designation": "Web user from UK"
+      },
+      {
+        "review": "My feed has never looked better. Seriously, this filter is a game-changer for creating aesthetic visuals.",
+        "name": "Chloe",
+        "designation": "Content Creator"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Use Ghibli Filter?",
+    "description": "Transform your photos into the Ghibli art style by following these simple steps.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Image",
+        "bulletPoints": [
+          "Upload a high-quality image to our generator that you want to convert into the Ghibli Filter style."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Image Effect",
+        "bulletPoints": [
+          "After uploading, click the 'Generate Now' button and our AI will turn your image into the Ghibli Filter style."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "After the image is generated, you can download it and share it with friends, family, or post on social media."
+        ]
+      }
+    ]
+  }
+}

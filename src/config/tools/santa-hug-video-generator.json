@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "AI Santa Hug Video",
+  "playgroundTitle": "AI Santa Hug Video Generator",
+  "playgroundDescription": "Apply the magical Santa hug effect to your favorite photos. Our AI video generator creates a heartwarming animation that brings your festive pictures to life.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Santa Hug Video Generator Online For Free",
+    "description": "Create a heartwarming AI video of Santa giving a warm hug. Our free generator lets you make magical, personalized Christmas memories in just a few clicks.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "Related Popular Video Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About Santa Hug Video Generator",
+    "questions": [
+      {
+        "question": "What is the Santa Hug Video Generator?",
+        "answer": "The Santa Hug Video Generator is an AI video effect. Upload a photo, and it turns it into a cute video where Santa gives a hug to the person or pet in your picture."
+      },
+      {
+        "question": "What kind of photo should I upload for the best results?",
+        "answer": "Use a clear, front-facing photo of one person or pet. High-quality images where the face and upper body are visible work best."
+      },
+      {
+        "question": "Is the Santa Hug Video Generator free to use?",
+        "answer": "Yes! When you sign up for a free account, you get free credits to try the Santa Hug Video Generator and create your first video."
+      },
+      {
+        "question": "How long does it take to generate the Santa Hug video?",
+        "answer": "It depends on the photo, but our AI is fast. Most videos are ready in under a minute."
+      },
+      {
+        "question": "Can I use this tool on my smartphone?",
+        "answer": "Yes! The tool works on any device. You can upload a photo and make your Santa Hug video from your phone, tablet, or computer."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Check Out Sample Santa Hug Video Transformations",
+    "title": "Check Out Sample Santa Hug Video Transformations",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Santa Hug Video Generator"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "AI Santa Hug Video Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This is so much fun! I made a hilarious video of Santa hugging my cat for our family group chat, and everyone loved it.",
+        "name": "Adrian",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "I was looking for a simple tool to create a festive post. The Dreamshot feature gave me the exact background I wanted. So cool!",
+        "name": "Colton",
+        "designation": "Web user from UK"
+      },
+      {
+        "review": "The quality is surprisingly good for an online generator. It's a quick and creative way to make something unique for the holidays.",
+        "name": "Maya",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Create Your Santa Hug Video",
+    "description": "Follow these easy steps to make a heartwarming Santa hug video from your photo.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Photo",
+        "bulletPoints": [
+          "Select a clear, high-quality photo from your device to get started."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Generate the Video",
+        "bulletPoints": [
+          "Click the “Generate Now” button and watch your photo transform into a festive Santa hug video."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Save your Santa Hug video to your device and share the holiday cheer with friends and family."
+        ]
+      }
+    ]
+  }
+}

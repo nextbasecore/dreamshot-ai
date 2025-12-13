@@ -19,14 +19,19 @@
   "inputType": "single",
   "effectId": "fightWithSanta",
   "model": "video-effects",
-  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardImage": "https://assets.remixai.io/santa%20fighting%20video%20cover%20image.webp",
   "cardVideo": null,
   "transformationImages": {
     "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
   },
   "dualUploadLabels": {},
   "recommendedEffects": {
-    "id": [],
+    "id": [
+      "santa-kidnapping",
+      "reindeer-ride-with-santa",
+      "santa-transformation",
+      "santa-hug-video-generator"
+    ],
     "heading": "See Other Cool Video Effects"
   },
   "examples": {
@@ -45,20 +50,20 @@
   },
   "sampleImages": [
     {
-      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
-      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+      "mini": "https://assets.remixai.io/sample-image-45.webp",
+      "original": "https://assets.remixai.io/sample-image-45.webp"
     },
     {
-      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
-      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+      "mini": "https://assets.remixai.io/sample-image-46.webp",
+      "original": "https://assets.remixai.io/sample-image-46.webp"
     },
     {
-      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
-      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+      "mini": "https://assets.remixai.io/sample-image-47.webp",
+      "original": "https://assets.remixai.io/sample-image-47.webp"
     },
     {
-      "mini": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp",
-      "original": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webp"
+      "mini": "https://assets.remixai.io/sample-image-48.webp",
+      "original": "https://assets.remixai.io/sample-image-48.webp"
     }
   ],
   "faqs": {

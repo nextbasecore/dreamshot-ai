@@ -2,11 +2,11 @@
   "id": "ai-fat-filter",
   "title": "AI Fat Filter",
   "playgroundTitle": "AI Fat Filter",
-  "playgroundDescription": "Try the AI Fat Filter for free and see a fuller body effect. The filter reshapes your appearance automatically for a realistic look.",
+  "playgroundDescription": "Try the AI Fat Filter for free and see a fat body effect. The filter reshapes your appearance automatically for a realistic look.",
   "highlightWords": [],
   "metadata": {
     "title": "AI Fat Filter : Create Fat Body Look For Free",
-    "description": "See a new version of yourself with the free AI Fat Filter. This filter automatically creates a fuller, realistic body effect in seconds.",
+    "description": "See a new version of yourself with the free AI Fat Filter. This filter automatically creates a fatty, realistic body effect in seconds.",
     "alternates": {
       "canonical": ""
     }
@@ -15,7 +15,7 @@
   "toolCategory": "image-effects",
   "postPrefix": "image-effects",
   "credit": 40,
-  "buttonText": "Apply Image Effect",
+  "buttonText": "Generate Now",
   "inputType": "single",
   "effectId": "fat-filter",
   "model": "image-effects",
@@ -39,11 +39,11 @@
     "title": "Examples Of AI Fat Filter",
     "images": [
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.remixai.io/fat-filter-1.webp",
         "alt": "AI Fat Filter"
       },
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.remixai.io/fat-filter-2.webp",
         "alt": "Fat Filter"
       }
     ]
@@ -100,7 +100,7 @@
         "designation": "Content Creator"
       },
       {
-        "review": "This is surprisingly fun to use! The Max Studio team did a great job making it so simple and intuitive.",
+        "review": "This is surprisingly fun to use! The Dreamshot team did a great job making it so simple and intuitive.",
         "name": "Lucas",
         "designation": "iOS user from USA"
       },

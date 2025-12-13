@@ -39,11 +39,11 @@
     "title": "Before & After: Add Santa Hat to Photos",
     "images": [
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.remixai.io/santa-hat-1.webp",
         "alt": "Add Santa Hat To Photo"
       },
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.remixai.io/santa-hat-2.webp",
         "alt": "Ai Santa Hat Filter"
       }
     ]
@@ -100,7 +100,7 @@
         "designation": "Web user from USA"
       },
       {
-        "review": "As a content creator, I need things fast. This tool from Max Studio is a lifesaver for making quick, festive posts. So simple and effective!",
+        "review": "As a content creator, I need things fast. This tool from Dreamshot is a lifesaver for making quick, festive posts. So simple and effective!",
         "name": "Lucas",
         "designation": "Visual Content Creator"
       },
