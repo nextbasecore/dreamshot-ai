@@ -1,0 +1,142 @@
+{
+  "id": "anime-image-effect",
+  "title": "AI Anime Filter",
+  "playgroundTitle": "AI Anime Filter",
+  "playgroundDescription": "Give your photo an anime makeover with the AI Anime Filter. Upload any picture and see it turn into a colorful, fun anime-style image in seconds.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Anime Filter : Convert Photo To Anime Style For Free",
+    "description": "Use DreamShot’s free AI photo-to-anime converter to turn your pictures into anime-style art. No sign-up needed just upload and see the result.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "animeStyle",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "disney-pixar-filter",
+      "christmas-cartoon",
+      "ai-gingerbread-filter",
+      "ai-winter-effect"
+    ],
+    "heading": "Try More Popular Image Effects"
+  },
+  "faqs": {
+    "heading": "Frequently Asked Questions About Anime Image Effect",
+    "questions": [
+      {
+        "question": "What is the Anime Image Effect?",
+        "answer": "The Anime Image Effect is an AI-powered filter that turns your photos into anime-style art. It adds features like big expressive eyes, vibrant colors, and stylized lines to make your photo look like a professional anime drawing."
+      },
+      {
+        "question": "Is the Anime Image Effect free to use?",
+        "answer": "Yes! You can try it for free. Just sign up for an account and get free credits to start turning your photos into anime art right away."
+      },
+      {
+        "question": "Can I turn a group photo into anime?",
+        "answer": "Yes, but the AI works best with one or two main subjects. Group photos may not always give the best results."
+      },
+      {
+        "question": "Can I use a photo of a celebrity or friend?",
+        "answer": "Yes, as long as you have the right to use the photo. Make sure to get permission if it’s someone else’s image."
+      },
+      {
+        "question": "Can I edit the anime style or colors?",
+        "answer": "Currently, the style is automatic for the best results. We are working on adding more customization options soon."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "AI Anime Filter – Stunning Example Results",
+    "title": "AI Anime Filter – Stunning Example Results",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Anime Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Anime Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-9.webp",
+      "original": "https://assets.remixai.io/sample-image-9.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-10.webp",
+      "original": "https://assets.remixai.io/sample-image-10.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-11.webp",
+      "original": "https://assets.remixai.io/sample-image-11.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-12.webp",
+      "original": "https://assets.remixai.io/sample-image-12.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I was looking for a quick way to anime-fy my profile picture and this was perfect. So simple and the results are genuinely cool.",
+        "name": "Lucas",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "As an artist, I'm pretty picky about AI tools. The Dreamshot effect is surprisingly good at keeping the original photo's vibe. Definitely adding this to my creative toolkit.",
+        "name": "Skylar",
+        "designation": "Digital Artist"
+      },
+      {
+        "review": "This is just fun to use! I turned a photo of my dog into an anime character and it came out hilarious and adorable.",
+        "name": "Henry",
+        "designation": "Content Creator"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How the Anime Photo Effect Works",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Choose Your Photo",
+        "bulletPoints": [
+          "Pick a photo from your device that you want to transform. For best results, use a clear, high-resolution image with good lighting."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Generate Anime Effect",
+        "bulletPoints": [
+          "Click the “Generate Now” button to instantly turn your photo into an anime-style image."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Save & Share Your Creation",
+        "bulletPoints": [
+          "Download your anime-style photo and share it easily with friends, family, or on your favorite social media platforms."
+        ]
+      }
+    ]
+  }
+}
