@@ -3,9 +3,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import UserAccount from "@/components/UserAccount";
+import { UserAuth } from "@/atoms/userAuthAtom";
 
 interface UserActionsProps {
-  user: any;
+  user: UserAuth | undefined | null | "loading";
   onGetStarted: () => void;
 }
 

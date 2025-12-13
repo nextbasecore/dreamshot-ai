@@ -5,12 +5,13 @@ import { DropdownMenu } from "@/components/ui/dropdown-menu";
 import MobileMenuButton from "./MobileMenuButton";
 import MobileMenuContent from "./MobileMenuContent";
 import { ToolConfigJson } from "@/config/tools.server";
+import { UserAuth } from "@/atoms/userAuthAtom";
 
 interface MobileNavigationProps {
   tools: ToolConfigJson[];
   isActive: (path: string) => boolean;
   onGetStarted: () => void;
-  user: any;
+  user: UserAuth | undefined | null | "loading";
 }
 
 export default function MobileNavigation({

@@ -8,13 +8,14 @@ import { DropdownMenuContent } from "@/components/ui/dropdown-menu";
 import MobileNavLink from "./MobileNavLink";
 import EffectsAccordion from "./EffectsAccordion";
 import { ToolConfigJson } from "@/config/tools.server";
+import { UserAuth } from "@/atoms/userAuthAtom";
 
 interface MobileMenuContentProps {
   tools: ToolConfigJson[];
   isActive: (path: string) => boolean;
   onLinkClick: () => void;
   onGetStarted: () => void;
-  user: any;
+  user: UserAuth | undefined | null | "loading";
 }
 
 export default function MobileMenuContent({
