@@ -33,7 +33,7 @@ export default async function ImageEffectsPage() {
             Image Effects
           </h1>
           <p className="text-gray-500 max-w-xl">
-            Transform your photos with Dreamshot's free AI image effects and
+            Transform your photos with Dreamshot&apos;s free AI image effects and
             filters. Explore a variety of styles, from artistic to cinematic.
           </p>
         </div>

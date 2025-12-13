@@ -33,7 +33,7 @@ export default async function VideoEffectsPage() {
             Video Effects
           </h1>
           <p className="text-gray-500 max-w-xl">
-            Dreamshot's AI Video Effects let you turn any photo into a lively,
+            Dreamshot&apos;s AI Video Effects let you turn any photo into a lively,
             eye-catching video. With a variety of creative effects and
             animations, you can make engaging videos in seconds.
           </p>
