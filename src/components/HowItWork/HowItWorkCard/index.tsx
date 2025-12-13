@@ -1,3 +1,5 @@
+import TextWithLinks from "@/components/Common/TextWithLinks";
+
 interface HowItWorkCardProps {
     step: number;
     title: string;
@@ -16,11 +18,11 @@ export default function HowItWorkCard({ step, title, bulletPoints }: HowItWorkCa
                 </span>
             </div>
             <h1 className="text-xl md:text-xl lg:text-2xl text-start font-semibold">
-                {title}
+                <TextWithLinks text={title} />
             </h1>
             {bulletPoints.map((point, index) => (
                 <p key={index} className="text-gray-500 text-start">
-                    {point}
+                    <TextWithLinks text={point} />
                 </p>
             ))}
         </div>

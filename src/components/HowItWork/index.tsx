@@ -4,6 +4,7 @@ import TextSeparator from "../TextSeparator";
 import HowItWorkCard from "./HowItWorkCard";
 import { useToolConfig } from "@/hooks/useToolConfig";
 import { STATIC_HOW_IT_WORKS } from "@/constants/static.content.constants";
+import TextWithLinks from "../Common/TextWithLinks";
 
 /**
  * HowItWork component that displays step-by-step instructions
@@ -28,17 +29,17 @@ export default function HowItWork() {
                     {('title' in howItWorks && howItWorks.title)
                         ? (howItWorks.title as string).split('\n').map((line: string, index: number, arr: string[]) => (
                             <span key={index}>
-                                {line}
+                                <TextWithLinks text={line} />
                                 {index < arr.length - 1 && <br />}
                             </span>
                         ))
-                        : howItWorks.heading
+                        : <TextWithLinks text={howItWorks.heading} />
                     }
                 </h1>
 
                 {howItWorks.description && (
                     <p className="text-gray-500 text-center max-w-2xl">
-                        {howItWorks.description}
+                        <TextWithLinks text={howItWorks.description} />
                     </p>
                 )}
             </div>

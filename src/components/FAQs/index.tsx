@@ -5,6 +5,7 @@ import { SingleFaq } from "./FAQsCard";
 import { useToolConfig } from "@/hooks/useToolConfig";
 import { STATIC_FAQS } from "@/constants/static.content.constants";
 import { Accordion } from "@/components/ui/accordion";
+import TextWithLinks from "../Common/TextWithLinks";
 
 /**
  * FAQs component that displays FAQ questions and answers
@@ -30,19 +31,19 @@ export default function FAQs() {
             <TextSeparator textSeparatorText="FAQs" />
 
             <h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold px-4">
-                {faqs.heading}
+                <TextWithLinks text={faqs.heading} />
             </h1>
 
             <div className="w-full max-w-3xl mt-4 md:mt-12 px-4 overflow-hidden">
                 <Accordion type="single" collapsible className="w-full">
-                {faqs.questions.map((faq, index) => (
-                    <SingleFaq
-                        key={index}
-                        answer={faq.answer}
-                        question={faq.question}
+                    {faqs.questions.map((faq, index) => (
+                        <SingleFaq
+                            key={index}
+                            answer={faq.answer}
+                            question={faq.question}
                             value={`item-${index}`}
-                    />
-                ))}
+                        />
+                    ))}
                 </Accordion>
             </div>
         </div>

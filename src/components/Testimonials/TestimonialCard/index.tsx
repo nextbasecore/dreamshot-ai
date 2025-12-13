@@ -1,4 +1,4 @@
-import { DashboardTestimonial } from "@/types";
+import TextWithLinks from "@/components/Common/TextWithLinks";
 
 interface TestimonialCardProps {
     review: string;
@@ -24,7 +24,9 @@ export default function TestimonialCard({ review, name, designation }: Testimoni
             <div className="my-4 border-t border-gray-200"></div>
 
             {/* Testimonial text */}
-            <p className="text-sm text-gray-500">{review}</p>
+            <p className="text-sm text-gray-500">
+                <TextWithLinks text={review} />
+            </p>
         </div>
     )
 }

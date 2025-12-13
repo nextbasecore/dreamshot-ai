@@ -17,6 +17,7 @@ import { DualUploadContainer } from "./DualUploadContainer";
 import { GenerateButton } from "./GenerateButton";
 import { SampleImages } from "./SampleImages";
 import { urlToFile } from "@/utils/urlToFile";
+import TextWithLinks from "../Common/TextWithLinks";
 
 /**
  * PlaygroundSection component for tool pages
@@ -350,9 +351,11 @@ export default function PlaygroundSection() {
             {/* Title and Description */}
             <div className="w-full flex flex-col text-center items-center gap-5 justify-center mt-15 px-4">
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold px-4">
-                    {title}
+                    <TextWithLinks text={title} />
                 </h1>
-                <p className="text-gray-500 max-w-xl">{description}</p>
+                <p className="text-gray-500 max-w-xl">
+                    <TextWithLinks text={description} />
+                </p>
             </div>
 
             {/* Playground Card */}
@@ -365,8 +368,8 @@ export default function PlaygroundSection() {
                         uploadedImage2={displayImage2}
                         previewUrl1={transformationPreview}
                         previewUrl2={transformationResult || transformationPreview}
-                        label1={toolConfig?.dualUploadLabels?.firstImageLabel || "Upload your image"}
-                        label2={toolConfig?.dualUploadLabels?.secondImageLabel || "Upload second image"}
+                        label1={toolConfig?.dualUploadLabels?.firstImageLabel ? <TextWithLinks text={toolConfig.dualUploadLabels.firstImageLabel} /> : "Upload your image"}
+                        label2={toolConfig?.dualUploadLabels?.secondImageLabel ? <TextWithLinks text={toolConfig.dualUploadLabels.secondImageLabel} /> : "Upload second image"}
                         helperText="or drag and drop PNG, JPG or WEBP"
                         onFileSelect1={(file) => handleFileUpload(file, false)}
                         onFileSelect2={(file) => handleFileUpload(file, true)}

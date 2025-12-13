@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import { useRef, useState } from "react";
+import { useRef, useState, ReactNode } from "react";
 import Loader from "@/components/Loader";
 import { ImagePreview } from "./ImagePreview";
 
@@ -12,8 +12,8 @@ interface DualUploadContainerProps {
     uploadedImage2: string | null;
     previewUrl1: string;
     previewUrl2: string;
-    label1: string;
-    label2: string;
+    label1: string | ReactNode;
+    label2: string | ReactNode;
     helperText: string;
     isProcessing: boolean;
     onFileSelect1: (file: File) => void;
@@ -110,7 +110,7 @@ export function DualUploadContainer({
         const rect = e.currentTarget.getBoundingClientRect();
         const x = e.clientX;
         const y = e.clientY;
-        
+
         if (x < rect.left || x > rect.right || y < rect.top || y > rect.bottom) {
             setIsDragging1(false);
         }
@@ -160,7 +160,7 @@ export function DualUploadContainer({
         const rect = e.currentTarget.getBoundingClientRect();
         const x = e.clientX;
         const y = e.clientY;
-        
+
         if (x < rect.left || x > rect.right || y < rect.top || y > rect.bottom) {
             setIsDragging2(false);
         }
@@ -260,7 +260,7 @@ export function DualUploadContainer({
                             {/* Image Preview Container - Takes available space but leaves room for text */}
                             <div className="shrink overflow-hidden" style={{ height: 'calc(100% - 100px)' }}>
                                 <div className="w-full h-full flex items-center justify-center">
-                                <ImagePreview previewUrl={previewUrl1} />
+                                    <ImagePreview previewUrl={previewUrl1} />
                                 </div>
                             </div>
                             {/* Upload Text - Fixed space at bottom */}
@@ -327,7 +327,7 @@ export function DualUploadContainer({
                             {/* Image Preview Container - Takes available space but leaves room for text */}
                             <div className="shrink overflow-hidden" style={{ height: 'calc(100% - 100px)' }}>
                                 <div className="w-full h-full flex items-center justify-center">
-                                <ImagePreview previewUrl={previewUrl2 || previewUrl1} />
+                                    <ImagePreview previewUrl={previewUrl2 || previewUrl1} />
                                 </div>
                             </div>
                             {/* Upload Text - Fixed space at bottom */}
