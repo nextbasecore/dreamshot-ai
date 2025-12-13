@@ -7,7 +7,7 @@ import FAQs from "@/components/FAQs";
 export const metadata: Metadata = {
   title: "Free AI Video Effects & Filters | Dreamshot Art",
   description:
-    "Dreamshot's AI Video Effects let you turn any photo into a lively, eye-catching video. With a variety of creative effects and animations, you can make engaging videos in seconds.",
+    "Dreamshot&apos;s AI Video Effects let you turn any photo into a lively, eye-catching video. With a variety of creative effects and animations, you can make engaging videos in seconds.",
   alternates: {
     canonical: "https://www.dreamshot.art/video-effects",
   },
@@ -33,8 +33,8 @@ export default async function VideoEffectsPage() {
             Video Effects
           </h1>
           <p className="text-gray-500 max-w-xl">
-            Dreamshot&apos;s AI Video Effects let you turn any photo into a lively,
-            eye-catching video. With a variety of creative effects and
+            Dreamshot&apos;s AI Video Effects let you turn any photo into a
+            lively, eye-catching video. With a variety of creative effects and
             animations, you can make engaging videos in seconds.
           </p>
         </div>

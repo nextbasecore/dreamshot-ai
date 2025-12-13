@@ -7,7 +7,7 @@ import FAQs from "@/components/FAQs";
 export const metadata: Metadata = {
   title: "Free AI Image Effects & Filters | Dreamshot Art",
   description:
-    "Change your photos with Dreamshot's free AI image effects and filters. Explore a variety of styles, from artistic to cinematic, and transform your photos with smart image editing tools.",
+    "Change your photos with Dreamshot&apos;s free AI image effects and filters. Explore a variety of styles, from artistic to cinematic, and transform your photos with smart image editing tools.",
   alternates: {
     canonical: "https://www.dreamshot.art/image-effects",
   },
@@ -33,8 +33,9 @@ export default async function ImageEffectsPage() {
             Image Effects
           </h1>
           <p className="text-gray-500 max-w-xl">
-            Transform your photos with Dreamshot&apos;s free AI image effects and
-            filters. Explore a variety of styles, from artistic to cinematic.
+            Transform your photos with Dreamshot&apos;s free AI image effects
+            and filters. Explore a variety of styles, from artistic to
+            cinematic.
           </p>
         </div>
 
