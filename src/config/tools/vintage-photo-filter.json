@@ -1,0 +1,142 @@
+{
+  "id": "vintage-photo-filter",
+  "title": "AI Vintage Photo Filter",
+  "playgroundTitle": "AI Vintage Photo Filter",
+  "playgroundDescription": "AI Vintage Photo Filter makes your pictures look like they’re from the past. Add soft faded colors, retro tones, and a classic vintage feel to make your photo look old-school and stylish.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Vintage Photo Filter: Add Vintage Look To Your Photos",
+    "description": "Add a cool vintage look to your photos with the AI Vintage Photo Filter. Apply retro colors, faded tones, and a classic old-school style easily online.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "vintageArt",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-fat-filter",
+      "ai-skinny-filter",
+      "baby-face-generator",
+      "change-image-to-fall-season"
+    ],
+    "heading": "Discover Other Popular Image Effects"
+  },
+  "faqs": {
+    "heading": "Frequently Asked Questions About Vintage Photo Filter",
+    "questions": [
+      {
+        "question": "What is the Vintage Photo Filter?",
+        "answer": "The Vintage Photo Filter is an AI effect that makes your photos look old and nostalgic. It adds faded colors, film grain, and soft lighting to give a retro feel."
+      },
+      {
+        "question": "Is this Vintage Photo Filter free to use?",
+        "answer": "Yes! Just sign up for a free account, and you’ll get free credits to try the Vintage Photo Filter and other AI effects on our platform."
+      },
+      {
+        "question": "Can I apply the Vintage Photo Filter multiple times?",
+        "answer": "Yes, you can reapply the filter to the same photo to experiment with the look, but one well-lit application usually gives the best results."
+      },
+      {
+        "question": "Can I combine the Vintage Photo Filter with other effects?",
+        "answer": "Yes! After applying the vintage filter, you can try other AI effects to create a unique style for your photos."
+      },
+      {
+        "question": "Are there any limits to how many photos I can filter?",
+        "answer": "With free credits, there is a limit per account. You can always get more credits or upgrade to premium for unlimited use."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Example Photos With Vintage Photo Filter Effect",
+    "title": "Example Photos With Vintage Photo Filter Effect",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Vintage Photo Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Vintage Photo Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I absolutely love how this filter adds a nostalgic feel to my photos. It's subtle but makes a huge difference.",
+        "name": "Thomas",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "This is my go-to for a quick edit. The results are amazing, especially when I pair it with the Dreamshot feature.",
+        "name": "Miles",
+        "designation": "Android user from USA"
+      },
+      {
+        "review": "Finally, a filter that creates that perfect, grainy, old-school vibe without looking fake. My pictures have never looked better!",
+        "name": "Lillian",
+        "designation": "Visual Storyteller"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Apply the Vintage Photo Filter",
+    "description": "Easily turn your photos into a classic vintage look with these quick steps.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Choose Your Photo",
+        "bulletPoints": [
+          "Select a high-quality image from your device that you want to give a vintage makeover."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Generate Vintage Effect",
+        "bulletPoints": [
+          "Click the 'Generate Now' button to instantly transform your photo into a vintage-style image."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Save & Share",
+        "bulletPoints": [
+          "Download your vintage photo and easily share it with friends, family, or on social media."
+        ]
+      }
+    ]
+  }
+}
