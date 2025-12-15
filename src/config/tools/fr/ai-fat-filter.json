@@ -1,0 +1,141 @@
+{
+  "id": "ai-fat-filter",
+  "title": "Filtre de Grossissement par IA",
+  "playgroundTitle": "Filtre de Grossissement par IA",
+  "playgroundDescription": "Essayez gratuitement le filtre de grossissement par IA et découvrez un effet de corps gros. Le filtre modifie automatiquement votre apparence pour un rendu réaliste.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Filtre de Grossissement IA : Créez un look de corps gros gratuitement",
+    "description": "Découvrez une nouvelle version de vous-même avec le filtre de grossissement IA gratuit. Ce filtre crée automatiquement un effet de corps gras et réaliste en quelques secondes.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Générer maintenant",
+  "inputType": "single",
+  "effectId": "fat-filter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/fat-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-pregnant-filter",
+      "baby-face-generator",
+      "change-image-to-fall-season",
+      "ai-winter-effect"
+    ],
+    "heading": "Effets d'image populaires similaires"
+  },
+  "examples": {
+    "heading": "Exemples du filtre de grossissement IA",
+    "title": "Exemples du filtre de grossissement IA",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/fat-filter-1.webp",
+        "alt": "Filtre de Grossissement par IA"
+      },
+      {
+        "image": "https://assets.remixai.io/fat-filter-2.webp",
+        "alt": "Filtre de Grossissement"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-5.webp",
+      "original": "https://assets.remixai.io/sample-image-5.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-6.webp",
+      "original": "https://assets.remixai.io/sample-image-6.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-7.webp",
+      "original": "https://assets.remixai.io/sample-image-7.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-8.webp",
+      "original": "https://assets.remixai.io/sample-image-8.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "FAQ sur le filtre de grossissement IA",
+    "questions": [
+      {
+        "question": "Qu'est-ce que le filtre de grossissement IA ?",
+        "answer": "C'est un effet d'IA qui donne à une personne une apparence plus corpulente sur une photo. Téléchargez votre photo, et l'IA crée une transformation réaliste et amusante."
+      },
+      {
+        "question": "À quelle vitesse cela fonctionne-t-il ?",
+        "answer": "C'est très rapide ! La plupart des photos sont transformées en quelques secondes seulement, en fonction de la taille et des détails de l'image."
+      },
+      {
+        "question": "Dois-je payer pour l'utiliser ?",
+        "answer": "Non, c'est gratuit ! Inscrivez-vous sur notre site web et obtenez des crédits gratuits pour essayer le filtre de grossissement IA et d'autres effets."
+      },
+      {
+        "question": "Mes photos sont-elles en sécurité ?",
+        "answer": "Oui. Vos photos sont téléchargées en toute sécurité et automatiquement supprimées après une courte période. Nous ne les partageons jamais avec personne."
+      },
+      {
+        "question": "Quelles photos fonctionnent le mieux ?",
+        "answer": "Les photos claires et de haute qualité fonctionnent le mieux. Les prises de vue de face avec un bon éclairage et un arrière-plan simple donnent les résultats les plus naturels."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Ce que les gens disent de nous",
+    "reviews": [
+      {
+        "review": "Je suis vraiment impressionné par le réalisme des résultats. C'est une révolution pour mes projets créatifs.",
+        "name": "Léa",
+        "designation": "Créatrice de contenu"
+      },
+      {
+        "review": "C'est étonnamment amusant à utiliser ! L'équipe de Dreamshot a fait un excellent travail en le rendant si simple et intuitif.",
+        "name": "Luc",
+        "designation": "Utilisateur iOS des États-Unis"
+      },
+      {
+        "review": "Honnêtement, j'étais sceptique au début, mais le filtre de grossissement IA fonctionne incroyablement bien. Ça me fait gagner tellement de temps.",
+        "name": "Chloé",
+        "designation": "Artiste numérique"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Comment fonctionne le filtre de grossissement IA ?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Télécharger une photo",
+        "bulletPoints": [
+          "Sélectionnez et téléchargez des photos depuis votre appareil pour appliquer le filtre de grossissement IA, et assurez-vous que les photos téléchargées sont de haute qualité avec un arrière-plan bien éclairé."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Appliquer le filtre de grossissement IA",
+        "bulletPoints": [
+          "Une fois la photo téléchargée, cliquez sur le bouton « Appliquer l'effet d'image » pour appliquer le filtre de grossissement IA à votre photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Télécharger et partager",
+        "bulletPoints": [
+          "Téléchargez votre filtre de grossissement IA généré sur votre appareil et partagez-le sur votre plateforme de médias sociaux préférée, ainsi qu'avec vos amis et votre famille."
+        ]
+      }
+    ]
+  }
+}
