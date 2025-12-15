@@ -2,11 +2,11 @@
   "id": "add-christmas-tree-to-photo",
   "title": "Add Christmas Tree To Photo",
   "playgroundTitle": "Add Christmas Tree to Your Photos",
-  "playgroundDescription": "The Christmas Tree Filter adds a Christmas tree to your photos for free. Create bright, simple holiday images and give your pictures a cheerful Christmas look.",
+  "playgroundDescription": "The AI Christmas Tree Filter adds a Christmas tree to your photos for free. Create bright, simple holiday images and give your pictures a cheerful Christmas look.",
   "highlightWords": [],
   "metadata": {
     "title": "Christmas Tree Filter: Add Christmas Tree To Your Photos For Free",
-    "description": "Use the Christmas Tree Filter to add a festive tree to your photos for free. Create bright, cheerful holiday images with simple Christmas-themed effects.",
+    "description": "Add a Christmas tree to your pictures for free with the AI Christmas Tree Filter. Make your photos look bright, festive, and full of holiday vibes this season!",
     "alternates": {
       "canonical": ""
     }
@@ -28,9 +28,9 @@
   "recommendedEffects": {
     "id": [
       "ai-winter-effect",
-      "mugshot",
+      "ai-mugshot-filter",
       "add-santa-to-photo",
-      "selfie-with-celebrities"
+      "christmas-party-glam"
     ],
     "heading": "See Other Cool Image Effects"
   },
@@ -126,7 +126,7 @@
         "step": 2,
         "title": "Apply Add Christmas Tree to Photo",
         "bulletPoints": [
-          "After the photo is uploaded, click the 'Apply Image Effect' button to add a Christmas tree to your photo."
+          "After the photo is uploaded, click the 'Add a Tree Now' button to add a Christmas tree to your photo."
         ]
       },
       {

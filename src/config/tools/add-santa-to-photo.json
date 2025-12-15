@@ -2,7 +2,7 @@
   "id": "add-santa-to-photo",
   "title": "Add Santa To Photo",
   "playgroundTitle": "Add Santa to Your Photo",
-  "playgroundDescription": "Add Santa to your photos for free online with Dreamshot. Take selfies with him, have him hold your pet or kids, deliver gifts, or ride in his sleigh. Make your Christmas dreams come true!",
+  "playgroundDescription": "Add Santa to your photos for free with Dreamshot. Place Santa in your pictures easily and give your photos a cheerful Christmas look.",
   "highlightWords": [],
   "metadata": {
     "title": "Add Santa to Your Photo For Free Online",
@@ -28,7 +28,7 @@
   "recommendedEffects": {
     "id": [
       "ai-winter-effect",
-      "mugshot",
+      "ai-mugshot-filter",
       "add-christmas-tree-to-photo",
       "make-me-santa"
     ],
@@ -126,7 +126,7 @@
         "step": 2,
         "title": "Place Santa",
         "bulletPoints": [
-          "Click the 'Add Santa' button after uploading your photo. The AI will automatically place Santa into the image, adjusting his size and position to make it look realistic and fun."
+          "Click the 'Add Santa Now' button after uploading your photo. The AI will automatically place Santa into the image, adjusting his size and position to make it look realistic and fun."
         ]
       },
       {

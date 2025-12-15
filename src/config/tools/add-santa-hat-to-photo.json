@@ -6,7 +6,7 @@
   "highlightWords": [],
   "metadata": {
     "title": "Add Santa Hat to Your Photos For Free",
-    "description": "Use the free Santa Hat filter to decorate your photos for Christmas. Upload your photo and add a cute Santa hat in seconds.",
+    "description": "Use the free AI Santa Hat filter to decorate your photos for Christmas. Upload your photo and add a cute Santa hat in seconds.",
     "alternates": {
       "canonical": ""
     }
@@ -35,8 +35,8 @@
     "heading": "Check Out Other Trending Image Effects"
   },
   "examples": {
-    "heading": "Before & After: Add Santa Hat to Photos",
-    "title": "Before & After: Add Santa Hat to Photos",
+    "heading": "Example of a Photo with a Santa Hat",
+    "title": "Example of a Photo with a Santa Hat",
     "images": [
       {
         "image": "https://assets.remixai.io/santa-hat-1.webp",
@@ -126,7 +126,7 @@
         "step": 2,
         "title": "Apply Add Santa Hat To Photo",
         "bulletPoints": [
-          "After the photo is uploaded click on the “Apply Image Effect” button to apply Add Santa Hat To Photo to your photo."
+          "After the photo is uploaded click on the “Add Santa Hat Now” button to apply Add Santa Hat To Photo to your photo."
         ]
       },
       {

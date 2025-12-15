@@ -2,11 +2,11 @@
   "id": "action-figure-generator",
   "title": "Action Figure Generator",
   "playgroundTitle": "AI Action Figure Generator",
-  "playgroundDescription": "Imagine your photo as a 3D action figure! The AI Action Figure Generator transforms any image into a detailed, lifelike figure, giving your picture a playful and creative look.",
+  "playgroundDescription": "See your photo as a 3D action figure! The AI Action Figure Generator makes your picture look real like a detailed toy.",
   "highlightWords": [],
   "metadata": {
     "title": "AI Action Figure Generator: Turn Your Photo to 3D Figure",
-    "description": "Transform your photo into a 3D action figure with the AI Action Figure Generator. Create realistic, detailed figures from any photo for fun and creativity.",
+    "description": "Make your photo into a 3D action figure with the AI Action Figure Generator. Create realistic, detailed figures from any picture.",
     "alternates": {
       "canonical": ""
     }
@@ -27,8 +27,8 @@
   "dualUploadLabels": {},
   "recommendedEffects": {
     "id": [
-      "mugshot",
-      "selfie-with-celebrities",
+      "ai-mugshot-filter",
+      "anime-image-effect",
       "change-image-to-fall-season",
       "ai-skinny-filter"
     ],
@@ -126,7 +126,7 @@
         "step": 2,
         "title": "Apply Action Figure Generator",
         "bulletPoints": [
-          "Choose the action figure style you want, then click the “Generate Action Figure” button. The AI will instantly transform your photo into a realistic-looking action figure."
+          "Choose the action figure style you want, then click the “Generate Figure” button. The AI will instantly transform your photo into a realistic-looking action figure."
         ]
       },
       {
