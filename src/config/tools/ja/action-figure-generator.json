@@ -1,0 +1,141 @@
+{
+  "id": "action-figure-generator",
+  "title": "アクションフィギュアジェネレーター",
+  "playgroundTitle": "AIアクションフィギュアジェネレーター",
+  "playgroundDescription": "あなたの写真を3Dアクションフィギュアとして想像してみてください！AIアクションフィギュアジェネレーターは、どんな画像でも詳細でリアルなフィギュアに変身させ、あなたの写真に遊び心と創造的なルックを与えます。",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AIアクションフィギュアジェネレーター：写真を3Dフィギュアに変身",
+    "description": "AIアクションフィギュアジェネレーターで写真を3Dアクションフィギュアに変身させましょう。どんな写真からでもリアルで詳細なフィギュアを作成し、楽しさと創造性を味わってください。",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "フィギュアを生成",
+  "inputType": "single",
+  "effectId": "action-figure",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/action-figure-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "mugshot",
+      "selfie-with-celebrities",
+      "change-image-to-fall-season",
+      "ai-skinny-filter"
+    ],
+    "heading": "その他の人気の画像エフェクトを発見"
+  },
+  "examples": {
+    "heading": "写真をアクションフィギュアに変身 – 結果を見る",
+    "title": "写真をアクションフィギュアに変身 – 結果を見る",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/action-figure-final-1.webp",
+        "alt": "AIアクションフィギュアジェネレーター"
+      },
+      {
+        "image": "https://assets.remixai.io/action-figure-final-2.webp",
+        "alt": "アクションフィギュアジェネレーター"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "よくある質問",
+    "questions": [
+      {
+        "question": "アクションフィギュアジェネレーターとは何ですか？",
+        "answer": "アクションフィギュアジェネレーターは、あなたの写真を楽しいアクションフィギュアに変えるAIエフェクトです。プラスチックのような見た目と詳細なスタイリングを加え、あなたの画像を収集価値のあるおもちゃのように見せます。"
+      },
+      {
+        "question": "アクションフィギュアの作成にはどのくらい時間がかかりますか？",
+        "answer": "通常、数秒しかかかりません。正確な時間はあなたの写真によりますが、私たちのAIは高速で迅速な結果のために最適化されています。"
+      },
+      {
+        "question": "アクションフィギュアジェネレーターは無料ですか？",
+        "answer": "はい！サインアップ後、無料でご利用いただけます。あなた自身のアクションフィギュア画像を作成するのに無料クレジットを進呈します。"
+      },
+      {
+        "question": "私の写真は安全でプライベートに保たれますか？",
+        "answer": "はい、お客様のプライバシーは私たちにとって重要です。写真は安全に処理され、短時間後に自動的に削除されます。私たちはそれらを他の目的で決して使用しません。"
+      },
+      {
+        "question": "どのような種類の写真が最適ですか？",
+        "answer": "明るく、よく照らされた一人の人物の写真が最適です。シンプルな背景のポートレートや全身写真は、最高の結果をもたらします。"
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "お客様の声",
+    "reviews": [
+      {
+        "review": "品質とスピードに本当に感銘を受けました。手軽なキャラクターコンセプト作成のための頼れるツールになりました。",
+        "name": "リアム",
+        "designation": "デジタルアーティスト"
+      },
+      {
+        "review": "使うのがとても楽しいです！Dreamshotチームは、創造性を犠牲にすることなくシンプルさを完璧に実現しました。",
+        "name": "ソフィア",
+        "designation": "英国からのウェブユーザー"
+      },
+      {
+        "review": "このツールは救世主です。数回クリックするだけで、コンテンツ向けに様々なアクションフィギュアを生成できます。",
+        "name": "イーサン",
+        "designation": "コンテンツクリエーター"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "アクションフィギュアジェネレーターの仕組み",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "写真をアップロード",
+        "bulletPoints": [
+          "まず、アクションフィギュアに変えたい鮮明な写真をアップロードします。最高の結果を得るには、良好な照明と被写体がはっきりと見える高品質な画像を使用してください。"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "アクションフィギュアジェネレーターを適用",
+        "bulletPoints": [
+          "希望するアクションフィギュアのスタイルを選択し、「アクションフィギュアを生成」ボタンをクリックします。AIが瞬時にあなたの写真をリアルなアクションフィギュアに変身させます。"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "ダウンロード＆共有",
+        "bulletPoints": [
+          "アクションフィギュアの準備ができたら、デバイスにダウンロードするか、友達と共有できます。"
+        ]
+      }
+    ]
+  }
+}
