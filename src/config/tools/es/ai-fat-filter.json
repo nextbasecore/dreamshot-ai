@@ -1,0 +1,141 @@
+{
+  "id": "ai-fat-filter",
+  "title": "Filtro IA de Grasa",
+  "playgroundTitle": "Filtro IA de Grasa",
+  "playgroundDescription": "Prueba el Filtro IA de Grasa gratis y mira un efecto de cuerpo con sobrepeso. El filtro remodela tu apariencia automáticamente para un aspecto realista.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Filtro IA de Grasa: Crea un Aspecto de Cuerpo con Sobrepeso Gratis",
+    "description": "Mírate en una nueva versión de ti mismo con el Filtro IA de Grasa gratuito. Este filtro crea automáticamente un efecto de cuerpo con sobrepeso y realista en segundos.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generar Ahora",
+  "inputType": "single",
+  "effectId": "fat-filter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/fat-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-pregnant-filter",
+      "baby-face-generator",
+      "change-image-to-fall-season",
+      "ai-winter-effect"
+    ],
+    "heading": "Efectos de Imagen Populares Relacionados"
+  },
+  "examples": {
+    "heading": "Ejemplos del Filtro IA de Grasa",
+    "title": "Ejemplos del Filtro IA de Grasa",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/fat-filter-1.webp",
+        "alt": "Filtro IA de Grasa"
+      },
+      {
+        "image": "https://assets.remixai.io/fat-filter-2.webp",
+        "alt": "Filtro de Grasa"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-5.webp",
+      "original": "https://assets.remixai.io/sample-image-5.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-6.webp",
+      "original": "https://assets.remixai.io/sample-image-6.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-7.webp",
+      "original": "https://assets.remixai.io/sample-image-7.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-8.webp",
+      "original": "https://assets.remixai.io/sample-image-8.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Preguntas Frecuentes sobre el Filtro IA de Grasa",
+    "questions": [
+      {
+        "question": "¿Qué es el Filtro IA de Grasa?",
+        "answer": "Es un efecto de IA que hace que una persona parezca más pesada en una foto. Sube tu imagen y la IA crea una transformación realista y divertida."
+      },
+      {
+        "question": "¿Qué tan rápido funciona?",
+        "answer": "¡Es muy rápido! La mayoría de las fotos se transforman en solo unos segundos, dependiendo del tamaño y los detalles de la imagen."
+      },
+      {
+        "question": "¿Necesito pagar para usarlo?",
+        "answer": "¡No, es gratis! Regístrate en nuestro sitio web y obtén créditos gratuitos para probar el Filtro IA de Grasa y otros efectos."
+      },
+      {
+        "question": "¿Mis fotos están seguras?",
+        "answer": "Sí. Tus fotos se suben de forma segura y se eliminan automáticamente después de un corto tiempo. Nunca las compartimos con nadie."
+      },
+      {
+        "question": "¿Qué fotos funcionan mejor?",
+        "answer": "Las fotos claras y de alta calidad funcionan mejor. Las tomas de frente con buena iluminación y un fondo simple dan los resultados más naturales."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Lo que la gente dice de nosotros",
+    "reviews": [
+      {
+        "review": "Estoy realmente impresionado con lo realistas que son los resultados. Es un cambio radical para mis proyectos creativos.",
+        "name": "Mia",
+        "designation": "Creador de Contenido"
+      },
+      {
+        "review": "¡Es sorprendentemente divertido de usar! El equipo de Dreamshot hizo un gran trabajo al hacerlo tan simple e intuitivo.",
+        "name": "Lucas",
+        "designation": "Usuario de iOS de EE. UU."
+      },
+      {
+        "review": "Sinceramente, al principio era escéptica, pero el Filtro IA de Grasa funciona increíblemente bien. Me ahorra mucho tiempo.",
+        "name": "Chloe",
+        "designation": "Artista Digital"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "¿Cómo funciona el Filtro IA de Grasa?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Subir Foto",
+        "bulletPoints": [
+          "Selecciona y sube fotos desde tu dispositivo para aplicar el Filtro IA de Grasa, y asegúrate de que las fotos subidas sean de alta calidad con un fondo bien iluminado."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Aplicar Filtro IA de Grasa",
+        "bulletPoints": [
+          "Una vez subida la foto, haz clic en el botón “Aplicar Efecto de Imagen” para aplicar el Filtro IA de Grasa a tu foto."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Descargar y Compartir",
+        "bulletPoints": [
+          "Descarga tu Filtro IA de Grasa generado a tu dispositivo y compártelo en tu plataforma de redes sociales favorita, y con tus amigos y familiares."
+        ]
+      }
+    ]
+  }
+}
