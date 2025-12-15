@@ -1,0 +1,141 @@
+{
+  "id": "ai-fat-filter",
+  "title": "AI-фильтр утолщения",
+  "playgroundTitle": "AI-фильтр утолщения",
+  "playgroundDescription": "Попробуйте AI-фильтр утолщения бесплатно и увидьте эффект полного тела. Фильтр автоматически изменяет вашу внешность для создания реалистичного вида.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI-фильтр утолщения : Создайте образ полного тела бесплатно",
+    "description": "Увидьте новую версию себя с бесплатным AI-фильтром утолщения. Этот фильтр автоматически создает эффект полного, реалистичного тела за считанные секунды.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Сгенерировать сейчас",
+  "inputType": "single",
+  "effectId": "fat-filter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/fat-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-pregnant-filter",
+      "baby-face-generator",
+      "change-image-to-fall-season",
+      "ai-winter-effect"
+    ],
+    "heading": "Похожие популярные эффекты изображений"
+  },
+  "examples": {
+    "heading": "Примеры AI-фильтра утолщения",
+    "title": "Примеры AI-фильтра утолщения",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/fat-filter-1.webp",
+        "alt": "AI-фильтр утолщения"
+      },
+      {
+        "image": "https://assets.remixai.io/fat-filter-2.webp",
+        "alt": "Фильтр утолщения"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-5.webp",
+      "original": "https://assets.remixai.io/sample-image-5.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-6.webp",
+      "original": "https://assets.remixai.io/sample-image-6.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-7.webp",
+      "original": "https://assets.remixai.io/sample-image-7.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-8.webp",
+      "original": "https://assets.remixai.io/sample-image-8.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Часто задаваемые вопросы об AI-фильтре утолщения",
+    "questions": [
+      {
+        "question": "Что такое AI-фильтр утолщения?",
+        "answer": "Это AI-эффект, который делает человека на фотографии полнее. Загрузите свою фотографию, и AI создаст реалистичное и забавное преображение."
+      },
+      {
+        "question": "Как быстро он работает?",
+        "answer": "Очень быстро! Большинство фотографий преобразуются всего за несколько секунд, в зависимости от размера и деталей изображения."
+      },
+      {
+        "question": "Нужно ли платить за его использование?",
+        "answer": "Нет, это бесплатно! Зарегистрируйтесь на нашем сайте и получите бесплатные кредиты, чтобы попробовать AI-фильтр утолщения и другие эффекты."
+      },
+      {
+        "question": "Мои фотографии в безопасности?",
+        "answer": "Да. Ваши фотографии загружаются безопасно и автоматически удаляются через короткое время. Мы никогда никому их не передаем."
+      },
+      {
+        "question": "Какие фотографии подходят лучше всего?",
+        "answer": "Лучше всего подходят четкие, высококачественные фотографии. Снимки в анфас с хорошим освещением и простым фоном дают наиболее естественные результаты."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Что о нас говорят",
+    "reviews": [
+      {
+        "review": "Я искренне впечатлен тем, насколько реалистичны результаты. Это меняет правила игры для моих творческих проектов.",
+        "name": "Мия",
+        "designation": "Создатель контента"
+      },
+      {
+        "review": "Это на удивление весело использовать! Команда Dreamshot проделала отличную работу, сделав его таким простым и интуитивно понятным.",
+        "name": "Лукас",
+        "designation": "Пользователь iOS из США"
+      },
+      {
+        "review": "Честно говоря, сначала я был настроен скептически, но AI-фильтр утолщения работает невероятно хорошо. Экономит мне кучу времени.",
+        "name": "Хлоя",
+        "designation": "Цифровой художник"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Как работает AI-фильтр утолщения?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Загрузите фото",
+        "bulletPoints": [
+          "Выберите и загрузите фотографии с вашего устройства, чтобы применить AI-фильтр утолщения. Убедитесь, что загруженные фотографии имеют высокое качество и хорошо освещенный фон."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Примените AI-фильтр утолщения",
+        "bulletPoints": [
+          "После загрузки фотографии нажмите на кнопку «Применить эффект изображения», чтобы применить AI-фильтр утолщения к вашему фото."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Скачайте и поделитесь",
+        "bulletPoints": [
+          "Загрузите сгенерированное с помощью AI-фильтра утолщения изображение на ваше устройство и поделитесь им на своей любимой социальной медиа-платформе, а также с друзьями и семьей."
+        ]
+      }
+    ]
+  }
+}
