@@ -4,6 +4,7 @@ import TextSeparator from "../TextSeparator";
 import Image from "next/image";
 import { useToolConfig } from "@/hooks/useToolConfig";
 import { useState, useEffect, useRef } from "react";
+import TextWithLinks from "../Common/TextWithLinks";
 
 /**
  * ExamplesSection component that displays examples from tool config
@@ -38,12 +39,12 @@ export default function ExamplesSection() {
             <TextSeparator textSeparatorText="Examples" />
 
             <h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold px-4">
-                {title}
+                <TextWithLinks text={title} />
             </h1>
 
             {description && (
                 <p className="text-gray-500 text-center max-w-2xl">
-                    {description}
+                    <TextWithLinks text={description} />
                 </p>
             )}
 

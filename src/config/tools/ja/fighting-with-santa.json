@@ -1,0 +1,141 @@
+{
+  "id": "fighting-with-santa",
+  "title": "AIサンタとの格闘ビデオジェネレーター",
+  "playgroundTitle": "AIサンタとの格闘ビデオジェネレーター",
+  "playgroundDescription": "AIサンタとの格闘ビデオジェネレーターは、サンタをダイナミックな戦闘シーンに配置することで、あなたのクリップにアクションをもたらします。あなたのビデオは、パンチの効いた動き、大胆なポーズ、楽しい休日の戦闘シーンを獲得し、生き生きとしたクリスマスの対決スタイルを与えます。",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AIサンタとの格闘ビデオジェネレーター",
+    "description": "AIでアクション満載のサンタとの格闘ビデオを作成しましょう。戦闘ポーズ、ダイナミックな動き、楽しい休日の戦闘シーンを追加して、エネルギッシュなクリスマスビデオを作りましょう。",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "今すぐ生成",
+  "inputType": "single",
+  "effectId": "fightWithSanta",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20fighting%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "santa-kidnapping",
+      "reindeer-ride-with-santa",
+      "santa-transformation",
+      "santa-hug-video-generator"
+    ],
+    "heading": "他のクールなビデオエフェクトを見る"
+  },
+  "examples": {
+    "heading": "「サンタとの戦い」ビデオのサンプル結果を見る",
+    "title": "「サンタとの戦い」ビデオのサンプル結果を見る",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Fight-with-Santa-1.webm",
+        "alt": "サンタとの戦い"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Fight-with-Santa-2.webm",
+        "alt": "サンタとの戦いビデオジェネレーター"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-45.webp",
+      "original": "https://assets.remixai.io/sample-image-45.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-46.webp",
+      "original": "https://assets.remixai.io/sample-image-46.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-47.webp",
+      "original": "https://assets.remixai.io/sample-image-47.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-48.webp",
+      "original": "https://assets.remixai.io/sample-image-48.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "クリスマスパーティグラムに関するよくある質問",
+    "questions": [
+      {
+        "question": "「サンタとの戦い」エフェクトとは何ですか？",
+        "answer": "「サンタとの戦い」エフェクトは、あなたの写真を短くて楽しいビデオに変えるAIエフェクトです。画像をアップロードすると、AIがアクションスタイルのアニメーションを作成し、まるであなたがサンタとふざけて戦っているように見えます。"
+      },
+      {
+        "question": "「サンタとの戦い」エフェクトは無料で試せますか？",
+        "answer": "はい、このエフェクトは無料でお試しいただけます。アカウントにサインアップすると、このエフェクトを作成したり、他のAIビデオエフェクトを探索したりするために使用できる無料クレジットがもらえます。"
+      },
+      {
+        "question": "アップロードした写真は安全ですか？",
+        "answer": "はい、あなたの写真は完全に安全です。安全にアップロードされ、ビデオエフェクトの作成にのみ使用され、短時間後にサーバーから削除されます。誰とも共有されることはありません。"
+      },
+      {
+        "question": "どのような画像形式をアップロードできますか？",
+        "answer": "JPEG、PNG、WEBPなどの一般的な形式をアップロードできます。ファイルサイズがページに表示されているアップロード制限内に収まることを確認してください。"
+      },
+      {
+        "question": "このエフェクトを使用するために何かをインストールする必要がありますか？",
+        "answer": "いいえ、何もインストールする必要はありません。このエフェクトは完全にオンラインで機能し、ウェブブラウザを備えたどのデバイスからでも使用できます。"
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "お客様の声",
+    "reviews": [
+      {
+        "review": "ビデオを作るのが本当に楽しかったです！AI機能がすべてを非常にスムーズにつなぎ合わせ、私のアイデアを活気あるサンタのアクションクリップに変えてくれました。",
+        "name": "シャーロット",
+        "designation": "コンテンツクリエーター"
+      },
+      {
+        "review": "まさかサンタと雪合戦のビデオに出演することになるとは思いもしませんでした。面白くてダイナミックで、最終的なビデオは驚くほどリアルです。",
+        "name": "エリアス",
+        "designation": "アメリカからのウェブユーザー"
+      },
+      {
+        "review": "ビデオの品質は本当に期待を超えていました。ユニークなホリデーテーマのクリップを制作するための楽しくてクリエイティブなツールです。",
+        "name": "ミア",
+        "designation": "デジタルアーティスト"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "仕組みは？",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "画像をアップロード",
+        "bulletPoints": [
+          "あなた自身または他の誰かの写真をアップロードしてください。最高の「サンタとの戦い」の結果を得るために、画像が鮮明で高品質であることを確認してください。"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "「サンタとの戦い」エフェクトを適用して生成",
+        "bulletPoints": [
+          "画像がアップロードされたら、「サンタとの戦いを適用」ボタンをクリックします。AIがスムーズに「サンタとの戦い」変換をあなたの写真に適用します。"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "プレビューしてダウンロード",
+        "bulletPoints": [
+          "処理が完了したら、「サンタとの戦い」変換をプレビューし、お使いのデバイスにダウンロードしたり、共有したりできます。"
+        ]
+      }
+    ]
+  }
+}
