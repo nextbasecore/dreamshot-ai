@@ -1,0 +1,141 @@
+{
+  "id": "action-figure-generator",
+  "title": "سازنده اکشن فیگور",
+  "playgroundTitle": "سازنده اکشن فیگور با هوش مصنوعی",
+  "playgroundDescription": "عکس خود را به عنوان یک اکشن فیگور سه‌بعدی تصور کنید! سازنده اکشن فیگور با هوش مصنوعی هر تصویری را به یک فیگور دقیق و واقعی تبدیل می‌کند و به عکس شما ظاهری سرگرم‌کننده و خلاقانه می‌بخشد.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "سازنده اکشن فیگور با هوش مصنوعی: عکس خود را به فیگور سه‌بعدی تبدیل کنید",
+    "description": "با سازنده اکشن فیگور با هوش مصنوعی، عکس خود را به یک اکشن فیگور سه‌بعدی تبدیل کنید. برای سرگرمی و خلاقیت، فیگورهای واقعی و دقیق از هر عکسی بسازید.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "ایجاد فیگور",
+  "inputType": "single",
+  "effectId": "action-figure",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/action-figure-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "mugshot",
+      "selfie-with-celebrities",
+      "change-image-to-fall-season",
+      "ai-skinny-filter"
+    ],
+    "heading": "سایر جلوه‌های تصویری محبوب را کشف کنید"
+  },
+  "examples": {
+    "heading": "تبدیل عکس‌ها به اکشن فیگور – نتایج را ببینید",
+    "title": "تبدیل عکس‌ها به اکشن فیگور – نتایج را ببینید",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/action-figure-final-1.webp",
+        "alt": "سازنده اکشن فیگور با هوش مصنوعی"
+      },
+      {
+        "image": "https://assets.remixai.io/action-figure-final-2.webp",
+        "alt": "سازنده اکشن فیگور"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "سوالات متداول",
+    "questions": [
+      {
+        "question": "سازنده اکشن فیگور چیست؟",
+        "answer": "سازنده اکشن فیگور یک افکت هوش مصنوعی است که عکس شما را به یک اکشن فیگور سرگرم‌کننده تبدیل می‌کند. این ابزار ظاهری پلاستیکی و استایل دقیق به تصویر شما اضافه می‌کند تا شبیه یک اسباب‌بازی کلکسیونی به نظر برسد."
+      },
+      {
+        "question": "ساخت یک اکشن فیگور چقدر طول می‌کشد؟",
+        "answer": "معمولاً فقط چند ثانیه طول می‌کشد. زمان دقیق به عکس شما بستگی دارد، اما هوش مصنوعی ما سریع و برای نتایج فوری بهینه‌سازی شده است."
+      },
+      {
+        "question": "آیا سازنده اکشن فیگور رایگان است؟",
+        "answer": "بله! پس از ثبت‌نام می‌توانید به صورت رایگان از آن استفاده کنید. ما به شما اعتبار رایگان می‌دهیم تا ساخت تصاویر اکشن فیگور خود را امتحان کنید."
+      },
+      {
+        "question": "آیا عکس‌های من امن و خصوصی هستند؟",
+        "answer": "بله، حریم خصوصی شما برای ما مهم است. عکس‌ها به صورت امن پردازش شده و پس از مدت کوتاهی به طور خودکار حذف می‌شوند. ما هرگز از آنها برای هیچ چیز دیگری استفاده نمی‌کنیم."
+      },
+      {
+        "question": "چه نوع عکس‌هایی بهترین نتیجه را می‌دهند؟",
+        "answer": "عکس‌های واضح و با نور خوب از یک نفر بهترین نتیجه را می‌دهند. پرتره‌ها یا عکس‌های تمام‌قد با پس‌زمینه‌های ساده بهترین نتایج را به همراه دارند."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "نظرات مردم درباره ما",
+    "reviews": [
+      {
+        "review": "من واقعاً تحت تأثیر کیفیت و سرعت قرار گرفته‌ام. این ابزار به ابزار اصلی من برای مفاهیم سریع شخصیت تبدیل شده است.",
+        "name": "لیام",
+        "designation": "هنرمند دیجیتال"
+      },
+      {
+        "review": "استفاده از آن خیلی سرگرم‌کننده است! تیم دریم‌شات واقعاً سادگی را بدون قربانی کردن خلاقیت به خوبی پیاده‌سازی کرده است.",
+        "name": "سوفیا",
+        "designation": "کاربر وب از انگلستان"
+      },
+      {
+        "review": "این ابزار نجات‌بخش است. من می‌توانم طیف گسترده‌ای از اکشن فیگورها را برای محتوای خود تنها با چند کلیک ایجاد کنم.",
+        "name": "ایتان",
+        "designation": "تولیدکننده محتوا"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "سازنده اکشن فیگور چگونه کار می‌کند؟",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "بارگذاری عکس",
+        "bulletPoints": [
+          "با بارگذاری یک عکس واضح که می‌خواهید به اکشن فیگور تبدیل شود، شروع کنید. برای بهترین نتایج، از تصویری با کیفیت بالا، نور مناسب و نمای واضح از سوژه استفاده کنید."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "اعمال سازنده اکشن فیگور",
+        "bulletPoints": [
+          "سبک اکشن فیگور مورد نظر خود را انتخاب کنید، سپس روی دکمه «ایجاد اکشن فیگور» کلیک کنید. هوش مصنوعی فوراً عکس شما را به یک اکشن فیگور با ظاهر واقعی تبدیل می‌کند."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "دانلود و اشتراک‌گذاری",
+        "bulletPoints": [
+          "هنگامی که اکشن فیگور شما آماده شد، می‌توانید آن را در دستگاه خود دانلود کرده یا با دوستانتان به اشتراک بگذارید."
+        ]
+      }
+    ]
+  }
+}
