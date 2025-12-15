@@ -65,19 +65,17 @@ export interface ToolConfigJson {
 
 
 /**
- * Load tool configuration by category and slug
- * Validates that the tool's category matches the provided category
- * @param category - The tool category (e.g., "image-effects", "video-effects")
- * @param slug - The tool slug (file name without .json extension or tool id)
- * @returns Tool configuration or null if not found or category mismatch
+ * Internal helper to load a tool configuration from a given directory.
+ * Mirrors the behavior of the original loadToolConfigBySlug implementation.
  */
-export async function loadToolConfigBySlug(
+async function loadToolConfigFromDir(
+    baseDir: string,
     category: string,
     slug: string
 ): Promise<ToolConfigJson | null> {
     // Step 1: Try exact slug first (file name must match slug)
     try {
-        const filePath = path.join(TOOLS_DIR, `${slug}.json`);
+        const filePath = path.join(baseDir, `${slug}.json`);
         const file = await fs.readFile(filePath, "utf-8");
         const config = JSON.parse(file) as ToolConfigJson;
 
@@ -90,10 +88,10 @@ export async function loadToolConfigBySlug(
         // Step 2: Fallback - search all files and match by id field
         // This handles edge cases where file name might differ from ID
         try {
-            const files = await fs.readdir(TOOLS_DIR);
+            const files = await fs.readdir(baseDir);
             const jsonFiles = files.filter((f) => f.endsWith(".json"));
             for (const fileName of jsonFiles) {
-                const filePath = path.join(TOOLS_DIR, fileName);
+                const filePath = path.join(baseDir, fileName);
                 const file = await fs.readFile(filePath, "utf-8");
                 const config = JSON.parse(file) as ToolConfigJson;
                 if (config.id === slug) {
@@ -108,7 +106,51 @@ export async function loadToolConfigBySlug(
             return null;
         }
     }
+
     return null;
+}
+
+/**
+ * Load tool configuration by category and slug
+ * Validates that the tool's category matches the provided category
+ * @param category - The tool category (e.g., "image-effects", "video-effects")
+ * @param slug - The tool slug (file name without .json extension or tool id)
+ * @returns Tool configuration or null if not found or category mismatch
+ */
+export async function loadToolConfigBySlug(
+    category: string,
+    slug: string
+): Promise<ToolConfigJson | null> {
+    return loadToolConfigFromDir(TOOLS_DIR, category, slug);
+}
+
+/**
+ * Load tool configuration by category, slug and optional locale.
+ * - If locale is provided, first tries src/config/tools/{locale}/{slug}.json
+ * - If not found or mismatched, falls back to default directory (English)
+ */
+export async function loadToolConfigBySlugWithLocale(
+    category: string,
+    slug: string,
+    locale?: string | null
+): Promise<ToolConfigJson | null> {
+    if (locale) {
+        const localeDir = path.join(TOOLS_DIR, locale);
+        try {
+            const stats = await fs.stat(localeDir);
+            if (stats.isDirectory()) {
+                const localized = await loadToolConfigFromDir(localeDir, category, slug);
+                if (localized) {
+                    return localized;
+                }
+            }
+        } catch {
+            // locale directory doesn't exist, fall back to default tools dir
+        }
+    }
+
+    // Fallback to default (English) config
+    return loadToolConfigBySlug(category, slug);
 }
 
 /**
@@ -137,6 +179,51 @@ export async function getAllToolConfigs(): Promise<ToolConfigJson[]> {
         return configs;
     } catch (error) {
         console.error("Error reading tools directory:", error);
+        return [];
+    }
+}
+
+/**
+ * Load all tool configurations for a specific locale from src/config/tools/{locale}
+ * Falls back to empty array if the locale directory does not exist.
+ */
+export async function getAllToolConfigsByLocale(
+    locale?: string | null
+): Promise<ToolConfigJson[]> {
+    if (!locale) {
+        return getAllToolConfigs();
+    }
+
+    const localeDir = path.join(TOOLS_DIR, locale);
+    try {
+        const stats = await fs.stat(localeDir);
+        if (!stats.isDirectory()) {
+            return [];
+        }
+    } catch {
+        return [];
+    }
+
+    try {
+        const files = await fs.readdir(localeDir);
+        const jsonFiles = files.filter((f) => f.endsWith(".json"));
+
+        const configs: ToolConfigJson[] = [];
+        for (const fileName of jsonFiles) {
+            try {
+                const filePath = path.join(localeDir, fileName);
+                const file = await fs.readFile(filePath, "utf-8");
+                const config = JSON.parse(file) as ToolConfigJson;
+                configs.push(config);
+            } catch (error) {
+                // Skip invalid JSON files but continue processing others
+                console.error(`Error reading ${fileName} for locale ${locale}:`, error);
+            }
+        }
+
+        return configs;
+    } catch (error) {
+        console.error(`Error reading tools directory for locale ${locale}:`, error);
         return [];
     }
 }
@@ -174,4 +261,51 @@ export async function loadRecommendedTools(
         return [];
     }
 }
+
+/**
+ * Load multiple tool configurations by their IDs for a specific locale.
+ * Falls back to default configs for any IDs not present in the locale.
+ */
+export async function loadRecommendedToolsByLocale(
+    ids: string[],
+    locale?: string | null
+): Promise<ToolConfigJson[]> {
+    try {
+        const [localizedConfigs, defaultConfigs] = await Promise.all([
+            getAllToolConfigsByLocale(locale),
+            getAllToolConfigs(),
+        ]);
+
+        const localizedMap = new Map<string, ToolConfigJson>();
+        localizedConfigs.forEach((config) => {
+            localizedMap.set(config.id, config);
+        });
+
+        const defaultMap = new Map<string, ToolConfigJson>();
+        defaultConfigs.forEach((config) => {
+            defaultMap.set(config.id, config);
+        });
+
+        const recommendedConfigs: ToolConfigJson[] = [];
+
+        ids.forEach((id) => {
+            const localized = localizedMap.get(id);
+            if (localized) {
+                recommendedConfigs.push(localized);
+                return;
+            }
+
+            const fallback = defaultMap.get(id);
+            if (fallback) {
+                recommendedConfigs.push(fallback);
+            }
+        });
+
+        return recommendedConfigs;
+    } catch (error) {
+        console.error("Error loading localized recommended tools:", error);
+        return [];
+    }
+}
+
 

@@ -1,4 +1,9 @@
-import { loadToolConfigBySlug, getAllToolConfigs, loadRecommendedTools } from "@/config/tools.server";
+import {
+    loadToolConfigBySlugWithLocale,
+    getAllToolConfigs,
+    getAllToolConfigsByLocale,
+    loadRecommendedToolsByLocale,
+} from "@/config/tools.server";
 import { notFound } from "next/navigation";
 import { ToolProvider } from "@/contexts/ToolContext";
 import PlaygroundSection from "@/components/PlaygroundSection";
@@ -10,33 +15,82 @@ import Footer from "@/components/Footer";
 import { Metadata } from "next";
 import Testimonials from "@/components/Testimonials";
 import Inspiration from "@/components/Inspiration";
+import { SUPPORTED_LANGUAGE_CODES } from "@/constants/locales";
+
+type SupportedLocaleCode = (typeof SUPPORTED_LANGUAGE_CODES)[number];
+
+function isSupportedLocale(locale: string): locale is SupportedLocaleCode {
+    return (SUPPORTED_LANGUAGE_CODES as string[]).includes(locale);
+}
 
 interface Props {
-    params: Promise<{ category: string; slug: string }>;
+    params: Promise<{ segments: string[] }>;
+}
+
+function parseParams(segments: string[]) {
+    if (segments.length === 2) {
+        const [category, slug] = segments;
+        return { locale: null as string | null, category, slug };
+    }
+
+    if (segments.length === 3) {
+        const [maybeLocale, category, slug] = segments;
+        if (isSupportedLocale(maybeLocale)) {
+            return { locale: maybeLocale, category, slug };
+        }
+    }
+
+    return null;
 }
 
 /**
- * Generate static params for all tools at build time
- * This enables static generation for SEO
+ * Generate static params for all tools at build time (default + localized)
  */
 export async function generateStaticParams() {
-    const allTools = await getAllToolConfigs();
+    const params: { segments: string[] }[] = [];
 
-    return allTools.map((tool) => {
+    // Default (English / no-locale) routes
+    const allDefaultTools = await getAllToolConfigs();
+    allDefaultTools.forEach((tool) => {
         const category = tool.postPrefix || tool.toolCategory;
-        return {
-            category,
-            slug: tool.id,
-        };
+        params.push({
+            segments: [category, tool.id],
+        });
     });
+
+    // Localized routes for each supported language
+    for (const locale of SUPPORTED_LANGUAGE_CODES) {
+        const localizedTools = await getAllToolConfigsByLocale(locale);
+        localizedTools.forEach((tool) => {
+            const category = tool.postPrefix || tool.toolCategory;
+            params.push({
+                segments: [locale, category, tool.id],
+            });
+        });
+    }
+
+    return params;
 }
 
 /**
  * Generate metadata for each tool page from JSON metadata field
  */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const { category, slug } = await params;
-    const toolConfig = await loadToolConfigBySlug(category, slug);
+    const { segments } = await params;
+    const parsed = parseParams(segments);
+
+    if (!parsed) {
+        return {
+            title: "Tool Not Found",
+        };
+    }
+
+    const { locale, category, slug } = parsed;
+    const toolConfig = await loadToolConfigBySlugWithLocale(
+        category,
+        slug,
+        locale
+    );
 
     if (!toolConfig) {
         return {
@@ -54,8 +108,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 
     const title = metadata?.title || toolConfig.title;
-    const description = metadata?.description || toolConfig.playgroundDescription;
-    const canonical = metadata?.alternates?.canonical || `/${category}/${slug}`;
+    const description =
+        metadata?.description || toolConfig.playgroundDescription;
+    const canonical =
+        metadata?.alternates?.canonical ||
+        (locale
+            ? `/${locale}/${category}/${slug}`
+            : `/${category}/${slug}`);
 
     return {
         title,
@@ -78,21 +137,35 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 /**
  * Dynamic tool page that renders tool configuration from JSON
- * Automatically displays all sections: playground, how it works, examples, similar tools, FAQs
+ * Supports both default and locale-prefixed URLs via catch-all segments
  */
 export default async function ToolPage({ params }: Props) {
-    const { category, slug } = await params;
+    const { segments } = await params;
+    const parsed = parseParams(segments);
 
-    // Load tool configuration
-    const toolConfig = await loadToolConfigBySlug(category, slug);
+    if (!parsed) {
+        return notFound();
+    }
+
+    const { locale, category, slug } = parsed;
+
+    // Load tool configuration with locale support
+    const toolConfig = await loadToolConfigBySlugWithLocale(
+        category,
+        slug,
+        locale
+    );
 
     if (!toolConfig) {
         return notFound();
     }
 
-    // Load recommended tools if available
+    // Load recommended tools if available (localized with fallback)
     const recommendedTools = toolConfig.recommendedEffects?.id
-        ? await loadRecommendedTools(toolConfig.recommendedEffects.id)
+        ? await loadRecommendedToolsByLocale(
+            toolConfig.recommendedEffects.id,
+            locale
+        )
         : [];
 
     return (
@@ -114,18 +187,20 @@ export default async function ToolPage({ params }: Props) {
                 {toolConfig?.recommendedEffects && (
                     <SimilarTools
                         recommendedTools={recommendedTools}
-                        title={toolConfig.recommendedEffects.heading || "Recommended for You"}
+                        title={
+                            toolConfig.recommendedEffects.heading ||
+                            "Recommended for You"
+                        }
                     />
                 )}
 
                 {/* FAQs Section - Only render if faqs data exists */}
                 {toolConfig?.faqs && <FAQs />}
 
-                {/* Inspiration Section - Only render if inspiration data exists */}
+                {/* Inspiration Section - Always render */}
                 <Inspiration />
 
                 <div className="my-8" />
-
 
                 {/* Footer */}
                 <Footer />
@@ -133,4 +208,5 @@ export default async function ToolPage({ params }: Props) {
         </ToolProvider>
     );
 }
+
 
