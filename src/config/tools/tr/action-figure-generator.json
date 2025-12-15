@@ -1,0 +1,141 @@
+{
+  "id": "action-figure-generator",
+  "title": "Aksiyon Figürü Oluşturucu",
+  "playgroundTitle": "Yapay Zeka Aksiyon Figürü Oluşturucu",
+  "playgroundDescription": "Fotoğrafınızı bir 3D aksiyon figürü olarak hayal edin! Yapay Zeka Aksiyon Figürü Oluşturucu, herhangi bir görüntüyü detaylı, gerçeğe yakın bir figüre dönüştürerek resminize eğlenceli ve yaratıcı bir görünüm kazandırır.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Yapay Zeka Aksiyon Figürü Oluşturucu: Fotoğrafınızı 3D Figüre Dönüştürün",
+    "description": "Yapay Zeka Aksiyon Figürü Oluşturucu ile fotoğrafınızı 3D bir aksiyon figürüne dönüştürün. Eğlence ve yaratıcılık için herhangi bir fotoğraftan gerçekçi, detaylı figürler oluşturun.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Figür Oluştur",
+  "inputType": "single",
+  "effectId": "action-figure",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/action-figure-cover-image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "mugshot",
+      "selfie-with-celebrities",
+      "change-image-to-fall-season",
+      "ai-skinny-filter"
+    ],
+    "heading": "Diğer Popüler Görüntü Efektlerini Keşfedin"
+  },
+  "examples": {
+    "heading": "Fotoğrafları Aksiyon Figürlerine Dönüştürün – Sonuçları Görün",
+    "title": "Fotoğrafları Aksiyon Figürlerine Dönüştürün – Sonuçları Görün",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/action-figure-final-1.webp",
+        "alt": "Yapay Zeka Aksiyon Figürü Oluşturucu"
+      },
+      {
+        "image": "https://assets.remixai.io/action-figure-final-2.webp",
+        "alt": "Aksiyon Figürü Oluşturucu"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "faqs": {
+    "heading": "Sıkça Sorulan Sorular",
+    "questions": [
+      {
+        "question": "Aksiyon Figürü Oluşturucu Nedir?",
+        "answer": "Aksiyon Figürü Oluşturucu, fotoğrafınızı eğlenceli bir aksiyon figürüne dönüştüren bir yapay zeka efektidir. Görüntünüze plastik benzeri bir görünüm ve detaylı bir stil katarak koleksiyonluk bir oyuncağa benzemesini sağlar."
+      },
+      {
+        "question": "Bir aksiyon figürü oluşturmak ne kadar sürer?",
+        "answer": "Genellikle sadece birkaç saniye sürer. Tam süre fotoğrafınıza bağlıdır, ancak yapay zekamız hızlıdır ve hızlı sonuçlar için optimize edilmiştir."
+      },
+      {
+        "question": "Aksiyon Figürü Oluşturucu ücretsiz mi?",
+        "answer": "Evet! Kaydolduktan sonra ücretsiz kullanabilirsiniz. Kendi aksiyon figürü resimlerinizi oluşturmayı denemeniz için size ücretsiz krediler veriyoruz."
+      },
+      {
+        "question": "Fotoğraflarım güvende ve gizli mi?",
+        "answer": "Evet, gizliliğiniz bizim için önemlidir. Fotoğraflar güvenli bir şekilde işlenir ve kısa bir süre sonra otomatik olarak silinir. Onları başka hiçbir amaçla kullanmayız."
+      },
+      {
+        "question": "En iyi hangi tür fotoğraflar işe yarar?",
+        "answer": "Tek bir kişinin net, iyi aydınlatılmış fotoğrafları en iyi sonucu verir. Basit arka planlara sahip portreler veya tam vücut çekimleri en iyi sonuçları sağlar."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Hakkımızda İnsanlar Ne Diyor?",
+    "reviews": [
+      {
+        "review": "Kalite ve hızdan gerçekten etkilendim. Hızlı karakter konseptleri için vazgeçilmez aracım oldu.",
+        "name": "Liam",
+        "designation": "Dijital Sanatçı"
+      },
+      {
+        "review": "Kullanması çok eğlenceli! Dreamshot ekibi, yaratıcılıktan ödün vermeden sadeliği gerçekten başarmış.",
+        "name": "Sophia",
+        "designation": "Birleşik Krallık'tan Web Kullanıcısı"
+      },
+      {
+        "review": "Bu araç bir cankurtaran. İçeriğim için sadece birkaç tıklamayla çok çeşitli aksiyon figürleri oluşturabiliyorum.",
+        "name": "Ethan",
+        "designation": "İçerik Oluşturucu"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Aksiyon Figürü Oluşturucu Nasıl Çalışır?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Fotoğraf Yükle",
+        "bulletPoints": [
+          "Aksiyon figürüne dönüştürmek istediğiniz net bir fotoğraf yükleyerek başlayın. En iyi sonuçlar için, iyi aydınlatılmış ve konunun net bir şekilde görüldüğü yüksek kaliteli bir görüntü kullanın."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Aksiyon Figürü Oluşturucuyu Uygula",
+        "bulletPoints": [
+          "İstediğiniz aksiyon figürü stilini seçin, ardından “Aksiyon Figürü Oluştur” düğmesine tıklayın. Yapay zeka, fotoğrafınızı anında gerçekçi görünümlü bir aksiyon figürüne dönüştürecektir."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "İndir ve Paylaş",
+        "bulletPoints": [
+          "Aksiyon figürünüz hazır olduğunda, cihazınıza indirebilir veya arkadaşlarınızla paylaşabilirsiniz."
+        ]
+      }
+    ]
+  }
+}
