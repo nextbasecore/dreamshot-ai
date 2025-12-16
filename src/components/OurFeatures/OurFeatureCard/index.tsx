@@ -11,9 +11,9 @@ export default function OurFeatureCard({ feature, index }: OurFeatureCardProps) 
         <div className={twMerge("flex flex-col md:flex-row items-center justify-between gap-6 md:gap-18 w-full h-full", index % 2 === 0 ? "md:flex-row-reverse" : "")}>
             {/* Left side - Title and Description */}
             <div className="flex-1 flex flex-col w-full md:w-auto">
-                <h2 className="text-2xl md:text-3xl font-semibold text-left">
+                <p className="text-2xl md:text-3xl font-semibold text-left">
                     {feature.title}
-                </h2>
+                </p>
                 <p className="text-base md:text-lg text-gray-500 text-left leading-relaxed">
                     {feature.description}
                 </p>

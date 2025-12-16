@@ -23,9 +23,9 @@ export default function ToolCard({ tool }: ToolCardProps) {
             </div>
 
             {/* Title - centered below image */}
-            <h3 className="mt-4 text-center font-medium text-base sm:text-lg">
+            <p className="mt-4 text-center font-medium text-base sm:text-lg">
                 {tool.title}
-            </h3>
+            </p>
         </div>
     )
 }

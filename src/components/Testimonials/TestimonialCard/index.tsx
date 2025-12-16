@@ -15,7 +15,7 @@ export default function TestimonialCard({ review, name, designation }: Testimoni
                     {name?.charAt(0) || "?"}
                 </div>
                 <div>
-                    <h3 className="text-lg font-semibold">{name}</h3>
+                    <p className="text-lg font-semibold">{name}</p>
                     <p className="text-sm text-gray-500">{designation}</p>
                 </div>
             </div>

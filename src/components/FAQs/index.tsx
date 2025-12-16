@@ -30,9 +30,9 @@ export default function FAQs() {
         <div className="flex flex-col mt-4 md:mt-16 items-center gap-3 justify-center px-4 w-full">
             <TextSeparator textSeparatorText="FAQs" />
 
-            <h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold px-4">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold px-4">
                 <TextWithLinks text={faqs.heading} />
-            </h1>
+            </h2>
 
             <div className="w-full max-w-3xl mt-4 md:mt-12 px-4 overflow-hidden">
                 <Accordion type="single" collapsible className="w-full">

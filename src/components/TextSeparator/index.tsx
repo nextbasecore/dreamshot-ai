@@ -6,9 +6,9 @@ export default function TextSeparator({ textSeparatorText }: { textSeparatorText
             <PartitionLineLeft
                 className="w-32 sm:w-32 md:w-48 lg:w-[272px] h-px " // Shrink line width on mobile to protect text from wrapping
             />
-            <h2 className="text-sm sm:text-base lg:text-lg text-center whitespace-nowrap">
+            <p className="text-sm sm:text-base lg:text-lg text-center whitespace-nowrap">
                 {textSeparatorText}
-            </h2>
+            </p>
             <PartitionLineRight
                 className="w-32 sm:w-32 md:w-48 lg:w-[272px] h-px" // Mirror responsive scaling for visual balance
             />

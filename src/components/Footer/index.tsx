@@ -17,7 +17,7 @@ const FOOTER_BACKGROUND_COLOR = "var(--footer-primary)"; // Centralized to keep 
  */
 const renderFooterSection = (title: string, links: FooterLink[]) => (
     <div className="flex flex-col">
-        <h1 className="text-white text-lg md:text-xl mb-4 font-bold">{title}</h1>
+        <h2 className="text-white text-lg md:text-xl mb-4 font-bold">{title}</h2>
         {links.map((link) =>
             link.url ? (
                 <Link key={link.text} href={link.url} className={FOOTER_LINK_STYLES}>
@@ -49,11 +49,11 @@ export default function Footer() {
                     </div>
                     {/* Tagline */}
                     <div className="flex flex-col mt-4 mb-2 flex-1">
-                        <h2 className="text-gray-400 text-start text-base md:text-lg">
+                        <p className="text-gray-400 text-start text-base md:text-lg">
                             Access AI-powered tools in one place for
                             enhanced productivity, creativity, and efficiency—
                             no platform switching needed.
-                        </h2>
+                        </p>
                     </div>
                     {/* Copyright */}
                     <div className="flex flex-col items-start justify-end mt-6">

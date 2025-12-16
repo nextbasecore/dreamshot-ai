@@ -259,10 +259,10 @@ export default function CurvedCarousel() {
             </div>
 
 
-            <h1 className="text-2xl md:text-3xl lg:text-4xl mt-[-100px] text-center font-bold px-4">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl mt-[-100px] text-center font-bold px-4">
                 Unlock Limitless Possibilities with <br />
                 AI Tools
-            </h1>
+            </h2>
 
             <p className="text-center text-gray-500 max-w-2xl">
                 Enhance creativity, boost productivity, and simplify your workflow with

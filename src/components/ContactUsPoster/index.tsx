@@ -14,7 +14,7 @@ export default function ContactUsPoster() {
                     We’d Love to Hear From You
                 </h1>
                 <p className=" text-gray-500 max-w-xl">We’re here to answer your questions and provide support. Prefer email? Contact us
-                    directly at <span className="text-primary font-bold">contact@maxstudio.ai </span></p>
+                    directly at <span className="text-primary font-bold">contact@dreamshot.art </span></p>
             </div>
 
             <div className="flex flex-col pb-15 md:flex-row lg:flex-row items-center gap-5 justify-center w-full max-w-6xl mx-auto px-4 mt-10">

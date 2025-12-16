@@ -50,9 +50,9 @@ export default function Testimonials() {
         <div className="flex flex-col items-center mt-4 md:mt-16 gap-3 justify-center px-4">
             <TextSeparator textSeparatorText="Testimonials" />
 
-            <h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold px-4">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold px-4">
                 <TextWithLinks text={heading} />
-            </h1>
+            </h2>
 
             <div className="grid grid-cols-1 mt-4 md:mt-12 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center w-full max-w-6xl">
                 {reviews.map((review, index) => (

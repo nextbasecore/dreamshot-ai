@@ -1,5 +1,3 @@
-'use client'
-
 import Hero from "@/components/Hero"
 import PopularTool from "@/components/PopularTool"
 import OurFeatures from "@/components/OurFeatures"
@@ -8,8 +6,11 @@ import Inspiration from "@/components/Inspiration"
 import FAQs from "@/components/FAQs"
 import CurvedCarousel from "@/components/CurvedCarousel"
 import Footer from "@/components/Footer"
+import { getAllToolConfigs } from "@/config/tools.server"
 
-export default function Home() {
+export default async function Home() {
+  const tools = await getAllToolConfigs();
+
   return (
     <div
       className="flex flex-col gap-10 pt-20 min-h-screen"
@@ -18,7 +19,7 @@ export default function Home() {
       <Hero />
 
       {/* Popular Tools */}
-      <PopularTool />
+      <PopularTool tools={tools} />
 
       {/* Our Features */}
       <OurFeatures />
