@@ -2,11 +2,11 @@
   "id": "baby-face-generator",
   "title": "AI Baby Face Filter",
   "playgroundTitle": "AI Baby Face Generator",
-  "playgroundDescription": "Use the free AI Baby Face Generator to imagine your baby’s look. It creates realistic baby faces from any photo for fun, curiosity, and playful surprises.",
+  "playgroundDescription": "AI Baby Generator shows how you would look as a baby. It creates realistic baby versions from any photo for entertainment and creative transformations.",
   "highlightWords": [],
   "metadata": {
     "title": "Free AI Baby Face Generator | See Your Baby Look",
-    "description": "Discover how your baby might look with the free AI Baby Face Generator. Create realistic baby faces from any photo for fun and curiosity online.",
+    "description": "Discover how your baby might look with the free AI Baby Face Generator. Create realistic baby transformations from any photo online.",
     "alternates": {
       "canonical": ""
     }
@@ -126,7 +126,7 @@
         "step": 2,
         "title": "Create Baby Face",
         "bulletPoints": [
-          "Click the 'Apply Image Effect' button to turn your photo into a cute baby-faced version."
+          "Click the 'Generate Now' button to turn your photo into a cute baby-faced version."
         ]
       },
       {

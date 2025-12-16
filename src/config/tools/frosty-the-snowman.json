@@ -1,12 +1,12 @@
 {
   "id": "frosty-the-snowman",
   "title": "AI Frosty Snowman Filter",
-  "playgroundTitle": "AI Frosty Snowman Filter",
-  "playgroundDescription": "Bring your photos to life with the AI Frosty the Snowman Generator. Watch your images become playful snowman characters with snowy accents and festive winter charm.",
+  "playgroundTitle": "Free AI Frosty Snowman Filter",
+  "playgroundDescription": "AI Winter Snowman Effect adds snow, frosty touches, and holiday-themed details to your photos, creating cute snowman characters.",
   "highlightWords": [],
   "metadata": {
     "title": "AI Frosty the Snowman Generator",
-    "description": "Generate fun Frosty the Snowman images with AI. Turn your photos into playful snowman characters with snowy details and festive winter vibes.",
+    "description": "Generate Frosty the Snowman images with AI. Turn your photos into snowman characters with snow details and a festive, cheerful winter look.",
     "alternates": {
       "canonical": ""
     }
@@ -27,7 +27,7 @@
   "dualUploadLabels": {},
   "recommendedEffects": {
     "id": [
-      "selfie-with-celebrities",
+      "ghibli-filter",
       "plush-pillow-generator",
       "ai-winter-effect",
       "change-image-to-fall-season"

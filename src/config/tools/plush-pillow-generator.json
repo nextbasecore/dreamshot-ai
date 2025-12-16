@@ -2,7 +2,7 @@
   "id": "plush-pillow-generator",
   "title": "AI Plush Pillow Generator",
   "playgroundTitle": "AI Plush Pillow Generator",
-  "playgroundDescription": "Create a soft, 3D plush pillow version of your photo with realistic textures using the AI Plush Pillow Generator. Preview and download your personalized pillow easily.",
+  "playgroundDescription": "Make a soft 3D plush pillow from your photo with realistic textures using the AI Plush Pillow Generator. Preview it and download your custom pillow easily online.",
   "highlightWords": [],
   "metadata": {
     "title": "AI Plush Pillow Generator | Turn Your Photos Into Soft Pillows",
@@ -15,7 +15,7 @@
   "toolCategory": "image-effects",
   "postPrefix": "image-effects",
   "credit": 40,
-  "buttonText": "Create Your Pillow",
+  "buttonText": "Generate Now",
   "inputType": "single",
   "effectId": "plushPillowGenerator",
   "model": "image-effects",
@@ -113,7 +113,7 @@
   },
   "howItWorks": {
     "heading": "How Plush Pillow Generator Works",
-    "description": "Turn your favorite photos into adorable plush pillow-style images in just a few simple steps. Follow the guide below to create your soft, cozy, and fun plush creations.",
+    "description": "",
     "steps": [
       {
         "step": 1,
@@ -126,7 +126,7 @@
         "step": 2,
         "title": "Apply the Plush Pillow Effect",
         "bulletPoints": [
-          "Once your photo is uploaded, click the “Apply Image Effect” button to start the transformation."
+          "Once your photo is uploaded, click the “Generate Now” button to start the transformation."
         ]
       },
       {

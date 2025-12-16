@@ -2,11 +2,11 @@
   "id": "ai-pregnant-filter",
   "title": "AI Pregnant Filter",
   "playgroundTitle": "AI Pregnant Filter",
-  "playgroundDescription": "Use the AI Pregnant Filter to give any photo a cute baby-bump effect, perfect for fun edits and playful surprises.",
+  "playgroundDescription": "Use the AI Pregnant Filter to add a cute baby-bump effect to photos, creating realistic edits that look natural and perfect for creative photo transformations.",
   "highlightWords": [],
   "metadata": {
     "title": "Free AI Pregnant Filter: Add Baby Bump to your Photo",
-    "description": "Use the Free AI Pregnant Filter to add a fun baby-bump effect to your photo. Upload an image and create a playful, edited pregnancy-style look in seconds.",
+    "description": "Free AI Pregnant Filter adds a baby-bump effect to your photo. Upload an image and get a realistic pregnancy-style look with natural details in seconds.",
     "alternates": {
       "canonical": ""
     }
@@ -28,7 +28,7 @@
   "recommendedEffects": {
     "id": [
       "south-park-character",
-      "mugshot",
+      "ai-mugshot-filter",
       "ai-skinny-filter",
       "ai-fat-filter"
     ],

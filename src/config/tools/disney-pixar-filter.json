@@ -2,7 +2,7 @@
   "id": "disney-pixar-filter",
   "title": "AI Disney Pixar Filter",
   "playgroundTitle": "AI Disney Pixar Filter",
-  "playgroundDescription": "The Disney Pixar Filter gives your photos a cute, cartoon-style look. This free filter adds soft, animated details that turn any picture into a fun Pixar-inspired portrait.",
+  "playgroundDescription": "The Disney Pixar Filter turns your photos into cute, cartoon-style images. It adds soft, animated details to create a Pixar-inspired look.",
   "highlightWords": [],
   "metadata": {
     "title": "Add Disney Pixar Filter To Your Photo For Free",
@@ -27,7 +27,7 @@
   "dualUploadLabels": {},
   "recommendedEffects": {
     "id": [
-      "mugshot",
+      "ai-mugshot-filter",
       "ai-skinny-filter",
       "south-park-character",
       "action-figure-generator"
@@ -113,7 +113,7 @@
   },
   "howItWorks": {
     "heading": "How AI Disney Pixar Filter Works",
-    "description": "Follow these three simple steps to transform your photo into a Disney Pixar style character.",
+    "description": "",
     "steps": [
       {
         "step": 1,

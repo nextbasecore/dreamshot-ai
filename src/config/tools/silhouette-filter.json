@@ -30,7 +30,7 @@
       "disney-pixar-filter",
       "photo-to-sketch",
       "ai-skinny-filter",
-      "mugshot"
+      "ai-mugshot-filter"
     ],
     "heading": "See Other Cool Image Effects"
   },
@@ -126,7 +126,7 @@
         "step": 2,
         "title": "Apply Silhouette Filter",
         "bulletPoints": [
-          "After the photo is uploaded click on the “Apply Image Effect” button to apply Silhouette Filter to your photo."
+          "After the photo is uploaded click on the “Generate Now” button to apply Silhouette Filter to your photo."
         ]
       },
       {

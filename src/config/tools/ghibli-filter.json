@@ -2,11 +2,11 @@
   "id": "ghibli-filter",
   "title": "AI Ghibli Filter",
   "playgroundTitle": "AI Ghibli Filter",
-  "playgroundDescription": "This Ghibli filter helps you turn any photo into a Ghibli-style anime image. Just upload your picture, and it creates a soft, animated look that you can share online.",
+  "playgroundDescription": "This Ghibli filter turns any photo into a Ghibli-style anime image. Upload your picture, and it gives a soft, animated look ready to share online.",
   "highlightWords": [],
   "metadata": {
     "title": "AI Ghibli Filter: Create Your Ghibli-Style Portrait Now",
-    "description": "Apply our free Ghibli filter to any photo online. Turn your images into beautiful anime-inspired artwork in seconds and share Ghibli-style creations easily across platforms.",
+    "description": "Use our free Ghibli filter to turn any photo into anime-style art. Make your pictures look like Ghibli movies and share them easily online.",
     "alternates": {
       "canonical": ""
     }
@@ -114,7 +114,7 @@
   },
   "howItWorks": {
     "heading": "How to Use Ghibli Filter?",
-    "description": "Transform your photos into the Ghibli art style by following these simple steps.",
+    "description": "",
     "steps": [
       {
         "step": 1,

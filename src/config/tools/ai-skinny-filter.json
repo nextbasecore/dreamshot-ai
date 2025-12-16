@@ -2,11 +2,11 @@
   "id": "ai-skinny-filter",
   "title": "AI Skinny Filter",
   "playgroundTitle": "AI Skinny Filter",
-  "playgroundDescription": "See a slimmer version of your photos with the AI Skinny Filter. Simply upload an image, and it automatically adjusts the shape to create a natural, refined look.",
+  "playgroundDescription": "AI Skinny Filter makes your photo look slimmer. Upload an image and the AI changes the body shape to give a natural and clean look automatically.",
   "highlightWords": [],
   "metadata": {
-    "title": "Ai Skinny Filter To Photo Online For Free",
-    "description": "Apply a skinny filter to your photos online for free. The AI filter reshapes and adjusts your image automatically to give a slimmer look.",
+    "title": "AI Skinny Filter To Photo Online For Free",
+    "description": "Try the AI Skinny Filter for free to make your photos look slimmer. The AI reshapes your image automatically for a natural result.",
     "alternates": {
       "canonical": ""
     }
@@ -15,7 +15,7 @@
   "toolCategory": "image-effects",
   "postPrefix": "image-effects",
   "credit": 40,
-  "buttonText": "Generate Slim Look",
+  "buttonText": "Generate Now",
   "inputType": "single",
   "effectId": "skinny",
   "model": "image-effects",
@@ -27,7 +27,7 @@
   "dualUploadLabels": {},
   "recommendedEffects": {
     "id": [
-      "selfie-with-celebrities",
+      "ai-snow-queen",
       "add-christmas-tree-to-photo",
       "plush-pillow-generator",
       "make-me-santa"
@@ -36,7 +36,7 @@
   },
   "examples": {
     "heading": "See the Stunning Results",
-    "title": "Slim Look Sample Images",
+    "title": "See the Stunning Results",
     "images": [
       {
         "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
@@ -112,7 +112,7 @@
     ]
   },
   "howItWorks": {
-    "heading": "How Ai Skinny Filter Works?",
+    "heading": "How AI Skinny Filter Works?",
     "description": "",
     "steps": [
       {
@@ -126,7 +126,7 @@
         "step": 2,
         "title": "Apply Ai Skinny Filter",
         "bulletPoints": [
-          "After the photo is uploaded, click on the “Apply Image Effect” button to apply the Ai Skinny Filter to your photo."
+          "After the photo is uploaded, click on the “Generate Now” button to apply the Ai Skinny Filter to your photo."
         ]
       },
       {
