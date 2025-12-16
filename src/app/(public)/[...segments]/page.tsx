@@ -19,6 +19,9 @@ import { SUPPORTED_LANGUAGE_CODES } from "@/constants/locales";
 
 type SupportedLocaleCode = (typeof SUPPORTED_LANGUAGE_CODES)[number];
 
+
+
+
 function isSupportedLocale(locale: string): locale is SupportedLocaleCode {
     return (SUPPORTED_LANGUAGE_CODES as string[]).includes(locale);
 }
@@ -113,8 +116,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const canonical =
         metadata?.alternates?.canonical ||
         (locale
-            ? `/${locale}/${category}/${slug}`
-            : `/${category}/${slug}`);
+            ? `https://www.dreamshot.art/${locale}/${category}/${slug}`
+            : `https://www.dreamshot.art/${category}/${slug}`);
 
     return {
         title,
