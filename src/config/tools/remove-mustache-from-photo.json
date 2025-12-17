@@ -1,0 +1,142 @@
+{
+  "id": "remove-mustache-from-photo",
+  "title": "Remove Mustache from Photo",
+  "playgroundTitle": "Remove Mustache from Photo: Get a Clean Shave Look",
+  "playgroundDescription": "Get a Clean Shave Look by removing mustaches from photos online for free. This filter clears unwanted mustaches from face and make clean and natural look.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Remove Mustache From Photo For Free Online",
+    "description": "Remove a mustache from your photo for free online. Clear unwanted mustaches from face photos while keeping the rest of the picture clean and natural.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "removeMustacheFromPhoto",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-fat-filter",
+      "ai-heart-filter",
+      "ai-mugshot-filter",
+      "ai-pregnant-filter"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About Remove Mustache from Photo",
+    "questions": [
+      {
+        "question": "What is the 'Remove Mustache from Photo' effect?",
+        "answer": "This is an AI image effect that removes a mustache from a face in a photo. It carefully edits the area to make the face look clean and natural."
+      },
+      {
+        "question": "Is this 'Remove Mustache from Photo' filter free to use?",
+        "answer": "Yes, you can try it for free. After signing up, you get free credits to use this effect and other features."
+      },
+      {
+        "question": "Are my uploaded photos safe and private?",
+        "answer": "Yes. Your photos are processed securely and are not shared with anyone. They are deleted automatically after processing."
+      },
+      {
+        "question": "Can this tool also remove beards or other types of facial hair?",
+        "answer": "This effect works best for mustaches. It may reduce light facial hair, but thick beards may not be removed fully."
+      },
+      {
+        "question": "What image file formats do you support?",
+        "answer": "You can upload common image formats like JPG, PNG, and WEBP."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "See Sample Results of Remove Mustache from Photo",
+    "title": "See Sample Results of Remove Mustache from Photo",
+    "description": null,
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Remove Mustache from Photo"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Remove Mustache from Photo"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-21.webp",
+      "original": "https://assets.remixai.io/sample-image-21.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-22.webp",
+      "original": "https://assets.remixai.io/sample-image-22.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-23.webp",
+      "original": "https://assets.remixai.io/sample-image-23.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-24.webp",
+      "original": "https://assets.remixai.io/sample-image-24.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I needed to remove a goofy mustache from an old family photo for a gift. This worked perfectly and was super easy to use.",
+        "name": "Samuel",
+        "designation": "Web user from USA"
+      },
+      {
+        "review": "Wow, this tool is a lifesaver for my projects. Removing a mustache from a photo used to take ages, but Dreamshot does it in a click. The results look so natural!",
+        "name": "Penelope",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Finally, a simple tool that actually works. It cleaned up my photo instantly without any fuss. Highly recommend!",
+        "name": "Jack",
+        "designation": "iOS user from UK"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Remove Mustache from Photo Works?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Photo",
+        "bulletPoints": [
+          "Select and upload a high-quality photo with a well-lit background from your device."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Remove Mustache from Photo",
+        "bulletPoints": [
+          "After the photo is uploaded, click the 'Generate Now' button to remove the mustache from your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Download your edited photo to your device and share it with friends and family on your favorite social media platform."
+        ]
+      }
+    ]
+  }
+}
