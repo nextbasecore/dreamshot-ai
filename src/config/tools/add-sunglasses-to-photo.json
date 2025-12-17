@@ -1,0 +1,144 @@
+{
+  "id": "add-sunglasses-to-photo",
+  "title": "Add Sunglasses To Photo",
+  "playgroundTitle": "Add Sunglasses to Photo Filter",
+  "playgroundDescription": "AI Glasses Filter automatically adds stylish sunglasses to your photos, giving your pictures a cool, trendy, and modern look.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Add Sunglasses To Your Photos - Free AI Glasses Filter",
+    "description": "Add Sunglasses to your photos for free with the AI Glasses Filter. The AI automatically adds stylish shades to your face to make a cool look.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "addSunglassesToYourPhotos",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "ai-mugshot-filter",
+      "vintage-photo-filter",
+      "silhouette-filter",
+      "ghibli-filter"
+    ],
+    "heading": "Discover Other Popular Image Effects"
+  },
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "question": "What is the 'Add Sunglasses To Photo' filter?",
+      "answer": "This filter uses AI to detect faces in your photo and add sunglasses automatically, giving your picture a cool, stylish look in seconds."
+    },
+    {
+      "question": "How long does it take to add sunglasses to my photo?",
+      "answer": "It usually takes just a few seconds. The time may vary depending on your photo, but our AI is very fast and works quicker than most other tools."
+    },
+    {
+      "question": "Is it free to use this filter?",
+      "answer": "Yes! Just sign up for a free account on our website, and you will get free credits to try the 'Add Sunglasses To Photo' filter and other effects."
+    },
+    {
+      "question": "Are my uploaded photos safe and private?",
+      "answer": "Yes. We take your privacy seriously. Your images are uploaded securely, only used to apply the effect, and deleted from our servers after a short time."
+    },
+    {
+      "question": "Can I choose the style of the sunglasses?",
+      "answer": "Right now, the AI automatically picks a stylish pair that fits your face. We are working on adding more options for customization in the future."
+    },
+    {
+      "question": "What file formats do you support?",
+      "answer": "We support JPEG, PNG, and WEBP. You can upload images from your computer or mobile device without converting them."
+    }
+  ],
+  "examples": {
+    "heading": "Check Out Sample Sunglasses Photo Edits",
+    "title": "Check Out Sample Sunglasses Photo Edits",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Add Sunglasses To Photo"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Add Sunglasses To Photo Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-33.webp",
+      "original": "https://assets.remixai.io/sample-image-33.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-34.webp",
+      "original": "https://assets.remixai.io/sample-image-34.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-35.webp",
+      "original": "https://assets.remixai.io/sample-image-35.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-36.webp",
+      "original": "https://assets.remixai.io/sample-image-36.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This is my go-to for quickly adding sunglasses to my photos. Dreamshot makes it super easy and the results look surprisingly real!",
+        "name": "William",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Works like a charm! I tried it for a profile picture and loved how it turned out. So simple to use.",
+        "name": "Theodore",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "I was impressed with the variety of sunglasses available. It's a fun and effective tool for adding a bit of style to any picture.",
+        "name": "Mateo",
+        "designation": "Visual Storyteller"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Add Sunglasses to Your Photo",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Choose Your Photo",
+        "bulletPoints": [
+          "Select a high-quality photo from your device with good lighting to get the best results."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Sunglasses Effect",
+        "bulletPoints": [
+          "Click the “Generate Now” button to add stylish sunglasses to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Save & Share",
+        "bulletPoints": [
+          "Download your edited photo and share it with friends, family, or on social media."
+        ]
+      }
+    ]
+  }
+}
