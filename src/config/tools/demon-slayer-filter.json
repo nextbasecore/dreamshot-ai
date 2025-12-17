@@ -19,7 +19,7 @@
   "inputType": "single",
   "effectId": "demonSlayerFilter",
   "model": "image-effects",
-  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardImage": "https://assets.dreamshot.art/public/demon-slyer-cover.webp",
   "cardVideo": null,
   "transformationImages": {
     "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
