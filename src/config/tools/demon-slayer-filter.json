@@ -1,0 +1,142 @@
+{
+  "id": "demon-slayer-filter",
+  "title": "AI Demon Slayer Filter",
+  "playgroundTitle": "AI Demon Slayer Filter",
+  "playgroundDescription": "AI Demon Slayer Filter gives your photo an anime look inspired by Demon Slayer. Faces appear with strong outlines, anime-style details, and dramatic character vibes.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Demon Slayer Filter : Convert Photo To Anime Style For Free",
+    "description": "Change your photo into a Demon Slayer anime-style look for free. Sharp lines, anime features, and bold details give your image a powerful anime feel.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "demonSlayerFilter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "disney-pixar-filter",
+      "ghibli-filter",
+      "frosty-the-snowman",
+      "plush-pillow-generator"
+    ],
+    "heading": "Check Out Other Trending Image Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About Demon Slayer Filter",
+    "questions": [
+      {
+        "question": "What is the Demon Slayer Filter?",
+        "answer": "The Demon Slayer Filter is an AI filter that turns your photo into the art style of the 'Demon Slayer' anime. Just upload a picture, and it makes you look like a character from the show."
+      },
+      {
+        "question": "Is the Demon Slayer Filter free to use?",
+        "answer": "Yes! Sign up for a free account on our website, and you'll get credits to use the filter and try out other tools too."
+      },
+      {
+        "question": "Are my uploaded photos safe and private?",
+        "answer": "Yes. All uploads are secure, your photos are not shared, and they are deleted from our servers after processing. Your privacy is safe with us."
+      },
+      {
+        "question": "Can I use my transformed image for commercial purposes?",
+        "answer": "Images created with free credits are mainly for personal use. For commercial use, please check our terms of service or contact support for licensing options."
+      },
+      {
+        "question": "Can I undo the transformation or make changes after it's applied?",
+        "answer": "Once the image is generated, you can save it or upload the original photo again to try a new transformation. Each new transformation starts fresh."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Demon Slayer Filter – Stunning Example Results",
+    "title": "Demon Slayer Filter – Stunning Example Results",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Demon Slayer Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Demon Slayer Filter"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-29.webp",
+      "original": "https://assets.remixai.io/sample-image-29.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-30.webp",
+      "original": "https://assets.remixai.io/sample-image-30.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-31.webp",
+      "original": "https://assets.remixai.io/sample-image-31.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-32.webp",
+      "original": "https://assets.remixai.io/sample-image-32.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This filter is incredible! My followers absolutely love the Demon Slayer transformations. It's so easy to use with Dreamshot.",
+        "name": "Harper",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Wow, I'm obsessed with this filter. The quality is amazing, and it’s so much fun to share with friends.",
+        "name": "Stella",
+        "designation": "iOS user from USA"
+      },
+      {
+        "review": "Finally, a filter that does justice to the Demon Slayer art style. It's perfect for creating quick, high-quality concepts.",
+        "name": "Genesis",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Use the Demon Slayer Filter",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Choose Your Photo",
+        "bulletPoints": [
+          "Pick a clear, high-quality photo from your device with good lighting for the best results."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply the Demon Slayer Effect",
+        "bulletPoints": [
+          "Click the 'Generate Now' button to transform your photo with the Demon Slayer filter."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Save & Share",
+        "bulletPoints": [
+          "Download your transformed image and share it with friends, family, or on social media."
+        ]
+      }
+    ]
+  }
+}
