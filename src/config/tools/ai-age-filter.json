@@ -1,0 +1,142 @@
+{
+  "id": "ai-age-filter",
+  "title": "AI Age Filter",
+  "playgroundTitle": "AI Age Filter Online: See Your Older Self in Seconds",
+  "playgroundDescription": "AI Age Filter lets you see your face at different ages. Your photo can look younger or older, showing clear age changes in a simple and easy way.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Free AI Age Filter : Change Your Age Online",
+    "description": "See how you look at different ages with the free AI Age Filter. Make your photo look younger or older in a quick and easy way online.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "image-effects",
+  "toolCategory": "image-effects",
+  "postPrefix": "image-effects",
+  "credit": 40,
+  "buttonText": "Age My Photo",
+  "inputType": "single",
+  "effectId": "ageFilter",
+  "model": "image-effects",
+  "cardImage": "https://assets.remixai.io/Public/samples/Red-Hulk-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "add-santa-to-photo",
+      "ai-fat-filter",
+      "add-christmas-tree-to-photo",
+      "ai-heart-filter"
+    ],
+    "heading": "See Other Cool Image Effects"
+  },
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm genuinely impressed with the results. The age progression looks so realistic, it's a bit spooky but super fun to play with!",
+        "name": "Charlotte",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "This is my go-to app for a quick laugh. The face aging effect is hilarious on my friends' photos. Max Studio did a great job.",
+        "name": "Elijah",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "Simple interface and powerful AI. It's surprisingly accurate and works much faster than other apps I've tried.",
+        "name": "Mia",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "faqs": {
+    "heading": "Frequently Asked Questions about AI Age Filter",
+    "questions": [
+      {
+        "question": "What is the AI Age Filter?",
+        "answer": "The AI Age Filter is a simple image effect that changes how old a person looks in a photo. You upload a picture, and it shows you how you might look younger or older in just a few seconds."
+      },
+      {
+        "question": "Is the AI Age Filter tool free to use?",
+        "answer": "Yes, it is free to start. When you create an account, you get free credits that you can use to try the AI Age Filter and other effects."
+      },
+      {
+        "question": "Are my uploaded photos kept private and secure?",
+        "answer": "Yes. Your photos are uploaded safely and are not shared with anyone. They are removed from our system after the effect is applied."
+      },
+      {
+        "question": "Does the AI Age Filter work on group photos?",
+        "answer": "The filter works best on photos with one clear face. In group photos, results may vary depending on how clear each face is."
+      },
+      {
+        "question": "Do I need photo editing skills to use this filter?",
+        "answer": "No. The AI Age Filter is very easy to use. Just upload a photo, choose the age effect, and the AI does everything for you."
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Use AI Age Filter?",
+    "description": "Follow these simple steps to apply the AI age filter to your photos.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Image",
+        "bulletPoints": [
+          "Upload a high-quality image to the AI Age Filter generator."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Image Effect",
+        "bulletPoints": [
+          "Click the generate button and our AI will apply the age filter to your image."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "After the image is generated, you can download it and share it online."
+        ]
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-255.webp",
+      "original": "https://assets.remixai.io/sample-image-255.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-26.webp",
+      "original": "https://assets.remixai.io/sample-image-26.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-27.webp",
+      "original": "https://assets.remixai.io/sample-image-27.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-28.webp",
+      "original": "https://assets.remixai.io/sample-image-28.webp"
+    }
+  ],
+  "examples": {
+    "heading": "Check Out Sample Image AI Age Filter",
+    "title": "Check Out Sample Image AI Age Filter",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "AI Age Filter"
+      },
+      {
+        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "alt": "Age Filter"
+      }
+    ]
+  }
+}
