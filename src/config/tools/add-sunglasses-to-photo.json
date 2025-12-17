@@ -34,8 +34,9 @@
     ],
     "heading": "Discover Other Popular Image Effects"
   },
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
+  "faqs": {
+    "heading": "Frequently Asked Questions about AI Age Filter",
+    "questions": [
     {
       "question": "What is the 'Add Sunglasses To Photo' filter?",
       "answer": "This filter uses AI to detect faces in your photo and add sunglasses automatically, giving your picture a cool, stylish look in seconds."
@@ -60,7 +61,8 @@
       "question": "What file formats do you support?",
       "answer": "We support JPEG, PNG, and WEBP. You can upload images from your computer or mobile device without converting them."
     }
-  ],
+  ]
+},
   "examples": {
     "heading": "Check Out Sample Sunglasses Photo Edits",
     "title": "Check Out Sample Sunglasses Photo Edits",
