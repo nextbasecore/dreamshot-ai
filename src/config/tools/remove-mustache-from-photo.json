@@ -22,7 +22,7 @@
   "cardImage": "https://assets.dreamshot.art/public/remove-mustache-cover.webp",
   "cardVideo": null,
   "transformationImages": {
-    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+    "transformationPreview": "https://assets.dreamshot.art/public/remove-mustache-playground.webp"
   },
   "dualUploadLabels": {},
   "recommendedEffects": {
@@ -65,11 +65,11 @@
     "description": null,
     "images": [
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.dreamshot.art/public/remove-mustache-1.webp",
         "alt": "Remove Mustache from Photo"
       },
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.dreamshot.art/public/remove-mustache-2.webp",
         "alt": "AI Remove Mustache from Photo"
       }
     ]

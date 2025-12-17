@@ -22,7 +22,7 @@
   "cardImage": "https://assets.dreamshot.art/public/sunglasses-cover.webp",
   "cardVideo": null,
   "transformationImages": {
-    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+    "transformationPreview": "https://assets.dreamshot.art/public/add-sunglasses-playground.webp"
   },
   "dualUploadLabels": {},
   "recommendedEffects": {
@@ -69,11 +69,11 @@
     "description": "",
     "images": [
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.dreamshot.art/public/add-sunglasses-1.webp",
         "alt": "Add Sunglasses To Photo"
       },
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.dreamshot.art/public/add-sunglasses-2.webp",
         "alt": "Add Sunglasses To Photo Filter"
       }
     ]

@@ -22,7 +22,7 @@
   "cardImage": "https://assets.dreamshot.art/public/demon-slyer-cover.webp",
   "cardVideo": null,
   "transformationImages": {
-    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+    "transformationPreview": "https://assets.dreamshot.art/public/demon-slyer-playground.webp"
   },
   "dualUploadLabels": {},
   "recommendedEffects": {
@@ -65,11 +65,11 @@
     "description": "",
     "images": [
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.dreamshot.art/public/demon-slyer-1.webp",
         "alt": "AI Demon Slayer Filter"
       },
       {
-        "image": "https://assets.remixai.io/Public/samples/Red-Hulk-1.webm",
+        "image": "https://assets.dreamshot.art/public/demon-slyer-2.webp",
         "alt": "Demon Slayer Filter"
       }
     ]
