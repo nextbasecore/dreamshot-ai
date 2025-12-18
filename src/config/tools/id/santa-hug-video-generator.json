@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "Video Pelukan Sinterklas AI",
+  "playgroundTitle": "Generator Video Pelukan Sinterklas AI",
+  "playgroundDescription": "Terapkan efek pelukan Sinterklas yang ajaib ke foto favorit Anda. Generator video AI kami menciptakan animasi yang mengharukan yang menghidupkan gambar-gambar meriah Anda.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Generator Video Pelukan Sinterklas AI Online Gratis",
+    "description": "Buat video AI yang mengharukan tentang Sinterklas memberikan pelukan hangat. Generator gratis kami memungkinkan Anda membuat kenangan Natal yang ajaib dan dipersonalisasi hanya dengan beberapa klik.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Hasilkan Sekarang",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "Efek Video Populer Terkait"
+  },
+  "faqs": {
+    "heading": "FAQ Tentang Generator Video Pelukan Sinterklas",
+    "questions": [
+      {
+        "question": "Apa itu Generator Video Pelukan Sinterklas?",
+        "answer": "Generator Video Pelukan Sinterklas adalah efek video AI. Unggah foto, dan itu akan mengubahnya menjadi video lucu di mana Sinterklas memberikan pelukan kepada orang atau hewan peliharaan di gambar Anda."
+      },
+      {
+        "question": "Jenis foto apa yang harus saya unggah untuk hasil terbaik?",
+        "answer": "Gunakan foto yang jelas dan menghadap ke depan dari satu orang atau hewan peliharaan. Gambar berkualitas tinggi di mana wajah dan tubuh bagian atas terlihat akan bekerja paling baik."
+      },
+      {
+        "question": "Apakah Generator Video Pelukan Sinterklas gratis untuk digunakan?",
+        "answer": "Ya! Saat Anda mendaftar untuk akun gratis, Anda mendapatkan kredit gratis untuk mencoba Generator Video Pelukan Sinterklas dan membuat video pertama Anda."
+      },
+      {
+        "question": "Berapa lama waktu yang dibutuhkan untuk menghasilkan video Pelukan Sinterklas?",
+        "answer": "Tergantung pada fotonya, tetapi AI kami cepat. Sebagian besar video siap dalam waktu kurang dari satu menit."
+      },
+      {
+        "question": "Bisakah saya menggunakan alat ini di ponsel cerdas saya?",
+        "answer": "Ya! Alat ini berfungsi di perangkat apa pun. Anda dapat mengunggah foto dan membuat video Pelukan Sinterklas Anda dari ponsel, tablet, atau komputer."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Lihat Contoh Transformasi Video Pelukan Sinterklas",
+    "title": "Lihat Contoh Transformasi Video Pelukan Sinterklas",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Generator Video Pelukan Sinterklas"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "Generator Video Pelukan Sinterklas AI"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "Apa Kata Orang Tentang Kami",
+    "reviews": [
+      {
+        "review": "Ini sangat menyenangkan! Saya membuat video lucu Sinterklas memeluk kucing saya untuk obrolan grup keluarga kami, dan semua orang menyukainya.",
+        "name": "Adrian",
+        "designation": "Pembuat Konten"
+      },
+      {
+        "review": "Saya sedang mencari alat sederhana untuk membuat postingan meriah. Fitur Dreamshot memberi saya latar belakang persis yang saya inginkan. Keren sekali!",
+        "name": "Colton",
+        "designation": "Pengguna web dari Inggris"
+      },
+      {
+        "review": "Kualitasnya sangat bagus untuk generator online. Ini cara yang cepat dan kreatif untuk membuat sesuatu yang unik untuk liburan.",
+        "name": "Maya",
+        "designation": "Seniman Digital"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Buat Video Pelukan Sinterklas Anda",
+    "description": "Ikuti langkah-langkah mudah ini untuk membuat video pelukan Sinterklas yang mengharukan dari foto Anda.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Unggah Foto Anda",
+        "bulletPoints": [
+          "Pilih foto yang jelas dan berkualitas tinggi dari perangkat Anda untuk memulai."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Hasilkan Video",
+        "bulletPoints": [
+          "Klik tombol “Hasilkan Sekarang” dan saksikan foto Anda berubah menjadi video pelukan Sinterklas yang meriah."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Unduh & Bagikan",
+        "bulletPoints": [
+          "Simpan video Pelukan Sinterklas Anda ke perangkat Anda dan bagikan keceriaan liburan dengan teman dan keluarga."
+        ]
+      }
+    ]
+  }
+}
