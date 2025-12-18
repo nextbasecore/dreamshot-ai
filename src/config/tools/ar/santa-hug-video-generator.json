@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "فيديو عناق سانتا بالذكاء الاصطناعي",
+  "playgroundTitle": "مولد فيديو عناق سانتا بالذكاء الاصطناعي",
+  "playgroundDescription": "طبق تأثير عناق سانتا السحري على صورك المفضلة. يقوم مولد الفيديو الخاص بنا المدعوم بالذكاء الاصطناعي بإنشاء رسوم متحركة دافئة تبعث الحياة في صورك الاحتفالية.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "مولد فيديو عناق سانتا بالذكاء الاصطناعي مجانًا عبر الإنترنت",
+    "description": "أنشئ فيديو دافئًا بالذكاء الاصطناعي لسانتا وهو يعطي عناقًا دافئًا. يتيح لك المولد المجاني الخاص بنا صنع ذكريات عيد ميلاد سحرية وشخصية ببضع نقرات فقط.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "أنشئ الآن",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "تأثيرات الفيديو الشائعة ذات الصلة"
+  },
+  "faqs": {
+    "heading": "الأسئلة الشائعة حول مولد فيديو عناق سانتا",
+    "questions": [
+      {
+        "question": "ما هو مولد فيديو عناق سانتا؟",
+        "answer": "مولد فيديو عناق سانتا هو تأثير فيديو يعمل بالذكاء الاصطناعي. قم بتحميل صورة، وسيحولها إلى فيديو لطيف حيث يعطي سانتا عناقًا للشخص أو الحيوان الأليف في صورتك."
+      },
+      {
+        "question": "ما نوع الصورة التي يجب أن أحملها للحصول على أفضل النتائج؟",
+        "answer": "استخدم صورة واضحة ومواجهة لشخص واحد أو حيوان أليف. الصور عالية الجودة التي يظهر فيها الوجه والجزء العلوي من الجسم تعمل بشكل أفضل."
+      },
+      {
+        "question": "هل مولد فيديو عناق سانتا مجاني للاستخدام؟",
+        "answer": "نعم! عند التسجيل للحصول على حساب مجاني، تحصل على أرصدة مجانية لتجربة مولد فيديو عناق سانتا وإنشاء أول فيديو لك."
+      },
+      {
+        "question": "كم من الوقت يستغرق إنشاء فيديو عناق سانتا؟",
+        "answer": "يعتمد ذلك على الصورة، لكن الذكاء الاصطناعي لدينا سريع. تكون معظم مقاطع الفيديو جاهزة في أقل من دقيقة."
+      },
+      {
+        "question": "هل يمكنني استخدام هذه الأداة على هاتفي الذكي؟",
+        "answer": "نعم! الأداة تعمل على أي جهاز. يمكنك تحميل صورة وإنشاء فيديو عناق سانتا من هاتفك أو جهازك اللوحي أو الكمبيوتر."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "شاهد عينات من تحويلات فيديو عناق سانتا",
+    "title": "شاهد عينات من تحويلات فيديو عناق سانتا",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "مولد فيديو عناق سانتا"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "مولد فيديو عناق سانتا بالذكاء الاصطناعي"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "ماذا يقول الناس عنا",
+    "reviews": [
+      {
+        "review": "هذا ممتع للغاية! لقد صنعت فيديو مضحكًا لسانتا وهو يعانق قطتي لمحادثة مجموعة العائلة، وقد أحبه الجميع.",
+        "name": "أدريان",
+        "designation": "صانع محتوى"
+      },
+      {
+        "review": "كنت أبحث عن أداة بسيطة لإنشاء منشور احتفالي. أعطتني ميزة Dreamshot الخلفية التي أردتها بالضبط. رائع جدًا!",
+        "name": "كولتون",
+        "designation": "مستخدم ويب من المملكة المتحدة"
+      },
+      {
+        "review": "الجودة جيدة بشكل مدهش بالنسبة لمولد عبر الإنترنت. إنها طريقة سريعة ومبتكرة لعمل شيء فريد من نوعه للعطلات.",
+        "name": "مايا",
+        "designation": "فنانة رقمية"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "أنشئ فيديو عناق سانتا الخاص بك",
+    "description": "اتبع هذه الخطوات السهلة لعمل فيديو عناق سانتا دافئ من صورتك.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "حمل صورتك",
+        "bulletPoints": [
+          "اختر صورة واضحة وعالية الجودة من جهازك للبدء."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "أنشئ الفيديو",
+        "bulletPoints": [
+          "انقر على زر \"أنشئ الآن\" وشاهد صورتك تتحول إلى فيديو عناق سانتا احتفالي."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "حمل وشارك",
+        "bulletPoints": [
+          "احفظ فيديو عناق سانتا على جهازك وشارك فرحة العيد مع الأصدقاء والعائلة."
+        ]
+      }
+    ]
+  }
+}
