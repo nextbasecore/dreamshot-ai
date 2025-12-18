@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "Video Abbraccio di Babbo Natale con IA",
+  "playgroundTitle": "Generatore Video Abbraccio di Babbo Natale con IA",
+  "playgroundDescription": "Applica il magico effetto abbraccio di Babbo Natale alle tue foto preferite. Il nostro generatore di video con IA crea un'animazione commovente che dà vita alle tue immagini festive.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Generatore Video Abbraccio di Babbo Natale con IA Online Gratuito",
+    "description": "Crea un commovente video con IA di Babbo Natale che dà un caloroso abbraccio. Il nostro generatore gratuito ti permette di creare magici e personalizzati ricordi di Natale in pochi clic.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Genera Ora",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "Effetti Video Popolari Correlati"
+  },
+  "faqs": {
+    "heading": "Domande Frequenti sul Generatore Video Abbraccio di Babbo Natale",
+    "questions": [
+      {
+        "question": "Cos'è il Generatore Video Abbraccio di Babbo Natale?",
+        "answer": "Il Generatore Video Abbraccio di Babbo Natale è un effetto video con IA. Carica una foto e la trasforma in un simpatico video in cui Babbo Natale abbraccia la persona o l'animale domestico nella tua immagine."
+      },
+      {
+        "question": "Che tipo di foto dovrei caricare per ottenere i migliori risultati?",
+        "answer": "Usa una foto nitida e frontale di una persona o di un animale domestico. Le immagini di alta qualità in cui il viso e la parte superiore del corpo sono visibili funzionano meglio."
+      },
+      {
+        "question": "L'uso del Generatore Video Abbraccio di Babbo Natale è gratuito?",
+        "answer": "Sì! Quando ti registri per un account gratuito, ottieni crediti gratuiti per provare il Generatore Video Abbraccio di Babbo Natale e creare il tuo primo video."
+      },
+      {
+        "question": "Quanto tempo ci vuole per generare il video dell'abbraccio di Babbo Natale?",
+        "answer": "Dipende dalla foto, ma la nostra IA è veloce. La maggior parte dei video è pronta in meno di un minuto."
+      },
+      {
+        "question": "Posso usare questo strumento sul mio smartphone?",
+        "answer": "Sì! Lo strumento funziona su qualsiasi dispositivo. Puoi caricare una foto e creare il tuo video dell'abbraccio di Babbo Natale dal tuo telefono, tablet o computer."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Guarda le Trasformazioni Video di Esempio dell'Abbraccio di Babbo Natale",
+    "title": "Guarda le Trasformazioni Video di Esempio dell'Abbraccio di Babbo Natale",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Generatore Video Abbraccio di Babbo Natale"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "Generatore Video Abbraccio di Babbo Natale con IA"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "Cosa dicono di noi le persone",
+    "reviews": [
+      {
+        "review": "È divertentissimo! Ho creato un video esilarante di Babbo Natale che abbraccia il mio gatto per la chat di gruppo della famiglia e a tutti è piaciuto.",
+        "name": "Adriano",
+        "designation": "Creatore di Contenuti"
+      },
+      {
+        "review": "Cercavo uno strumento semplice per creare un post festivo. La funzione Dreamshot mi ha dato lo sfondo esatto che volevo. Fantastico!",
+        "name": "Claudio",
+        "designation": "Utente web dal Regno Unito"
+      },
+      {
+        "review": "La qualità è sorprendentemente buona per un generatore online. È un modo rapido e creativo per creare qualcosa di unico per le vacanze.",
+        "name": "Maia",
+        "designation": "Artista Digitale"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Crea il tuo video dell'abbraccio di Babbo Natale",
+    "description": "Segui questi semplici passaggi per creare un commovente video dell'abbraccio di Babbo Natale dalla tua foto.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Carica la tua foto",
+        "bulletPoints": [
+          "Seleziona una foto chiara e di alta qualità dal tuo dispositivo per iniziare."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Genera il video",
+        "bulletPoints": [
+          "Fai clic sul pulsante “Genera Ora” e guarda la tua foto trasformarsi in un festoso video dell'abbraccio di Babbo Natale."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Scarica e condividi",
+        "bulletPoints": [
+          "Salva il tuo video dell'abbraccio di Babbo Natale sul tuo dispositivo e condividi l'allegria delle feste con amici e familiari."
+        ]
+      }
+    ]
+  }
+}
