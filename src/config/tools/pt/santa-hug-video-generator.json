@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "Vídeo de Abraço do Pai Natal com IA",
+  "playgroundTitle": "Gerador de Vídeo de Abraço do Pai Natal com IA",
+  "playgroundDescription": "Aplique o mágico efeito de abraço do Pai Natal às suas fotos favoritas. O nosso gerador de vídeo com IA cria uma animação enternecedora que dá vida às suas fotos festivas.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Gerador de Vídeo de Abraço do Pai Natal com IA Online e Gratuito",
+    "description": "Crie um vídeo enternecedor com IA do Pai Natal a dar um abraço caloroso. O nosso gerador gratuito permite-lhe criar memórias de Natal mágicas e personalizadas em apenas alguns cliques.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Gerar Agora",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "Efeitos de Vídeo Populares Relacionados"
+  },
+  "faqs": {
+    "heading": "Perguntas Frequentes sobre o Gerador de Vídeo de Abraço do Pai Natal",
+    "questions": [
+      {
+        "question": "O que é o Gerador de Vídeo de Abraço do Pai Natal?",
+        "answer": "O Gerador de Vídeo de Abraço do Pai Natal é um efeito de vídeo com IA. Carregue uma foto e ele a transforma num vídeo fofo onde o Pai Natal dá um abraço à pessoa ou ao animal de estimação da sua foto."
+      },
+      {
+        "question": "Que tipo de foto devo carregar para obter os melhores resultados?",
+        "answer": "Use uma foto nítida e de frente de uma pessoa ou animal de estimação. Imagens de alta qualidade onde o rosto e a parte superior do corpo são visíveis funcionam melhor."
+      },
+      {
+        "question": "O Gerador de Vídeo de Abraço do Pai Natal é gratuito?",
+        "answer": "Sim! Ao registar-se para uma conta gratuita, recebe créditos grátis para experimentar o Gerador de Vídeo de Abraço do Pai Natal e criar o seu primeiro vídeo."
+      },
+      {
+        "question": "Quanto tempo leva para gerar o vídeo do abraço do Pai Natal?",
+        "answer": "Depende da foto, mas a nossa IA é rápida. A maioria dos vídeos fica pronta em menos de um minuto."
+      },
+      {
+        "question": "Posso usar esta ferramenta no meu smartphone?",
+        "answer": "Sim! A ferramenta funciona em qualquer dispositivo. Pode carregar uma foto e fazer o seu vídeo de abraço do Pai Natal a partir do seu telemóvel, tablet ou computador."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Confira as Amostras de Transformações de Vídeo de Abraço do Pai Natal",
+    "title": "Confira as Amostras de Transformações de Vídeo de Abraço do Pai Natal",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Gerador de Vídeo de Abraço do Pai Natal"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "Gerador de Vídeo de Abraço do Pai Natal com IA"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "O que as Pessoas Dizem sobre Nós",
+    "reviews": [
+      {
+        "review": "Isto é tão divertido! Fiz um vídeo hilariante do Pai Natal a abraçar o meu gato para o nosso chat de grupo da família, e todos adoraram.",
+        "name": "Adriano",
+        "designation": "Criador de Conteúdo"
+      },
+      {
+        "review": "Eu estava à procura de uma ferramenta simples para criar uma publicação festiva. A funcionalidade Dreamshot deu-me exatamente o fundo que eu queria. Muito fixe!",
+        "name": "Carlos",
+        "designation": "Utilizador da web do Reino Unido"
+      },
+      {
+        "review": "A qualidade é surpreendentemente boa para um gerador online. É uma forma rápida e criativa de fazer algo único para as festas.",
+        "name": "Maya",
+        "designation": "Artista Digital"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Crie o Seu Vídeo de Abraço do Pai Natal",
+    "description": "Siga estes passos fáceis para fazer um vídeo enternecedor de abraço do Pai Natal a partir da sua foto.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Carregue a Sua Foto",
+        "bulletPoints": [
+          "Selecione uma foto nítida e de alta qualidade do seu dispositivo para começar."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Gere o Vídeo",
+        "bulletPoints": [
+          "Clique no botão “Gerar Agora” e veja a sua foto transformar-se num vídeo festivo de abraço do Pai Natal."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Descarregue e Partilhe",
+        "bulletPoints": [
+          "Guarde o seu vídeo de abraço do Pai Natal no seu dispositivo e partilhe a alegria festiva com amigos e familiares."
+        ]
+      }
+    ]
+  }
+}
