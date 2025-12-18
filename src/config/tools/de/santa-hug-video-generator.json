@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "KI-Weihnachtsmann-Umarmungs-Video",
+  "playgroundTitle": "KI-Weihnachtsmann-Umarmungs-Video-Generator",
+  "playgroundDescription": "Wenden Sie den magischen Weihnachtsmann-Umarmungseffekt auf Ihre Lieblingsfotos an. Unser KI-Video-Generator erstellt eine herzerwärmende Animation, die Ihre festlichen Bilder zum Leben erweckt.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "KI-Weihnachtsmann-Umarmungs-Video-Generator Online Kostenlos",
+    "description": "Erstellen Sie ein herzerwärmendes KI-Video, in dem der Weihnachtsmann eine warme Umarmung gibt. Mit unserem kostenlosen Generator können Sie in nur wenigen Klicks magische, personalisierte Weihnachtserinnerungen erstellen.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Jetzt generieren",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "Verwandte beliebte Videoeffekte"
+  },
+  "faqs": {
+    "heading": "Häufig gestellte Fragen zum Weihnachtsmann-Umarmungs-Video-Generator",
+    "questions": [
+      {
+        "question": "Was ist der Weihnachtsmann-Umarmungs-Video-Generator?",
+        "answer": "Der Weihnachtsmann-Umarmungs-Video-Generator ist ein KI-Videoeffekt. Laden Sie ein Foto hoch, und es verwandelt es in ein süßes Video, in dem der Weihnachtsmann die Person oder das Haustier auf Ihrem Bild umarmt."
+      },
+      {
+        "question": "Welche Art von Foto sollte ich für die besten Ergebnisse hochladen?",
+        "answer": "Verwenden Sie ein klares Foto von vorne von einer Person oder einem Haustier. Hochwertige Bilder, auf denen das Gesicht und der Oberkörper sichtbar sind, funktionieren am besten."
+      },
+      {
+        "question": "Ist der Weihnachtsmann-Umarmungs-Video-Generator kostenlos?",
+        "answer": "Ja! Wenn Sie sich für ein kostenloses Konto anmelden, erhalten Sie kostenlose Credits, um den Weihnachtsmann-Umarmungs-Video-Generator auszuprobieren und Ihr erstes Video zu erstellen."
+      },
+      {
+        "question": "Wie lange dauert es, das Weihnachtsmann-Umarmungs-Video zu generieren?",
+        "answer": "Das hängt vom Foto ab, aber unsere KI ist schnell. Die meisten Videos sind in weniger als einer Minute fertig."
+      },
+      {
+        "question": "Kann ich dieses Tool auf meinem Smartphone verwenden?",
+        "answer": "Ja! Das Tool funktioniert auf jedem Gerät. Sie können ein Foto hochladen und Ihr Weihnachtsmann-Umarmungs-Video von Ihrem Telefon, Tablet oder Computer aus erstellen."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Schauen Sie sich Beispiel-Transformationen von Weihnachtsmann-Umarmungs-Videos an",
+    "title": "Schauen Sie sich Beispiel-Transformationen von Weihnachtsmann-Umarmungs-Videos an",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Weihnachtsmann-Umarmungs-Video-Generator"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "KI-Weihnachtsmann-Umarmungs-Video-Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "Was die Leute über uns sagen",
+    "reviews": [
+      {
+        "review": "Das macht so viel Spaß! Ich habe ein lustiges Video gemacht, in dem der Weihnachtsmann meine Katze für unseren Familien-Gruppenchat umarmt, und alle haben es geliebt.",
+        "name": "Adrian",
+        "designation": "Inhaltsersteller"
+      },
+      {
+        "review": "Ich habe nach einem einfachen Werkzeug gesucht, um einen festlichen Beitrag zu erstellen. Die Dreamshot-Funktion gab mir genau den Hintergrund, den ich wollte. So cool!",
+        "name": "Colton",
+        "designation": "Web-Nutzer aus Großbritannien"
+      },
+      {
+        "review": "Die Qualität ist für einen Online-Generator überraschend gut. Es ist eine schnelle und kreative Möglichkeit, etwas Einzigartiges für die Feiertage zu schaffen.",
+        "name": "Maya",
+        "designation": "Digitalkünstlerin"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Erstellen Sie Ihr Weihnachtsmann-Umarmungs-Video",
+    "description": "Befolgen Sie diese einfachen Schritte, um aus Ihrem Foto ein herzerwärmendes Weihnachtsmann-Umarmungs-Video zu erstellen.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Laden Sie Ihr Foto hoch",
+        "bulletPoints": [
+          "Wählen Sie ein klares, hochwertiges Foto von Ihrem Gerät aus, um zu beginnen."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Generieren Sie das Video",
+        "bulletPoints": [
+          "Klicken Sie auf die Schaltfläche „Jetzt generieren“ und sehen Sie zu, wie sich Ihr Foto in ein festliches Weihnachtsmann-Umarmungs-Video verwandelt."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Herunterladen & Teilen",
+        "bulletPoints": [
+          "Speichern Sie Ihr Weihnachtsmann-Umarmungs-Video auf Ihrem Gerät und teilen Sie die festliche Freude mit Freunden und Familie."
+        ]
+      }
+    ]
+  }
+}
