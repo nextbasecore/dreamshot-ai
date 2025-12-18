@@ -1,0 +1,142 @@
+{
+  "id": "ai-inflate-effect",
+  "title": "AI Inflate Video Effect",
+  "playgroundTitle": "AI Inflate Video Effect",
+  "playgroundDescription": "The AI inflate effect turns photos into realistic body expansion videos. This filter converts any image into a high-quality balloon inflation animation.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Inflate Effect : Create Balloon Inflation Videos For Free",
+    "description": "Use the AI inflate effect to transform images into balloon videos. This filter adds realistic 3D expansion and motion to any photo for free.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "inflate",
+  "model": "video-effects",
+  "cardImage": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Inflate-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "santa-giving-gift-video",
+      "santa-kidnapping",
+      "fighting-with-santa",
+      "selfie-with-santa"
+    ],
+    "heading": "Try More Popular Video Effects"
+  },
+  "faqs": {
+    "heading": "Frequently Asked Questions About AI Inflate Effect",
+    "questions": [
+      {
+        "question": "What is the AI Inflate Effect?",
+        "answer": "The AI Inflate Effect is a simple image-to-video effect. You upload a photo, and the AI turns it into a short video where the subject looks inflated or puffy, like a soft balloon."
+      },
+      {
+        "question": "Is the AI Inflate Effect free to use?",
+        "answer": "Yes, you can try it for free. Just sign up on our website and you will get free credits to create your first inflate videos."
+      },
+      {
+        "question": "Can I download and share the video?",
+        "answer": "Yes, once the video is generated, you can download it and share it on social media, chats, or use it in your personal projects."
+      },
+      {
+        "question": "Will the video quality stay clear after conversion?",
+        "answer": "Yes, the AI is designed to keep the video sharp and smooth while adding the inflate animation."
+      },
+      {
+        "question": "Do I need any video editing skills?",
+        "answer": "No skills are needed at all. Just upload your image, click generate, and the AI creates the video for you."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "AI Inflate Effect – Stunning Example Results",
+    "title": "AI Inflate Effect – Stunning Example Results",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Inflate-1.webm",
+        "alt": "AI Inflate Effect"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Inflate-2.webm",
+        "alt": "AI Inflate Video Effect"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-45.webp",
+      "original": "https://assets.remixai.io/sample-image-45.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-46.webp",
+      "original": "https://assets.remixai.io/sample-image-46.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-47.webp",
+      "original": "https://assets.remixai.io/sample-image-47.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-48.webp",
+      "original": "https://assets.remixai.io/sample-image-48.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This inflate effect is so much fun to play with! It adds a cool, puffy look to my designs in seconds.",
+        "name": "Dylan",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "I've been using Dreamshot for a while, and this new inflate feature is a game-changer. My graphics have never looked more playful.",
+        "name": "Nova",
+        "designation": "Graphic Designer"
+      },
+      {
+        "review": "I'm not a pro designer, but the inflate effect is super easy to use. My social media posts look amazing now.",
+        "name": "Bella",
+        "designation": "Web user from USA"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How to Use AI Inflate Effect",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Photo",
+        "bulletPoints": [
+          "Choose a clear, well-lit image and upload it to our AI Inflate Effect tool to apply the effect."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply Video Effect",
+        "bulletPoints": [
+          "Click on the “Generate Now” button to apply the AI Inflate Effect and turn your photo into a unique video style."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Download & Share",
+        "bulletPoints": [
+          "Once your video is generated, download your AI Inflate Effect video and share it with your friends, family, and on your favorite social media platform."
+        ]
+      }
+    ]
+  }
+}
