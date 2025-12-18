@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "AI Kerstman Knuffel Video",
+  "playgroundTitle": "AI Kerstman Knuffel Videogenerator",
+  "playgroundDescription": "Pas het magische kerstmanknuffel-effect toe op je favoriete foto's. Onze AI-videogenerator creëert een hartverwarmende animatie die je feestelijke foto's tot leven brengt.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Kerstman Knuffel Videogenerator Online Gratis",
+    "description": "Creëer een hartverwarmende AI-video van de Kerstman die een warme knuffel geeft. Met onze gratis generator maak je in een paar klikken magische, gepersonaliseerde kerstherinneringen.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Genereer nu",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "Gerelateerde Populaire Video-effecten"
+  },
+  "faqs": {
+    "heading": "Veelgestelde vragen over de Kerstman Knuffel Videogenerator",
+    "questions": [
+      {
+        "question": "Wat is de Kerstman Knuffel Videogenerator?",
+        "answer": "De Kerstman Knuffel Videogenerator is een AI-video-effect. Upload een foto, en het verandert deze in een schattige video waarin de Kerstman een knuffel geeft aan de persoon of het huisdier op je foto."
+      },
+      {
+        "question": "Wat voor soort foto moet ik uploaden voor de beste resultaten?",
+        "answer": "Gebruik een duidelijke, frontale foto van één persoon of huisdier. Afbeeldingen van hoge kwaliteit waarop het gezicht en het bovenlichaam zichtbaar zijn, werken het beste."
+      },
+      {
+        "question": "Is de Kerstman Knuffel Videogenerator gratis te gebruiken?",
+        "answer": "Ja! Wanneer je je aanmeldt voor een gratis account, krijg je gratis credits om de Kerstman Knuffel Videogenerator uit te proberen en je eerste video te maken."
+      },
+      {
+        "question": "Hoe lang duurt het om de Kerstman Knuffel-video te genereren?",
+        "answer": "Dat hangt af van de foto, maar onze AI is snel. De meeste video's zijn in minder dan een minuut klaar."
+      },
+      {
+        "question": "Kan ik deze tool op mijn smartphone gebruiken?",
+        "answer": "Ja! De tool werkt op elk apparaat. Je kunt een foto uploaden en je Kerstman Knuffel-video maken vanaf je telefoon, tablet of computer."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Bekijk Voorbeelden van Kerstman Knuffel Videotransformaties",
+    "title": "Bekijk Voorbeelden van Kerstman Knuffel Videotransformaties",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Kerstman Knuffel Videogenerator"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "AI Kerstman Knuffel Videogenerator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "Wat mensen over ons zeggen",
+    "reviews": [
+      {
+        "review": "Dit is zo leuk! Ik heb een hilarische video gemaakt van de Kerstman die mijn kat knuffelt voor onze familie-groepschat, en iedereen vond het geweldig.",
+        "name": "Adriaan",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Ik zocht een eenvoudige tool om een feestelijke post te maken. De Dreamshot-functie gaf me precies de achtergrond die ik wilde. Zo cool!",
+        "name": "Colton",
+        "designation": "Webgebruiker uit het VK"
+      },
+      {
+        "review": "De kwaliteit is verrassend goed voor een online generator. Het is een snelle en creatieve manier om iets unieks te maken voor de feestdagen.",
+        "name": "Maya",
+        "designation": "Digitale Artiest"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Creëer Je Kerstman Knuffel Video",
+    "description": "Volg deze eenvoudige stappen om een hartverwarmende kerstmanknuffelvideo van je foto te maken.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload je foto",
+        "bulletPoints": [
+          "Selecteer een duidelijke foto van hoge kwaliteit van je apparaat om te beginnen."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Genereer de video",
+        "bulletPoints": [
+          "Klik op de knop “Genereer nu” en zie hoe je foto verandert in een feestelijke kerstmanknuffelvideo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Downloaden & Delen",
+        "bulletPoints": [
+          "Sla je Kerstman Knuffel-video op je apparaat op en deel de feestvreugde met vrienden en familie."
+        ]
+      }
+    ]
+  }
+}
