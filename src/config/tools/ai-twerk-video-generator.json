@@ -1,0 +1,115 @@
+{
+  "id": "ai-twerk-video-generator",
+  "title": "AI Twerk Video Generator",
+  "playgroundTitle": "AI Twerk Video Generator",
+  "playgroundDescription": "The AI twerk video generator uses a motion filter to create realistic body shake videos. This effect transforms images into high-quality dance clips.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Twerk Video Generator: Make Body Shake Videos Online",
+    "description": "Apply the AI twerk filter to create realistic body shake videos online. This motion effect turns any photo into a professional dance animation.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "bodyshake",
+  "model": "video-effects",
+  "cardImage": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Twerk-Video-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "selfie-with-santa",
+      "santa-transformation",
+      "santa-kidnapping",
+      "santa-hug-video-generator"
+    ],
+    "heading": "Check Out Other Trending Video Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About AI Twerk Video Generator",
+    "questions": [
+      {
+        "question": "What is the AI Twerk Video Generator?",
+        "answer": "The AI Twerk Video Generator turns a single photo into a short animated video. You upload an image, and the AI adds a twerk-style motion to create a video from it."
+      },
+      {
+        "question": "Is the AI Twerk Video Generator free to use?",
+        "answer": "Yes. When you sign up for a free account, you get free credits. You can use these credits to try this effect and other features."
+      },
+      {
+        "question": "Is it safe to upload my photos? What about my privacy?",
+        "answer": "Yes, it is safe. Your photos are processed securely and are deleted automatically after a short time. We do not share your images with anyone."
+      },
+      {
+        "question": "Does the background move in the video?",
+        "answer": "The main focus is on animating the person in the photo. The background usually stays the same while the subject moves."
+      },
+      {
+        "question": "Is this effect suitable for beginners?",
+        "answer": "Yes, it is very beginner-friendly. You only need to upload a photo and click generate. No editing skills are required."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Check Out Sample AI Twerk Video Results",
+    "title": "Check Out Sample AI Twerk Video Results",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Twerk-1.webm",
+        "alt": "AI Twerk Video Generator"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Twerk-2.webm",
+        "alt": "Twerk Video Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-41.webp",
+      "original": "https://assets.remixai.io/sample-image-41.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-42.webp",
+      "original": "https://assets.remixai.io/sample-image-42.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-43.webp",
+      "original": "https://assets.remixai.io/sample-image-43.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-44.webp",
+      "original": "https://assets.remixai.io/sample-image-44.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I'm genuinely impressed with how easy this is to use. The Dreamshot feature is a game-changer for creating unique content quickly. My followers love it!",
+        "name": "Evelyn",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Honestly, I just tried it for fun, but the results are wild. It’s surprisingly good and super entertaining to play with.",
+        "name": "Liam",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "The quality of the AI generation is top-notch. It helps me visualize and create dynamic scenes for my projects without spending hours on complex software.",
+        "name": "Mason",
+        "designation": "Visual Storyteller"
+      }
+    ]
+  }
+}
