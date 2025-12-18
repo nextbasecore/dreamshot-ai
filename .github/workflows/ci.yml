@@ -19,6 +19,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Fetch with force
+        run: git fetch --all --force
+
       - name: Get last commit message
         id: get_message
         run: echo "::set-output name=message::$(git log -1 --pretty=%B)"
