@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "Video de Abrazo de Papá Noel con IA",
+  "playgroundTitle": "Generador de Videos de Abrazo de Papá Noel con IA",
+  "playgroundDescription": "Aplica el mágico efecto de abrazo de Papá Noel a tus fotos favoritas. Nuestro generador de videos con IA crea una animación conmovedora que da vida a tus imágenes festivas.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Generador de Videos de Abrazo de Papá Noel con IA en Línea y Gratis",
+    "description": "Crea un conmovedor video con IA de Papá Noel dando un cálido abrazo. Nuestro generador gratuito te permite crear recuerdos navideños mágicos y personalizados con solo unos pocos clics.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generar Ahora",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "Efectos de Video Populares Relacionados"
+  },
+  "faqs": {
+    "heading": "Preguntas Frecuentes Sobre el Generador de Videos de Abrazo de Papá Noel",
+    "questions": [
+      {
+        "question": "¿Qué es el Generador de Videos de Abrazo de Papá Noel?",
+        "answer": "El Generador de Videos de Abrazo de Papá Noel es un efecto de video con IA. Sube una foto y la convierte en un lindo video donde Papá Noel le da un abrazo a la persona o mascota en tu imagen."
+      },
+      {
+        "question": "¿Qué tipo de foto debo subir para obtener los mejores resultados?",
+        "answer": "Usa una foto clara y de frente de una sola persona o mascota. Las imágenes de alta calidad donde el rostro y la parte superior del cuerpo son visibles funcionan mejor."
+      },
+      {
+        "question": "¿Es gratuito el Generador de Videos de Abrazo de Papá Noel?",
+        "answer": "¡Sí! Cuando te registras para obtener una cuenta gratuita, recibes créditos gratis para probar el Generador de Videos de Abrazo de Papá Noel y crear tu primer video."
+      },
+      {
+        "question": "¿Cuánto tiempo tarda en generarse el video de Abrazo de Papá Noel?",
+        "answer": "Depende de la foto, pero nuestra IA es rápida. La mayoría de los videos están listos en menos de un minuto."
+      },
+      {
+        "question": "¿Puedo usar esta herramienta en mi teléfono inteligente?",
+        "answer": "¡Sí! La herramienta funciona en cualquier dispositivo. Puedes subir una foto y hacer tu video de Abrazo de Papá Noel desde tu teléfono, tableta o computadora."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Mira las Transformaciones de Muestra de Videos de Abrazo de Papá Noel",
+    "title": "Mira las Transformaciones de Muestra de Videos de Abrazo de Papá Noel",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Generador de Videos de Abrazo de Papá Noel"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "Generador de Videos de Abrazo de Papá Noel con IA"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "Lo que la gente dice de nosotros",
+    "reviews": [
+      {
+        "review": "¡Esto es muy divertido! Hice un video divertidísimo de Papá Noel abrazando a mi gato para nuestro chat grupal familiar, y a todos les encantó.",
+        "name": "Adrián",
+        "designation": "Creador de Contenido"
+      },
+      {
+        "review": "Estaba buscando una herramienta simple para crear una publicación festiva. La función Dreamshot me dio el fondo exacto que quería. ¡Qué genial!",
+        "name": "Carlos",
+        "designation": "Usuario web del Reino Unido"
+      },
+      {
+        "review": "La calidad es sorprendentemente buena para un generador en línea. Es una forma rápida y creativa de hacer algo único para las fiestas.",
+        "name": "Maya",
+        "designation": "Artista Digital"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Crea tu Video de Abrazo de Papá Noel",
+    "description": "Sigue estos sencillos pasos para hacer un conmovedor video de abrazo de Papá Noel a partir de tu foto.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Sube tu Foto",
+        "bulletPoints": [
+          "Selecciona una foto clara y de alta calidad de tu dispositivo para comenzar."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Genera el Video",
+        "bulletPoints": [
+          "Haz clic en el botón “Generar Ahora” y observa cómo tu foto se transforma en un festivo video de abrazo de Papá Noel."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Descarga y Comparte",
+        "bulletPoints": [
+          "Guarda tu video de Abrazo de Papá Noel en tu dispositivo y comparte la alegría navideña con amigos y familiares."
+        ]
+      }
+    ]
+  }
+}
