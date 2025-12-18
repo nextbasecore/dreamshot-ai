@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "Vidéo Câlin du Père Noël par IA",
+  "playgroundTitle": "Générateur de Vidéos de Câlins du Père Noël par IA",
+  "playgroundDescription": "Appliquez l'effet magique du câlin du Père Noël à vos photos préférées. Notre générateur de vidéos IA crée une animation chaleureuse qui donne vie à vos photos de fête.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Générateur de Vidéos de Câlins du Père Noël par IA en Ligne et Gratuit",
+    "description": "Créez une vidéo IA réconfortante du Père Noël faisant un gros câlin. Notre générateur gratuit vous permet de créer des souvenirs de Noël magiques et personnalisés en quelques clics.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Générer maintenant",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "Effets vidéo populaires similaires"
+  },
+  "faqs": {
+    "heading": "FAQ sur le Générateur de Vidéos de Câlins du Père Noël",
+    "questions": [
+      {
+        "question": "Qu'est-ce que le Générateur de Vidéos de Câlins du Père Noël ?",
+        "answer": "Le Générateur de Vidéos de Câlins du Père Noël est un effet vidéo IA. Téléchargez une photo, et il la transforme en une jolie vidéo où le Père Noël fait un câlin à la personne ou à l'animal de compagnie sur votre photo."
+      },
+      {
+        "question": "Quel type de photo dois-je télécharger pour obtenir les meilleurs résultats ?",
+        "answer": "Utilisez une photo nette, de face, d'une seule personne ou d'un animal de compagnie. Les images de haute qualité où le visage et le haut du corps sont visibles fonctionnent le mieux."
+      },
+      {
+        "question": "L'utilisation du Générateur de Vidéos de Câlins du Père Noël est-elle gratuite ?",
+        "answer": "Oui ! Lorsque vous vous inscrivez pour un compte gratuit, vous obtenez des crédits gratuits pour essayer le Générateur de Vidéos de Câlins du Père Noël et créer votre première vidéo."
+      },
+      {
+        "question": "Combien de temps faut-il pour générer la vidéo du câlin du Père Noël ?",
+        "answer": "Cela dépend de la photo, mais notre IA est rapide. La plupart des vidéos sont prêtes en moins d'une minute."
+      },
+      {
+        "question": "Puis-je utiliser cet outil sur mon smartphone ?",
+        "answer": "Oui ! L'outil fonctionne sur n'importe quel appareil. Vous pouvez télécharger une photo et créer votre vidéo de câlin du Père Noël depuis votre téléphone, votre tablette ou votre ordinateur."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Découvrez des exemples de transformations vidéo de câlins du Père Noël",
+    "title": "Découvrez des exemples de transformations vidéo de câlins du Père Noël",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Générateur de Vidéos de Câlins du Père Noël"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "Générateur de Vidéos de Câlins du Père Noël par IA"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "Ce que les gens disent de nous",
+    "reviews": [
+      {
+        "review": "C'est tellement amusant ! J'ai fait une vidéo hilarante du Père Noël faisant un câlin à mon chat pour notre discussion de groupe familiale, et tout le monde a adoré.",
+        "name": "Adrien",
+        "designation": "Créateur de contenu"
+      },
+      {
+        "review": "Je cherchais un outil simple pour créer une publication festive. La fonction Dreamshot m'a donné l'arrière-plan exact que je voulais. Trop cool !",
+        "name": "Colton",
+        "designation": "Utilisateur web du Royaume-Uni"
+      },
+      {
+        "review": "La qualité est étonnamment bonne pour un générateur en ligne. C'est un moyen rapide et créatif de créer quelque chose d'unique pour les fêtes.",
+        "name": "Maya",
+        "designation": "Artiste numérique"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Créez votre vidéo de câlin du Père Noël",
+    "description": "Suivez ces étapes faciles pour créer une vidéo chaleureuse de câlin du Père Noël à partir de votre photo.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Téléchargez votre photo",
+        "bulletPoints": [
+          "Sélectionnez une photo claire et de haute qualité depuis votre appareil pour commencer."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Générez la vidéo",
+        "bulletPoints": [
+          "Cliquez sur le bouton « Générer maintenant » et regardez votre photo se transformer en une vidéo festive de câlin du Père Noël."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Téléchargez et partagez",
+        "bulletPoints": [
+          "Enregistrez votre vidéo de câlin du Père Noël sur votre appareil et partagez la joie des fêtes avec vos amis et votre famille."
+        ]
+      }
+    ]
+  }
+}
