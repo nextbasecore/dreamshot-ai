@@ -1,0 +1,142 @@
+{
+  "id": "ai-gender-swap-video-generator",
+  "title": "AI Gender Swap Video Generator",
+  "playgroundTitle": "AI Gender Swap Video Generator",
+  "playgroundDescription": "The AI gender swap video generator convert your photo into a realistic video. This filter changes your face and hair to show how you would look as opposite gender.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Gender Swap Video Generator : Change Gender Online",
+    "description": "Turn your photos into realistic gender swap videos with this AI filter. Simply upload a picture to generate high-quality gender transformation animations.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "gender_swap",
+  "model": "video-effects",
+  "cardImage": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Gender-Swap-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "santa-transformation",
+      "santa-hug-video-generator",
+      "reindeer-ride-with-santa",
+      "santa-giving-gift-video"
+    ],
+    "heading": "Discover Other Popular Video Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About AI Gender Swap Video Generator",
+    "questions": [
+      {
+        "question": "What is the AI Gender Swap Video Generator?",
+        "answer": "This tool uses AI to turn a single photo into a short video showing how you might look as a different gender. It animates your image for a realistic effect."
+      },
+      {
+        "question": "How long does it take to make the video?",
+        "answer": "It usually takes just a few seconds. The time depends on the photo quality, but our AI is fast and optimized to give quick results."
+      },
+      {
+        "question": "Is this effect free?",
+        "answer": "Yes! You can start for free by signing up. You’ll get free credits to try this effect and other AI video generators on our platform."
+      },
+      {
+        "question": "Are my photos safe and private?",
+        "answer": "Absolutely. Your photos are processed securely and only used to make the video. They are never shared with anyone and are deleted from our servers after a short time."
+      },
+      {
+        "question": "What file types can I upload?",
+        "answer": "You can upload JPEG, PNG, or WEBP images. The AI will handle them automatically and generate a video from your photo."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "AI Gender Swap Video Generator – Example",
+    "title": "AI Gender Swap Video Generator – Example",
+    "description": null,
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Gender-Swap-1.webm",
+        "alt": "AI Gender Swap Video Generator"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Gender-Swap-2.webm",
+        "alt": "Gender Swap Video Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "I was blown away by how easy it was to use. The results are hilarious and surprisingly realistic!",
+        "name": "James",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "Honestly, I just tried it for a laugh, but the quality is insane. Dreamshot turned my video around in minutes.",
+        "name": "Willow",
+        "designation": "Web user from UK"
+      },
+      {
+        "review": "As a digital artist, I'm impressed with the details. It's a fun tool for quick creative experiments.",
+        "name": "Samantha",
+        "designation": "Digital Artist"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Does It Work?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Image",
+        "bulletPoints": [
+          "Select a clear, high-quality photo of yourself or anyone else to get the best AI Gender Swap Video result."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply the Gender Swap Effect",
+        "bulletPoints": [
+          "Click the “Generate Now” button after uploading. The AI will transform your photo smoothly."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Preview & Download",
+        "bulletPoints": [
+          "Once done, preview your AI Gender Swap video and download it to your device or share it online."
+        ]
+      }
+    ]
+  }
+}
