@@ -13,7 +13,7 @@ export const SUPPORTED_LANGUAGES = [
     { code: "tr", name: "Turkish" },
     { code: "ko", name: "Korean" },
     { code: "fa", name: "Persian (Farsi)" },
-    { code: "zh-CN", name: "Chinese (Simplified)" },
+    { code: "zh-cn", name: "Chinese (Simplified)" },
 ] as const;
 
 // Export language codes as a simple string array for ergonomic usage with .includes, etc.
