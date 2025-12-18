@@ -1,0 +1,142 @@
+{
+  "id": "ai-walking-video-generator",
+  "title": "AI Walking Video Generator",
+  "playgroundTitle": "AI Walking Video Generator",
+  "playgroundDescription": "AI Walking Video Generator animates a photo with walking movement. It gives your image a natural walking action that looks smooth and realistic.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Free AI Walking Video Generator Online",
+    "description": "Create walking-style videos online for free with this AI effect. Photos are animated with natural walking motion for smooth and realistic movement.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "ai_walking",
+  "model": "video-effects",
+  "cardImage": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Walking-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "reindeer-ride-with-santa",
+      "santa-giving-gift-video",
+      "santa-hug-video-generator"
+    ],
+    "heading": "See Other Cool Video Effects"
+  },
+  "faqs": {
+    "heading": "Frequently Asked Questions about AI Walking Video Generator",
+    "questions": [
+      {
+        "question": "What is an AI Walking Video Generator?",
+        "answer": "The AI Walking Video Generator is an image-to-video effect. It turns a single photo of a person into a short video where the person looks like they are walking."
+      },
+      {
+        "question": "Is the AI Walking Video Generator free to use?",
+        "answer": "Yes, you can try it for free. After signing up, you get free credits that you can use to create walking videos."
+      },
+      {
+        "question": "Are my uploaded photos kept private and secure?",
+        "answer": "Yes. Your photos are uploaded securely and used only to create the video. They are not shared and are deleted after processing."
+      },
+      {
+        "question": "What formats can I upload and download?",
+        "answer": "You can upload images in JPG, PNG, or WEBP format. The final result is downloaded as an MP4 video."
+      },
+      {
+        "question": "Do I need any technical skills to use this effect?",
+        "answer": "No skills are needed. Just upload your photo and click generate. The AI does everything automatically."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "See Sample Results of AI Walking Video Generator",
+    "title": "See Sample Results of AI Walking Video Generator",
+    "description": null,
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Walking-1.webm",
+        "alt": "AI Walking Video Generator"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Walking-2.webm",
+        "alt": "Walking Video Generator"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-37.webp",
+      "original": "https://assets.remixai.io/sample-image-37.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-38.webp",
+      "original": "https://assets.remixai.io/sample-image-38.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-39.webp",
+      "original": "https://assets.remixai.io/sample-image-39.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-40.webp",
+      "original": "https://assets.remixai.io/sample-image-40.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This AI is a game-changer for my social media content. The walking videos look so realistic, and Dreamshot lets me create any character I can imagine.",
+        "name": "Ezra",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "I was surprised at how easy it was to get started. Just a few clicks and I had a cool walking animation ready to go.",
+        "name": "Easton",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "Creating character animations used to take hours. Now, I can generate smooth walking loops in minutes, which is incredible for my projects.",
+        "name": "David",
+        "designation": "Visual Storyteller"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Does it Work?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload an Image",
+        "bulletPoints": [
+          "Upload a photo of yourself or anyone else. Make sure the image is clear and high-quality to get the best AI Walking Video Generator result."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Apply AI Walking Video Generator Effect and Generate",
+        "bulletPoints": [
+          "Once your image is uploaded, click the “Generate Now” button. The AI will smoothly apply the AI Walking Video Generator transformation to your photo."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Preview and Download It",
+        "bulletPoints": [
+          "After the process is complete, you can preview the AI Walking Video Generator transformation and download it to your device or share it."
+        ]
+      }
+    ]
+  }
+}
