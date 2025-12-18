@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "AIサンタハグビデオ",
+  "playgroundTitle": "AIサンタハグビデオジェネレーター",
+  "playgroundDescription": "お気に入りの写真に魔法のようなサンタハグエフェクトを適用します。当社のAIビデオジェネレーターは、お祝いの写真を生き生きとさせる心温まるアニメーションを作成します。",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AIサンタハグビデオジェネレーターをオンラインで無料利用",
+    "description": "サンタが温かいハグをする心温まるAIビデオを作成します。当社の無料ジェネレーターを使えば、数回クリックするだけで魔法のような、パーソナライズされたクリスマスの思い出を作ることができます。",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "今すぐ生成",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "関連する人気のビデオエフェクト"
+  },
+  "faqs": {
+    "heading": "サンタハグビデオジェネレーターに関するよくある質問",
+    "questions": [
+      {
+        "question": "サンタハグビデオジェネレーターとは何ですか？",
+        "answer": "サンタハグビデオジェネレーターはAIビデオエフェクトです。写真をアップロードすると、サンタが写真の中の人物やペットにハグをする可愛いビデオに変換されます。"
+      },
+      {
+        "question": "最高の結果を得るには、どのような写真をアップロードすればよいですか？",
+        "answer": "一人の人物またはペットの、鮮明で正面を向いた写真を使用してください。顔と上半身が見える高品質の画像が最適です。"
+      },
+      {
+        "question": "サンタハグビデオジェネレーターは無料で使用できますか？",
+        "answer": "はい！無料アカウントにサインアップすると、サンタハグビデオジェネレーターを試して最初のビデオを作成するための無料クレジットがもらえます。"
+      },
+      {
+        "question": "サンタハグビデオの生成にはどのくらい時間がかかりますか？",
+        "answer": "写真によって異なりますが、当社のAIは高速です。ほとんどのビデオは1分未満で完成します。"
+      },
+      {
+        "question": "このツールはスマートフォンで使えますか？",
+        "answer": "はい！このツールはどのデバイスでも動作します。スマートフォン、タブレット、またはコンピュータから写真をアップロードして、サンタハグビデオを作成できます。"
+      }
+    ]
+  },
+  "examples": {
+    "heading": "サンタハグビデオの変身サンプルをチェック",
+    "title": "サンタハグビデオの変身サンプルをチェック",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "サンタハグビデオジェネレーター"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "AIサンタハグビデオジェネレーター"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "お客様の声",
+    "reviews": [
+      {
+        "review": "これはとても楽しいです！家族のグループチャット用に、サンタが私の猫をハグする面白いビデオを作ったら、みんなに大好評でした。",
+        "name": "エイドリアン",
+        "designation": "コンテンツクリエーター"
+      },
+      {
+        "review": "お祝いの投稿を作成するための簡単なツールを探していました。Dreamshot機能で、まさに私が欲しかった背景を手に入れることができました。最高です！",
+        "name": "コルトン",
+        "designation": "イギリスのウェブユーザー"
+      },
+      {
+        "review": "オンラインジェネレーターにしては、驚くほど品質が良いです。ホリデーシーズンにユニークなものを手軽に、そしてクリエイティブに作る方法として最適です。",
+        "name": "マヤ",
+        "designation": "デジタルアーティスト"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "サンタハグビデオを作成する",
+    "description": "写真から心温まるサンタハグビデオを作成するには、次の簡単な手順に従ってください。",
+    "steps": [
+      {
+        "step": 1,
+        "title": "写真をアップロード",
+        "bulletPoints": [
+          "デバイスから鮮明で高品質な写真を選択して開始します。"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "ビデオを生成",
+        "bulletPoints": [
+          "「今すぐ生成」ボタンをクリックして、写真がお祝いのサンタハグビデオに変わるのをご覧ください。"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "ダウンロード＆共有",
+        "bulletPoints": [
+          "サンタハグビデオをデバイスに保存し、友人や家族とホリデーの喜びを分かち合いましょう。"
+        ]
+      }
+    ]
+  }
+}
