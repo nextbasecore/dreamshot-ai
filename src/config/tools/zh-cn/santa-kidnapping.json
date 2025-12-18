@@ -1,0 +1,142 @@
+{
+  "id": "santa-kidnapping",
+  "title": "AI圣诞老人绑架视频",
+  "playgroundTitle": "AI圣诞老人绑架视频生成器",
+  "playgroundDescription": "想要一个独特的节日欢笑吗？立即生成一个有趣的、定制的AI圣诞老人绑架视频！免费创建您的恶作剧信息。",
+  "highlightWords": [],
+  "metadata": {
+    "title": "免费AI圣诞老人绑架视频生成器",
+    "description": "立即制作一个有趣的、定制的AI圣诞老人绑架视频。立即使用我们的免费生成器创建您独特的节日恶作剧信息！",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "立即生成",
+  "inputType": "single",
+  "effectId": "santaKidnapping",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/kidnapping%20video%20cover%20image.webp",
+  "cardVideo": "",
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-giving-gift-video",
+      "selfie-with-santa",
+      "santa-hug-video-generator"
+    ],
+    "heading": "查看其他热门视频特效"
+  },
+  "faqs": {
+    "heading": "关于圣诞老人绑架的常见问题",
+    "questions": [
+      {
+        "question": "什么是圣诞老人绑架视频特效？",
+        "answer": "圣诞老人绑架特效是一种AI特效，可以将您的照片变成一个简短有趣的视频，看起来像是圣诞老人在开玩笑地绑架您。它为任何图片增添了节日的趣味。"
+      },
+      {
+        "question": "圣诞老人绑架特效是免费使用的吗？",
+        "answer": "是的，您可以免费试用。注册后，您将获得免费积分，可用于创建此特效并探索其他AI特效。"
+      },
+      {
+        "question": "我上传的照片安全且私密吗？",
+        "answer": "是的，您的照片是安全的。它们仅用于创建您的视频，并在短时间后自动删除。我们绝不会分享您的图像。"
+      },
+      {
+        "question": "你们支持哪些图像文件格式？",
+        "answer": "您可以上传常见的图像格式，如JPG、PNG和WEBP。只需选择一张照片，系统就会完成剩下的工作。"
+      },
+      {
+        "question": "我如何下载或分享我的圣诞老人绑架视频？",
+        "answer": "视频准备好后，您可以将其下载为MP4文件，或一键分享到Instagram、TikTok或Facebook等社交媒体。"
+      }
+    ]
+  },
+  "examples": {
+    "heading": "查看AI圣诞老人绑架视频的示例结果",
+    "title": "查看AI圣诞老人绑架视频的示例结果",
+    "description": null,
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Kidnapping-1.webm",
+        "alt": "AI圣诞老人绑架视频"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Kidnapping-2.webm",
+        "alt": "圣诞老人绑架视频"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "听听大家对我们的评价",
+    "reviews": [
+      {
+        "review": "太搞笑了！Dreamshot的质量出奇地好，整个创意简直太棒了。我的朋友们笑得停不下来。",
+        "name": "诺亚",
+        "designation": "视觉创作者"
+      },
+      {
+        "review": "绝对喜欢。这么有趣又独特的圣诞贺卡创意！",
+        "name": "奥利维亚",
+        "designation": "来自美国的网络用户"
+      },
+      {
+        "review": "制作过程如此简单，给我留下了深刻的印象。最终的图像效果完美，在我们的家庭聚会上大受欢迎。",
+        "name": "伊桑",
+        "designation": "数字艺术家"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "如何使用圣诞老人绑架特效",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "上传您的照片",
+        "bulletPoints": [
+          "选择一张清晰、光线充足的图片，并将其上传到我们的圣诞老人绑架工具。"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "应用视频特效",
+        "bulletPoints": [
+          "点击“立即生成”按钮，应用圣诞老人绑架特效，将您的照片变成独特的视频。"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "下载并分享",
+        "bulletPoints": [
+          "视频生成后，下载您的圣诞老人绑架视频，并与您的朋友、家人在您喜爱的社交媒体平台上分享。"
+        ]
+      }
+    ]
+  }
+}
