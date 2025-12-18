@@ -1,0 +1,142 @@
+{
+  "id": "earth-zoom-in-video-effect",
+  "title": "Earth Zoom In Video Effect",
+  "playgroundTitle": "AI Earth Zoom In Video Generator",
+  "playgroundDescription": "AI Earth Zoom In Video Generator lets you create videos showing a smooth zoom from space to Earth. Add cinematic motion and amazing visuals for a cool effect.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "AI Earth Zoom In Video Generator | Generate Cinematic Videos",
+    "description": "Generate cinematic Earth zoom-in videos online with AI. Watch the planet come closer with smooth camera motion and stunning visual effects.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Generate Now",
+  "inputType": "single",
+  "effectId": "earth_zoom_in",
+  "model": "video-effects",
+  "cardImage": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Earth-Zoom-In-featured.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "selfie-with-santa",
+      "reindeer-ride-with-santa",
+      "santa-transformation",
+      "santa-giving-gift-video"
+    ],
+    "heading": "Related Popular Video Effects"
+  },
+  "faqs": {
+    "heading": "More FAQs About Earth Zoom In and Image-to-Video Effects",
+    "questions": [
+      {
+        "question": "Can I turn any photo into a zoom-in video?",
+        "answer": "Yes! Clear outdoor photos with visible landmarks or landscapes work best. The AI can then create a smooth zoom-in effect from space to your photo's location."
+      },
+      {
+        "question": "Can I share the videos on social media?",
+        "answer": "Absolutely! The videos are in MP4 format, so you can easily share them on Instagram, TikTok, YouTube, Facebook, and more."
+      },
+      {
+        "question": "Can I generate a video from a selfie?",
+        "answer": "Yes! Selfies work great, especially for face animation, gender swap, and similar effects."
+      },
+      {
+        "question": "Can I preview the video before downloading?",
+        "answer": "Yes, most tools let you preview your video first so you can decide if you want to save it."
+      },
+      {
+        "question": "Do I need an account to generate videos?",
+        "answer": "Yes, creating a free account allows you to get credits and save your generated videos."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Check Out Sample Earth Zoom In Video",
+    "title": "Check Out Sample Earth Zoom In Video",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Earth-Zoom-In-1.webm",
+        "alt": "Earth Zoom In Video Effect"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Earth-Zoom-In-2.webm",
+        "alt": "AI Earth Zoom In Video Effect"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-5.webp",
+      "original": "https://assets.remixai.io/sample-image-5.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-6.webp",
+      "original": "https://assets.remixai.io/sample-image-6.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-7.webp",
+      "original": "https://assets.remixai.io/sample-image-7.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-8.webp",
+      "original": "https://assets.remixai.io/sample-image-8.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "What People Say about us",
+    "reviews": [
+      {
+        "review": "This Earth zoom effect is incredible! It added such a professional touch to my travel vlog. Seriously, Dreamshot makes complex effects so easy.",
+        "name": "Claire",
+        "designation": "Content Creator"
+      },
+      {
+        "review": "I'm obsessed with this feature. It's so much fun to play with and makes my social media posts look amazing.",
+        "name": "Cameron",
+        "designation": "iOS user from UK"
+      },
+      {
+        "review": "The quality is just stunning. It's perfect for creating those dramatic opening shots I need for my projects. A real game-changer.",
+        "name": "Anthony",
+        "designation": "Visual Storyteller"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How Does It Work?",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Upload Your Image",
+        "bulletPoints": [
+          "Choose a clear, high-quality photo of yourself or anyone else to achieve the best Earth Zoom In Video Effect."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Generate Video",
+        "bulletPoints": [
+          "Click the “Generate Now” button after uploading. The AI will transform your photo smoothly."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Preview & Download",
+        "bulletPoints": [
+          "Once the effect is ready, preview your Earth Zoom In video and download it or share it online."
+        ]
+      }
+    ]
+  }
+}
