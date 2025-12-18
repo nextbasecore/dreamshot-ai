@@ -1,0 +1,142 @@
+{
+  "id": "santa-kidnapping",
+  "title": "KI-Weihnachtsmann-Entführungsvideo",
+  "playgroundTitle": "KI-Weihnachtsmann-Entführungsvideo-Generator",
+  "playgroundDescription": "Möchten Sie einen einzigartigen Feiertagslacher? Erstellen Sie sofort ein lustiges, individuelles KI-Weihnachtsmann-Entführungsvideo! Es ist kostenlos, Ihre Scherznachricht zu erstellen.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Kostenloser KI-Weihnachtsmann-Entführungsvideo-Generator",
+    "description": "Erstellen Sie sofort ein lustiges, individuelles KI-Weihnachtsmann-Entführungsvideo. Nutzen Sie unseren kostenlosen Generator, um jetzt Ihre einzigartige Feiertags-Scherznachricht zu erstellen!",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Jetzt generieren",
+  "inputType": "single",
+  "effectId": "santaKidnapping",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/kidnapping%20video%20cover%20image.webp",
+  "cardVideo": "",
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-giving-gift-video",
+      "selfie-with-santa",
+      "santa-hug-video-generator"
+    ],
+    "heading": "Schauen Sie sich andere angesagte Videoeffekte an"
+  },
+  "faqs": {
+    "heading": "FAQs zur Weihnachtsmann-Entführung",
+    "questions": [
+      {
+        "question": "Was ist der Weihnachtsmann-Entführungs-Videoeffekt?",
+        "answer": "Der Weihnachtsmann-Entführungseffekt ist ein KI-Effekt, der Ihr Foto in ein kurzes, lustiges Video verwandelt, in dem es so aussieht, als würde der Weihnachtsmann Sie spielerisch entführen. Er verleiht jedem Bild eine lustige Feiertagsnote."
+      },
+      {
+        "question": "Ist der Weihnachtsmann-Entführungseffekt kostenlos nutzbar?",
+        "answer": "Ja, Sie können es kostenlos ausprobieren. Wenn Sie sich anmelden, erhalten Sie kostenlose Credits, die Sie verwenden können, um diesen Effekt zu erstellen und andere KI-Effekte zu erkunden."
+      },
+      {
+        "question": "Sind meine hochgeladenen Fotos sicher und privat?",
+        "answer": "Ja, Ihre Fotos sind sicher. Sie werden nur zur Erstellung Ihres Videos verwendet und nach kurzer Zeit automatisch gelöscht. Wir geben Ihre Bilder niemals weiter."
+      },
+      {
+        "question": "Welche Bilddateiformate unterstützen Sie?",
+        "answer": "Sie können gängige Bildformate wie JPG, PNG und WEBP hochladen. Wählen Sie einfach ein Foto aus und das System erledigt den Rest."
+      },
+      {
+        "question": "Wie kann ich mein Weihnachtsmann-Entführungsvideo herunterladen oder teilen?",
+        "answer": "Nachdem das Video fertig ist, können Sie es als MP4-Datei herunterladen oder mit einem Klick in sozialen Medien wie Instagram, TikTok oder Facebook teilen."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Sehen Sie sich Beispielergebnisse des KI-Weihnachtsmann-Entführungsvideos an",
+    "title": "Sehen Sie sich Beispielergebnisse des KI-Weihnachtsmann-Entführungsvideos an",
+    "description": null,
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Kidnapping-1.webm",
+        "alt": "KI-Weihnachtsmann-Entführungsvideo"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Kidnapping-2.webm",
+        "alt": "Weihnachtsmann-Entführungsvideo"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-1.webp",
+      "original": "https://assets.remixai.io/sample-image-1.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-2.webp",
+      "original": "https://assets.remixai.io/sample-image-2.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-3.webp",
+      "original": "https://assets.remixai.io/sample-image-3.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-4.webp",
+      "original": "https://assets.remixai.io/sample-image-4.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "Was die Leute über uns sagen",
+    "reviews": [
+      {
+        "review": "Das war urkomisch! Die Qualität von Dreamshot war überraschend gut und das ganze Konzept ist einfach brillant. Meine Freunde konnten nicht aufhören zu lachen.",
+        "name": "Noah",
+        "designation": "Visueller Gestalter"
+      },
+      {
+        "review": "Absolut begeistert. So eine lustige und einzigartige Idee für eine Weihnachtskarte!",
+        "name": "Olivia",
+        "designation": "Web-Nutzerin aus den USA"
+      },
+      {
+        "review": "Ich bin beeindruckt, wie einfach das zu erstellen war. Das endgültige Bild ist perfekt geworden und war der Renner bei unserem Familientreffen.",
+        "name": "Ethan",
+        "designation": "Digitaler Künstler"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Wie man die Weihnachtsmann-Entführung verwendet",
+    "description": "",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Laden Sie Ihr Foto hoch",
+        "bulletPoints": [
+          "Wählen Sie ein klares, gut beleuchtetes Bild und laden Sie es in unser Weihnachtsmann-Entführungstool hoch."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Videoeffekt anwenden",
+        "bulletPoints": [
+          "Klicken Sie auf die Schaltfläche „Jetzt generieren“, um den Weihnachtsmann-Entführungseffekt anzuwenden und Ihr Foto in ein einzigartiges Video zu verwandeln."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Herunterladen & Teilen",
+        "bulletPoints": [
+          "Sobald Ihr Video generiert ist, laden Sie Ihr Weihnachtsmann-Entführungsvideo herunter und teilen Sie es mit Ihren Freunden, Ihrer Familie und auf Ihrer bevorzugten Social-Media-Plattform."
+        ]
+      }
+    ]
+  }
+}
