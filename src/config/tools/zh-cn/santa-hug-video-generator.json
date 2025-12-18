@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "AI圣诞老人拥抱视频",
+  "playgroundTitle": "AI圣诞老人拥抱视频生成器",
+  "playgroundDescription": "将神奇的圣诞老人拥抱效果应用于您喜爱的照片。我们的AI视频生成器可以创建一个温馨的动画，让您的节日照片栩栩如生。",
+  "highlightWords": [],
+  "metadata": {
+    "title": "免费在线AI圣诞老人拥抱视频生成器",
+    "description": "创建一个温馨的AI视频，内容是圣诞老人给您一个温暖的拥抱。我们的免费生成器让您只需几次点击就能制作神奇、个性化的圣诞回忆。",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "立即生成",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "相关的热门视频特效"
+  },
+  "faqs": {
+    "heading": "关于圣诞老人拥抱视频生成器的常见问题",
+    "questions": [
+      {
+        "question": "什么是圣诞老人拥抱视频生成器？",
+        "answer": "圣诞老人拥抱视频生成器是一种AI视频特效。上传一张照片，它会将其变成一个可爱的视频，视频中圣诞老人会拥抱您照片中的人或宠物。"
+      },
+      {
+        "question": "我应该上传什么样的照片才能获得最佳效果？",
+        "answer": "请使用一张清晰、正面的单人或单只宠物的照片。面部和上半身清晰可见的高质量图像效果最好。"
+      },
+      {
+        "question": "圣诞老人拥抱视频生成器是免费的吗？",
+        "answer": "是的！当您注册免费账户时，您将获得免费积分来试用圣诞老人拥抱视频生成器并创建您的第一个视频。"
+      },
+      {
+        "question": "生成圣诞老人拥抱视频需要多长时间？",
+        "answer": "这取决于照片，但我们的AI速度很快。大多数视频在一分钟内即可准备就绪。"
+      },
+      {
+        "question": "我可以在智能手机上使用这个工具吗？",
+        "answer": "是的！该工具适用于任何设备。您可以通过手机、平板电脑或电脑上传照片并制作您的圣诞老人拥抱视频。"
+      }
+    ]
+  },
+  "examples": {
+    "heading": "查看圣诞老人拥抱视频转换示例",
+    "title": "查看圣诞老人拥抱视频转换示例",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "圣诞老人拥抱视频生成器"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "AI圣诞老人拥抱视频生成器"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "听听大家对我们的评价",
+    "reviews": [
+      {
+        "review": "这太好玩了！我制作了一个圣诞老人拥抱我家猫咪的搞笑视频，发到家庭群聊里，大家都非常喜欢。",
+        "name": "阿德里安",
+        "designation": "内容创作者"
+      },
+      {
+        "review": "我正在寻找一个简单的工具来创建一个节日帖子。Dreamshot功能给了我想要的背景。太酷了！",
+        "name": "科尔顿",
+        "designation": "来自英国的网络用户"
+      },
+      {
+        "review": "对于一个在线生成器来说，质量出奇地好。这是一种为节日制作独特内容的快捷而有创意的方式。",
+        "name": "玛雅",
+        "designation": "数字艺术家"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "创建您的圣诞老人拥抱视频",
+    "description": "按照这些简单的步骤，用您的照片制作一个温馨的圣诞老人拥抱视频。",
+    "steps": [
+      {
+        "step": 1,
+        "title": "上传您的照片",
+        "bulletPoints": [
+          "从您的设备中选择一张清晰、高质量的照片开始。"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "生成视频",
+        "bulletPoints": [
+          "点击“立即生成”按钮，观看您的照片转变为一个充满节日气氛的圣诞老人拥抱视频。"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "下载并分享",
+        "bulletPoints": [
+          "将您的圣诞老人拥抱视频保存到您的设备，并与朋友和家人分享节日的喜悦。"
+        ]
+      }
+    ]
+  }
+}
