@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "Video Ông già Noel ôm bằng AI",
+  "playgroundTitle": "Trình tạo video Ông già Noel ôm bằng AI",
+  "playgroundDescription": "Áp dụng hiệu ứng Ông già Noel ôm kỳ diệu cho những bức ảnh yêu thích của bạn. Trình tạo video AI của chúng tôi tạo ra một hoạt ảnh ấm áp làm sống động những bức ảnh lễ hội của bạn.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Trình tạo video Ông già Noel ôm bằng AI trực tuyến miễn phí",
+    "description": "Tạo một video AI ấm áp về Ông già Noel đang trao một cái ôm ấm áp. Trình tạo miễn phí của chúng tôi cho phép bạn tạo ra những kỷ niệm Giáng sinh kỳ diệu, được cá nhân hóa chỉ trong vài cú nhấp chuột.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Tạo ngay",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "Các hiệu ứng video phổ biến liên quan"
+  },
+  "faqs": {
+    "heading": "Câu hỏi thường gặp về Trình tạo video Ông già Noel ôm",
+    "questions": [
+      {
+        "question": "Trình tạo video Ông già Noel ôm là gì?",
+        "answer": "Trình tạo video Ông già Noel ôm là một hiệu ứng video AI. Tải lên một bức ảnh, và nó sẽ biến nó thành một video dễ thương trong đó Ông già Noel ôm người hoặc thú cưng trong ảnh của bạn."
+      },
+      {
+        "question": "Tôi nên tải lên loại ảnh nào để có kết quả tốt nhất?",
+        "answer": "Sử dụng ảnh rõ nét, chụp chính diện của một người hoặc thú cưng. Những hình ảnh chất lượng cao mà có thể nhìn rõ khuôn mặt và phần thân trên sẽ hoạt động tốt nhất."
+      },
+      {
+        "question": "Trình tạo video Ông già Noel ôm có miễn phí sử dụng không?",
+        "answer": "Có! Khi bạn đăng ký một tài khoản miễn phí, bạn sẽ nhận được tín dụng miễn phí để thử Trình tạo video Ông già Noel ôm và tạo video đầu tiên của mình."
+      },
+      {
+        "question": "Mất bao lâu để tạo video Ông già Noel ôm?",
+        "answer": "Nó phụ thuộc vào bức ảnh, nhưng AI của chúng tôi rất nhanh. Hầu hết các video đều sẵn sàng trong vòng chưa đầy một phút."
+      },
+      {
+        "question": "Tôi có thể sử dụng công cụ này trên điện thoại thông minh của mình không?",
+        "answer": "Có! Công cụ này hoạt động trên mọi thiết bị. Bạn có thể tải lên ảnh và tạo video Ông già Noel ôm từ điện thoại, máy tính bảng hoặc máy tính của mình."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Xem các mẫu biến đổi video Ông già Noel ôm",
+    "title": "Xem các mẫu biến đổi video Ông già Noel ôm",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Trình tạo video Ông già Noel ôm"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "Trình tạo video Ông già Noel ôm bằng AI"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "Mọi người nói gì về chúng tôi",
+    "reviews": [
+      {
+        "review": "Thật là vui! Tôi đã tạo một video hài hước về Ông già Noel ôm con mèo của tôi cho nhóm chat gia đình, và mọi người đều rất thích.",
+        "name": "Adrian",
+        "designation": "Nhà sáng tạo nội dung"
+      },
+      {
+        "review": "Tôi đang tìm một công cụ đơn giản để tạo một bài đăng lễ hội. Tính năng Dreamshot đã cho tôi chính xác hình nền mà tôi muốn. Thật tuyệt!",
+        "name": "Colton",
+        "designation": "Người dùng web từ Vương quốc Anh"
+      },
+      {
+        "review": "Chất lượng tốt đến bất ngờ đối với một trình tạo trực tuyến. Đó là một cách nhanh chóng và sáng tạo để tạo ra một cái gì đó độc đáo cho những ngày lễ.",
+        "name": "Maya",
+        "designation": "Nghệ sĩ kỹ thuật số"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Tạo video Ông già Noel ôm của bạn",
+    "description": "Làm theo các bước đơn giản sau để tạo một video Ông già Noel ôm ấm áp từ ảnh của bạn.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Tải ảnh của bạn lên",
+        "bulletPoints": [
+          "Chọn một bức ảnh rõ nét, chất lượng cao từ thiết bị của bạn để bắt đầu."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Tạo video",
+        "bulletPoints": [
+          "Nhấp vào nút “Tạo ngay” và xem ảnh của bạn biến thành một video Ông già Noel ôm lễ hội."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Tải xuống & Chia sẻ",
+        "bulletPoints": [
+          "Lưu video Ông già Noel ôm của bạn vào thiết bị và chia sẻ niềm vui ngày lễ với bạn bè và gia đình."
+        ]
+      }
+    ]
+  }
+}
