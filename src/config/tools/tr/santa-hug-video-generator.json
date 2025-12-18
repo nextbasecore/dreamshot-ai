@@ -1,0 +1,142 @@
+{
+  "id": "santa-hug-video-generator",
+  "title": "Yapay Zeka Noel Baba Kucaklama Videosu",
+  "playgroundTitle": "Yapay Zeka Noel Baba Kucaklama Videosu Oluşturucu",
+  "playgroundDescription": "En sevdiğiniz fotoğraflara sihirli Noel Baba kucaklama efektini uygulayın. Yapay zeka video oluşturucumuz, şenlikli resimlerinizi hayata geçiren iç ısıtan bir animasyon oluşturur.",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Ücretsiz Çevrimiçi Yapay Zeka Noel Baba Kucaklama Videosu Oluşturucu",
+    "description": "Noel Baba'nın sıcak bir şekilde kucakladığı iç ısıtan bir yapay zeka videosu oluşturun. Ücretsiz oluşturucumuz, sadece birkaç tıklamayla sihirli, kişiselleştirilmiş Noel anıları yaratmanıza olanak tanır.",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "video-effects",
+  "toolCategory": "video-effects",
+  "postPrefix": "video-effects",
+  "credit": 40,
+  "buttonText": "Şimdi Oluştur",
+  "inputType": "single",
+  "effectId": "santaHug",
+  "model": "video-effects",
+  "cardImage": "https://assets.remixai.io/santa%20hug%20video%20cover%20image.webp",
+  "cardVideo": null,
+  "transformationImages": {
+    "transformationPreview": "https://assets.remixai.io/Public/samples/Red-Hulk.webp"
+  },
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "fighting-with-santa",
+      "santa-transformation",
+      "reindeer-ride-with-santa",
+      "santa-kidnapping"
+    ],
+    "heading": "İlgili Popüler Video Efektleri"
+  },
+  "faqs": {
+    "heading": "Noel Baba Kucaklama Videosu Oluşturucu Hakkında SSS",
+    "questions": [
+      {
+        "question": "Noel Baba Kucaklama Videosu Oluşturucu nedir?",
+        "answer": "Noel Baba Kucaklama Videosu Oluşturucu, bir yapay zeka video efektidir. Bir fotoğraf yükleyin, o da fotoğrafınızı Noel Baba'nın resminizdeki kişiye veya evcil hayvana sarıldığı sevimli bir videoya dönüştürsün."
+      },
+      {
+        "question": "En iyi sonuçlar için ne tür bir fotoğraf yüklemeliyim?",
+        "answer": "Tek bir kişinin veya evcil hayvanın net, cepheden çekilmiş bir fotoğrafını kullanın. Yüzün ve üst gövdenin göründüğü yüksek kaliteli resimler en iyi sonucu verir."
+      },
+      {
+        "question": "Noel Baba Kucaklama Videosu Oluşturucu'yu kullanmak ücretsiz mi?",
+        "answer": "Evet! Ücretsiz bir hesaba kaydolduğunuzda, Noel Baba Kucaklama Videosu Oluşturucu'yu denemek ve ilk videonuzu oluşturmak için ücretsiz krediler alırsınız."
+      },
+      {
+        "question": "Noel Baba Kucaklama videosunu oluşturmak ne kadar sürer?",
+        "answer": "Fotoğrafa bağlıdır, ancak yapay zekamız hızlıdır. Çoğu video bir dakikadan kısa sürede hazır olur."
+      },
+      {
+        "question": "Bu aracı akıllı telefonumda kullanabilir miyim?",
+        "answer": "Evet! Araç her cihazda çalışır. Telefonunuzdan, tabletinizden veya bilgisayarınızdan bir fotoğraf yükleyebilir ve Noel Baba Kucaklama videonuzu yapabilirsiniz."
+      }
+    ]
+  },
+  "examples": {
+    "heading": "Örnek Noel Baba Kucaklama Videosu Dönüşümlerine Göz Atın",
+    "title": "Örnek Noel Baba Kucaklama Videosu Dönüşümlerine Göz Atın",
+    "description": "",
+    "images": [
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-1.webm",
+        "alt": "Noel Baba Kucaklama Videosu Oluşturucu"
+      },
+      {
+        "image": "https://assets.chromastudio.ai/Public/Dreamshot/Effects/Santa-Hug-2.webm",
+        "alt": "Yapay Zeka Noel Baba Kucaklama Videosu Oluşturucu"
+      }
+    ]
+  },
+  "sampleImages": [
+    {
+      "mini": "https://assets.remixai.io/sample-image-13.webp",
+      "original": "https://assets.remixai.io/sample-image-13.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-14.webp",
+      "original": "https://assets.remixai.io/sample-image-14.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-15.webp",
+      "original": "https://assets.remixai.io/sample-image-15.webp"
+    },
+    {
+      "mini": "https://assets.remixai.io/sample-image-16.webp",
+      "original": "https://assets.remixai.io/sample-image-16.webp"
+    }
+  ],
+  "testimonials": {
+    "heading": "İnsanlar Hakkımızda Ne Diyor",
+    "reviews": [
+      {
+        "review": "Bu çok eğlenceli! Aile grup sohbetimiz için Noel Baba'nın kedime sarıldığı komik bir video yaptım ve herkes buna bayıldı.",
+        "name": "Adnan",
+        "designation": "İçerik Üreticisi"
+      },
+      {
+        "review": "Şenlikli bir gönderi oluşturmak için basit bir araç arıyordum. Dreamshot özelliği bana tam istediğim arka planı verdi. Çok havalı!",
+        "name": "Kaan",
+        "designation": "İngiltere'den web kullanıcısı"
+      },
+      {
+        "review": "Kalite, çevrimiçi bir oluşturucu için şaşırtıcı derecede iyi. Tatiller için benzersiz bir şeyler yapmanın hızlı ve yaratıcı bir yolu.",
+        "name": "Maya",
+        "designation": "Dijital Sanatçı"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Noel Baba Kucaklama Videonuzu Oluşturun",
+    "description": "Fotoğrafınızdan iç ısıtan bir Noel Baba kucaklama videosu yapmak için bu kolay adımları izleyin.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Fotoğrafınızı Yükleyin",
+        "bulletPoints": [
+          "Başlamak için cihazınızdan net, yüksek kaliteli bir fotoğraf seçin."
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Videoyu Oluşturun",
+        "bulletPoints": [
+          "“Şimdi Oluştur” düğmesine tıklayın ve fotoğrafınızın şenlikli bir Noel Baba kucaklama videosuna dönüşmesini izleyin."
+        ]
+      },
+      {
+        "step": 3,
+        "title": "İndirin ve Paylaşın",
+        "bulletPoints": [
+          "Noel Baba Kucaklama videonuzu cihazınıza kaydedin ve tatil neşesini arkadaşlarınızla ve ailenizle paylaşın."
+        ]
+      }
+    ]
+  }
+}
