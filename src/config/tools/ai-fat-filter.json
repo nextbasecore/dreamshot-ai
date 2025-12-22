@@ -22,7 +22,7 @@
   "cardImage": "https://assets.remixai.io/fat-cover-image.webp",
   "cardVideo": null,
   "transformationImages": {
-    "transformationPreview": "https://assets.remixai.io/public/ai-fat-filter-1.webp"
+    "transformationPreview": "https://assets.dreamshot.art/public/skinny-filter-playground.webp"
   },
   "dualUploadLabels": {},
   "recommendedEffects": {
@@ -39,11 +39,11 @@
     "title": "Examples Of AI Fat Filter",
     "images": [
       {
-        "image": "https://assets.remixai.io/fat-filter-1.webp",
+        "image": "https://assets.dreamshot.art/public/skinny-filter-2.webp",
         "alt": "AI Fat Filter"
       },
       {
-        "image": "https://assets.remixai.io/fat-filter-2.webp",
+        "image": "https://assets.dreamshot.art/public/skinny-filter-1.webp",
         "alt": "Fat Filter"
       }
     ]
