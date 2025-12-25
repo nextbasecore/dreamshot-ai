@@ -1,0 +1,60 @@
+{
+  "id": "ai-clown-filter-test-1",
+  "title": "Instant AI Clown Filter: Try Fun Effects Online Free",
+  "playgroundTitle": "Instant AI Clown Filter: Try Fun Effects Online Free",
+  "playgroundDescription": "Transform your photos instantly with our free AI clown filter. Create hilarious or spooky clown faces in just a few clicks. Perfect for sharing!",
+  "highlightWords": [],
+  "metadata": {
+    "title": "Instant AI Clown Filter: Try Fun Effects Online Free",
+    "description": "Transform your photos instantly with our free AI clown filter. Create hilarious or spooky clown faces in just a few clicks. Perfect for sharing!",
+    "alternates": {
+      "canonical": ""
+    }
+  },
+  "toolType": "",
+  "toolCategory": "",
+  "postPrefix": "",
+  "credit": "",
+  "buttonText": "Clownify Me!",
+  "inputType": "",
+  "effectId": "new_effect",
+  "model": "",
+  "cardImage": "",
+  "cardVideo": "",
+  "transformationImages": {},
+  "dualUploadLabels": {},
+  "recommendedEffects": {
+    "id": [
+      "santa-kidnapping",
+      "santa-hug-video-generator",
+      "fighting-with-santa",
+      "selfie-with-santa"
+    ],
+    "heading": "Check Out Other Trending Video Effects"
+  },
+  "faqs": {
+    "heading": "FAQs About ai clown filter test 1",
+    "questions": [
+      {
+        "title": "Is my data and are my uploaded photos safe?",
+        "description": "Yes, your privacy is our priority. Uploaded images are processed on secure servers and are automatically deleted after a short period. We do not use your photos for any other purpose without your consent, ensuring your data remains safe."
+      },
+      {
+        "title": "What kind of photos work best with this filter?",
+        "description": "For the most striking results, use clear, well-lit portrait photos where the face is prominent. The filter is optimized for facial features, but it can also create interesting effects on group photos and even pictures of pets!"
+      },
+      {
+        "title": "How much time does it take to apply the filter?",
+        "description": "Processing time depends on the size and complexity of your image, but our AI is highly optimized. It is designed to be faster than most competitor tools, typically delivering your clown-filtered image in just a few seconds."
+      },
+      {
+        "title": "What file formats can I upload?",
+        "description": "Our tool supports the most common image formats, including JPEG, PNG, and WEBP. For best quality transformations, we recommend uploading a high-resolution image."
+      },
+      {
+        "title": "Will there be a watermark on my final image?",
+        "description": "Images generated using our free credits will have a small, discreet watermark. You can upgrade to one of our premium plans to download your creations in high resolution and without any watermark."
+      }
+    ]
+  }
+}
