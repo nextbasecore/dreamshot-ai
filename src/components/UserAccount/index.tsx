@@ -123,20 +123,18 @@ const UserAccount = () => {
                                     {!user.subscription ? (
                                         <Button
                                             variant="dark"
-                                            className="w-full outline-none focus-visible:outline-none border-none py-2.5 cursor-pointer"
-                                            onClick={() => {
-                                                router.push("/pricing");
-                                                setOpenPopover(false);
-                                            }}
+                                            disabled={true}
+                                            className="w-full outline-none focus-visible:outline-none border-none py-2.5 cursor-not-allowed opacity-50"
                                         >
                                             Upgrade
                                         </Button>
                                     ) : (
                                         <Button
-                                            className="w-full outline-none border-none py-2.5"
+                                            className="w-full outline-none border-none py-2.5 cursor-not-allowed opacity-50"
+                                            disabled={true}
                                             onClick={() => {
-                                                handleDialogType("addCredit", "add");
-                                                setOpenPopover(false);
+                                                // handleDialogType("addCredit", "add");
+                                                // setOpenPopover(false);
                                             }}
                                             variant="default"
                                         >
@@ -291,8 +289,9 @@ const UserAccount = () => {
                 </div>
             ) : (
                 <Button className="h-11 sm:h-14 sm:px-8 px-4" onClick={() => handleDialogType("login", "add")}>Login</Button>
-            )}
-        </div>
+            )
+            }
+        </div >
     );
 };
 

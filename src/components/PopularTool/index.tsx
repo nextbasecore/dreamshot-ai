@@ -7,7 +7,6 @@ import { ArrowRightIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ToolConfigJson } from "@/config/tools.server";
-import { ImageStarIcon, VideoStarIcon } from "@/components/Icons/EffectsIcons";
 
 interface PopularToolProps {
     tools: ToolConfigJson[];

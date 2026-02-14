@@ -93,10 +93,10 @@ export function PlanActionButton({
         <Button
             variant={variant}
             onClick={handleCheckout}
-            disabled={isLoading}
+            disabled={true}
             className={`py-4 w-full h-12 group has-[>svg]:px-6! ${className}`}
         >
-            {isLoading ? "Processing..." : buttonText}
+            Unavailable
         </Button>
     );
 }

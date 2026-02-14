@@ -123,8 +123,8 @@ export function AddCreditDialog() {
                     option.isFeatured
                       ? "bg-gradient-to-b from-buttonColor to-primary/10 px-1 pb-1 md:-mt-6"
                       : index % 2 === 0
-                      ? "bg-white/10 border border-white/5 pt-4 sm:pt-6 px-2 sm:px-3 pb-3 gap-4 sm:gap-6"
-                      : ""
+                        ? "bg-white/10 border border-white/5 pt-4 sm:pt-6 px-2 sm:px-3 pb-3 gap-4 sm:gap-6"
+                        : ""
                   )}
                 >
                   {option.isFeatured && (
@@ -133,11 +133,10 @@ export function AddCreditDialog() {
                     </div>
                   )}
                   <div
-                    className={`flex flex-col w-full gap-4 sm:gap-6 ${
-                      option.isFeatured
+                    className={`flex flex-col w-full gap-4 sm:gap-6 ${option.isFeatured
                         ? "pt-4 sm:pt-6 px-4 sm:px-6 pb-3 sm:pb-4 bg-black/70 rounded-xl sm:rounded-2xl"
                         : ""
-                    }`}
+                      }`}
                   >
                     <div className="flex flex-col gap-3 sm:gap-4">
                       <div className="flex flex-row justify-between w-full items-center text-white/80 gap-1 text-xl sm:text-2xl py-1 sm:py-1.5 relative rounded-[30px] sm:rounded-[40px] self-center sm:self-start">
@@ -162,45 +161,47 @@ export function AddCreditDialog() {
                     </div>
                     <div className="flex flex-col gap-2">
                       <Button
-                        onClick={async () => await handlePurchase(option.priceId)}
+                        disabled={true}
+                        // onClick={async () => await handlePurchase(option.priceId)}
                         variant={option.isFeatured ? "dark" : "outline"}
                         className={twMerge(
-                          "w-full text-sm py-2 sm:py-2.5",
+                          "w-full text-sm py-2 sm:py-2.5 opacity-50 cursor-not-allowed",
                           option.isFeatured
                             ? "text-white bg-gradient-to-r from-buttonColor to-primary/10"
                             : index % 2 === 0
-                            ? "bg-white hover:bg-white/90 text-black"
-                            : ""
+                              ? "bg-white hover:bg-white/90 text-black"
+                              : ""
                         )}
                       >
                         <span className="flex items-center justify-center gap-1.5 sm:gap-2">
                           <Coins className={twMerge("w-4 h-4 sm:w-5 sm:h-5", !option.isFeatured && index % 2 === 0 ? "text-black" : "")} />
-                          <span>Purchase</span>
+                          <span>Unavailable</span>
                         </span>
                       </Button>
                       <Button
-                        onClick={async () => {
-                          if (!user || user === "loading") {
-                            toast.error("Please login to purchase credits");
-                            return;
-                          }
-                          window.open(
-                            `https://checkout.dodopayments.com/buy/${option.dodoPaymentId}?quantity=1&redirect_url=https://remixai.io&email=${user?.email}&disableEmail=true`
-                          );
-                        }}
+                        disabled={true}
+                        // onClick={async () => {
+                        //   if (!user || user === "loading") {
+                        //     toast.error("Please login to purchase credits");
+                        //     return;
+                        //   }
+                        //   window.open(
+                        //     `https://checkout.dodopayments.com/buy/${option.dodoPaymentId}?quantity=1&redirect_url=https://remixai.io&email=${user?.email}&disableEmail=true`
+                        //   );
+                        // }}
                         variant={option.isFeatured ? "dark" : "outline"}
                         className={twMerge(
-                          "w-full text-sm  py-2 sm:py-2.5",
+                          "w-full text-sm  py-2 sm:py-2.5 opacity-50 cursor-not-allowed",
                           option.isFeatured
                             ? "text-white bg-gradient-to-r from-buttonColor to-primary/10"
                             : index % 2 === 0
-                            ? "bg-white hover:bg-white/90 text-black"
-                            : ""
+                              ? "bg-white hover:bg-white/90 text-black"
+                              : ""
                         )}
                       >
                         <span className="flex items-center justify-center gap-1.5 sm:gap-2">
                           <CreditCard className="w-4 h-4 sm:w-5 sm:h-5" />
-                          <span>Purchase</span>
+                          <span>Unavailable</span>
                         </span>
                       </Button>
                     </div>

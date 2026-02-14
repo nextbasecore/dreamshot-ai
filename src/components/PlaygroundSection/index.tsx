@@ -12,10 +12,11 @@ import { customToast } from "@/common";
 import { useEffect, useState } from "react";
 import { Button } from "../ui/button";
 import { Download } from "lucide-react";
-import { UploadContainer } from "./UploadContainer";
-import { DualUploadContainer } from "./DualUploadContainer";
+import { UploadContainer } from "./UploadSection/UploadContainer";
+import { DualUploadContainer } from "./UploadSection/DualUploadContainer";
 import { GenerateButton } from "./GenerateButton";
 import { SampleImages } from "./SampleImages";
+import ResultSection from "./ResultSection";
 import { urlToFile } from "@/utils/urlToFile";
 import TextWithLinks from "../Common/TextWithLinks";
 
@@ -360,7 +361,14 @@ export default function PlaygroundSection() {
 
             {/* Playground Card */}
             <div className={`w-full max-w-lg rounded-xl lg:max-w-3xl mx-auto flex flex-col gap-10 ${isDualUpload ? 'bg-transparent' : 'bg-white'}`}>
-                {isDualUpload ? (
+                {isCompleted ? (
+                    <ResultSection
+                        isLoading={isProcessing}
+                        result={result && result.length > 0 ? result[0] : undefined}
+                        onTryAnother={handleTryAnother}
+                        onDownload={() => handleDownload(result && result.length > 0 ? result[0] : { type: "image" })}
+                    />
+                ) : isDualUpload ? (
                     <DualUploadContainer
                         inputId1="file-upload-1"
                         inputId2="file-upload-2"
@@ -385,8 +393,6 @@ export default function PlaygroundSection() {
                         uploadedImage={displayImage}
                         previewUrl={transformationPreview}
                         resultUrl={transformationResult}
-                        isCompleted={!!isCompleted}
-                        result={result && result.length > 0 ? result[0] : undefined}
                         uploadLabel="Upload Your Original Image"
                         helperText="or drag and drop PNG, JPG or WEBP"
                         onFileSelect={(file) => handleFileUpload(file, false)}
@@ -397,30 +403,9 @@ export default function PlaygroundSection() {
                 )}
             </div>
 
-            {/* Action Buttons */}
-            <div className="w-full max-w-lg lg:max-w-3xl mx-auto px-4">
-                {/* Generate Button or Action Buttons - Show GenerateButton when not completed, show Try Another/Download when completed */}
-                {isCompleted ? (
-                    <div className="flex flex-col gap-4 w-full items-center">
-                        <div className="flex flex-col sm:flex-row justify-between items-stretch sm:items-center gap-3 sm:gap-4 w-full">
-                            <Button
-                                variant="outline"
-                                className="flex flex-1 h-11 sm:h-12 text-sm sm:text-base"
-                                onClick={handleTryAnother}
-                            >
-                                Try Another Image
-                            </Button>
-                            <Button
-                                variant="dark"
-                                className="flex flex-1 h-11 sm:h-12 text-sm sm:text-base"
-                                onClick={() => handleDownload(result && result.length > 0 ? result[0] : { type: "image" })}
-                            >
-                                <Download className="w-4 h-4" />
-                                Download
-                            </Button>
-                        </div>
-                    </div>
-                ) : (
+            {/* Action Buttons / Generate */}
+            {!isCompleted && (
+                <div className="w-full max-w-lg lg:max-w-3xl mx-auto px-4">
                     <GenerateButton
                         buttonText={buttonText}
                         creditCost={creditCost}
@@ -430,8 +415,8 @@ export default function PlaygroundSection() {
                         disabled={!canProcess || isProcessing}
                         onClick={handleProcess}
                     />
-                )}
-            </div>
+                </div>
+            )}
 
             {/* Sample Images */}
             <div className="w-full max-w-lg lg:max-w-3xl mx-auto">
